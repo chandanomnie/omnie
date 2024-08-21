@@ -1802,6 +1802,9 @@ hr {
     margin: 30px 0;
   }
 }
+html.dark {
+  background: #000;
+}
 /* Animation */
 .to-load.already-visible,
 .no-js .to-load,
