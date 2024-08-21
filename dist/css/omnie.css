@@ -1,50 +1,4 @@
 @charset "UTF-8";
-/*!
- *  Font SourceSansPro
-*/
-@font-face {
-  font-family: "SourceSansPro Light";
-  src: url("../../dist/fonts/SourceSansPro/SourceSansPro-Light/SourceSansPro-Light.woff2") format("woff2"), url("../../dist/fonts/SourceSansPro/SourceSansPro-Light/SourceSansPro-Light.woff") format("woff"), url("../../dist/fonts/SourceSansPro/SourceSansPro-Light/SourceSansPro-Light.ttf") format("truetype");
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SourceSansPro Light Italic";
-  src: url("../../dist/fonts/SourceSansPro/SourceSansPro-LightItalic/SourceSansPro-LightItalic.woff2") format("woff2"), url("../../dist/fonts/SourceSansPro/SourceSansPro-LightItalic/SourceSansPro-LightItalic.woff") format("woff"), url("../../dist/fonts/SourceSansPro/SourceSansPro-LightItalic/SourceSansPro-LightItalic.ttf") format("truetype");
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SourceSansPro Regular";
-  src: url("../../dist/fonts/SourceSansPro/SourceSansPro-Regular/SourceSansPro-Regular.woff2") format("woff2"), url("../../dist/fonts/SourceSansPro/SourceSansPro-Regular/SourceSansPro-Regular.woff") format("woff"), url("../../dist/fonts/SourceSansPro/SourceSansPro-Regular/SourceSansPro-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-display: swap;
-}
-/*Granville font*/
-@font-face {
-  font-family: "Granville Light";
-  src: url("../../dist/fonts/Granville-Light/Granville-Light/Granville-Light.woff2") format("woff2"), url("../../dist/fonts/Granville-Light/Granville-Light/Granville-Light.woff") format("woff"), url("../../dist/fonts/Granville-Light/Granville-Light/Granville-Light.ttf") format("truetype");
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Granville Light Italic";
-  src: url("../../dist/fonts/Granville/Granville-LightItalic/Granville-LightItalic.woff2") format("woff2"), url("../../dist/fonts/Granville/Granville-LightItalic/Granville-LightItalic.woff") format("woff"), url("../../dist/fonts/Granville/Granville-LightItalic/Granville-LightItalic.ttf") format("truetype");
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Granville Regular";
-  src: url("../../dist/fonts/Granville/Granville-Regular/Granville-Regular.woff2") format("woff2"), url("../../dist/fonts/Granville/Granville-Regular/Granville-Regular.woff") format("woff"), url("../../dist/fonts/Granville/Granville-Regular/Granville-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Material Design Icons";
-  src: url("../../dist/fonts/MaterialIcons-Regular.woff2") format("woff2");
-  font-style: normal;
-  font-display: swap;
-}
 html,
 body,
 div,
@@ -457,7 +411,6 @@ h1,
 .fs1 {
   font-size: 60px;
   line-height: 70px;
-  font-family: "Granville Light Italic";
 }
 @media (min-width: 1025px) and (max-width: 1300px) {
   h1,
@@ -488,7 +441,6 @@ h2,
 .fs2 {
   font-size: 60px;
   line-height: 66px;
-  font-family: "Granville Light Italic";
 }
 @media only screen and (max-width: 1024px) {
   h2,
@@ -503,7 +455,6 @@ h3,
 .fs3 {
   font-size: 36px;
   line-height: 48px;
-  font-family: "Granville Light Italic";
 }
 @media (min-width: 1025px) and (max-width: 1300px) {
   h3,
@@ -534,7 +485,6 @@ h4,
 .fs4 {
   font-size: 36px;
   line-height: 42px;
-  font-family: "Granville Light Italic";
 }
 @media (min-width: 1025px) and (max-width: 1300px) {
   h4,
@@ -565,7 +515,7 @@ h5,
 .fs5 {
   font-size: 22px;
   line-height: 30px;
-  font-family: "SourceSansPro Light";
+  font-family: "Public Sans", sans-serif;
 }
 h6,
 .h6,
@@ -574,7 +524,7 @@ h6,
   line-height: 24px;
 }
 body {
-  font-family: "SourceSansPro Light";
+  font-family: "Public Sans", sans-serif;
   font-size: 20px;
   line-height: 28px;
 }
@@ -834,6 +784,12 @@ p:last-child,
 .fw-n {
   font-weight: normal;
 }
+.fw-100 {
+  font-weight: 100;
+}
+.fw-200 {
+  font-weight: 200;
+}
 .fw-300 {
   font-weight: 300;
 }
@@ -848,6 +804,12 @@ p:last-child,
 }
 .fw-700 {
   font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-900 {
+  font-weight: 900;
 }
 .fs-i {
   font-style: italic;
@@ -891,24 +853,8 @@ p:last-child,
 .ff-v {
   font-family: Verdana, Geneva, sans-serif;
 }
-.ff-SourceSansProL {
-  font-family: "SourceSansPro Light";
-}
-.ff-SourceSansProLI {
-  font-family: "SourceSansPro Light Italic";
-}
-.ff-SourceSansProR {
-  font-family: "SourceSansPro Regular";
-}
-.ff-GranvilleL {
-  font-family: "Granville Light";
-}
-.ff-GranvilleLI {
-  font-family: "Granville Light Italic";
-}
-.ff-GranvilleLR,
-.f-GranvilleLR {
-  font-family: "Granville Regular";
+.ff-public-sans {
+  font-family: "Public Sans", sans-serif;
 }
 .fst-n {
   font-stretch: normal;
@@ -1766,7 +1712,6 @@ body {
 strong,
 b {
   font-weight: 700;
-  font-family: "SourceSansPro Regular";
 }
 em,
 i {
@@ -2519,7 +2464,6 @@ hr {
   display: inline-block;
   position: relative;
   text-transform: uppercase;
-  font-family: "Granville Regular";
 }
 .cta::before {
   content: "";
@@ -2687,7 +2631,6 @@ hr {
   background: transparent;
   color: #000000;
   transition: all 0.3s ease-in;
-  font-family: "Granville Regular";
   text-transform: uppercase;
 }
 .btn.btn-secondry {
@@ -2707,7 +2650,6 @@ hr {
   padding: 10px 0 20px 0;
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  font-family: "SourceSansPro Regular";
   font-size: 16px;
 }
 .form-control::-webkit-input-placeholder {
@@ -2740,7 +2682,6 @@ select {
   padding-right: 10px;
 }
 label {
-  font-family: "SourceSansPro Regular";
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 10px;
@@ -2773,12 +2714,11 @@ label {
   text-transform: uppercase;
   font-size: 16px;
   padding: 0;
-  font-family: "Granville Regular";
   display: inline-block;
   position: relative;
 }
 .main-header--action nav ul li a::after {
-  content: '';
+  content: "";
   width: 1px;
   height: 1px;
   background: transparent;
@@ -2879,7 +2819,7 @@ label {
   }
   .main-header--action .nav-toggle span::after,
   .main-header--action .nav-toggle span::before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 100%;
@@ -2978,7 +2918,6 @@ label {
 .search-wrapper .search-container .search-input .s-input .form-control {
   padding-left: 15px;
   color: #959595;
-  font-family: "Granville Light Italic";
   font-size: 18px;
 }
 @media (max-width: 1024px) {
@@ -3022,13 +2961,11 @@ label {
 }
 .search-wrapper .search-container .search-reasult .search-count-text {
   font-size: 19px;
-  font-family: "Granville Regular";
 }
 .search-wrapper .search-container .search-reasult .search-count-next {
   margin-top: 60px;
 }
 .search-wrapper .search-container .search-reasult .search-count-next-text {
-  font-family: "Granville Regular";
   font-size: 24px;
 }
 .search-wrapper .search-container .search-reasult .search-count-next-text span {
@@ -3042,7 +2979,6 @@ label {
 .search-wrapper .search-container .search-reasult .search-result-list .search-result-list-inner {
   width: 45%;
   margin-bottom: 48px;
-  font-family: "Granville Regular";
 }
 .search-wrapper .search-container .search-reasult .search-result-list .search-result-list-inner-date {
   font-size: 14px;
@@ -3053,148 +2989,6 @@ label {
 }
 /*Search End*/
 /*Footer*/
-.footer {
-  background: #BEB6AF;
-  padding: 65px 0;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
-  font-family: "Granville Regular";
-}
-.footer h5 {
-  margin-bottom: 20px;
-  line-height: 25px;
-  font-family: "Granville Regular";
-  font-weight: normal;
-  font-size: 20px;
-}
-.footer-logo {
-  margin-bottom: 25px;
-}
-.footer-inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.footer-inner-left {
-  width: 40%;
-}
-.footer-inner-left-number {
-  margin: 17px 0 0;
-}
-.footer-inner-left-number a {
-  color: #ffffff;
-}
-.footer-inner-left-number a:hover {
-  color: #000000;
-}
-.footer-inner-middle {
-  width: 30%;
-}
-.footer-inner-middle .form-control.secondry {
-  width: 300px;
-  max-width: 100%;
-}
-.footer-inner-right {
-  width: 30%;
-}
-.footer-inner-right a {
-  color: #ffffff;
-  font-size: 20px;
-  line-height: 25px;
-  font-family: "Granville Regular";
-  font-weight: normal;
-  display: block;
-}
-.footer-inner-right a:last-of-type {
-  margin-bottom: 30px;
-}
-.footer-inner-right a:hover {
-  color: #000000;
-}
-.footer-inner-right ul li:not(:last-child) {
-  margin-right: 35px;
-}
-.footer-inner-right ul li a {
-  width: 25px;
-  height: 25px;
-  margin: 0 !important;
-  display: block;
-}
-@media only screen and (max-width: 767px) {
-  .footer-inner-right ul li a {
-    margin: 0;
-  }
-}
-.footer-inner-right ul li a svg {
-  width: 100%;
-  height: 100%;
-}
-.footer-inner-right ul li a svg path {
-  transition: all 0.3s ease-in;
-}
-.footer-inner-right ul li a:hover svg path {
-  fill: #000000;
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .footer-logo {
-    text-align: center;
-  }
-  .footer-inner {
-    text-align: center;
-  }
-  .footer-inner-right ul {
-    justify-content: center;
-  }
-  .footer-inner-right ul li a {
-    margin-bottom: 0;
-  }
-  .footer-inner-right a {
-    display: inline-block;
-    margin-bottom: 0;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .footer {
-    padding: 66px 0 35px 0;
-  }
-  .footer-logo {
-    margin-bottom: 48px;
-  }
-  .footer-inner {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .footer-inner > div {
-    width: 100%;
-  }
-  .footer-inner-left-number {
-    margin: 17px 0 72px;
-  }
-  .footer-inner-middle {
-    margin-bottom: 72px;
-  }
-  .footer-inner-right {
-    margin-bottom: 33px;
-  }
-  .footer-inner-right ul {
-    flex-wrap: wrap;
-  }
-  .footer-inner-right ul li:first-child {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  .footer-inner-right a {
-    margin-bottom: 40px;
-  }
-  .footer .footer-cRight {
-    font-size: 14px;
-  }
-}
 /*Footer End*/
 /*Home Page*/
 .hero-banner {
@@ -3517,7 +3311,7 @@ label {
   }
 }
 .about-out-studio-wrapper::after {
-  content: '';
+  content: "";
   display: block;
   background: rgba(157, 137, 84, 0.1);
   position: absolute;
@@ -3614,7 +3408,7 @@ label {
   position: relative;
 }
 .journal .journal-container-left::after {
-  content: '';
+  content: "";
   background: #FAFAFA;
   top: 10%;
   width: 100%;
@@ -3727,7 +3521,7 @@ label {
   overflow: hidden;
 }
 .hover-card::after {
-  content: '';
+  content: "";
   background: rgba(157, 137, 84, 0.8);
   bottom: 0;
   height: 100%;
@@ -3763,7 +3557,7 @@ label {
   transition: all 0.5s ease-in-out;
   opacity: 0;
   visibility: hidden;
-  font-family: "SourceSansPro Light";
+  font-family: "Public Sans", sans-serif;
 }
 .hover-card:hover::after {
   opacity: 1;
@@ -3800,7 +3594,7 @@ label {
     margin: 0 6px;
   }
   .journal .journal-container-left-inner ul.slick-dots .slick-active button {
-    background: #9D8954;
+    background: #9d8954;
   }
 }
 /*Home Page End*/
@@ -3831,7 +3625,6 @@ label {
   font-size: 18px;
   padding: 10px 0;
   cursor: pointer;
-  font-family: "SourceSansPro Regular";
 }
 .select-selected {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
