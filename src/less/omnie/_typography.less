@@ -35,9 +35,9 @@ h6,
 h1,
 .h1,
 .fs1 {
-  font-size: 60px;
-  line-height: 70px;
-  .ff-GranvilleLI;
+  font-size: 100px;
+  line-height: 100px;
+  .fw-600;
 
   @media @laptop {
     font-size: 48px;
@@ -58,9 +58,9 @@ h1,
 h2,
 .h2,
 .fs2 {
-  font-size: 60px;
-  line-height: 66px;
-  .ff-GranvilleLI;
+  font-size: 72px;
+  line-height: 72px;
+  .fw-600;
 
   @media @max-screen-1024 {
     font-size: 36px;
@@ -71,9 +71,9 @@ h2,
 h3,
 .h3,
 .fs3 {
-  font-size: 36px;
+  font-size: 48px;
   line-height: 48px;
-  .ff-GranvilleLI;
+  .fw-600;
 
   @media @laptop {
     font-size: 30px;
@@ -95,8 +95,8 @@ h4,
 .h4,
 .fs4 {
   font-size: 36px;
-  line-height: 42px;
-  .ff-GranvilleLI;
+  line-height: 36px;
+  .fw-600;
 
   @media @laptop {
     font-size: 30px;
@@ -118,31 +118,54 @@ h5,
 .h5,
 .fs5 {
   font-size: 22px;
-  line-height: 30px;
-  .ff-SourceSansProL;
+  line-height: 22px;
+  .ff-public-sans;
+  .fw-600;
 }
 
 h6,
 .h6,
 .fs6 {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 18px;
+  .fw-600;
 }
 
 body {
-  .ff-SourceSansProL;
+  .ff-public-sans;
+  .fw-400;
   font-size: 20px;
-  line-height: 28px;
 }
 
 p,
 .p {
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 30px;
+  font-size: 20px;
+  .fw-400;
+  line-height: 25px;
+  margin-bottom: 20px;
 
   &:empty,
   &:last-child {
     margin-bottom: 0;
   }
+}
+
+.p1 {
+  font-size: 24px;
+  .fw-400;
+}
+
+.p2 {
+  font-size: 18px;
+  .fw-400;
+}
+
+.p3 {
+  font-size: 16px;
+  .fw-400;
+}
+
+.p4 {
+  font-size: 14px;
+  .fw-400;
 }

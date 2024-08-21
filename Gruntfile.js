@@ -34,6 +34,7 @@ module.exports = function (grunt) {
       development: {
         files: {
           "dist/css/omnie.css": "src/less/omnie.less",
+          "dist/css/home.css": "src/less/omnie/pages/home/_home.less",
         },
         options: {
           compress: false,
