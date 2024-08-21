@@ -74,24 +74,28 @@
 .form-control {
   width: 100%;
   background: none;
-  padding: 10px 0 20px 0;
+  padding: 10px 21px;
   border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1.5px solid @black;
   font-size: 16px;
+  border-radius: 4px;
 
   &::-webkit-input-placeholder {
-    color: rgba(0, 0, 0, 0.6);
+    color: @black;
     opacity: 1 !important;
+    font-size: 18px;
   }
 
   &:-ms-input-placeholder {
-    color: rgba(0, 0, 0, 0.6);
+    color: @black;
     opacity: 1 !important;
+    font-size: 18px;
   }
 
   &::placeholder {
-    color: rgba(0, 0, 0, 0.6);
+    color: @black;
     opacity: 1 !important;
+    font-size: 18px;
   }
 
   &-checkbox {
@@ -246,8 +250,8 @@ label {
         line-height: 20px;
         width: 18px;
         height: 13px;
-        top: 0;
-        left: 0;
+        top: 14px;
+        left: 10px;
         margin-top: 0;
         -webkit-transition: all 0.15s ease;
         -ms-transition: all 0.15s ease;
