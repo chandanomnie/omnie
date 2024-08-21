@@ -77,6 +77,11 @@ module.exports = function (grunt) {
       home: {
         files: { "index.html": ["components/home/index.hbs"] },
       },
+      webInterface: {
+        files: {
+          "web-interface.html": ["components/web-interface/web-interface.hbs"],
+        },
+      },
     },
     // Before creating new files, remove files from previous build.
     clean: ["*.html"],
