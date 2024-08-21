@@ -1,0 +1,148 @@
+@import "_variables.less";
+@import "_classes.less";
+
+html {
+  font-size: 20px;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  position: relative;
+  margin: 0 0 10px;
+
+  &:empty,
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:empty {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+h1,
+.h1,
+.fs1 {
+  font-size: 60px;
+  line-height: 70px;
+  .ff-GranvilleLI;
+
+  @media @laptop {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  @media @tab {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  @media @max-screen-767 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+
+h2,
+.h2,
+.fs2 {
+  font-size: 60px;
+  line-height: 66px;
+  .ff-GranvilleLI;
+
+  @media @max-screen-1024 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+h3,
+.h3,
+.fs3 {
+  font-size: 36px;
+  line-height: 48px;
+  .ff-GranvilleLI;
+
+  @media @laptop {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  @media @tab {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  @media @max-screen-767 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+h4,
+.h4,
+.fs4 {
+  font-size: 36px;
+  line-height: 42px;
+  .ff-GranvilleLI;
+
+  @media @laptop {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  @media @tab {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  @media @max-screen-767 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+h5,
+.h5,
+.fs5 {
+  font-size: 22px;
+  line-height: 30px;
+  .ff-SourceSansProL;
+}
+
+h6,
+.h6,
+.fs6 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+body {
+  .ff-SourceSansProL;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+p,
+.p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+
+  &:empty,
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

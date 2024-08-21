@@ -1,0 +1,104 @@
+/* Global Variables */
+@white: rgba(255, 255, 255, 1); // #fff
+@black: rgba(0, 0, 0, 1); // #000
+@gray: rgba(112, 112, 112, 1); // #707070
+@gray1:#FAFAFA;
+@gray2:#948E8E;
+@brown:rgba(157, 137, 84, 0.8);
+@brown2:rgba(190, 182, 175, 0.1);
+@red: #f50404;
+@tan: #B8AF89;
+@tanDark: #ACA59F;
+@secondryColor: #BEB6AF;
+
+/* Media Screen */
+@max-screen-1650: ~"only screen and (max-width: 1650px)";
+@max-screen-1450: ~"only screen and (max-width: 1450px)";
+@max-screen-1279: ~"only screen and (max-width: 1279px)";
+@max-screen-1199: ~"only screen and (max-width: 1199px)";
+@max-screen-1024: ~"only screen and (max-width: 1024px)";
+@max-screen-980: ~"only screen and (max-width: 980px)";
+@max-screen-767: ~"only screen and (max-width: 767px)";
+@max-screen-650: ~"only screen and (max-width: 650px)";
+@max-screen-480: ~"only screen and (max-width: 480px)";
+@max-screen-360: ~"only screen and (max-width: 360px)";
+@min-screen-1200: ~"only screen and (min-width: 1200px)";
+@min-screen-1025: ~"only screen and (min-width: 1025px)";
+@min-screen-981: ~"only screen and (min-width: 981px)";
+@min-screen-768: ~"min-width: 768px";
+@laptop: ~"(min-width: 1025px) and (max-width: 1300px)";
+@tab: ~"(min-width: 768px) and (max-width: 1024px)";
+@mobile: ~"only screen and (max-width: 767px)";
+
+/* Color */
+.text-white {
+  color: @white;
+}
+
+.text-black {
+  color: @black;
+}
+
+/* Background */
+.bg-white {
+  background-color: @white;
+}
+
+.bg-black {
+  background-color: @black;
+}
+
+/* Font Family */
+.ff-normal {
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Site Wrappers */
+.full-wrapper {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  @media @mobile {
+    padding: 0 20px;
+  }
+}
+
+.ie10 .page-wrapper,
+.ie11 .page-wrapper {
+  height: auto;
+}
+
+.clearfix {
+  &:before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.hack {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}

@@ -1,0 +1,83 @@
+@import "forms/_forms.less";
+@import "header/_header.less";
+@import "footer/_footer.less";
+@import "pages/home/_home.less";
+@import "common/_common.less";
+@import "custom-select/_custom-select.less";
+@import "lib/_animate.min.less";
+
+:root {
+  --app-height: 100vh;
+}
+
+.section-gap-bottom {
+  margin-bottom: 100px;
+
+  @media @max-screen-1024 {
+    margin-bottom: 50px;
+  }
+}
+
+.section-gap-top {
+  margin-top: 100px;
+
+  @media @max-screen-1024 {
+    margin-top: 50px;
+  }
+}
+
+.popup-inner {
+  .pos-r;
+
+  &-left {
+    width: 50%;
+    padding: 0 5%;
+    .d-f;
+    .jc-c;
+    .fxd-c;
+
+    .form-control {
+      max-width: 75%;
+    }
+  }
+
+  &-right {
+    width: 50%;
+    .pos-r;
+
+    img {
+      margin-top: -80px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media @mobile {
+    .fxw-w;
+
+    &-left {
+      width: 100%;
+      padding: 0;
+      order: 2;
+
+      form {
+        .fxw-w;
+      }
+
+      .form-control {
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+
+    &-right {
+      width: 100%;
+
+      img {
+        position: static;
+        margin-top: -80px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
