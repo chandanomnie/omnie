@@ -120,3 +120,155 @@ label {
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 10px;
 }
+
+/* Radio Buttons
+   ========================================================================== */
+/* Custom Radio */
+
+.c-radio {
+  label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 0 0 0 52px;
+    font-size: 18px;
+    line-height: 40px;
+    vertical-align: top;
+    color: @black;
+    margin: 0;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 12px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: @white;
+      border: 1.5px solid @black;
+    }
+  }
+
+  input[type="radio"] {
+    display: none;
+
+    & ~ label:after {
+      content: "";
+      display: inline-block;
+      font-size: 30px;
+      text-align: center;
+      line-height: 18px;
+      height: 18px;
+      width: 18px;
+      background: @black;
+      position: absolute;
+      left: 11px;
+      top: 11px;
+      border-radius: 50%;
+      -webkit-transition: opacity 0.25s ease;
+      -ms-transition: opacity 0.25s ease;
+      transition: opacity 0.25s ease;
+      transform-origin: 50% 50%;
+      -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      transform: scale(0);
+      -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &:checked {
+      & ~ label {
+        &:after {
+          transform: scale(1);
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
+
+/* Checkboxes
+   ========================================================================== */
+/* custom checkbox */
+.c-checkbox {
+  margin: 0;
+  position: relative;
+
+  & > label,
+  & > .label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 0 0 0 52px;
+    font-size: 18px;
+    line-height: 40px;
+    vertical-align: top;
+    color: @black;
+    margin: 0;
+    &:extend(.transition);
+
+    &:before {
+      content: "";
+      position: absolute;
+      &:extend(.transition);
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      top: 0;
+      left: 0;
+      margin-top: 0;
+      border: 1.5px solid @black;
+      border-radius: 4px;
+    }
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    & ~ label,
+    & ~ .label {
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        line-height: 20px;
+        width: 18px;
+        height: 13px;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        -webkit-transition: all 0.15s ease;
+        -ms-transition: all 0.15s ease;
+        transition: all 0.15s ease;
+        opacity: 0;
+        visibility: hidden;
+        background: url("@{image-path}tick.svg") no-repeat center;
+      }
+    }
+
+    &:checked {
+      & ~ label,
+      & ~ .label {
+        &:after {
+          transform: scale(1);
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}

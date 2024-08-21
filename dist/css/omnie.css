@@ -1489,7 +1489,11 @@ p:last-child,
   line-height: 0;
   text-shadow: none;
 }
-.transition {
+.transition,
+.c-checkbox > label,
+.c-checkbox > .label,
+.c-checkbox > label:before,
+.c-checkbox > .label:before {
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
@@ -2575,9 +2579,134 @@ label {
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 10px;
 }
+/* Radio Buttons
+   ========================================================================== */
+/* Custom Radio */
+.c-radio label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding: 0 0 0 52px;
+  font-size: 18px;
+  line-height: 40px;
+  vertical-align: top;
+  color: #000;
+  margin: 0;
+}
+.c-radio label:before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #fff;
+  border: 1.5px solid #000;
+}
+.c-radio input[type="radio"] {
+  display: none;
+}
+.c-radio input[type="radio"] ~ label:after {
+  content: "";
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  line-height: 18px;
+  height: 18px;
+  width: 18px;
+  background: #000;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  border-radius: 50%;
+  -webkit-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  opacity: 0;
+  visibility: hidden;
+}
+.c-radio input[type="radio"]:checked ~ label:after {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+/* Checkboxes
+   ========================================================================== */
+/* custom checkbox */
+.c-checkbox {
+  margin: 0;
+  position: relative;
+}
+.c-checkbox > label,
+.c-checkbox > .label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding: 0 0 0 52px;
+  font-size: 18px;
+  line-height: 40px;
+  vertical-align: top;
+  color: #000;
+  margin: 0;
+}
+.c-checkbox > label:before,
+.c-checkbox > .label:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+}
+.c-checkbox input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.c-checkbox input[type="checkbox"] ~ label:after,
+.c-checkbox input[type="checkbox"] ~ .label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  line-height: 20px;
+  width: 18px;
+  height: 13px;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  -webkit-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  opacity: 0;
+  visibility: hidden;
+  background: url("../images/tick.svg") no-repeat center;
+}
+.c-checkbox input[type="checkbox"]:checked ~ label:after,
+.c-checkbox input[type="checkbox"]:checked ~ .label:after {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
 /*Header*/
-<<<<<<< HEAD
-=======
 .main-header {
   padding: 21px 0;
   position: sticky;
@@ -2875,7 +3004,6 @@ label {
   font-size: 24px;
 }
 /*Search End*/
->>>>>>> 80a11489ceb943f0774cf3a5ceb0e03386c6cdad
 /*Footer*/
 /*Footer End*/
 .custom-select {
