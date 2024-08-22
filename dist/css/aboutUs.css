@@ -1340,4 +1340,14 @@ html.invertMode .down-arrow path {
 .invertMode .page-banner .middle-part .main-heading .dot::after {
   background: #000;
 }
+.invertMode .count {
+  background: #000;
+  color: #fff;
+}
+.invertMode .count-container-left p {
+  color: #fff;
+}
+.invertMode .count-container-left p span {
+  color: #808080;
+}
 /*# sourceMappingURL=omnie.css.map */
