@@ -1288,4 +1288,46 @@ html.invertMode .down-arrow path {
   font-weight: 100;
   margin-bottom: 15px;
 }
+.count-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.count-container-left {
+  width: 50%;
+  max-width: 632px;
+}
+.count-container-left p {
+  margin: 0;
+  color: #000;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 500;
+}
+.count-container-left p span {
+  color: #808080;
+}
+.count-container-right {
+  width: 50%;
+}
+.count-container-right-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.count-container-right-flex-item {
+  width: 50%;
+}
+.count-container-right-flex-item:nth-child(1),
+.count-container-right-flex-item:nth-child(2) {
+  margin-bottom: 80px;
+}
+.count-container-right-flex-item .counting {
+  font-size: 120px;
+  line-height: 108px;
+  font-weight: 400;
+}
+.count-container-right-flex-item .counting-tag {
+  font-size: 30px;
+  font-weight: 100;
+}
 /*# sourceMappingURL=omnie.css.map */
