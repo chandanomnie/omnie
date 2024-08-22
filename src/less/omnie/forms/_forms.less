@@ -74,28 +74,43 @@
     }
   }
 
+  &.btn-white-transparent {
+
+    background: none;
+    border: 1.5px solid @white;
+    color: @white;
+
+  }
+
+  &.btn-secondry-transparent {
+    border: 1.5px solid @black;
+    background: none;
+    color: @black;
+
+    &:hover {
+      background: @black;
+      color: @white;
+    }
+  }
+
   &.arrow-btn {
     font-size: 0;
     padding: 20px;
     border-radius: 100%;
-    background: url(../../../../dist/images/white-arrow.svg) no-repeat center
-      center @black;
+    background: url(../../../../dist/images/white-arrow.svg) no-repeat center center @black;
 
     &:hover {
-      background: url(../../../../dist/images/black-arrow.svg) no-repeat center
-        center @white;
+      background: url(../../../../dist/images/black-arrow.svg) no-repeat center center @white;
     }
 
     &-secondry {
       font-size: 0;
       padding: 20px;
       border-radius: 100%;
-      background: url(../../../../dist/images/black-arrow.svg) no-repeat center
-        center @white;
+      background: url(../../../../dist/images/black-arrow.svg) no-repeat center center @white;
 
       &:hover {
-        background: url(../../../../dist/images/white-arrow.svg) no-repeat
-          center center @black;
+        background: url(../../../../dist/images/white-arrow.svg) no-repeat center center @black;
       }
     }
   }
@@ -194,7 +209,7 @@ label {
   input[type="radio"] {
     display: none;
 
-    & ~ label:after {
+    &~label:after {
       content: "";
       display: inline-block;
       font-size: 30px;
@@ -221,7 +236,7 @@ label {
     }
 
     &:checked {
-      & ~ label {
+      &~label {
         &:after {
           transform: scale(1);
           -webkit-transform: scale(1);
@@ -241,8 +256,8 @@ label {
   margin: 0;
   position: relative;
 
-  & > label,
-  & > .label {
+  &>label,
+  &>.label {
     display: inline-block;
     cursor: pointer;
     position: relative;
@@ -276,8 +291,8 @@ label {
     left: 0;
     opacity: 0;
 
-    & ~ label,
-    & ~ .label {
+    &~label,
+    &~.label {
       &:after {
         content: "";
         display: block;
@@ -298,8 +313,9 @@ label {
     }
 
     &:checked {
-      & ~ label,
-      & ~ .label {
+
+      &~label,
+      &~.label {
         &:after {
           transform: scale(1);
           -webkit-transform: scale(1);
