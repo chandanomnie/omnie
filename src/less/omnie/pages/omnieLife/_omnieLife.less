@@ -36,6 +36,29 @@
             margin-bottom: 30px;
         }
     }
+
+    html.invertMode & {
+        svg *[stroke-width] {
+            stroke: white;
+
+        }
+
+        svg path {
+            fill: white;
+
+            &.fillBlackOnInvert {
+                fill: black;
+            }
+        }
+
+        svg *[fill="#fff"] {
+            fill: black;
+        }
+
+        svg *[fill="#000"] {
+            fill: white;
+        }
+    }
 }
 
 .life-btm {
