@@ -2,8 +2,8 @@
 @import "../../_classes.less";
 
 .page-banner {
-  background: @black;
-  color: @white;
+  .bg-black;
+  .text-white;
   min-height: 800px;
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@
           position: absolute;
           top: 50%;
           display: block;
-          background: @white;
+          .bg-white;
         }
       }
     }
@@ -53,6 +53,64 @@
       letter-spacing: -1px;
       .fw-100;
       margin-bottom: 15px;
+    }
+  }
+}
+
+.count {
+  .bg-white;
+  .text-black;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left {
+      width: 50%;
+      max-width: 632px;
+      p {
+        margin: 0;
+        .text-black;
+        font-size: 48px;
+        line-height: 54px;
+        .fw-500;
+        span {
+          color: @gray5;
+        }
+      }
+    }
+    &-right {
+      width: 50%;
+      &-flex {
+        display: flex;
+        flex-wrap: wrap;
+        &-item {
+          width: 50%;
+          &:nth-child(1),
+          &:nth-child(2) {
+            margin-bottom: 80px;
+          }
+
+          .counting {
+            font-size: 120px;
+            line-height: 108px;
+            .fw-400;
+            &-tag {
+              font-size: 30px;
+              .fw-100;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.invertMode {
+  .page-banner {
+    .bottom-part {
+      &-content {
+        color: @black;
+      }
     }
   }
 }

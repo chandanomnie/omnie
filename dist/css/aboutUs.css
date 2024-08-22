@@ -1241,11 +1241,17 @@ html.invertMode .down-arrow path {
   fill: white;
 }
 .page-banner {
-  background: #000;
+  background-color: #000;
   color: #fff;
   min-height: 800px;
   display: flex;
   align-items: center;
+}
+html.invertMode .page-banner {
+  background-color: #fff;
+}
+html.invertMode .page-banner {
+  color: #000;
 }
 .page-banner .bottom-part {
   display: flex;
@@ -1283,12 +1289,73 @@ html.invertMode .down-arrow path {
   position: absolute;
   top: 50%;
   display: block;
-  background: #fff;
+  background-color: #fff;
+}
+html.invertMode .page-banner .middle-part .main-heading .dot::after {
+  background-color: #000;
 }
 .page-banner .middle-part .sub-heading {
   font-size: 24px;
   letter-spacing: -1px;
   font-weight: 100;
   margin-bottom: 15px;
+}
+.count {
+  background-color: #fff;
+  color: #000;
+}
+html.invertMode .count {
+  background-color: #000;
+}
+html.invertMode .count {
+  color: #fff;
+}
+.count-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.count-container-left {
+  width: 50%;
+  max-width: 632px;
+}
+.count-container-left p {
+  margin: 0;
+  color: #000;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 500;
+}
+html.invertMode .count-container-left p {
+  color: #fff;
+}
+.count-container-left p span {
+  color: #808080;
+}
+.count-container-right {
+  width: 50%;
+}
+.count-container-right-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.count-container-right-flex-item {
+  width: 50%;
+}
+.count-container-right-flex-item:nth-child(1),
+.count-container-right-flex-item:nth-child(2) {
+  margin-bottom: 80px;
+}
+.count-container-right-flex-item .counting {
+  font-size: 120px;
+  line-height: 108px;
+  font-weight: 400;
+}
+.count-container-right-flex-item .counting-tag {
+  font-size: 30px;
+  font-weight: 100;
+}
+.invertMode .page-banner .bottom-part-content {
+  color: #000;
 }
 /*# sourceMappingURL=omnie.css.map */
