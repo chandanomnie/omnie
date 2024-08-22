@@ -1330,4 +1330,14 @@ html.invertMode .down-arrow path {
   font-size: 30px;
   font-weight: 100;
 }
+.invertMode .page-banner {
+  background: #fff;
+  color: #000;
+}
+.invertMode .page-banner .bottom-part-content {
+  color: #000;
+}
+.invertMode .page-banner .middle-part .main-heading .dot::after {
+  background: #000;
+}
 /*# sourceMappingURL=omnie.css.map */

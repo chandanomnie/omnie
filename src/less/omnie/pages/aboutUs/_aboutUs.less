@@ -102,3 +102,26 @@
     }
   }
 }
+
+.invertMode {
+  .page-banner {
+    background: @white;
+    color: @black;
+
+    .bottom-part {
+      &-content {
+        color: @black;
+      }
+    }
+
+    .middle-part {
+      .main-heading {
+        .dot {
+          &::after {
+            background: @black;
+          }
+        }
+      }
+    }
+  }
+}
