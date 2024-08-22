@@ -35,6 +35,9 @@ module.exports = function (grunt) {
         files: {
           "dist/css/omnie.css": "src/less/omnie.less",
           "dist/css/home.css": "src/less/omnie/pages/home/_home.less",
+          "dist/css/aboutUs.css": "src/less/omnie/pages/aboutUs/_aboutUs.less",
+          "dist/css/omnieLife.css":
+            "src/less/omnie/pages/omnieLife/_omnieLife.less",
         },
         options: {
           compress: false,
@@ -76,6 +79,12 @@ module.exports = function (grunt) {
       },
       home: {
         files: { "index.html": ["components/home/index.hbs"] },
+      },
+      aboutUs: {
+        files: { "about-us.html": ["components/aboutUs/aboutUs.hbs"] },
+      },
+      omnieLife: {
+        files: { "omnie-life.html": ["components/omnieLife/omnieLife.hbs"] },
       },
       webInterface: {
         files: {
