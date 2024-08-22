@@ -1715,6 +1715,9 @@ p:last-child,
 .order-2 {
   order: 2;
 }
+.spacer {
+  margin: 25px 0;
+}
 html,
 body {
   -webkit-font-smoothing: antialiased;
@@ -2522,20 +2525,45 @@ html.dark {
   color: #000;
 }
 .btn {
-  padding: 0;
-  border: none;
-  background: transparent;
-  color: #000;
+  padding: 13px 40px;
+  border: 1.5px solid #000;
+  background: #000;
+  color: #fff;
   transition: all 0.3s ease-in;
-  text-transform: uppercase;
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 18px;
+}
+.btn:hover {
+  background: #fff;
+  color: #000;
 }
 .btn.btn-secondry {
-  font-size: 20px;
-  line-height: 28px;
-  color: #fff;
+  border: 1.5px solid #000;
+  background: #fff;
+  color: #000;
 }
 .btn.btn-secondry:hover {
-  color: #000;
+  background: #000;
+  color: #fff;
+}
+.btn.arrow-btn {
+  font-size: 0;
+  padding: 20px;
+  border-radius: 100%;
+  background: url(../../../../dist/images/white-arrow.svg) no-repeat center center #000;
+}
+.btn.arrow-btn:hover {
+  background: url(../../../../dist/images/black-arrow.svg) no-repeat center center #fff;
+}
+.btn.arrow-btn-secondry {
+  font-size: 0;
+  padding: 20px;
+  border-radius: 100%;
+  background: url(../../../../dist/images/black-arrow.svg) no-repeat center center #fff;
+}
+.btn.arrow-btn-secondry:hover {
+  background: url(../../../../dist/images/white-arrow.svg) no-repeat center center #000;
 }
 .form-row {
   margin-bottom: 15px;
@@ -2582,9 +2610,10 @@ select {
   padding-right: 10px;
 }
 label {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  color: #000;
   margin-bottom: 10px;
+  display: inline-block;
 }
 /* Radio Buttons
    ========================================================================== */
