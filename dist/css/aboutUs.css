@@ -4,15 +4,27 @@
 .text-white {
   color: #fff;
 }
+html.invertMode .text-white {
+  color: #000;
+}
 .text-black {
   color: #000;
+}
+html.invertMode .text-black {
+  color: #fff;
 }
 /* Background */
 .bg-white {
   background-color: #fff;
 }
+html.invertMode .bg-white {
+  background-color: #000;
+}
 .bg-black {
   background-color: #000;
+}
+html.invertMode .bg-black {
+  background-color: #fff;
 }
 /* Font Family */
 .ff-normal {
@@ -1212,6 +1224,18 @@
 }
 .spacer {
   margin: 25px 0;
+}
+.bannerHeight {
+  height: calc(100vh - 78px);
+}
+.down-arrow {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  cursor: pointer;
+}
+html.invertMode .down-arrow path {
+  fill: white;
 }
 .page-banner {
   background: #000;

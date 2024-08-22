@@ -1477,3 +1477,21 @@
 .spacer {
   margin: 25px 0;
 }
+
+
+.bannerHeight {
+  height: calc(100vh - 78px);
+}
+
+.down-arrow {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  cursor: pointer;
+
+  html.invertMode & {
+    path {
+      fill: white;
+    }
+  }
+}

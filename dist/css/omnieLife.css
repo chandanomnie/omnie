@@ -1,0 +1,17 @@
+.life-banner {
+  background: #F2F2F2;
+}
+.life-banner .item .left-content {
+  padding: 0 0 0 110px;
+}
+html.invertMode .life-banner {
+  background: black;
+  color: white;
+}
+html.invertMode .life-banner path {
+  fill: white;
+}
+.common-content {
+  padding: 50px 0;
+}
+/*# sourceMappingURL=omnie.css.map */
