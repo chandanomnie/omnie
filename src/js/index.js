@@ -4,9 +4,9 @@ jQuery(function ($) {
 
   checkbox.addEventListener('change', (event) => {
     if (event.currentTarget.checked) {
-      $('html').addClass('dark');
+      $('html').addClass('invertMode');
     } else {
-      $('html').removeClass('dark');
+      $('html').removeClass('invertMode');
     }
   })
 
