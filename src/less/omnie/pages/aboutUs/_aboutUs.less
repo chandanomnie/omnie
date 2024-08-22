@@ -1,0 +1,58 @@
+@import "../../_variables.less";
+@import "../../_classes.less";
+
+.page-banner {
+  background: @black;
+  color: @white;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+
+  .bottom-part {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 200px;
+    &-content {
+      width: 100%;
+      max-width: 865px;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 0.7);
+      .fw-100;
+    }
+  }
+
+  .middle-part {
+    .main-heading {
+      font-size: 100px;
+      letter-spacing: -4px;
+      .fw-100;
+      .d-f;
+
+      .dot {
+        position: relative;
+        display: inline-block;
+        margin-right: 13px;
+        margin-left: 60px;
+        width: 13px;
+        &::after {
+          content: "";
+          width: 12px;
+          height: 12px;
+          border-radius: 100%;
+          position: absolute;
+          top: 50%;
+          display: block;
+          background: @white;
+        }
+      }
+    }
+
+    .sub-heading {
+      font-size: 24px;
+      letter-spacing: -1px;
+      .fw-100;
+      margin-bottom: 15px;
+    }
+  }
+}
