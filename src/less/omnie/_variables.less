@@ -36,19 +36,32 @@
 /* Color */
 .text-white {
   color: @white;
+
+  html.invertMode & {
+    color: @black;
+  }
 }
 
 .text-black {
   color: @black;
+  html.invertMode & {
+    color: @white;
+  }
 }
 
 /* Background */
 .bg-white {
   background-color: @white;
+  html.invertMode & {
+    background-color: @black;
+  }
 }
 
 .bg-black {
   background-color: @black;
+  html.invertMode & {
+    background-color: @white;
+  }
 }
 
 /* Font Family */
@@ -84,6 +97,7 @@
     display: table;
     clear: both;
   }
+
   &:after {
     content: "";
     display: table;
