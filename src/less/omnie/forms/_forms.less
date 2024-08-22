@@ -49,20 +49,54 @@
 }
 
 .btn {
-  padding: 0;
-  border: none;
-  background: transparent;
-  color: @black;
+  padding: 13px 40px;
+  border: 1.5px solid @black;
+  background: @black;
+  color: @white;
   transition: all 0.3s ease-in;
-  .tt-u;
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 18px;
+
+  &:hover {
+    background: @white;
+    color: @black;
+  }
 
   &.btn-secondry {
-    font-size: 20px;
-    line-height: 28px;
-    color: @white;
+    border: 1.5px solid @black;
+    background: @white;
+    color: @black;
 
     &:hover {
-      color: @black;
+      background: @black;
+      color: @white;
+    }
+  }
+
+  &.arrow-btn {
+    font-size: 0;
+    padding: 20px;
+    border-radius: 100%;
+    background: url(../../../../dist/images/white-arrow.svg) no-repeat center
+      center @black;
+
+    &:hover {
+      background: url(../../../../dist/images/black-arrow.svg) no-repeat center
+        center @white;
+    }
+
+    &-secondry {
+      font-size: 0;
+      padding: 20px;
+      border-radius: 100%;
+      background: url(../../../../dist/images/black-arrow.svg) no-repeat center
+        center @white;
+
+      &:hover {
+        background: url(../../../../dist/images/white-arrow.svg) no-repeat
+          center center @black;
+      }
     }
   }
 }
@@ -120,9 +154,10 @@ select {
 }
 
 label {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  color: @black;
   margin-bottom: 10px;
+  display: inline-block;
 }
 
 /* Radio Buttons
