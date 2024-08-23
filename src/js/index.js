@@ -114,7 +114,7 @@ jQuery(function ($) {
     });
   }
 
-
+  scrollContent();
 
 });
 
@@ -136,3 +136,212 @@ $(window).on("load", function () {
 
 });
 
+
+var browserMobile = false;
+if (jQuery("body").hasClass("layout-mobile")) browserMobile = true;
+jQuery(window).scroll(function () {
+  scrollContent();
+  // slideCountStatus();
+});
+
+function scrollContent() {
+ 
+
+  if (jQuery(".count-container .animCounter").length) {
+    // var aboutCounterUp;
+    jQuery(".count-container .animCounter").each(function () {
+      var getTargetVal = jQuery(this).data("counter");
+      var aboutCounterUp = jQuery(this);
+
+      // console.log(jQuery(getTargetVal));
+      jQuery(this).counter({
+        autoStart: false,
+        duration: 2000,
+        countTo: getTargetVal,
+        placeholder: 0,
+        easing: "swing",
+        onStart: function () {},
+        onComplete: function () {
+          jQuery(".count-container .animCounter").addClass("completed");
+        },
+      });
+    });
+  }
+
+  var jQuerytoLoad = jQuery(".to-load");
+  var jQuerytoLoadElement = jQuery(".to-load-element");
+  var jQuerytoLoadElement2 = jQuery(".to-load-element2");
+  var jQuerytoLoadElement3 = jQuery(".to-load-element3");
+  var jQuerytoLoadElement4 = jQuery(".to-load-element4");
+  if (browserMobile) jQuery(".to-load").addClass("loaded");
+  jQuery(".to-load-element").addClass("loaded");
+
+  if (browserMobile) {
+    newScroll = jQuery(window).scrollTop();
+  } else {
+    if (window.scrollY > 0) {
+      newScroll = window.scrollY;
+    } else {
+      newScroll = jQuery("html,body").scrollTop();
+    }
+  }
+  if (!browserMobile) {
+    jQuerytoLoad.each(function () {
+      var object = jQuery(this);
+      if (
+        newScroll + jQuery(window).height() * 1.05 >
+        jQuery(this).offset().top
+      ) {
+        object.removeClass("no-anim");
+        object.addClass("loaded");
+      } else if (
+        newScroll + jQuery(window).height() <
+        jQuery(this).offset().top
+      ) {
+        object.addClass("no-anim");
+        object.removeClass("loaded");
+      }
+    });
+    jQuerytoLoadElement.each(function () {
+      var object = jQuery(this);
+      if (
+        newScroll + jQuery(window).height() * 1.05 >
+        jQuery(this).offset().top
+      ) {
+        object.removeClass("no-anim");
+        object.addClass("loaded");
+      } else if (
+        newScroll + jQuery(window).height() <
+        jQuery(this).offset().top
+      ) {
+        object.addClass("no-anim");
+        object.removeClass("loaded");
+      }
+    });
+    jQuerytoLoadElement2.each(function () {
+      var object = jQuery(this);
+      if (
+        newScroll + jQuery(window).height() * 0.8 >
+        jQuery(this).offset().top
+      ) {
+        object.removeClass("no-anim");
+        object.addClass("loaded");
+        object.siblings().removeClass("loaded");
+        object.prevAll().addClass("prevLoaded");
+      } else if (
+        newScroll + jQuery(window).height() <
+        jQuery(this).offset().top
+      ) {
+        object.addClass("no-anim");
+        object.removeClass("loaded");
+        object.removeClass("prevLoaded");
+      }
+    });
+    jQuerytoLoadElement3.each(function () {
+      var object = jQuery(this);
+
+      if (window.innerWidth < 768) {
+        if (newScroll + jQuery(window).height() > jQuery(this).offset().top) {
+          object.removeClass("no-anim");
+          object.addClass("loaded");
+        } else if (
+          newScroll + jQuery(window).height() <
+          jQuery(this).offset().top * 1.6
+        ) {
+          object.addClass("no-anim");
+          object.removeClass("loaded");
+        }
+      } else {
+        if (
+          newScroll + jQuery(window).height() >
+          jQuery(this).offset().top * 1.6
+        ) {
+          object.removeClass("no-anim");
+          object.addClass("loaded");
+        } else if (
+          newScroll + jQuery(window).height() <
+          jQuery(this).offset().top * 1.6
+        ) {
+          object.addClass("no-anim");
+          object.removeClass("loaded");
+        }
+      }
+    });
+
+    jQuerytoLoadElement4.each(function () {
+      var object = jQuery(this);
+      if (
+        newScroll + jQuery(window).height() * 1.05 >
+        jQuery(this).offset().top
+      ) {
+        object.removeClass("no-anim");
+        object.addClass("loaded");
+
+        jQuery(".count-container .animCounter").each(function () {
+          if (
+            jQuery(".count-container .animCounter").hasClass("completed") !== true
+          ) {
+            jQuery(this).counter("start");
+          }
+        });
+
+ 
+
+        if (
+          object.find(".animCounter").hasClass("aboutCounter") &&
+          object.find(".animCounter").hasClass("completed") !== true
+        ) {
+          console.log("entered 2 ");
+          aboutCounterUp.counter("start");
+        }
+      } else if (
+        newScroll + jQuery(window).height() <
+        jQuery(this).offset().top * 1.6
+      ) {
+        object.addClass("no-anim");
+        object.removeClass("loaded");
+        object.find(".animCounter").removeClass("completed");
+        jQuery(".count-container .animCounter").removeClass("completed");
+      }
+    });
+  } else {
+    jQuery(".to-load").addClass("loaded");
+    jQuery(".to-load-element").addClass("loaded");
+    jQuery(".to-load-element2").addClass("loaded");
+    jQuery(".to-load-element3").addClass("loaded");
+  }
+  currentScroll = newScroll;
+
+  var scrollPercentage =
+    100 * (jQuery(this).scrollTop() / jQuery("body").height());
+  if (scrollPercentage >= 50 && scrollPercentage <= 75) {
+    jQuery("body").addClass("socialShare");
+  } else {
+    jQuery("body").removeClass("socialShare");
+  }
+}
+
+function whichBrs() {
+  var agt = navigator.userAgent.toLowerCase();
+  if (agt.indexOf("opera") != -1) return "Opera";
+  if (agt.indexOf("staroffice") != -1) return "Star Office";
+  if (agt.indexOf("webtv") != -1) return "WebTV";
+  if (agt.indexOf("beonex") != -1) return "Beonex";
+  if (agt.indexOf("chimera") != -1) return "Chimera";
+  if (agt.indexOf("netpositive") != -1) return "NetPositive";
+  if (agt.indexOf("phoenix") != -1) return "Phoenix";
+  if (agt.indexOf("firefox") != -1) return "Firefox";
+  if (agt.indexOf("chrome") != -1) return "Chrome";
+  if (agt.indexOf("safari") != -1) return "Safari";
+  if (agt.indexOf("skipstone") != -1) return "SkipStone";
+  if (agt.indexOf("msie") != -1) return "Internet Explorer";
+  if (agt.indexOf("netscape") != -1) return "Netscape";
+  if (agt.indexOf("mozilla/5.0") != -1) return "Mozilla";
+  if (agt.indexOf("/") != -1) {
+    if (agt.substr(0, agt.indexOf("/")) != "mozilla") {
+      return navigator.userAgent.substr(0, agt.indexOf("/"));
+    } else return "Netscape";
+  } else if (agt.indexOf(" ") != -1)
+    return navigator.userAgent.substr(0, agt.indexOf(" "));
+  else return navigator.userAgent;
+}
