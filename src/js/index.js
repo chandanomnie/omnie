@@ -1,6 +1,7 @@
 jQuery(function ($) {
 
   const checkbox = document.getElementById('modeToggle')
+  $('#modeToggle').prop('checked', false);
 
   checkbox.addEventListener('change', (event) => {
     if (event.currentTarget.checked) {

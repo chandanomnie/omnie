@@ -893,6 +893,7 @@ html.invertMode .benfits-section svg *[fill="#000"] {
 }
 .life-section .life-slider .swiper-slide.shiftDown figure {
   top: 40px;
+  position: relative;
 }
 .life-section .life-slider .swiper-slide a {
   display: block;
