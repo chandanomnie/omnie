@@ -73,44 +73,47 @@ jQuery(function ($) {
     $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
   });
 
-  let SwiperDesktop = new Swiper(".life-slider-desktop", {
-    spaceBetween: 0,
-    centeredSlides: true,
-    speed: 3000,
-    // direction: "vertical",
+  if ($('.life-slider-desktop').length) {
+    let SwiperDesktop = new Swiper(".life-slider-desktop", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      speed: 3000,
+      // direction: "vertical",
 
-    autoplay: {
-      delay: 1,
-      disableOnInteraction: false,
-      pauseOnMouseEnter: false,
-    },
+      autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false,
+      },
 
-    loop: true,
-    slidesPerView: "auto",
-    allowTouchMove: false,
-  });
+      loop: true,
+      slidesPerView: "auto",
+      allowTouchMove: false,
+    });
 
-  $(".life-slider a[data-fancybox]").fancybox({
-    animationEffect: false,
-    beforeShow: function () {
+    $(".life-slider a[data-fancybox]").fancybox({
+      animationEffect: false,
+      beforeShow: function () {
 
-      $('.life-slider-desktop').each(function () {
-        this.swiper.autoplay.pause();
-
-      });
-
-    },
-    afterClose: function () {
-      setTimeout(function () {
         $('.life-slider-desktop').each(function () {
-          this.swiper.autoplay.resume();
+          this.swiper.autoplay.pause();
 
         });
 
-      }, 200)
+      },
+      afterClose: function () {
+        setTimeout(function () {
+          $('.life-slider-desktop').each(function () {
+            this.swiper.autoplay.resume();
 
-    }
-  });
+          });
+
+        }, 200)
+
+      }
+    });
+  }
+
 
 
 });
