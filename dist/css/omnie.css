@@ -1746,8 +1746,22 @@ p:last-child,
   bottom: 40px;
   cursor: pointer;
 }
+.down-arrow svg {
+  animation: jumpInfinite 1.5s infinite;
+}
 html.invertMode .down-arrow path {
   fill: white;
+}
+@keyframes jumpInfinite {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 html,
 body {
