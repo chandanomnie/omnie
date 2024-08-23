@@ -1,15 +1,14 @@
 jQuery(function ($) {
+  const checkbox = document.getElementById("modeToggle");
+  $("#modeToggle").prop("checked", false);
 
-  const checkbox = document.getElementById('modeToggle')
-  $('#modeToggle').prop('checked', false);
-
-  checkbox.addEventListener('change', (event) => {
+  checkbox.addEventListener("change", (event) => {
     if (event.currentTarget.checked) {
-      $('html').addClass('invertMode');
+      $("html").addClass("invertMode");
     } else {
-      $('html').removeClass('invertMode');
+      $("html").removeClass("invertMode");
     }
-  })
+  });
 
   $(".nav-toggle").on("click", function () {
     if (!$(".nav-toggle").hasClass("active")) {
@@ -45,12 +44,13 @@ jQuery(function ($) {
       }
     }
 
-    $("html, body").animate({
-      scrollTop: $('.main-header').offset().top
-    }, 300);
+    $("html, body").animate(
+      {
+        scrollTop: $(".main-header").offset().top,
+      },
+      300
+    );
   });
-
-
 
   $("a[href*=\\#]:not([href=\\#])").on("click", function () {
     var target = $(this.hash);
@@ -66,14 +66,13 @@ jQuery(function ($) {
     }
   });
 
-
-  $('.down-arrow').click(function () {
-    var target = $(this).parents('.banner').next();
+  $(".down-arrow").click(function () {
+    var target = $(this).parents(".banner").next();
 
     $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
   });
 
-  if ($('.life-slider-desktop').length) {
+  if ($(".life-slider-desktop").length) {
     let SwiperDesktop = new Swiper(".life-slider-desktop", {
       spaceBetween: 0,
       centeredSlides: true,
@@ -94,28 +93,25 @@ jQuery(function ($) {
     $(".life-slider a[data-fancybox]").fancybox({
       animationEffect: false,
       beforeShow: function () {
-
-        $('.life-slider-desktop').each(function () {
+        $(".life-slider-desktop").each(function () {
           this.swiper.autoplay.pause();
-
         });
-
       },
       afterClose: function () {
         setTimeout(function () {
-          $('.life-slider-desktop').each(function () {
+          $(".life-slider-desktop").each(function () {
             this.swiper.autoplay.resume();
-
           });
-
-        }, 200)
-
-      }
+        }, 200);
+      },
     });
   }
+<<<<<<< HEAD
 
   scrollContent();
 
+=======
+>>>>>>> 18b6d9610ebabbc9f8cca33b91b3bbad32af1e38
 });
 
 $(window).on("load", function () {
@@ -132,9 +128,8 @@ $(window).on("load", function () {
         });
       });
   }
-
-
 });
+<<<<<<< HEAD
 
 
 var browserMobile = false;
@@ -345,3 +340,5 @@ function whichBrs() {
     return navigator.userAgent.substr(0, agt.indexOf(" "));
   else return navigator.userAgent;
 }
+=======
+>>>>>>> 18b6d9610ebabbc9f8cca33b91b3bbad32af1e38
