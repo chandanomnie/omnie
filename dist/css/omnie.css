@@ -2994,11 +2994,12 @@ label {
   padding: 30px 0;
 }
 .footer p {
-  font-size: 1rem;
+  font-size: 16px;
   margin-bottom: 0;
+  opacity: 0.7;
 }
 .footer ul li {
-  margin-left: 30px;
+  margin-left: 35px;
 }
 /*Footer End*/
 .custom-select {

@@ -30,6 +30,21 @@
 .benfits-section {
     padding: 100px 0;
 
+    .container {
+        max-width: 1460px;
+    }
+
+    .h2 {
+        margin-bottom: 90px;
+        max-width: 1076px;
+    }
+
+    .benfits-row {
+        .w30 {
+            max-width: 319px;
+        }
+    }
+
     .col {
         width: 45%;
         margin-bottom: 100px;
@@ -74,8 +89,34 @@
             width: auto;
             padding: 25px 30px;
 
+            a {
+                display: block;
+                position: relative;
+                overflow: hidden;
+
+                &::after {
+                    content: attr(data-caption);
+                    position: absolute;
+                    bottom: 60px;
+                    left: -100%;
+                    padding: 10px 10px 10px 20px;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.6);
+                    font-size: 16px;
+                    transition: left 0.5s ease 0s;
+
+                }
+
+                &:hover {
+                    &::after {
+                        left: 0;
+                    }
+                }
+            }
+
             img {
                 filter: grayscale(100%);
+                transform: translate3d(0, 0, 0);
             }
         }
 
@@ -83,6 +124,7 @@
             // align-items: flex-end;
             transition-timing-function: linear !important;
             position: relative;
+            will-change: transform;
         }
 
         &.life-slider2 {
@@ -97,5 +139,14 @@
     figure {
         width: 100%;
         padding-bottom: 42%;
+    }
+
+    .content {
+        text-align: center;
+
+        .h2 {
+            margin: 0 auto 40px;
+            max-width: 880px;
+        }
     }
 }
