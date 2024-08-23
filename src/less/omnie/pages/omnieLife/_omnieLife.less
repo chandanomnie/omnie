@@ -1,3 +1,5 @@
+@import "../../lib/fancybox.less";
+
 .life-banner {
     background: #F2F2F2;
 
@@ -57,6 +59,36 @@
 
         svg *[fill="#000"] {
             fill: white;
+        }
+    }
+}
+
+.life-section {
+    overflow: hidden;
+    padding-bottom: 100px;
+
+    .life-slider {
+        padding: 100px 0 0;
+
+        .swiper-slide {
+            width: auto;
+            padding: 25px 30px;
+
+            img {
+                filter: grayscale(100%);
+            }
+        }
+
+        .swiper-container .swiper-wrapper {
+            // align-items: flex-end;
+            transition-timing-function: linear !important;
+            position: relative;
+        }
+
+        &.life-slider2 {
+            .swiper-container .swiper-wrapper {
+                // align-items: flex-start;
+            }
         }
     }
 }
