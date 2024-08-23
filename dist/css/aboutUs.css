@@ -1355,6 +1355,47 @@ html.invertMode .count-container-left p {
   font-size: 30px;
   font-weight: 100;
 }
+.our-partners {
+  background: #f6f6f6;
+}
+.our-partners .partners-logo {
+  display: flex;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+.our-partners .partners-logo-container {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-partners .partners-logo-container-item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.our-partners .partners-logo-container-item:first-child {
+  margin-bottom: 70px;
+}
+.our-partners-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.invert-img-block {
+  position: relative;
+}
+.invert-img-block-front img {
+  mix-blend-mode: multiply;
+}
+.invert-img-block-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
 .invertMode .page-banner .bottom-part-content {
   color: #000;
 }

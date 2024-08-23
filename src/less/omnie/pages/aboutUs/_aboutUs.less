@@ -105,6 +105,51 @@
   }
 }
 
+.our-partners {
+  background: @gray6;
+  .partners-logo {
+    display: flex;
+    max-width: 1350px;
+    margin: 0 auto;
+    &-container {
+      width: 25%;
+      display: flex;
+      flex-wrap: wrap;
+      &-item {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        &:first-child {
+          margin-bottom: 70px;
+        }
+      }
+    }
+  }
+  &-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+}
+
+.invert-img-block {
+  position: relative;
+  &-front {
+    img {
+      mix-blend-mode: multiply;
+    }
+  }
+  &-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 .invertMode {
   .page-banner {
     .bottom-part {
