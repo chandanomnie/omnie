@@ -1,8 +1,3 @@
-body.compensate-for-scrollbar {
-  overflow-y: hidden;
-  margin-right: 0 !important;
-  padding-right: 17px !important;
-}
 .fancybox-active {
   height: auto;
 }
@@ -895,6 +890,9 @@ html.invertMode .benfits-section svg *[fill="#000"] {
 .life-section .life-slider .swiper-slide {
   width: auto;
   padding: 25px 30px;
+}
+.life-section .life-slider .swiper-slide.shiftDown figure {
+  top: 40px;
 }
 .life-section .life-slider .swiper-slide a {
   display: block;

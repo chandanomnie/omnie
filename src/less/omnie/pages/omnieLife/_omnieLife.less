@@ -101,6 +101,11 @@
         .swiper-slide {
             width: auto;
             padding: 25px 30px;
+            &.shiftDown {
+                figure{
+                    top:40px;
+                }
+            }
 
             a {
                 display: block;
@@ -138,6 +143,11 @@
             transition-timing-function: linear !important;
             position: relative;
             will-change: transform;
+
+            html.fancybox-active & {
+                // transition: none !important;
+            }
+
         }
 
         &.life-slider2 {

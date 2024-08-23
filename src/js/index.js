@@ -66,6 +66,12 @@ jQuery(function ($) {
   });
 
 
+  $('.down-arrow').click(function () {
+    var target = $(this).parents('.banner').next();
+
+    $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
+  });
+
   let SwiperDesktop = new Swiper(".life-slider-desktop", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -84,24 +90,24 @@ jQuery(function ($) {
   });
 
   $(".life-slider a[data-fancybox]").fancybox({
-    animationEffect: 'fade',
-    afterShow: function () {
-    
+    animationEffect: false,
+    beforeShow: function () {
+
       $('.life-slider-desktop').each(function () {
-        this.swiper.autoplay.stop();
+        this.swiper.autoplay.pause();
 
       });
 
     },
     afterClose: function () {
-    setTimeout(function(){
-      $('.life-slider-desktop').each(function () {
-        this.swiper.autoplay.start();
+      setTimeout(function () {
+        $('.life-slider-desktop').each(function () {
+          this.swiper.autoplay.resume();
 
-      });
+        });
 
-    },200)
-  
+      }, 200)
+
     }
   });
 
