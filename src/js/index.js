@@ -66,6 +66,51 @@ jQuery(function ($) {
   });
 
 
+  $('.down-arrow').click(function () {
+    var target = $(this).parents('.banner').next();
+
+    $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
+  });
+
+  let SwiperDesktop = new Swiper(".life-slider-desktop", {
+    spaceBetween: 0,
+    centeredSlides: true,
+    speed: 3000,
+    // direction: "vertical",
+
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: false,
+    },
+
+    loop: true,
+    slidesPerView: "auto",
+    allowTouchMove: false,
+  });
+
+  $(".life-slider a[data-fancybox]").fancybox({
+    animationEffect: false,
+    beforeShow: function () {
+
+      $('.life-slider-desktop').each(function () {
+        this.swiper.autoplay.pause();
+
+      });
+
+    },
+    afterClose: function () {
+      setTimeout(function () {
+        $('.life-slider-desktop').each(function () {
+          this.swiper.autoplay.resume();
+
+        });
+
+      }, 200)
+
+    }
+  });
+
 
 });
 

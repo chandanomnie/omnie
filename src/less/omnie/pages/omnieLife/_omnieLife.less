@@ -1,3 +1,5 @@
+@import "../../lib/fancybox.less";
+
 .life-banner {
     background: #F2F2F2;
 
@@ -23,10 +25,29 @@
 
 .common-content {
     padding: 100px 0;
+
+    .container {
+        max-width: 1460px;
+    }
 }
 
 .benfits-section {
     padding: 100px 0;
+
+    .container {
+        max-width: 1460px;
+    }
+
+    .h2 {
+        margin-bottom: 90px;
+        max-width: 1076px;
+    }
+
+    .benfits-row {
+        .w30 {
+            max-width: 319px;
+        }
+    }
 
     .col {
         width: 45%;
@@ -34,6 +55,14 @@
 
         figure {
             margin-bottom: 30px;
+            height: 100px;
+            display: flex;
+            align-items: flex-start;
+
+            img,
+            svg {
+                max-height: 100%;
+            }
         }
     }
 
@@ -61,9 +90,86 @@
     }
 }
 
+.life-section {
+    overflow: hidden;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+    .life-slider {
+        padding: 100px 0 0;
+
+        .swiper-slide {
+            width: auto;
+            padding: 25px 30px;
+            &.shiftDown {
+                figure{
+                    top:40px;
+                }
+            }
+
+            a {
+                display: block;
+                position: relative;
+                overflow: hidden;
+
+                &::after {
+                    content: attr(data-caption);
+                    position: absolute;
+                    bottom: 60px;
+                    left: -100%;
+                    padding: 10px 10px 10px 20px;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.6);
+                    font-size: 16px;
+                    transition: left 0.5s ease 0s;
+
+                }
+
+                &:hover {
+                    &::after {
+                        left: 0;
+                    }
+                }
+            }
+
+            img {
+                filter: grayscale(100%);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        .swiper-container .swiper-wrapper {
+            // align-items: flex-end;
+            transition-timing-function: linear !important;
+            position: relative;
+            will-change: transform;
+
+            html.fancybox-active & {
+                // transition: none !important;
+            }
+
+        }
+
+        &.life-slider2 {
+            .swiper-container .swiper-wrapper {
+                // align-items: flex-start;
+            }
+        }
+    }
+}
+
 .life-btm {
     figure {
         width: 100%;
         padding-bottom: 42%;
+    }
+
+    .content {
+        text-align: center;
+
+        .h2 {
+            margin: 0 auto 40px;
+            max-width: 880px;
+        }
     }
 }
