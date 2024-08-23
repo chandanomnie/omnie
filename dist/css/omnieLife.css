@@ -919,9 +919,7 @@ html.invertMode .benfits-section svg *[fill="#000"] {
   transform: translate3d(0, 0, 0);
 }
 .life-section .life-slider .swiper-container .swiper-wrapper {
-  transition-timing-function: linear !important;
   position: relative;
-  will-change: transform;
 }
 .life-btm figure {
   width: 100%;
