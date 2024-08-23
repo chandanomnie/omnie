@@ -106,12 +106,9 @@ jQuery(function ($) {
       },
     });
   }
-<<<<<<< HEAD
 
   scrollContent();
 
-=======
->>>>>>> 18b6d9610ebabbc9f8cca33b91b3bbad32af1e38
 });
 
 $(window).on("load", function () {
@@ -129,7 +126,6 @@ $(window).on("load", function () {
       });
   }
 });
-<<<<<<< HEAD
 
 
 var browserMobile = false;
@@ -140,7 +136,7 @@ jQuery(window).scroll(function () {
 });
 
 function scrollContent() {
- 
+
 
   if (jQuery(".count-container .animCounter").length) {
     // var aboutCounterUp;
@@ -155,7 +151,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
@@ -280,7 +276,7 @@ function scrollContent() {
           }
         });
 
- 
+
 
         if (
           object.find(".animCounter").hasClass("aboutCounter") &&
@@ -340,5 +336,3 @@ function whichBrs() {
     return navigator.userAgent.substr(0, agt.indexOf(" "));
   else return navigator.userAgent;
 }
-=======
->>>>>>> 18b6d9610ebabbc9f8cca33b91b3bbad32af1e38
