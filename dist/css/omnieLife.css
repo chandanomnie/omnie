@@ -306,9 +306,6 @@ body.compensate-for-scrollbar {
 .fancybox-button:link {
   color: #fff;
 }
-.fancybox-button:hover {
-  color: #fff;
-}
 .fancybox-button:focus {
   outline: none;
 }
@@ -426,13 +423,13 @@ body.compensate-for-scrollbar {
   right: 0;
   text-align: center;
   z-index: 99996;
+  background: rgba(0, 0, 0, 0.7);
 }
 .fancybox-caption::before {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAD6CAQAAADKSeXYAAAAYklEQVQoz42RwQ3AMAgDjfcfup8WoRykfBAK5mQHKSz5rbXJPis1hjiV3CIqgG0hLZPkVkA4p4x5oR1bVeDrdCLrW2Q0D5bcwY3TGMHbdw3mPRuOtaspYP1w//G1OIcW148H0DMCqI/3mMMAAAAASUVORK5CYII=);
   background-repeat: repeat-x;
   background-size: contain;
   bottom: 0;
-  content: "";
   display: block;
   left: 0;
   pointer-events: none;
@@ -842,6 +839,9 @@ html.invertMode .life-banner path {
 .common-content {
   padding: 100px 0;
 }
+.common-content .container {
+  max-width: 1460px;
+}
 .benfits-section {
   padding: 100px 0;
 }
@@ -861,6 +861,13 @@ html.invertMode .life-banner path {
 }
 .benfits-section .col figure {
   margin-bottom: 30px;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.benfits-section .col figure img,
+.benfits-section .col figure svg {
+  max-height: 100%;
 }
 html.invertMode .benfits-section svg *[stroke-width] {
   stroke: white;
@@ -880,6 +887,7 @@ html.invertMode .benfits-section svg *[fill="#000"] {
 .life-section {
   overflow: hidden;
   padding-bottom: 100px;
+  padding-top: 50px;
 }
 .life-section .life-slider {
   padding: 100px 0 0;
