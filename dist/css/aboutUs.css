@@ -2246,6 +2246,7 @@ html.invertMode .count-container-left p {
 }
 .about-life {
   padding-bottom: 0;
+  overflow: hidden;
 }
 .about-life p {
   max-width: 768px;

@@ -112,15 +112,15 @@ jQuery(function ($) {
     let SwiperAbout = new Swiper(".about-life-slider", {
       spaceBetween: 0,
       centeredSlides: true,
-      speed: 2500,
+      speed: 2000,
       // direction: "vertical",
       observer: true,
       observeParents: true,
-      autoplay: {
-        delay: 1,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: false,
-      },
+      // autoplay: {
+      //   delay: 1,
+      //   disableOnInteraction: false,
+      //   pauseOnMouseEnter: true,
+      // },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -129,6 +129,17 @@ jQuery(function ($) {
       slidesPerView: "auto",
       allowTouchMove: false,
     });
+
+    // $('.custom-arrow.arrow-left').click(function(){
+    //   SwiperAbout.swiper.pause();
+    //   SwiperAbout.slideNext();
+
+    // });
+    // $('.custom-arrow.arrow-right').click(function(){
+    //   SwiperAbout.swiper.pause();
+    //   SwiperAbout.slidePrev();
+
+    // });
 
     $(".about-life-slider a[data-fancybox]").fancybox({
       animationEffect: false,
