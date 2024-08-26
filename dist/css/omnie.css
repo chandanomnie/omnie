@@ -310,6 +310,12 @@ html.invertMode .bg-white {
 html.invertMode .bg-black {
   background-color: #fff;
 }
+.bg-light-grey {
+  background-color: #f6f6f6;
+}
+html.invertMode .bg-light-grey {
+  background-color: #000;
+}
 /* Font Family */
 .ff-normal {
   font-weight: normal;
@@ -1751,6 +1757,17 @@ p:last-child,
 }
 html.invertMode .down-arrow path {
   fill: white;
+}
+.invert-img-block {
+  position: relative;
+}
+.invert-img-block-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
 }
 @keyframes jumpInfinite {
   0% {

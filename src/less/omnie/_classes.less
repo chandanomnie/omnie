@@ -1482,7 +1482,8 @@
 .bannerHeight {
   height: calc(100vh - 78px);
 }
-.h100{
+
+.h100 {
   height: 100%;
 }
 
@@ -1491,9 +1492,11 @@
   right: 40px;
   bottom: 40px;
   cursor: pointer;
-  svg{
+
+  svg {
     animation: jumpInfinite 1.5s infinite;
   }
+
   html.invertMode & {
     path {
       fill: white;
@@ -1502,13 +1505,32 @@
 }
 
 
+.invert-img-block {
+  position: relative;
+
+  &-front {
+    img {}
+  }
+
+  &-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 @keyframes jumpInfinite {
   0% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(0px);
   }

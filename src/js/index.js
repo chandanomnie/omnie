@@ -76,7 +76,7 @@ jQuery(function ($) {
     let SwiperDesktop = new Swiper(".life-slider-desktop", {
       spaceBetween: 0,
       centeredSlides: true,
-      speed: 2500,
+      speed: 3000,
       // direction: "vertical",
 
       autoplay: {
