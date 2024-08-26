@@ -112,7 +112,7 @@ jQuery(function ($) {
     let SwiperAbout = new Swiper(".about-life-slider", {
       spaceBetween: 0,
       centeredSlides: true,
-      speed: 2000,
+      speed: 1500,
       // direction: "vertical",
       observer: true,
       observeParents: true,
