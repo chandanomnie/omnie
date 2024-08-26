@@ -107,6 +107,46 @@ jQuery(function ($) {
     });
   }
 
+
+  if ($(".about-life-slider").length) {
+    let SwiperAbout = new Swiper(".about-life-slider", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      speed: 2500,
+      // direction: "vertical",
+
+      autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      slidesPerView: "auto",
+      allowTouchMove: false,
+    });
+
+    $(".about-life-slider a[data-fancybox]").fancybox({
+      animationEffect: false,
+      beforeShow: function () {
+        // $(".life-slider-desktop").each(function () {
+        //   this.swiper.autoplay.pause();
+        // });
+      },
+      afterClose: function () {
+        setTimeout(function () {
+          // $(".life-slider-desktop").each(function () {
+          //   this.swiper.autoplay.resume();
+          // });
+        }, 200);
+      },
+    });
+  }
+
+
   scrollContent();
 
 });
