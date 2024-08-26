@@ -2977,8 +2977,9 @@ label {
   position: relative;
   display: inline-block;
   width: 43px;
-  height: 20px;
+  height: 21px;
   margin: 0;
+  top: 2px;
 }
 .mode-toggle .switch input {
   opacity: 0;
