@@ -2244,6 +2244,9 @@ html.invertMode .count-container-left p {
 .clients-logo .client-logo-item img {
   max-height: 90px;
 }
+.about-life {
+  padding-bottom: 0;
+}
 .about-life p {
   max-width: 768px;
   margin: 25px auto;

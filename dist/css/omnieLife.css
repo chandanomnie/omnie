@@ -831,14 +831,8 @@ html.invertMode .life-banner {
 html.invertMode .life-banner path {
   fill: white;
 }
-.common-content {
-  padding: 100px 0;
-}
 .common-content .container {
   max-width: 1460px;
-}
-.benfits-section {
-  padding: 100px 0;
 }
 .benfits-section .container {
   max-width: 1460px;

@@ -114,7 +114,8 @@ jQuery(function ($) {
       centeredSlides: true,
       speed: 2500,
       // direction: "vertical",
-
+      observer: true,
+      observeParents: true,
       autoplay: {
         delay: 1,
         disableOnInteraction: false,
