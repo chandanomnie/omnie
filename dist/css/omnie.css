@@ -2959,7 +2959,12 @@ label {
 /*Header*/
 .main-header {
   padding: 27px 60px;
-  position: relative;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
 }
 .head-right {
   position: absolute;
@@ -3021,9 +3026,44 @@ label {
 .mode-toggle .slider.round:before {
   border-radius: 50%;
 }
+.main-nav {
+  position: fixed;
+  background: #F2F2F2;
+  width: 100%;
+  left: 0;
+  top: 78px;
+  z-index: 99;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+.main-nav .nav-wrap {
+  background: black;
+  width: 30%;
+  padding: 50px 50px 50px 180px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.main-nav .main-links > li {
+  margin: 30px 0;
+}
+.main-nav .main-links > li > a {
+  font-size: 36px;
+  color: white;
+}
+.main-nav .nav-bottom {
+  margin-top: auto;
+  padding: 50px 60px 50px 150px;
+}
+.main-nav .sub-nav {
+  position: absolute;
+  display: none;
+}
 /*Footer*/
 .footer {
   padding: 30px 0;
+  border-top: 1px solid #CCCCCC;
 }
 .footer p {
   font-size: 16px;
