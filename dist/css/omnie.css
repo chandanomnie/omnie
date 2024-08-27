@@ -3036,14 +3036,44 @@ label {
   bottom: 0;
   display: flex;
   flex-direction: column;
+  background: black;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.5s ease;
+  overflow: auto;
+}
+.main-nav * {
+  pointer-events: none;
+}
+html.menu-open .main-nav {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+html.menu-open .main-nav * {
+  pointer-events: all;
 }
 .main-nav .nav-wrap {
-  background: black;
-  width: 30%;
+  width: 33%;
   padding: 50px 50px 50px 180px;
   display: flex;
   flex-grow: 1;
   align-items: center;
+  position: relative;
+}
+.main-nav .nav-bg {
+  position: absolute;
+  right: 0;
+  left: 30%;
+  top: 0;
+  bottom: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-nav .nav-bg img {
+  max-height: 80%;
 }
 .main-nav .main-links > li {
   margin: 30px 0;
@@ -3052,13 +3082,45 @@ label {
   font-size: 36px;
   color: white;
 }
+.main-nav .main-links > li > a:hover {
+  color: #666666;
+}
 .main-nav .nav-bottom {
   margin-top: auto;
-  padding: 50px 60px 50px 150px;
+  padding: 40px 60px 40px 150px;
+  background: white;
 }
-.main-nav .sub-nav {
+.main-nav .nav-bottom .left h5 {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.main-nav .nav-bottom .left ul li {
+  margin-left: 35px;
+}
+.main-nav .nav-bottom .right .btn ~ .btn {
+  margin-left: 30px;
+}
+.main-nav .sub-nav,
+.main-nav .sub-nav2 {
   position: absolute;
-  display: none;
+  top: 0;
+  width: 100%;
+  background: #F2F2F2;
+  bottom: 0;
+  left: 100%;
+  padding: 50px;
+  z-index: 2;
+}
+.main-nav .sub-nav ul li,
+.main-nav .sub-nav2 ul li {
+  margin: 20px 0;
+}
+.main-nav .sub-nav ul li a,
+.main-nav .sub-nav2 ul li a {
+  font-size: 24px;
+}
+.main-nav .sub-nav2 ul li a {
+  font-size: 18px;
 }
 /*Footer*/
 .footer {
