@@ -43,7 +43,7 @@ html.invertMode .bg-light-grey {
   max-width: 100%;
 }
 .container {
-  max-width: 1680px;
+  max-width: 1470px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -2118,9 +2118,9 @@ html.invertMode .page-banner {
   font-weight: 100;
 }
 .page-banner .middle-part .main-heading {
-  font-size: 100px;
-  letter-spacing: -4px;
-  font-weight: 100;
+  font-size: 72px;
+  line-height: 84px;
+  font-weight: 300;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2128,28 +2128,31 @@ html.invertMode .page-banner {
 .page-banner .middle-part .main-heading .dot {
   position: relative;
   display: inline-block;
-  margin-right: 13px;
-  margin-left: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
   width: 13px;
+}
+.page-banner .middle-part .main-heading .dot:nth-child(2)::after {
+  background: #f26322;
+}
+.page-banner .middle-part .main-heading .dot:nth-child(3)::after {
+  background: #00a5a5;
 }
 .page-banner .middle-part .main-heading .dot::after {
   content: "";
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   border-radius: 100%;
   position: absolute;
   top: 50%;
   display: block;
-  background-color: #fff;
-}
-html.invertMode .page-banner .middle-part .main-heading .dot::after {
-  background-color: #000;
+  background: #f8c62f;
 }
 .page-banner .middle-part .sub-heading {
   font-size: 24px;
-  letter-spacing: -1px;
-  font-weight: 100;
-  margin-bottom: 15px;
+  line-height: 28.5px;
+  font-weight: 400;
+  margin-bottom: 5px;
 }
 .count {
   background-color: #fff;
@@ -2174,8 +2177,8 @@ html.invertMode .count {
   margin: 0;
   color: #000;
   font-size: 48px;
-  line-height: 54px;
-  font-weight: 500;
+  line-height: 56px;
+  font-weight: 600;
 }
 html.invertMode .count-container-left p {
   color: #fff;
@@ -2184,7 +2187,7 @@ html.invertMode .count-container-left p {
   color: #808080;
 }
 .count-container-right {
-  width: 50%;
+  width: 40%;
 }
 .count-container-right-flex {
   display: flex;
@@ -2198,40 +2201,41 @@ html.invertMode .count-container-left p {
   margin-bottom: 80px;
 }
 .count-container-right-flex-item .counting {
-  font-size: 120px;
-  line-height: 108px;
-  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 600;
 }
 .count-container-right-flex-item .counting-tag {
-  font-size: 30px;
-  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+}
+.our-partners .section-title {
+  margin-bottom: 124px;
 }
 .our-partners .partners-logo {
-  display: flex;
-  max-width: 1350px;
-  margin: 0 auto;
+  margin-left: auto;
+  max-width: 972px;
 }
 .our-partners .partners-logo-container {
-  width: 25%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 .our-partners .partners-logo-container img {
   mix-blend-mode: multiply;
+  filter: grayscale(1);
 }
 .our-partners .partners-logo-container-item {
   position: relative;
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-}
-.our-partners .partners-logo-container-item:first-child {
   margin-bottom: 70px;
+  width: 25%;
+  display: flex;
+  align-items: center;
 }
 .our-partners-action {
   display: flex;
-  justify-content: center;
-  margin-top: 80px;
+  justify-content: flex-end;
 }
 .clients-logo .client-logo-item {
   width: 20%;

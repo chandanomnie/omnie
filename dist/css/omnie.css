@@ -327,7 +327,7 @@ html.invertMode .bg-light-grey {
   max-width: 100%;
 }
 .container {
-  max-width: 1680px;
+  max-width: 1470px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -458,8 +458,8 @@ h1,
 h2,
 .h2,
 .fs2 {
-  font-size: 72px;
-  line-height: 72px;
+  font-size: 40px;
+  line-height: 47px;
   font-weight: 600;
 }
 @media only screen and (max-width: 1024px) {
@@ -467,7 +467,7 @@ h2,
   .h2,
   .fs2 {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 42px;
   }
 }
 h3,
