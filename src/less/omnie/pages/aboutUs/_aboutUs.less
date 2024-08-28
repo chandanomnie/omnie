@@ -164,9 +164,15 @@
 }
 
 .clients-logo {
+  .client-logo-container {
+    max-width: 1170px;
+    margin-left: auto;
+    justify-content: space-between;
+  }
+
   .client-logo-item {
-    width: 20%;
-    padding: 25px 45px;
+    max-width: 20%;
+    padding: 25px 60px 25px 0;
     text-align: center;
 
     &:nth-last-child(3) {
@@ -183,14 +189,19 @@
   padding-bottom: 0;
   overflow: hidden;
   p {
-    max-width: 768px;
-    margin: 25px auto;
+    max-width: 665px;
+    margin: 15px auto 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: @gray7;
+    .fw-300;
   }
 
   .about-life-slider {
     .item {
       width: 40%;
-      padding: 100px 30px;
+      padding: 15px 0 130px 0;
+      transition: all 0.3s ease-in;
       a {
         position: relative;
         display: block;
@@ -201,14 +212,44 @@
           left: 0;
           width: 100%;
           text-align: center;
-          padding: 10px 5px;
-          font-size: 16px;
+          padding: 28px 5px 10px 5px;
+          font-size: 20px;
+          line-height: 23.5px;
+          .fw-600;
         }
       }
       img {
         filter: grayscale(100%);
       }
+
+      &.swiper-slide-prev {
+        transform: scale(0.9);
+      }
+
+      &.swiper-slide-next {
+        transform: scale(0.9);
+      }
     }
+  }
+
+  .swiper-button-next {
+    top: auto;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    transition: all 0.3s ease-in;
+  }
+
+  .swiper-button-prev {
+    top: auto;
+    bottom: 0;
+    right: 90px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    transition: all 0.3s ease-in;
+    left: auto;
   }
 }
 
@@ -223,6 +264,17 @@
         // fill: black;
       }
     }
+  }
+}
+
+.swiper-button-next svg path,
+.swiper-button-prev svg path {
+  transition: all 0.3s ease-in;
+}
+
+.interest-form {
+  .container {
+    max-width: 1020px;
   }
 }
 
