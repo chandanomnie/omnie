@@ -189,8 +189,11 @@ jQuery(function ($) {
     $('.tech-custom .right ul li').mouseenter(function () {
       $(this).addClass('active').siblings().removeClass('active');
       var getPos = $(this).position().top;
+      var getIndex = $(this).index();
       console.log(getPos);
-      $('.tech-custom .right .points .dot').stop().animate({top: getPos + 30});
+      $('.tech-custom .right .points .dot').stop().animate({ top: getPos + 30 });
+      $('.points-content .content').hide();
+      $('.points-content .content').eq(getIndex).show();
 
     });
 
