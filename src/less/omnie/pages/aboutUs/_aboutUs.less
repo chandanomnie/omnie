@@ -235,6 +235,7 @@
 
     @media @mobile {
       flex-wrap: wrap;
+      overflow: hidden;
     }
   }
 
@@ -244,17 +245,32 @@
     text-align: center;
 
     @media @mobile {
-      width: 45%;
+      width: 40%;
       padding-right: 0;
       max-width: 50%;
-    }
-
-    &:nth-last-child(3) {
-      width: 30%;
+      display: flex;
+      align-items: center;
     }
 
     img {
       max-height: 90px;
+    }
+  }
+
+  @media @mobile {
+    .swiper-wrapper {
+      align-items: flex-start;
+
+      .item.swiper-slide {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .swiper-next {
+      }
+      .swiper-prev {
+      }
     }
   }
 }

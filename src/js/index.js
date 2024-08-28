@@ -72,6 +72,20 @@ jQuery(function ($) {
     $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
   });
 
+  if ($(".client-logo-slider").length) {
+    new Swiper(".client-logo-slider", {
+      spaceBetween: 0,
+      speed: 2000,
+      loop: false,
+      slidesPerView: 1,
+      allowTouchMove: true,
+      navigation: {
+        nextEl: ".swiper-next",
+        prevEl: ".swiper-prev",
+      },
+    });
+  }
+
   if ($(".life-slider-desktop").length) {
     let SwiperDesktop = new Swiper(".life-slider-desktop", {
       spaceBetween: 0,

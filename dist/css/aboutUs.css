@@ -2311,6 +2311,7 @@ html.invertMode .count-container-left p {
 @media only screen and (max-width: 767px) {
   .clients-logo .client-logo-container {
     flex-wrap: wrap;
+    overflow: hidden;
   }
 }
 .clients-logo .client-logo-item {
@@ -2320,16 +2321,25 @@ html.invertMode .count-container-left p {
 }
 @media only screen and (max-width: 767px) {
   .clients-logo .client-logo-item {
-    width: 45%;
+    width: 40%;
     padding-right: 0;
     max-width: 50%;
+    display: flex;
+    align-items: center;
   }
-}
-.clients-logo .client-logo-item:nth-last-child(3) {
-  width: 30%;
 }
 .clients-logo .client-logo-item img {
   max-height: 90px;
+}
+@media only screen and (max-width: 767px) {
+  .clients-logo .swiper-wrapper {
+    align-items: flex-start;
+  }
+  .clients-logo .swiper-wrapper .item.swiper-slide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 .about-life {
   padding-bottom: 0;
