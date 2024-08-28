@@ -110,6 +110,10 @@
           &:nth-child(1),
           &:nth-child(2) {
             margin-bottom: 80px;
+
+            @media @max-screen-1024 {
+              margin-bottom: 40px;
+            }
           }
 
           .counting {
@@ -122,8 +126,39 @@
               line-height: 28px;
               .fw-300;
             }
+
+            @media @max-screen-1024 {
+              font-size: 48px;
+              line-height: 56px;
+
+              &-tag {
+                font-size: 18px;
+                line-height: 21px;
+              }
+            }
           }
         }
+      }
+    }
+
+    @media @max-screen-1024 {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: flex-start;
+
+      &-left {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 65px;
+
+        p {
+          font-size: 36px;
+          line-height: 42px;
+        }
+      }
+
+      &-right {
+        width: 100%;
       }
     }
   }
@@ -160,6 +195,10 @@
   &-action {
     display: flex;
     justify-content: flex-end;
+
+    @media @max-screen-1024 {
+      justify-content: center;
+    }
   }
 }
 
@@ -275,6 +314,19 @@
 .interest-form {
   .container {
     max-width: 1020px;
+  }
+
+  .interest-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .form-row {
+      width: 32%;
+      &.full {
+        width: 100%;
+      }
+    }
   }
 }
 

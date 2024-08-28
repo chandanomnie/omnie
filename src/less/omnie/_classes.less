@@ -1461,12 +1461,8 @@
 .section-gap {
   padding: 100px 0;
 
-  @media (@min-screen-768) and (@max-screen-1024) {
+  @media @max-screen-1024 {
     padding: 50px 0;
-  }
-
-  @media @max-screen-767 {
-    padding: 30px 0;
   }
 }
 
@@ -1477,7 +1473,6 @@
 .spacer {
   margin: 25px 0;
 }
-
 
 .bannerHeight {
   height: calc(100vh - 78px);
@@ -1504,12 +1499,12 @@
   }
 }
 
-
 .invert-img-block {
   position: relative;
 
   &-front {
-    img {}
+    img {
+    }
   }
 
   &-back {

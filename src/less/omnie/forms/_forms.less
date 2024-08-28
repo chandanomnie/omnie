@@ -1,53 +1,3 @@
-.form-control {
-  background: transparent;
-  padding: 0;
-  border: none;
-  border-bottom: 1px solid @black;
-  font-size: 16px;
-  line-height: 22px;
-  color: @black;
-  width: 100%;
-
-  &.secondry {
-    font-size: 20px;
-    line-height: 28px;
-    color: @white;
-    border-bottom: 1px solid @white;
-
-    &::-webkit-input-placeholder {
-      color: @white;
-    }
-
-    &::-moz-placeholder {
-      color: @white;
-    }
-
-    &:-ms-input-placeholder {
-      color: @white;
-    }
-
-    &:-moz-placeholder {
-      color: @white;
-    }
-  }
-}
-
-::-webkit-input-placeholder {
-  color: @black;
-}
-
-::-moz-placeholder {
-  color: @black;
-}
-
-:-ms-input-placeholder {
-  color: @black;
-}
-
-:-moz-placeholder {
-  color: @black;
-}
-
 .btn {
   padding: 13px 40px;
   border: 1.5px solid @black;
@@ -75,11 +25,9 @@
   }
 
   &.btn-white-transparent {
-
     background: none;
     border: 1.5px solid @white;
     color: @white;
-
   }
 
   &.btn-secondry-transparent {
@@ -97,54 +45,63 @@
     font-size: 0;
     padding: 20px;
     border-radius: 100%;
-    background: url(../../../../dist/images/white-arrow.svg) no-repeat center center @black;
+    background: url(../../../../dist/images/white-arrow.svg) no-repeat center
+      center @black;
 
     &:hover {
-      background: url(../../../../dist/images/black-arrow.svg) no-repeat center center @white;
+      background: url(../../../../dist/images/black-arrow.svg) no-repeat center
+        center @white;
     }
 
     &-secondry {
       font-size: 0;
       padding: 20px;
       border-radius: 100%;
-      background: url(../../../../dist/images/black-arrow.svg) no-repeat center center @white;
+      background: url(../../../../dist/images/black-arrow.svg) no-repeat center
+        center @white;
 
       &:hover {
-        background: url(../../../../dist/images/white-arrow.svg) no-repeat center center @black;
+        background: url(../../../../dist/images/white-arrow.svg) no-repeat
+          center center @black;
       }
     }
   }
 }
 
 .form-row {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .form-control {
   width: 100%;
   background: none;
-  padding: 10px 21px;
-  border: 0;
-  border: 1.5px solid @black;
-  font-size: 16px;
-  border-radius: 4px;
+  padding: 13px 23px;
+  border: 1px solid @gray8;
+  font-size: 14px;
+  line-height: 16px;
+  .fw-300;
+  border-radius: 12px;
+  color: @gray9;
 
   &::-webkit-input-placeholder {
-    color: @black;
+    color: @gray9;
     opacity: 1 !important;
-    font-size: 18px;
+    font-size: 14px;
+    .fw-300;
   }
 
   &:-ms-input-placeholder {
-    color: @black;
+    color: @gray9;
     opacity: 1 !important;
-    font-size: 18px;
+    font-size: 14px;
+    .fw-300;
   }
 
   &::placeholder {
-    color: @black;
+    color: @gray9;
     opacity: 1 !important;
-    font-size: 18px;
+    font-size: 14px;
+    .fw-300;
   }
 
   &-checkbox {
@@ -209,7 +166,7 @@ label {
   input[type="radio"] {
     display: none;
 
-    &~label:after {
+    & ~ label:after {
       content: "";
       display: inline-block;
       font-size: 30px;
@@ -236,7 +193,7 @@ label {
     }
 
     &:checked {
-      &~label {
+      & ~ label {
         &:after {
           transform: scale(1);
           -webkit-transform: scale(1);
@@ -256,8 +213,8 @@ label {
   margin: 0;
   position: relative;
 
-  &>label,
-  &>.label {
+  & > label,
+  & > .label {
     display: inline-block;
     cursor: pointer;
     position: relative;
@@ -291,8 +248,8 @@ label {
     left: 0;
     opacity: 0;
 
-    &~label,
-    &~.label {
+    & ~ label,
+    & ~ .label {
       &:after {
         content: "";
         display: block;
@@ -313,9 +270,8 @@ label {
     }
 
     &:checked {
-
-      &~label,
-      &~.label {
+      & ~ label,
+      & ~ .label {
         &:after {
           transform: scale(1);
           -webkit-transform: scale(1);
