@@ -94,7 +94,7 @@
   transform-origin: 0% 0% 0px;
   transform: translate(0px);
   transition: all 0.5s ease;
-  transition-delay: calc(var(--char-index) * 0.03s);
+  transition-delay: calc(var(--char-index) * 0.02s);
 }
 .tech-custom .right ul li .box.hover {
   left: 0;
@@ -111,12 +111,12 @@
   transform-origin: 0% 100% 0px;
   transform: translate(0%, 10%) scale(1, 0);
   transition: all 0.5s ease;
-  transition-delay: calc(var(--char-index) * 0.03s);
+  transition-delay: calc(var(--char-index) * 0.02s);
 }
-.tech-custom .right ul li:hover .box.normal .char {
+.tech-custom .right ul li.active .box.normal .char {
   transform: translate(0%, -35%) scale(1, 0);
 }
-.tech-custom .right ul li:hover .box.hover .char {
+.tech-custom .right ul li.active .box.hover .char {
   transform-origin: 0% 0% 0px;
   transform: translate(0px);
 }

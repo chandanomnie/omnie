@@ -185,7 +185,16 @@ jQuery(function ($) {
 
 
   }
+  if ($('.tech-custom .right .points ul').length) {
+    $('.tech-custom .right ul li').mouseenter(function () {
+      $(this).addClass('active').siblings().removeClass('active');
+      var getPos = $(this).position().top;
+      console.log(getPos);
+      $('.tech-custom .right .points .dot').stop().animate({top: getPos + 30});
 
+    });
+
+  }
 
 
   scrollContent();
