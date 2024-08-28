@@ -3134,13 +3134,30 @@ html.menu-open .main-nav * {
   padding: 30px 0;
   border-top: 1px solid #CCCCCC;
 }
+.footer .left .logo {
+  margin-bottom: 10px;
+  max-width: 160px;
+}
 .footer p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
   opacity: 0.7;
 }
-.footer ul li {
+.footer ul.social-links {
+  margin-bottom: 10px;
+}
+.footer ul.social-links li {
   margin-left: 35px;
+}
+.footer ul.footer-links li {
+  margin-left: 20px;
+  font-size: 14px;
+}
+.footer ul.footer-links li a {
+  opacity: 0.7;
+}
+.footer ul.footer-links li a:hover {
+  opacity: 1;
 }
 /*Footer End*/
 .custom-select {
