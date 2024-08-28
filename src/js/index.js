@@ -75,19 +75,14 @@ jQuery(function ($) {
   if ($(".client-logo-slider").length) {
     new Swiper(".client-logo-slider", {
       spaceBetween: 0,
-      centeredSlides: true,
-      speed: 3000,
-      // direction: "vertical",
-
-      autoplay: {
-        delay: 1,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: false,
+      speed: 2000,
+      loop: false,
+      slidesPerView: 1,
+      allowTouchMove: true,
+      navigation: {
+        nextEl: ".swiper-next",
+        prevEl: ".swiper-prev",
       },
-
-      loop: true,
-      slidesPerView: "auto",
-      allowTouchMove: false,
     });
   }
 
