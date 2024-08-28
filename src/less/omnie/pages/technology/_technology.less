@@ -1,6 +1,74 @@
-.tech-banner{
-    padding:50px 0 ;
-    .container{
+.tech-banner {
+    padding: 50px 0;
 
+    p {
+        font-size: 1rem;
+    }
+
+    .container {}
+
+    .content {
+        .h2 {
+            font-size: 48px;
+            line-height: 1.2;
+        }
+
+        p {
+            color: #626262;
+        }
+    }
+
+    .banner-col {
+        margin: 0 -10px;
+        padding: 50px 0 0;
+
+        .col {
+            padding: 0 10px;
+
+            .box {
+                border-radius: 36px;
+                padding: 40px 30px;
+
+                figure {
+                    margin-bottom: 20px;
+                    *[stroke="white"] {
+                        stroke: black;
+                    }
+                }
+
+                p {
+                    color: #7C7C7C;
+                }
+
+                &:hover {
+                    background-color: black;
+                    color: white;
+
+                    p {
+                        color: #D9D9D9;
+                    }
+
+                    figure {
+                        svg {
+                            *[fill="black"] {
+                                fill: white;
+
+                            }
+
+                            *[fill="white"] {
+                                fill: black;
+
+                            }
+                            *[stroke="white"] {
+                                stroke: white;
+                            }
+                            *[stroke="black"] {
+                                stroke: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
