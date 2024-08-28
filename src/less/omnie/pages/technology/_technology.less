@@ -90,6 +90,21 @@
     }
 
     .right {
+        padding: 50px 0;
+
+        .points {
+            position: relative;
+
+            .dot {
+                position: absolute;
+                left: -31px;
+                top: 14px;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: #F48220;
+            }
+        }
 
         ul {
             margin-bottom: 50px;
@@ -98,6 +113,69 @@
                 margin: 20px 0;
                 font-size: 36px;
                 cursor: pointer;
+                overflow: hidden;
+                position: relative;
+
+                .box {
+                    position: relative;
+                    line-height: 1;
+
+                    &.normal {
+
+                        .char {
+                            position: relative;
+                            display: inline-block;
+                            translate: none;
+                            rotate: none;
+                            scale: none;
+                            transform-origin: 0% 0% 0px;
+                            transform: translate(0px);
+                            transition: all 0.5s ease;
+                            transition-delay: calc(var(--char-index) * .03s);
+                        }
+                    }
+
+                    &.hover {
+                        left: 0;
+                        top: 0;
+                        position: absolute;
+                        color: #F48220;
+
+                        .char {
+                            position: relative;
+                            display: inline-block;
+                            translate: none;
+                            rotate: none;
+                            scale: none;
+                            transform-origin: 0% 100% 0px;
+                            transform: translate(0%, 10%) scale(1, 0);
+                            transition: all 0.5s ease;
+                            transition-delay: calc(var(--char-index) * .03s);
+                        }
+                    }
+
+
+                }
+
+                &:hover {
+
+                    .box {
+                        &.normal {
+                            .char {
+                                transform: translate(0%, -35%) scale(1, 0);
+                            }
+                        }
+
+                        &.hover {
+
+                            .char {
+                                transform-origin: 0% 0% 0px;
+                                transform: translate(0px);
+
+                            }
+                        }
+                    }
+                }
 
             }
 

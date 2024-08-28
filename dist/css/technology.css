@@ -56,6 +56,21 @@
 .tech-custom .left .h3 span {
   color: #999999;
 }
+.tech-custom .right {
+  padding: 50px 0;
+}
+.tech-custom .right .points {
+  position: relative;
+}
+.tech-custom .right .points .dot {
+  position: absolute;
+  left: -31px;
+  top: 14px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #F48220;
+}
 .tech-custom .right ul {
   margin-bottom: 50px;
 }
@@ -63,6 +78,47 @@
   margin: 20px 0;
   font-size: 36px;
   cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.tech-custom .right ul li .box {
+  position: relative;
+  line-height: 1;
+}
+.tech-custom .right ul li .box.normal .char {
+  position: relative;
+  display: inline-block;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform-origin: 0% 0% 0px;
+  transform: translate(0px);
+  transition: all 0.5s ease;
+  transition-delay: calc(var(--char-index) * 0.03s);
+}
+.tech-custom .right ul li .box.hover {
+  left: 0;
+  top: 0;
+  position: absolute;
+  color: #F48220;
+}
+.tech-custom .right ul li .box.hover .char {
+  position: relative;
+  display: inline-block;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform-origin: 0% 100% 0px;
+  transform: translate(0%, 10%) scale(1, 0);
+  transition: all 0.5s ease;
+  transition-delay: calc(var(--char-index) * 0.03s);
+}
+.tech-custom .right ul li:hover .box.normal .char {
+  transform: translate(0%, -35%) scale(1, 0);
+}
+.tech-custom .right ul li:hover .box.hover .char {
+  transform-origin: 0% 0% 0px;
+  transform: translate(0px);
 }
 .tech-custom .right .points-content {
   max-width: 310px;
