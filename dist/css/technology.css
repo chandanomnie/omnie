@@ -1,4 +1,38 @@
 .tech-banner {
-  padding: 50px 0 ;
+  padding: 50px 0;
+}
+.tech-banner p {
+  font-size: 1rem;
+}
+.tech-banner .content .h2 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+.tech-banner .content p {
+  color: #626262;
+}
+.tech-banner .banner-col {
+  margin: 0 -10px;
+  padding: 50px 0 0;
+}
+.tech-banner .banner-col .col {
+  padding: 0 10px;
+}
+.tech-banner .banner-col .col .box {
+  border-radius: 36px;
+  padding: 40px 30px;
+}
+.tech-banner .banner-col .col .box figure {
+  margin-bottom: 20px;
+}
+.tech-banner .banner-col .col .box p {
+  color: #7C7C7C;
+}
+.tech-banner .banner-col .col .box:hover {
+  background-color: black;
+  color: white;
+}
+.tech-banner .banner-col .col .box:hover p {
+  color: #D9D9D9;
 }
 /*# sourceMappingURL=omnie.css.map */
