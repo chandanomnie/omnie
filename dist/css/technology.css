@@ -20,7 +20,7 @@
 }
 .tech-banner .banner-col .col .box {
   border-radius: 36px;
-  padding: 40px 30px;
+  padding: 40px 35px;
 }
 .tech-banner .banner-col .col .box figure {
   margin-bottom: 20px;
@@ -49,5 +49,26 @@
 }
 .tech-banner .banner-col .col .box:hover figure svg *[stroke="black"] {
   stroke: white;
+}
+.tech-custom .left {
+  max-width: 450px;
+}
+.tech-custom .left .h3 span {
+  color: #999999;
+}
+.tech-custom .right ul {
+  margin-bottom: 50px;
+}
+.tech-custom .right ul li {
+  margin: 20px 0;
+  font-size: 36px;
+  cursor: pointer;
+}
+.tech-custom .right .points-content {
+  max-width: 310px;
+}
+.tech-custom .right .points-content .content p {
+  color: #D9D9D9;
+  font-size: 16px;
 }
 /*# sourceMappingURL=omnie.css.map */
