@@ -1400,9 +1400,12 @@ html.invertMode .down-arrow path {
   margin-top: 100px;
 }
 .digital-section .digital-slider .item {
-  width: 20%;
   padding: 0px 40px;
-  transition: all 0.5s ease;
+}
+.digital-section .digital-slider .item .box {
+  left: 50%;
+  position: relative;
+  transition: left 0.3s ease-in 0s;
 }
 .digital-section .digital-slider .item figure {
   display: flex;
@@ -1420,6 +1423,7 @@ html.invertMode .down-arrow path {
   opacity: 0;
   width: 476px;
   min-height: 152px;
+  transition: opacity 0.5s ease 0s;
 }
 .digital-section .digital-slider .item .details ul {
   list-style: disc;
@@ -1433,16 +1437,37 @@ html.invertMode .down-arrow path {
   font-size: 16px;
   color: #626262;
 }
-.digital-section .digital-slider .item.active {
-  width: 40% !important;
-}
-.digital-section .digital-slider .item.active .details {
-  opacity: 1;
-}
-.digital-section .digital-slider .item.active .details .btn {
+.digital-section .digital-slider .item .details .btn {
   margin-top: 30px;
 }
-.digital-section .digital-slider .swiper-button-next {
+.digital-section .digital-slider .item.swiper-slide-active .box {
+  left: 0;
+}
+.digital-section .digital-slider .item.swiper-slide-active .details {
+  opacity: 1;
+}
+.digital-section .digital-slider .item ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+.digital-section .digital-slider .item ul li {
+  margin-bottom: 5px;
+}
+.digital-section .digital-slider .item li,
+.digital-section .digital-slider .item p {
+  font-size: 16px;
+  color: #626262;
+}
+.digital-section .digital-slider.active {
+  width: 40% !important;
+}
+.digital-section .digital-slider.active .details {
+  opacity: 1;
+}
+.digital-section .digital-slider.active .details .btn {
+  margin-top: 30px;
+}
+.digital-section .swiper-button-next {
   top: auto;
   bottom: 0;
   width: 50px;
@@ -1451,13 +1476,13 @@ html.invertMode .down-arrow path {
   transition: all 0.3s ease-in;
 }
 @media only screen and (max-width: 767px) {
-  .digital-section .digital-slider .swiper-button-next {
+  .digital-section .swiper-button-next {
     left: 0;
     right: -60px;
     margin: 0 auto;
   }
 }
-.digital-section .digital-slider .swiper-button-prev {
+.digital-section .swiper-button-prev {
   top: auto;
   bottom: 0;
   right: 90px;
@@ -1468,7 +1493,7 @@ html.invertMode .down-arrow path {
   left: auto;
 }
 @media only screen and (max-width: 767px) {
-  .digital-section .digital-slider .swiper-button-prev {
+  .digital-section .swiper-button-prev {
     left: -60px;
     right: 0;
     margin: 0 auto;

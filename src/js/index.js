@@ -212,18 +212,15 @@ jQuery(function ($) {
         prevEl: ".swiper-button-prev",
       },
       loop: true,
-      slidesPerView: "auto",
+      slidesPerView:4,
       // slidesPerGroup : 4,
       allowTouchMove: false,
     });
 
-    $(".digital-slider .box").mouseenter(function () {
-      $(this)
-        .parent(".item")
-        .addClass("active")
-        .siblings()
-        .removeClass("active");
-    });
+    // $('.digital-slider .box').mouseenter(function () {
+    //   $(this).parent('.item').addClass('active').siblings().removeClass('active');
+
+    // });
     // SwiperDigital.on('slideChange', function () {
     //   console.log('slide changed');
     //   $('.swiper-slide-active').addClass('active').siblings().removeClass('active');
