@@ -1269,6 +1269,11 @@ html.invertMode .down-arrow path {
 .tech-banner {
   padding: 50px 0;
 }
+@media only screen and (max-width: 767px) {
+  .tech-banner {
+    height: auto;
+  }
+}
 .tech-banner p {
   font-size: 1rem;
 }
@@ -1276,8 +1281,20 @@ html.invertMode .down-arrow path {
   font-size: 48px;
   line-height: 1.2;
 }
+@media only screen and (max-width: 767px) {
+  .tech-banner .content .h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
 .tech-banner .content p {
   color: #626262;
+}
+@media only screen and (max-width: 767px) {
+  .tech-banner .content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .tech-banner .banner-col {
   margin: 0 -10px;
@@ -1317,6 +1334,15 @@ html.invertMode .down-arrow path {
 }
 .tech-banner .banner-col .col .box:hover figure svg *[stroke="black"] {
   stroke: white;
+}
+@media only screen and (max-width: 767px) {
+  .tech-banner .banner-col {
+    overflow-x: auto;
+    padding-bottom: 15px;
+  }
+  .tech-banner .banner-col .col {
+    min-width: 320px;
+  }
 }
 .tech-custom .left {
   max-width: 450px;
@@ -1394,6 +1420,26 @@ html.invertMode .down-arrow path {
 .tech-custom .right .points-content .content p {
   color: #d9d9d9;
   font-size: 16px;
+}
+.tech-custom .container > div {
+  flex-wrap: wrap;
+}
+.tech-custom .container > div .left {
+  width: 100%;
+}
+.tech-custom .container > div .left .h3 {
+  font-size: 36px;
+  line-height: 42.3px;
+}
+.tech-custom .container > div .right {
+  width: 100%;
+}
+.tech-custom .container > div .right .points .dot {
+  display: none;
+}
+.tech-custom .container > div .right ul li {
+  font-size: 33px;
+  margin-bottom: 15px;
 }
 .digital-section .digital-slider {
   padding-bottom: 50px;

@@ -4,6 +4,10 @@
 .tech-banner {
   padding: 50px 0;
 
+  @media @mobile {
+    height: auto;
+  }
+
   p {
     font-size: 1rem;
   }
@@ -12,10 +16,20 @@
     .h2 {
       font-size: 48px;
       line-height: 1.2;
+
+      @media @mobile {
+        font-size: 36px;
+        line-height: 42px;
+      }
     }
 
     p {
       color: #626262;
+
+      @media @mobile {
+        font-size: 16px;
+        line-height: 24px;
+      }
     }
   }
 
@@ -70,6 +84,14 @@
             }
           }
         }
+      }
+    }
+    @media @mobile {
+      overflow-x: auto;
+      padding-bottom: 15px;
+
+      .col {
+        min-width: 320px;
       }
     }
   }
@@ -177,6 +199,35 @@
         p {
           color: #d9d9d9;
           font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .container {
+    & > div {
+      flex-wrap: wrap;
+      .left {
+        width: 100%;
+
+        .h3 {
+          font-size: 36px;
+          line-height: 42.3px;
+        }
+      }
+
+      .right {
+        width: 100%;
+
+        .points .dot {
+          display: none;
+        }
+
+        ul {
+          li {
+            font-size: 33px;
+            margin-bottom: 15px;
+          }
         }
       }
     }
