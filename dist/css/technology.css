@@ -1277,6 +1277,12 @@ html.invertMode .down-arrow path {
 .tech-banner p {
   font-size: 1rem;
 }
+@media only screen and (max-width: 767px) {
+  .tech-banner p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 .tech-banner .content .h2 {
   font-size: 48px;
   line-height: 1.2;
@@ -1352,6 +1358,11 @@ html.invertMode .down-arrow path {
 }
 .tech-custom .right {
   padding: 80px 0;
+}
+@media only screen and (max-width: 767px) {
+  .tech-custom .right {
+    padding: 50px 0 20px;
+  }
 }
 .tech-custom .right .points {
   position: relative;
@@ -1445,17 +1456,37 @@ html.invertMode .down-arrow path {
   padding-bottom: 50px;
   margin-top: 100px;
 }
+@media only screen and (max-width: 767px) {
+  .digital-section .digital-slider {
+    margin-top: 50px;
+  }
+}
 .digital-section .digital-slider .item {
   padding: 0px 40px;
+}
+@media only screen and (max-width: 767px) {
+  .digital-section .digital-slider .item {
+    padding: 0;
+  }
 }
 .digital-section .digital-slider .item .box {
   left: 50%;
   position: relative;
   transition: left 0.3s ease-in 0s;
 }
+@media only screen and (max-width: 767px) {
+  .digital-section .digital-slider .item .box {
+    left: 0;
+  }
+}
 .digital-section .digital-slider .item figure {
   display: flex;
   height: 110px;
+}
+@media only screen and (max-width: 767px) {
+  .digital-section .digital-slider .item figure {
+    justify-content: center;
+  }
 }
 .digital-section .digital-slider .item figure svg,
 .digital-section .digital-slider .item figure img {
@@ -1470,6 +1501,12 @@ html.invertMode .down-arrow path {
   width: 476px;
   min-height: 152px;
   transition: opacity 0.5s ease 0s;
+}
+@media only screen and (max-width: 767px) {
+  .digital-section .digital-slider .item .details {
+    max-width: 100%;
+    margin-bottom: 55px;
+  }
 }
 .digital-section .digital-slider .item .details ul {
   list-style: disc;
@@ -1551,6 +1588,18 @@ html.invertMode .down-arrow path {
   line-height: 30px;
   font-weight: 300;
   color: #626262;
+}
+@media only screen and (max-width: 767px) {
+  .fluent-section .fluent-content {
+    margin-top: 50px;
+  }
+  .fluent-section .fluent-content-left {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .fluent-section .fluent-content-right {
+    width: 100%;
+  }
 }
 .digital-section .digital-slider .swiper-button-next {
   top: auto;

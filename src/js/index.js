@@ -212,9 +212,19 @@ jQuery(function ($) {
         prevEl: ".swiper-button-prev",
       },
       loop: true,
-      slidesPerView:4,
+      slidesPerView: 4,
       // slidesPerGroup : 4,
       allowTouchMove: false,
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+        },
+        // when window width is >= 640px
+        768: {
+          slidesPerView: 1,
+        },
+      },
     });
 
     // $('.digital-slider .box').mouseenter(function () {
