@@ -1506,7 +1506,7 @@ html.invertMode .down-arrow path {
   font-weight: 300;
   color: #626262;
 }
-.swiper-button-next {
+.digital-section .digital-slider .swiper-button-next {
   top: auto;
   bottom: 0;
   width: 50px;
@@ -1515,13 +1515,13 @@ html.invertMode .down-arrow path {
   transition: all 0.3s ease-in;
 }
 @media only screen and (max-width: 767px) {
-  .swiper-button-next {
+  .digital-section .digital-slider .swiper-button-next {
     left: 0;
     right: -60px;
     margin: 0 auto;
   }
 }
-.swiper-button-prev {
+.digital-section .digital-slider .swiper-button-prev {
   top: auto;
   bottom: 0;
   right: 90px;
@@ -1532,7 +1532,7 @@ html.invertMode .down-arrow path {
   left: auto;
 }
 @media only screen and (max-width: 767px) {
-  .swiper-button-prev {
+  .digital-section .digital-slider .swiper-button-prev {
     left: -60px;
     right: 0;
     margin: 0 auto;
