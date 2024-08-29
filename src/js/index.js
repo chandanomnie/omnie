@@ -198,7 +198,31 @@ jQuery(function ($) {
     });
 
   }
+  if ($('.digital-slider').length) {
+    let SwiperDigital = new Swiper(".digital-slider", {
+      spaceBetween: 0,
+      centeredSlides: false,
+      speed: 700,
+      // direction: "vertical",
+      observer: true,
+      observeParents: true,
+      // autoplay: {
+      //   delay: 1,
+      //   disableOnInteraction: false,
+      //   pauseOnMouseEnter: true,
+      // },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      loop: true,
+      slidesPerView: "auto",
+      // slidesPerGroup : 4,
+      allowTouchMove: false,
+    });
 
+
+  }
 
   scrollContent();
 });
