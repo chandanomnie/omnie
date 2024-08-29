@@ -169,38 +169,32 @@ jQuery(function ($) {
         }, 200);
       },
     });
-
-
   }
 
   if (jQuery("[data-splitting]").length) {
-
     Splitting({
       /* target: String selector, Element, Array of Elements, or NodeList */
       target: "[data-splitting]",
       /* by: String of the plugin name */
       by: "chars",
       /* key: Optional String to prefix the CSS variables */
-      key: null
-
+      key: null,
     });
-
-
   }
-  if ($('.tech-custom .right .points ul').length) {
-    $('.tech-custom .right ul li').mouseenter(function () {
-      $(this).addClass('active').siblings().removeClass('active');
+  if ($(".tech-custom .right .points ul").length) {
+    $(".tech-custom .right ul li").mouseenter(function () {
+      $(this).addClass("active").siblings().removeClass("active");
       var getPos = $(this).position().top;
       var getIndex = $(this).index();
       console.log(getPos);
-      $('.tech-custom .right .points .dot').stop().animate({ top: getPos + 30 });
-      $('.points-content .content').hide();
-      $('.points-content .content').eq(getIndex).show();
-
+      $(".tech-custom .right .points .dot")
+        .stop()
+        .animate({ top: getPos + 30 });
+      $(".points-content .content").hide();
+      $(".points-content .content").eq(getIndex).show();
     });
-
   }
-  if ($('.digital-slider').length) {
+  if ($(".digital-slider").length) {
     let SwiperDigital = new Swiper(".digital-slider", {
       spaceBetween: 0,
       centeredSlides: false,
@@ -223,9 +217,12 @@ jQuery(function ($) {
       allowTouchMove: false,
     });
 
-    $('.digital-slider .box').mouseenter(function () {
-      $(this).parent('.item').addClass('active').siblings().removeClass('active');
-
+    $(".digital-slider .box").mouseenter(function () {
+      $(this)
+        .parent(".item")
+        .addClass("active")
+        .siblings()
+        .removeClass("active");
     });
     // SwiperDigital.on('slideChange', function () {
     //   console.log('slide changed');
@@ -273,7 +270,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
@@ -458,58 +455,62 @@ function whichBrs() {
   else return navigator.userAgent;
 }
 
-var words = document.getElementsByClassName("word");
-var wordArray = [];
-var currentWord = 0;
+if (jQuery(".word").length) {
+  var words = document.getElementsByClassName("word");
+  var wordArray = [];
+  var currentWord = 0;
 
-words[currentWord].style.opacity = 1;
-for (var i = 0; i < words.length; i++) {
-  splitLetters(words[i]);
-}
-
-function changeWord() {
-  var cw = wordArray[currentWord];
-  var nw =
-    currentWord == words.length - 1 ? wordArray[0] : wordArray[currentWord + 1];
-  for (var i = 0; i < cw.length; i++) {
-    animateLetterOut(cw, i);
+  words[currentWord].style.opacity = 1;
+  for (var i = 0; i < words.length; i++) {
+    splitLetters(words[i]);
   }
 
-  for (var i = 0; i < nw.length; i++) {
-    nw[i].className = "letter behind";
-    nw[0].parentElement.style.opacity = 1;
-    animateLetterIn(nw, i);
+  function changeWord() {
+    var cw = wordArray[currentWord];
+    var nw =
+      currentWord == words.length - 1
+        ? wordArray[0]
+        : wordArray[currentWord + 1];
+    for (var i = 0; i < cw.length; i++) {
+      animateLetterOut(cw, i);
+    }
+
+    for (var i = 0; i < nw.length; i++) {
+      nw[i].className = "letter behind";
+      nw[0].parentElement.style.opacity = 1;
+      animateLetterIn(nw, i);
+    }
+
+    currentWord = currentWord == wordArray.length - 1 ? 0 : currentWord + 1;
   }
 
-  currentWord = currentWord == wordArray.length - 1 ? 0 : currentWord + 1;
-}
-
-function animateLetterOut(cw, i) {
-  setTimeout(function () {
-    cw[i].className = "letter out";
-  }, i * 80);
-}
-
-function animateLetterIn(nw, i) {
-  setTimeout(function () {
-    nw[i].className = "letter in";
-  }, 340 + i * 80);
-}
-
-function splitLetters(word) {
-  var content = word.innerHTML;
-  word.innerHTML = "";
-  var letters = [];
-  for (var i = 0; i < content.length; i++) {
-    var letter = document.createElement("span");
-    letter.className = "letter";
-    letter.innerHTML = content.charAt(i);
-    word.appendChild(letter);
-    letters.push(letter);
+  function animateLetterOut(cw, i) {
+    setTimeout(function () {
+      cw[i].className = "letter out";
+    }, i * 80);
   }
 
-  wordArray.push(letters);
-}
+  function animateLetterIn(nw, i) {
+    setTimeout(function () {
+      nw[i].className = "letter in";
+    }, 340 + i * 80);
+  }
 
-changeWord();
-setInterval(changeWord, 4000);
+  function splitLetters(word) {
+    var content = word.innerHTML;
+    word.innerHTML = "";
+    var letters = [];
+    for (var i = 0; i < content.length; i++) {
+      var letter = document.createElement("span");
+      letter.className = "letter";
+      letter.innerHTML = content.charAt(i);
+      word.appendChild(letter);
+      letters.push(letter);
+    }
+
+    wordArray.push(letters);
+  }
+
+  changeWord();
+  setInterval(changeWord, 4000);
+}
