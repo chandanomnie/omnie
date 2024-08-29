@@ -212,7 +212,7 @@ jQuery(function ($) {
         prevEl: ".swiper-button-prev",
       },
       loop: true,
-      slidesPerView: 4,
+      slidesPerView:4,
       // slidesPerGroup : 4,
       allowTouchMove: false,
     });

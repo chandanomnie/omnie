@@ -1400,9 +1400,12 @@ html.invertMode .down-arrow path {
   margin-top: 100px;
 }
 .digital-section .digital-slider .item {
-  width: 20%;
   padding: 0px 40px;
-  transition: all 0.5s ease;
+}
+.digital-section .digital-slider .item .box {
+  left: 50%;
+  position: relative;
+  transition: left 0.3s ease-in 0s;
 }
 .digital-section .digital-slider .item figure {
   display: flex;
@@ -1436,11 +1439,12 @@ html.invertMode .down-arrow path {
 .digital-section .digital-slider .item .details .btn {
   margin-top: 30px;
 }
-.digital-section .digital-slider .item.swiper-slide-active {
-  width: 40% !important;
+.digital-section .digital-slider .item.swiper-slide-active .box {
+  left: 0;
 }
 .digital-section .digital-slider .item.swiper-slide-active .details {
   opacity: 1;
+  transition: opacity 0.5s ease 0s;
 }
 .digital-section .digital-slider .item ul {
   list-style: disc;

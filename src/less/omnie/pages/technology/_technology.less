@@ -189,9 +189,15 @@
     margin-top: 100px;
 
     .item {
-      width: 20%;
+      // width: 12%;
       padding: 0px 40px;
-      transition: all 0.5s ease;
+      // transition: all 0.5s ease;
+
+      .box {
+        left: 50%;
+        position: relative;
+        transition: left 0.3s ease-in 0s;
+      }
 
       figure {
         display: flex;
@@ -212,7 +218,7 @@
         opacity: 0;
         width: 476px;
         min-height: 152px;
-
+        
         ul {
           list-style: disc;
           margin-left: 20px;
@@ -227,18 +233,24 @@
           font-size: 16px;
           color: #626262;
         }
+
         .btn {
           margin-top: 30px;
         }
       }
 
       &.swiper-slide-active {
-        width: 40% !important;
+
+        // width: 40% !important;
+        .box {
+          left: 0;
+          // transition: none;
+        }
 
         .details {
           opacity: 1;
+          transition: opacity 0.5s ease 0s;
 
-      
         }
       }
 
