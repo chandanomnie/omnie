@@ -1467,38 +1467,6 @@ html.invertMode .down-arrow path {
 .digital-section .digital-slider.active .details .btn {
   margin-top: 30px;
 }
-.digital-section .swiper-button-next {
-  top: auto;
-  bottom: 0;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #000;
-  transition: all 0.3s ease-in;
-}
-@media only screen and (max-width: 767px) {
-  .digital-section .swiper-button-next {
-    left: 0;
-    right: -60px;
-    margin: 0 auto;
-  }
-}
-.digital-section .swiper-button-prev {
-  top: auto;
-  bottom: 0;
-  right: 90px;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #000;
-  transition: all 0.3s ease-in;
-  left: auto;
-}
-@media only screen and (max-width: 767px) {
-  .digital-section .swiper-button-prev {
-    left: -60px;
-    right: 0;
-    margin: 0 auto;
-  }
-}
 .fluent-section {
   background: #f8f8f8;
 }
@@ -1537,5 +1505,37 @@ html.invertMode .down-arrow path {
   line-height: 30px;
   font-weight: 300;
   color: #626262;
+}
+.swiper-button-next {
+  top: auto;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  transition: all 0.3s ease-in;
+}
+@media only screen and (max-width: 767px) {
+  .swiper-button-next {
+    left: 0;
+    right: -60px;
+    margin: 0 auto;
+  }
+}
+.swiper-button-prev {
+  top: auto;
+  bottom: 0;
+  right: 90px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  transition: all 0.3s ease-in;
+  left: auto;
+}
+@media only screen and (max-width: 767px) {
+  .swiper-button-prev {
+    left: -60px;
+    right: 0;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=omnie.css.map */
