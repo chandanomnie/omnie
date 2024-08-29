@@ -1297,14 +1297,14 @@ html.invertMode .down-arrow path {
   stroke: black;
 }
 .tech-banner .banner-col .col .box p {
-  color: #7C7C7C;
+  color: #7c7c7c;
 }
 .tech-banner .banner-col .col .box:hover {
   background-color: black;
   color: white;
 }
 .tech-banner .banner-col .col .box:hover p {
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 .tech-banner .banner-col .col .box:hover figure svg *[fill="black"] {
   fill: white;
@@ -1337,7 +1337,7 @@ html.invertMode .down-arrow path {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: #F48220;
+  background: #f48220;
 }
 .tech-custom .right ul {
   margin-bottom: 50px;
@@ -1368,7 +1368,7 @@ html.invertMode .down-arrow path {
   left: 0;
   top: 0;
   position: absolute;
-  color: #F48220;
+  color: #f48220;
 }
 .tech-custom .right ul li .box.hover .char {
   position: relative;
@@ -1392,7 +1392,7 @@ html.invertMode .down-arrow path {
   max-width: 310px;
 }
 .tech-custom .right .points-content .content p {
-  color: #D9D9D9;
+  color: #d9d9d9;
   font-size: 16px;
 }
 .digital-section .digital-slider {
@@ -1473,5 +1473,44 @@ html.invertMode .down-arrow path {
     right: 0;
     margin: 0 auto;
   }
+}
+.fluent-section {
+  background: #f8f8f8;
+}
+.fluent-section .fluent-svg {
+  display: flex;
+  justify-content: flex-end;
+}
+.fluent-section .fluent-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.fluent-section .fluent-content-left {
+  width: 50%;
+  max-width: 653px;
+}
+.fluent-section .fluent-content-left p {
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.fluent-section .fluent-content-right {
+  width: 50%;
+  max-width: 412px;
+}
+.fluent-section .fluent-content-right p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #626262;
 }
 /*# sourceMappingURL=omnie.css.map */
