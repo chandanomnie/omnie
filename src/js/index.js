@@ -169,6 +169,8 @@ jQuery(function ($) {
         }, 200);
       },
     });
+
+
   }
 
   if (jQuery("[data-splitting]").length) {
@@ -204,8 +206,8 @@ jQuery(function ($) {
       centeredSlides: false,
       speed: 700,
       // direction: "vertical",
-      observer: true,
-      observeParents: true,
+      // observer: true,
+      // observeParents: true,
       // autoplay: {
       //   delay: 1,
       //   disableOnInteraction: false,
@@ -221,7 +223,14 @@ jQuery(function ($) {
       allowTouchMove: false,
     });
 
+    $('.digital-slider .box').mouseenter(function () {
+      $(this).parent('.item').addClass('active').siblings().removeClass('active');
 
+    });
+    // SwiperDigital.on('slideChange', function () {
+    //   console.log('slide changed');
+    //   $('.swiper-slide-active').addClass('active').siblings().removeClass('active');
+    // });
   }
 
   scrollContent();
