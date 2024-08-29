@@ -1433,13 +1433,13 @@ html.invertMode .down-arrow path {
   font-size: 16px;
   color: #626262;
 }
-.digital-section .digital-slider .item.active {
+.digital-section .digital-slider .item.swiper-slide-active {
   width: 40% !important;
 }
-.digital-section .digital-slider .item.active .details {
+.digital-section .digital-slider .item.swiper-slide-active .details {
   opacity: 1;
 }
-.digital-section .digital-slider .item.active .details .btn {
+.digital-section .digital-slider .item.swiper-slide-active .details .btn {
   margin-top: 30px;
 }
 .digital-section .digital-slider .swiper-button-next {
