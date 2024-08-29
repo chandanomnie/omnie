@@ -452,17 +452,10 @@ function whichBrs() {
   else return navigator.userAgent;
 }
 
-<<<<<<< HEAD
-
-var words = document.getElementsByClassName("word");
-var wordArray = [];
-var currentWord = 0;
-=======
 if (jQuery(".word").length) {
   var words = document.getElementsByClassName("word");
   var wordArray = [];
   var currentWord = 0;
->>>>>>> 419db09830eb8163d6901098a0ace9839b8f9e55
 
   words[currentWord].style.opacity = 1;
   for (var i = 0; i < words.length; i++) {
