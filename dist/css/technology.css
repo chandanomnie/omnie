@@ -1423,6 +1423,7 @@ html.invertMode .down-arrow path {
   opacity: 0;
   width: 476px;
   min-height: 152px;
+  transition: opacity 0.5s ease 0s;
 }
 .digital-section .digital-slider .item .details ul {
   list-style: disc;
@@ -1444,7 +1445,6 @@ html.invertMode .down-arrow path {
 }
 .digital-section .digital-slider .item.swiper-slide-active .details {
   opacity: 1;
-  transition: opacity 0.5s ease 0s;
 }
 .digital-section .digital-slider .item ul {
   list-style: disc;
