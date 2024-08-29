@@ -2312,6 +2312,32 @@ html.invertMode .count-container-left p {
   .clients-logo .client-logo-container {
     flex-wrap: wrap;
     overflow: hidden;
+    position: relative;
+  }
+  .clients-logo .client-logo-container .swiper-next {
+    position: absolute;
+    bottom: 0;
+    left: -45px;
+    right: 0;
+    margin: 0 auto;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    z-index: 9;
+  }
+  .clients-logo .client-logo-container .swiper-prev {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: -45px;
+    margin: 0 auto;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    z-index: 9;
+  }
+  .clients-logo .client-logo-container .swiper-button-disabled {
+    opacity: 0.5;
   }
 }
 .clients-logo .client-logo-item {
@@ -2330,6 +2356,11 @@ html.invertMode .count-container-left p {
 }
 .clients-logo .client-logo-item img {
   max-height: 90px;
+}
+@media only screen and (max-width: 767px) {
+  .clients-logo .client-logo-item img {
+    max-height: 50px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .clients-logo .swiper-wrapper {
