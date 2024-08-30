@@ -1274,6 +1274,11 @@ html.invertMode .down-arrow path {
     height: auto;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tech-banner {
+    height: auto;
+  }
+}
 .tech-banner p {
   font-size: 1rem;
 }
@@ -1281,6 +1286,11 @@ html.invertMode .down-arrow path {
   .tech-banner p {
     font-size: 14px;
     line-height: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tech-banner .content {
+    width: 100%;
   }
 }
 .tech-banner .content .h2 {
@@ -1291,6 +1301,12 @@ html.invertMode .down-arrow path {
   .tech-banner .content .h2 {
     font-size: 36px;
     line-height: 42px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tech-banner .content .h5 {
+    font-size: 24px;
+    line-height: 28px;
   }
 }
 .tech-banner .content p {
@@ -1312,6 +1328,12 @@ html.invertMode .down-arrow path {
 .tech-banner .banner-col .col .box {
   border-radius: 36px;
   padding: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .tech-banner .banner-col .col .box .h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 .tech-banner .banner-col .col .box figure {
   margin-bottom: 20px;
@@ -1345,6 +1367,16 @@ html.invertMode .down-arrow path {
   .tech-banner .banner-col {
     overflow-x: auto;
     padding-bottom: 15px;
+  }
+  .tech-banner .banner-col .col {
+    min-width: 320px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tech-banner .banner-col {
+    overflow-x: auto;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
   }
   .tech-banner .banner-col .col {
     min-width: 320px;
@@ -1432,25 +1464,27 @@ html.invertMode .down-arrow path {
   color: #d9d9d9;
   font-size: 16px;
 }
-.tech-custom .container > div {
-  flex-wrap: wrap;
-}
-.tech-custom .container > div .left {
-  width: 100%;
-}
-.tech-custom .container > div .left .h3 {
-  font-size: 36px;
-  line-height: 42.3px;
-}
-.tech-custom .container > div .right {
-  width: 100%;
-}
-.tech-custom .container > div .right .points .dot {
-  display: none;
-}
-.tech-custom .container > div .right ul li {
-  font-size: 33px;
-  margin-bottom: 15px;
+@media only screen and (max-width: 767px) {
+  .tech-custom .container > div {
+    flex-wrap: wrap;
+  }
+  .tech-custom .container > div .left {
+    width: 100%;
+  }
+  .tech-custom .container > div .left .h3 {
+    font-size: 36px;
+    line-height: 42.3px;
+  }
+  .tech-custom .container > div .right {
+    width: 100%;
+  }
+  .tech-custom .container > div .right .points .dot {
+    display: none;
+  }
+  .tech-custom .container > div .right ul li {
+    font-size: 33px;
+    margin-bottom: 15px;
+  }
 }
 .digital-section .digital-slider {
   padding-bottom: 50px;
@@ -1496,6 +1530,12 @@ html.invertMode .down-arrow path {
   margin: 5px 0 20px;
   font-size: 24px;
 }
+@media only screen and (max-width: 767px) {
+  .digital-section .digital-slider .item h3 {
+    margin: 0 0 20px;
+    text-align: center;
+  }
+}
 .digital-section .digital-slider .item .details {
   opacity: 0;
   width: 476px;
@@ -1514,6 +1554,11 @@ html.invertMode .down-arrow path {
 }
 .digital-section .digital-slider .item .details ul li {
   margin-bottom: 5px;
+}
+@media only screen and (max-width: 767px) {
+  .digital-section .digital-slider .item .details ul li:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 .digital-section .digital-slider .item .details li,
 .digital-section .digital-slider .item .details p {
@@ -1556,6 +1601,11 @@ html.invertMode .down-arrow path {
 .fluent-section .fluent-svg {
   display: flex;
   justify-content: flex-end;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fluent-section .section-title {
+    width: 100%;
+  }
 }
 .fluent-section .fluent-content {
   display: -webkit-box;
@@ -1612,7 +1662,7 @@ html.invertMode .down-arrow path {
 @media only screen and (max-width: 767px) {
   .digital-section .digital-slider .swiper-button-next {
     left: 0;
-    right: -60px;
+    right: -40px;
     margin: 0 auto;
   }
 }
@@ -1628,7 +1678,7 @@ html.invertMode .down-arrow path {
 }
 @media only screen and (max-width: 767px) {
   .digital-section .digital-slider .swiper-button-prev {
-    left: -60px;
+    left: -90px;
     right: 0;
     margin: 0 auto;
   }
