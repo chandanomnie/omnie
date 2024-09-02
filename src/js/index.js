@@ -224,6 +224,9 @@ jQuery(function ($) {
         768: {
           slidesPerView: 1,
         },
+        769: {
+          slidesPerView: 4,
+        },
       },
     });
 
