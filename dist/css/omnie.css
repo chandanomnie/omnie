@@ -2573,6 +2573,15 @@ html.dark {
   background: #000;
   color: #fff;
 }
+.btn.btn-tertiary {
+  border: 1.5px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+.btn.btn-tertiary:hover {
+  background: #fff;
+  color: #000;
+}
 .btn.btn-white-transparent {
   background: none;
   border: 1.5px solid #fff;
@@ -3177,6 +3186,13 @@ html.menu-open .main-nav * {
   }
 }
 /*Footer End*/
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 .custom-select {
   position: relative;
 }
