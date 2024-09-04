@@ -288,13 +288,13 @@ jQuery(function ($) {
 
   if ($(".life-slider-mobile").length) {
     new Swiper(".life-slider-mobile", {
-      spaceBetween: 0,
       centeredSlides: true,
-      speed: 700,
+      speed: 1500,
       loop: true,
-      slidesPerView: 1,
       allowTouchMove: true,
-      autoHeight: false,
+      slidesPerView: "auto",
+      observeParents: true,
+      observer: true,
     });
   }
 });
