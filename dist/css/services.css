@@ -22,6 +22,10 @@
   background-color: #f6f6f6;
   opacity: 0 !important;
 }
+.services-banner .right .services-slider .item .details .link-btn {
+  margin-top: 30px;
+  display: table;
+}
 .services-banner .right .services-slider .item.swiper-slide-active {
   opacity: 1 !important;
 }
