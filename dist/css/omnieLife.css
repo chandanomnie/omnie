@@ -2109,6 +2109,19 @@ html.invertMode .down-arrow path {
   font-weight: 600;
   line-height: 56.4px;
 }
+@media only screen and (max-width: 767px) {
+  .life-banner .item {
+    flex-wrap: wrap;
+  }
+  .life-banner .item .left-content {
+    padding-left: 0;
+    width: 100%;
+  }
+  .life-banner .item .left-content .h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
 html.invertMode .life-banner {
   background: #000;
   color: #fff;
@@ -2145,12 +2158,35 @@ html.invertMode .life-banner path {
 .guided-by-values .grid .item p:first-child {
   margin-bottom: 32px;
 }
+@media only screen and (max-width: 767px) {
+  .guided-by-values .grid {
+    flex-wrap: wrap;
+  }
+  .guided-by-values .grid .item {
+    width: 100%;
+  }
+  .guided-by-values .grid .item .h2 {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 35px;
+  }
+  .guided-by-values .grid .item p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
 .common-content .container {
   max-width: 1460px;
 }
 .benfits-section .h2 {
   margin-bottom: 60px;
   max-width: 672px;
+}
+@media only screen and (max-width: 767px) {
+  .benfits-section .h2 {
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
 }
 .benfits-section .h5 {
   font-size: 24px;
@@ -2164,6 +2200,21 @@ html.invertMode .life-banner path {
   font-size: 24px;
   font-weight: 500;
   line-height: 28.2px;
+}
+@media only screen and (max-width: 767px) {
+  .benfits-section .benfits-row {
+    flex-wrap: wrap;
+  }
+  .benfits-section .benfits-row > div {
+    width: 100%;
+    max-width: 100%;
+  }
+  .benfits-section .benfits-row .w30 {
+    max-width: 100%;
+  }
+  .benfits-section .benfits-row .w30 h4 {
+    margin-bottom: 50px;
+  }
 }
 .benfits-section .col {
   width: 45%;
@@ -2248,15 +2299,91 @@ html.invertMode .benfits-section svg *[fill="#000"] {
 .life-section .life-slider .swiper-container .swiper-wrapper {
   position: relative;
 }
+@media only screen and (max-width: 767px) {
+  .life-section .life-slider {
+    padding: 0;
+  }
+  .life-section .life-slider .swiper-slide {
+    padding: 35px 30px 0 30px;
+  }
+  .life-section .life-slider .swiper-slide figure {
+    border-radius: 36px;
+    overflow: hidden;
+    top: 0 !important;
+  }
+  .life-section .life-slider .swiper-slide figure img {
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+  .life-section .life-slider .swiper-slide .shiftDown figure {
+    top: 0;
+  }
+}
 .life-btm figure {
   width: 100%;
   padding-bottom: 42%;
 }
+@media only screen and (max-width: 767px) {
+  .life-btm figure {
+    padding-bottom: 135%;
+    background-position: center center;
+  }
+}
 .life-btm .content {
   text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .life-btm .content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 .life-btm .content .h2 {
   margin: 0 auto 40px;
   max-width: 490px;
+}
+@media only screen and (max-width: 767px) {
+  .benifits-swiper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 85px;
+    padding-bottom: 80px;
+  }
+  .benifits-swiper .swiper-button-next,
+  .benifits-swiper .swiper-button-prev {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    border: 1.5px solid #000;
+    width: 50px;
+    height: 50px;
+  }
+  .benifits-swiper .swiper-button-next {
+    left: 70px;
+  }
+  .benifits-swiper-second {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+  }
+  .benifits-swiper-second .swiper-button-next,
+  .benifits-swiper-second .swiper-button-prev {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    border: 1.5px solid #000;
+    width: 50px;
+    height: 50px;
+  }
+  .benifits-swiper-second .swiper-button-next {
+    left: 70px;
+  }
+  .benfits-section .col {
+    width: 100%;
+    margin-bottom: auto;
+  }
 }
 /*# sourceMappingURL=omnie.css.map */
