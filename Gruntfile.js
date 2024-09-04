@@ -36,8 +36,12 @@ module.exports = function (grunt) {
           "dist/css/omnie.css": "src/less/omnie.less",
           "dist/css/home.css": "src/less/omnie/pages/home/_home.less",
           "dist/css/aboutUs.css": "src/less/omnie/pages/aboutUs/_aboutUs.less",
-          "dist/css/omnieLife.css": "src/less/omnie/pages/omnieLife/_omnieLife.less",
-          "dist/css/technology.css": "src/less/omnie/pages/technology/_technology.less",
+          "dist/css/omnieLife.css":
+            "src/less/omnie/pages/omnieLife/_omnieLife.less",
+          "dist/css/technology.css":
+            "src/less/omnie/pages/technology/_technology.less",
+          "dist/css/services.css":
+            "src/less/omnie/pages/technology/_services.less",
         },
         options: {
           compress: false,
