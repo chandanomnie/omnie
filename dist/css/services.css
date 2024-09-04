@@ -1,0 +1,52 @@
+.services-banner {
+  padding: 70px 0;
+}
+.services-banner p {
+  font-size: 16px;
+  color: #626262;
+}
+.services-banner .right {
+  padding: 100px 0;
+}
+.services-banner .right figure {
+  margin-bottom: 10px;
+}
+.services-banner .right .details {
+  max-width: 287px;
+}
+.services-banner .right .services-slider {
+  display: block;
+  position: relative;
+}
+.services-banner .right .services-slider .item {
+  background-color: #f6f6f6;
+  opacity: 0!important;
+}
+.services-banner .right .services-slider .item.swiper-slide-active {
+  opacity: 1!important;
+}
+.services-banner .right .services-slider .item:nth-child(2) .box {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+}
+.services-banner .right .services-slider .item:nth-child(2) .box .details {
+  padding-left: 30px;
+}
+.services-banner .right .services-slider .item:nth-child(3) .box {
+  display: table;
+}
+.services-banner .right .services-slider .item:nth-child(3) .box .details {
+  display: table;
+  margin-left: auto;
+  padding-right: 50px;
+}
+.services-banner .right .services-slider .swiper-button-next,
+.services-banner .right .services-slider .swiper-button-prev {
+  left: 110%;
+  right: auto;
+}
+.services-banner .right .services-slider .swiper-button-next {
+  margin-left: 60px;
+}
+/*# sourceMappingURL=omnie.css.map */

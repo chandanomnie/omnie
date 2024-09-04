@@ -1478,6 +1478,10 @@
   height: calc(100vh - 78px);
 }
 
+.bannerHeightSansFooter {
+  height: calc(100vh - 185px);
+}
+
 .h100 {
   height: 100%;
 }
@@ -1503,8 +1507,7 @@
   position: relative;
 
   &-front {
-    img {
-    }
+    img {}
   }
 
   &-back {
@@ -1528,5 +1531,29 @@
 
   100% {
     transform: translateY(0px);
+  }
+}
+
+
+.link-btn {
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 16px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    background: currentColor;
+    width: 20px;
+    transition: all 0.5s ease;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
   }
 }

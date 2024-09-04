@@ -1229,6 +1229,9 @@ html.invertMode .bg-light-grey {
 .bannerHeight {
   height: calc(100vh - 78px);
 }
+.bannerHeightSansFooter {
+  height: calc(100vh - 185px);
+}
 .h100 {
   height: 100%;
 }
@@ -1265,6 +1268,24 @@ html.invertMode .down-arrow path {
   100% {
     transform: translateY(0px);
   }
+}
+.link-btn {
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+.link-btn:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: currentColor;
+  width: 20px;
+  transition: all 0.5s ease;
+}
+.link-btn:hover::after {
+  width: 100%;
 }
 .fancybox-active {
   height: auto;

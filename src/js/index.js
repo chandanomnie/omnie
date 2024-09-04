@@ -72,6 +72,18 @@ jQuery(function ($) {
     $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
   });
 
+  if ($(".services-slider").length) {
+    new Swiper(".services-slider", {
+      spaceBetween: 30,
+      effect: "fade",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
+    });
+  }
+
+
   if ($(".client-logo-slider").length) {
     new Swiper(".client-logo-slider", {
       spaceBetween: 0,
@@ -324,7 +336,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },

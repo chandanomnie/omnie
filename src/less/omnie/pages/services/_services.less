@@ -1,0 +1,69 @@
+.services-banner {
+    padding: 70px 0;
+
+    p {
+        font-size: 16px;
+        color: #626262;
+    }
+
+    .right {
+        padding: 100px 0;
+
+        figure {
+            margin-bottom: 10px;
+        }
+
+        .details {
+            max-width: 287px;
+        }
+
+        .services-slider {
+            display: block;
+            position: relative;
+
+            .item {
+                background-color: #f6f6f6;
+                opacity: 0!important;
+                &.swiper-slide-active{
+                    opacity: 1!important;
+                }
+
+                &:nth-child(2) {
+                    .box {
+                        display: flex;
+                        position: relative;
+                        align-items: flex-end;
+
+                        .details {
+                            padding-left: 30px;
+                        }
+                    }
+                }
+
+                &:nth-child(3) {
+                    .box {
+                        display: table;
+
+                        .details {
+                            display: table;
+                            margin-left: auto;
+                            padding-right: 50px;
+                        }
+                    }
+
+                }
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                left: 110%;
+                right: auto;
+
+            }
+
+            .swiper-button-next {
+                margin-left: 60px;
+            }
+        }
+    }
+}

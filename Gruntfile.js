@@ -41,7 +41,7 @@ module.exports = function (grunt) {
           "dist/css/technology.css":
             "src/less/omnie/pages/technology/_technology.less",
           "dist/css/services.css":
-            "src/less/omnie/pages/technology/_services.less",
+            "src/less/omnie/pages/services/_services.less",
         },
         options: {
           compress: false,
@@ -92,6 +92,9 @@ module.exports = function (grunt) {
       },
       technology: {
         files: { "technology.html": ["components/technology/technology.hbs"] },
+      },
+      services: {
+        files: { "services.html": ["components/services/services.hbs"] },
       },
       webInterface: {
         files: {
