@@ -29,6 +29,19 @@
         line-height: 56.4px;
       }
     }
+    @media @mobile {
+      flex-wrap: wrap;
+
+      .left-content {
+        padding-left: 0;
+        width: 100%;
+
+        .h2 {
+          font-size: 36px;
+          line-height: 42px;
+        }
+      }
+    }
   }
 
   html.invertMode & {
@@ -72,6 +85,25 @@
         }
       }
     }
+
+    @media @mobile {
+      flex-wrap: wrap;
+
+      .item {
+        width: 100%;
+
+        .h2 {
+          font-size: 36px;
+          line-height: 42px;
+          margin-bottom: 35px;
+        }
+
+        p {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+    }
   }
 }
 
@@ -85,6 +117,11 @@
   .h2 {
     margin-bottom: 60px;
     max-width: 672px;
+
+    @media @mobile {
+      margin-bottom: 40px;
+      max-width: 100%;
+    }
   }
 
   .h5 {
@@ -101,6 +138,23 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 28.2px;
+      }
+    }
+
+    @media @mobile {
+      flex-wrap: wrap;
+
+      & > div {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .w30 {
+        max-width: 100%;
+
+        h4 {
+          margin-bottom: 50px;
+        }
       }
     }
   }
@@ -209,19 +263,32 @@
     }
 
     .swiper-container .swiper-wrapper {
-      // align-items: flex-end;
-      // transition-timing-function: linear !important;
       position: relative;
-      // will-change: transform;
-
-      html.fancybox-active & {
-        // transition: none !important;
-      }
     }
 
-    &.life-slider2 {
-      .swiper-container .swiper-wrapper {
-        // align-items: flex-start;
+    @media @mobile {
+      padding: 0;
+
+      .swiper-slide {
+        padding: 35px 30px 0 30px;
+
+        figure {
+          border-radius: 36px;
+          overflow: hidden;
+          top: 0 !important;
+          img {
+            height: 370px;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+          }
+        }
+
+        .shiftDown {
+          figure {
+            top: 0;
+          }
+        }
       }
     }
   }
@@ -231,14 +298,73 @@
   figure {
     width: 100%;
     padding-bottom: 42%;
+
+    @media @mobile {
+      padding-bottom: 135%;
+      background-position: center center;
+    }
   }
 
   .content {
     text-align: center;
 
+    @media @mobile {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
     .h2 {
       margin: 0 auto 40px;
       max-width: 490px;
     }
+  }
+}
+
+@media @mobile {
+  .benifits-swiper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 85px;
+    padding-bottom: 80px;
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: auto;
+      bottom: 0;
+      left: 0;
+      border: 1.5px solid #000;
+      width: 50px;
+      height: 50px;
+    }
+
+    .swiper-button-next {
+      left: 70px;
+    }
+  }
+
+  .benifits-swiper-second {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: auto;
+      bottom: 0;
+      left: 0;
+      border: 1.5px solid #000;
+      width: 50px;
+      height: 50px;
+    }
+
+    .swiper-button-next {
+      left: 70px;
+    }
+  }
+
+  .benfits-section .col {
+    width: 100%;
+    margin-bottom: auto;
   }
 }

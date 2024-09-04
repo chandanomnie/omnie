@@ -241,6 +241,50 @@ jQuery(function ($) {
   }
 
   scrollContent();
+
+  if ($(".benifits-swiper").length) {
+    new Swiper(".benifits-swiper", {
+      spaceBetween: 0,
+      centeredSlides: false,
+      speed: 700,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      loop: true,
+      slidesPerView: 1,
+      allowTouchMove: true,
+      autoHeight: true,
+    });
+  }
+
+  if ($(".benifits-swiper-second").length) {
+    new Swiper(".benifits-swiper-second", {
+      spaceBetween: 0,
+      centeredSlides: false,
+      speed: 700,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      loop: true,
+      slidesPerView: 1,
+      allowTouchMove: true,
+      autoHeight: true,
+    });
+  }
+
+  if ($(".life-slider-mobile").length) {
+    new Swiper(".life-slider-mobile", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      speed: 700,
+      loop: true,
+      slidesPerView: 1,
+      allowTouchMove: true,
+      autoHeight: false,
+    });
+  }
 });
 
 $(window).on("load", function () {

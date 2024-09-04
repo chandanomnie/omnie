@@ -2575,12 +2575,12 @@ html.dark {
 }
 .btn.btn-tertiary {
   border: 1.5px solid #fff;
-  background: transparent;
-  color: #fff;
-}
-.btn.btn-tertiary:hover {
   background: #fff;
   color: #000;
+}
+.btn.btn-tertiary:hover {
+  background: transparent;
+  color: #fff;
 }
 .btn.btn-white-transparent {
   background: none;
