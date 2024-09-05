@@ -93,6 +93,13 @@ module.exports = function (grunt) {
       technology: {
         files: { "technology.html": ["components/technology/technology.hbs"] },
       },
+      technologyDetail: {
+        files: {
+          "technology-detail.html": [
+            "components/technology/technologyDetail.hbs",
+          ],
+        },
+      },
       services: {
         files: { "services.html": ["components/services/services.hbs"] },
       },

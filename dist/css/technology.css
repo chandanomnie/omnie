@@ -3386,4 +3386,109 @@ svg .svg-elem-209 {
   -webkit-transition: fill 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.3s;
   transition: fill 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.3s;
 }
+/* Detail Page Style*/
+.page-banner .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-banner .grid .left {
+  width: 50%;
+  max-width: 580px;
+}
+.page-banner .grid .left h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.2px;
+}
+.page-banner .grid .left h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56.4px;
+}
+.page-banner .grid .left p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #d9d9d9;
+}
+.page-banner .grid .right {
+  width: 50%;
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .page-banner .grid .left {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .page-banner .grid .right {
+    width: 100%;
+  }
+}
+.technology-detail .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.technology-detail .grid .left {
+  width: 30%;
+  text-align: center;
+}
+.technology-detail .grid .left span {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.2px;
+  margin-top: 15px;
+}
+.technology-detail .grid .left h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-top: 70px;
+}
+.technology-detail .grid .right {
+  width: 60%;
+}
+.technology-detail .grid .right p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.technology-detail .grid .right p:not(:last-child) {
+  margin-bottom: 25px;
+}
+.technology-detail .grid .right ul {
+  margin-top: 50px;
+  list-style: disc;
+  padding-left: 18px;
+}
+.technology-detail .grid .right ul li {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.technology-detail .grid .right ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .technology-detail .grid .left {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .technology-detail .grid .right {
+    width: 100%;
+  }
+  .technology-detail .grid .right h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 60px;
+  }
+  .technology-detail .grid .right ul {
+    margin-top: 30px;
+  }
+}
 /*# sourceMappingURL=omnie.css.map */
