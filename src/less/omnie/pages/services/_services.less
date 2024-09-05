@@ -1,5 +1,9 @@
 .services-banner {
-    padding: 70px 0;
+    padding: 50px 0;
+
+    .container {
+        max-width: 1370px;
+    }
 
     p {
         font-size: 16px;
@@ -7,7 +11,7 @@
     }
 
     .right {
-        padding: 100px 0;
+        padding: 50px 0;
 
         figure {
             margin-bottom: 10px;
@@ -21,28 +25,34 @@
             display: block;
             position: relative;
 
+            .slick-dots {
+                display: none !important;
+            }
+
             .item {
                 background-color: #f6f6f6;
-                opacity: 0 !important;
-                .details{
-                    .link-btn{
-                        margin-top:30px;
+                // opacity: 0 !important;
+                // transition: none !important;
+
+                .details {
+                    .link-btn {
+                        margin-top: 30px;
                         display: table;
                     }
                 }
 
-                &.swiper-slide-active {
+                &.slick-active {
                     opacity: 1 !important;
                 }
 
-                figure{
-                    svg{
-                        max-height: calc(100vh - 400px);
+                figure {
+                    svg {
+                        max-height: calc(100vh - 450px);
                     }
                 }
 
                 &:nth-child(1) {
-                    &.swiper-slide-active {
+                    &.slick-active {
 
                         svg .svg-elem-1 {
                             stroke-dashoffset: 0;
@@ -102,7 +112,7 @@
                 }
 
                 &:nth-child(2) {
-                    &.swiper-slide-active {
+                    &.slick-active {
                         svg .svg-elem-1 {
                             stroke-dashoffset: 0;
                         }
@@ -175,12 +185,13 @@
 
                         .details {
                             padding-left: 30px;
+                            padding-bottom: 20px;
                         }
                     }
                 }
 
                 &:nth-child(3) {
-                    &.swiper-slide-active {
+                    &.slick-active {
 
                         svg .svg-elem-1 {
                             stroke-dashoffset: 0;
@@ -244,16 +255,30 @@
                 }
             }
 
-            .swiper-button-next,
-            .swiper-button-prev {
+            .slick-custom-arrow {
                 left: 110%;
                 right: auto;
 
             }
 
-            .swiper-button-next {
+            .slick-custom-next {
                 margin-left: 60px;
             }
         }
     }
+
+    @media only screen and (max-width: 1830px) {
+        .right {
+            .services-slider {
+                .slick-custom-arrow {
+                    left: 100%;
+                }
+            }
+        }
+
+
+    }
+
+    @media only screen and (max-width: 1630px) {}
+
 }

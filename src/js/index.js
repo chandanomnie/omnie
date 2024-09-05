@@ -72,14 +72,17 @@ jQuery(function ($) {
     $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
   });
 
-  if ($(".services-slider").length) {
-    new Swiper(".services-slider", {
-      spaceBetween: 30,
-      effect: "fade",
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      }
+  if ($(".fade-slider").length) {
+    $('.fade-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 6000,
+      nextArrow: '.slick-custom-next',
+      prevArrow: '.slick-custom-prev'
     });
   }
 
