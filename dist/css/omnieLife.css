@@ -1232,6 +1232,11 @@ html.invertMode .bg-light-grey {
 .bannerHeightSansFooter {
   height: calc(100vh - 185px);
 }
+@media only screen and (max-width: 1350px) {
+  .bannerHeightSansFooter {
+    height: calc(100vh - 168px);
+  }
+}
 .h100 {
   height: 100%;
 }

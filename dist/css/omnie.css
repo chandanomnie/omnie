@@ -1741,6 +1741,11 @@ p:last-child,
 .bannerHeightSansFooter {
   height: calc(100vh - 185px);
 }
+@media only screen and (max-width: 1350px) {
+  .bannerHeightSansFooter {
+    height: calc(100vh - 168px);
+  }
+}
 .h100 {
   height: 100%;
 }
@@ -3148,6 +3153,11 @@ html.menu-open .main-nav * {
 .footer {
   padding: 30px 0;
   border-top: 1px solid #cccccc;
+}
+@media only screen and (max-width: 1350px) {
+  .footer {
+    padding: 20px 0;
+  }
 }
 .footer .footer-wrapper .left .logo {
   margin-bottom: 10px;

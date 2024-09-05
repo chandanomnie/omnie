@@ -36,6 +36,7 @@
 }
 .services-banner .right .services-slider .item figure svg {
   max-height: calc(100vh - 450px);
+  width: auto;
 }
 .services-banner .right .services-slider .item:nth-child(1).slick-active svg .svg-elem-1 {
   stroke-dashoffset: 0;
@@ -172,6 +173,102 @@
 @media only screen and (max-width: 1830px) {
   .services-banner .right .services-slider .slick-custom-arrow {
     left: 100%;
+  }
+}
+@media only screen and (max-width: 1650px) {
+  .services-banner .right .services-slider {
+    padding-right: 10%;
+  }
+  .services-banner .right .services-slider .slick-custom-arrow {
+    left: auto;
+    right: 0;
+  }
+  .services-banner .right .services-slider .slick-custom-arrow.slick-custom-next {
+    margin-left: 0;
+  }
+  .services-banner .right .services-slider .slick-custom-arrow.slick-custom-prev {
+    margin-right: 60px;
+  }
+}
+@media only screen and (max-width: 1650px) {
+  .services-banner .right {
+    padding: 30px 0;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .services-banner {
+    padding: 30px 0;
+  }
+  .services-banner .content {
+    width: 35%;
+  }
+  .services-banner .content .h2 {
+    font-size: 33px;
+    line-height: 1.2;
+  }
+  .services-banner .content p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .services-banner .right {
+    padding: 30px 0;
+    width: 55%;
+  }
+  .services-banner .right .services-slider .item figure svg {
+    max-height: calc(100vh - 380px);
+  }
+  .services-banner .right .services-slider .item .h4 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  .services-banner .right .services-slider .item:nth-child(2) figure svg {
+    max-height: calc(100vh - 200px);
+  }
+  .services-banner .right .services-slider .item .details .link-btn {
+    margin-top: 20px;
+    display: table;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .services-banner .container > .d-f {
+    flex-wrap: wrap;
+  }
+  .services-banner .content {
+    width: 100%;
+  }
+  .services-banner .right {
+    width: 100%;
+  }
+  .services-banner .right .services-slider {
+    padding-right: 30%;
+    padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .services-banner {
+    height: auto;
+    min-height: calc(100vh - 168px);
+    padding: 60px 0 30px;
+  }
+  .services-banner .content .h2 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .services-banner .right {
+    padding: 0 25px;
+  }
+  .services-banner .right .services-slider {
+    padding-right: 0;
+    padding-top: 50px;
+  }
+  .services-banner .right .services-slider .item:nth-child(2) .box {
+    display: block;
+  }
+  .services-banner .right .services-slider .item:nth-child(2) .box figure svg {
+    max-height: calc(100vh - 550px);
+  }
+  .services-banner .right .services-slider .slick-custom-arrow {
+    display: none !important;
   }
 }
 /*# sourceMappingURL=omnie.css.map */
