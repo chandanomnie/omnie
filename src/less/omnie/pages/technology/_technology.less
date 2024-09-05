@@ -2538,6 +2538,16 @@ svg .svg-elem-209 {
       width: 50%;
       text-align: right;
     }
+
+    @media @mobile {
+      .left {
+        width: 100%;
+        margin-bottom: 80px;
+      }
+      .right {
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -2589,6 +2599,28 @@ svg .svg-elem-209 {
           &:not(:last-child) {
             margin-bottom: 10px;
           }
+        }
+      }
+    }
+
+    @media @mobile {
+      .left {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 30px;
+      }
+      .right {
+        width: 100%;
+
+        h3 {
+          font-size: 36px;
+          font-weight: 600;
+          line-height: 48px;
+          margin-top: 60px;
+        }
+
+        ul {
+          margin-top: 30px;
         }
       }
     }

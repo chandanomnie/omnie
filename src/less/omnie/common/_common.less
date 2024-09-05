@@ -2,3 +2,116 @@
   .d-f;
   .fxw-w;
 }
+
+.common-page-nav {
+  .grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      width: 40%;
+      .next-tech-page {
+        display: flex;
+        align-items: center;
+        span {
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 28.2px;
+          margin-left: 34px;
+        }
+      }
+    }
+    .right {
+      width: 50%;
+      .right-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 28.2px;
+          margin: 0 10px;
+          .svg-arrow {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            border: 1.5px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease-in;
+          }
+        }
+        .next-tech-prev {
+          .svg-arrow {
+            margin-left: 15px;
+            svg {
+              width: 14px;
+              transition: all 0.3s ease-in;
+            }
+          }
+          &:hover {
+            .svg-arrow {
+              background: @black;
+              svg {
+                fill: @white;
+              }
+            }
+          }
+        }
+
+        .next-tech-next {
+          .svg-arrow {
+            margin-right: 15px;
+            svg {
+              transform: rotate(180deg);
+              width: 14px;
+              transition: all 0.3s ease-in;
+            }
+          }
+
+          &:hover {
+            .svg-arrow {
+              background: @black;
+              svg {
+                fill: @white;
+              }
+            }
+          }
+        }
+      }
+    }
+    @media @mobile {
+      .left {
+        width: 100%;
+
+        .next-tech-page {
+          flex-wrap: wrap;
+          justify-content: center;
+
+          img {
+            margin-bottom: 23px;
+          }
+
+          span {
+            margin: 0 0 100px;
+          }
+        }
+      }
+      .right {
+        width: 100%;
+
+        .right-sec {
+          & > a {
+            font-size: 0;
+          }
+        }
+      }
+    }
+  }
+}

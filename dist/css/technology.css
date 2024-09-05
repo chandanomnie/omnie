@@ -3412,6 +3412,15 @@ svg .svg-elem-209 {
   width: 50%;
   text-align: right;
 }
+@media only screen and (max-width: 767px) {
+  .page-banner .grid .left {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .page-banner .grid .right {
+    width: 100%;
+  }
+}
 .technology-detail .grid {
   display: flex;
   flex-wrap: wrap;
@@ -3457,5 +3466,24 @@ svg .svg-elem-209 {
 }
 .technology-detail .grid .right ul li:not(:last-child) {
   margin-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .technology-detail .grid .left {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .technology-detail .grid .right {
+    width: 100%;
+  }
+  .technology-detail .grid .right h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 60px;
+  }
+  .technology-detail .grid .right ul {
+    margin-top: 30px;
+  }
 }
 /*# sourceMappingURL=omnie.css.map */
