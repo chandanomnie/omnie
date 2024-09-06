@@ -6339,6 +6339,46 @@ html.menu-open .main-nav * {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+/* PageBanner*/
+.page-banner .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-banner .grid .left {
+  width: 50%;
+  max-width: 580px;
+}
+.page-banner .grid .left h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.2px;
+}
+.page-banner .grid .left h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56.4px;
+}
+.page-banner .grid .left p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #d9d9d9;
+}
+.page-banner .grid .right {
+  width: 50%;
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .page-banner .grid .left {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .page-banner .grid .right {
+    width: 100%;
+  }
+}
 :root {
   --app-height: 100vh;
 }
