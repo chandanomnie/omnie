@@ -103,6 +103,11 @@ module.exports = function (grunt) {
       services: {
         files: { "services.html": ["components/services/services.hbs"] },
       },
+      servicesDetail: {
+        files: {
+          "services-detail.html": ["components/services/servicesDetail.hbs"],
+        },
+      },
       webInterface: {
         files: {
           "web-interface.html": ["components/web-interface/web-interface.hbs"],
