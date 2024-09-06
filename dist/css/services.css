@@ -38,16 +38,16 @@
   max-height: calc(100vh - 450px);
   width: auto;
 }
-.services-banner .right .services-slider .item:nth-child(1).slick-active svg .svg-elem-1 {
+.services-banner .right .services-slider .item:nth-child(1).slick-active.animate-active svg .svg-elem-1 {
   stroke-dashoffset: 0;
 }
-.services-banner .right .services-slider .item:nth-child(1).slick-active svg .svg-elem-2 {
+.services-banner .right .services-slider .item:nth-child(1).slick-active.animate-active svg .svg-elem-2 {
   stroke-dashoffset: 0;
 }
-.services-banner .right .services-slider .item:nth-child(1).slick-active svg .svg-elem-3 {
+.services-banner .right .services-slider .item:nth-child(1).slick-active.animate-active svg .svg-elem-3 {
   stroke-dashoffset: 0;
 }
-.services-banner .right .services-slider .item:nth-child(1).slick-active svg .svg-elem-4 {
+.services-banner .right .services-slider .item:nth-child(1).slick-active.animate-active svg .svg-elem-4 {
   stroke-dashoffset: 0;
   fill: #ffffff;
 }
@@ -265,7 +265,7 @@
     display: block;
   }
   .services-banner .right .services-slider .item:nth-child(2) .box figure svg {
-    max-height: calc(100vh - 550px);
+    max-height: calc(100vh - 580px);
   }
   .services-banner .right .services-slider .slick-custom-arrow {
     display: none !important;

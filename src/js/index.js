@@ -73,6 +73,11 @@ jQuery(function ($) {
   });
 
   if ($(".fade-slider").length) {
+
+    $('.fade-slider').on('init', function (event, slick) {
+      $('.fade-slider .item:first-child').addClass('animate-active');
+    });
+
     $('.fade-slider').slick({
       dots: true,
       infinite: true,
@@ -84,6 +89,8 @@ jQuery(function ($) {
       nextArrow: '.slick-custom-next',
       prevArrow: '.slick-custom-prev'
     });
+
+
   }
 
 
