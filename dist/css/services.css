@@ -527,4 +527,13 @@
   fill: transparent;
   transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s, fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s;
 }
+.services-black-banner .right {
+  max-width: 407px;
+}
+.services-black-banner .right .media-box {
+  border-radius: 48px;
+  overflow: hidden;
+  top: -200px;
+  position: relative;
+}
 /*# sourceMappingURL=omnie.css.map */
