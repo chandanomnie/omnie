@@ -73,26 +73,22 @@ jQuery(function ($) {
   });
 
   if ($(".fade-slider").length) {
-
-    $('.fade-slider').on('init', function (event, slick) {
-      $('.fade-slider .item:first-child').addClass('animate-active');
+    $(".fade-slider").on("init", function (event, slick) {
+      $(".fade-slider .item:first-child").addClass("animate-active");
     });
 
-    $('.fade-slider').slick({
+    $(".fade-slider").slick({
       dots: true,
       infinite: true,
       speed: 500,
       fade: true,
-      cssEase: 'linear',
+      cssEase: "linear",
       autoplay: true,
       autoplaySpeed: 6000,
-      nextArrow: '.slick-custom-next',
-      prevArrow: '.slick-custom-prev'
+      nextArrow: ".slick-custom-next",
+      prevArrow: ".slick-custom-prev",
     });
-
-
   }
-
 
   if ($(".client-logo-slider").length) {
     new Swiper(".client-logo-slider", {
@@ -280,6 +276,61 @@ jQuery(function ($) {
     });
   }
 
+  if ($(".our-work-slider-one").length) {
+    new Swiper(".our-work-slider-one", {
+      // spaceBetween: 0,
+      // centeredSlides: true,
+      // speed: 1000,
+      // direction: "vertical",
+      // observer: true,
+      // observeParents: true,
+      // loop: true,
+      // slidesPerView: "auto",
+      // allowTouchMove: false,
+      spaceBetween: 0,
+      centeredSlides: true,
+      speed: 4000,
+      direction: "vertical",
+
+      autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+
+      loop: true,
+      slidesPerView: "auto",
+    });
+  }
+
+  // if ($(".our-work-slider-two").length) {
+  //   new Swiper(".our-work-slider-two", {
+  //     direction: "vertical",
+  //     effect: "slide",
+  //     slidesPerView: 1,
+  //     loop: true,
+  //     autoplay: {
+  //       delay: 2000,
+  //       reverseDirection: true,
+  //       disableOnInteraction: false,
+  //     },
+  //   });
+  // }
+
+  // if ($(".our-work-slider-three").length) {
+  //   new Swiper(".our-work-slider-three", {
+  //     direction: "vertical",
+  //     effect: "slide",
+  //     slidesPerView: 1,
+  //     loop: true,
+  //     autoplay: {
+  //       delay: 2000,
+  //       reverseDirection: true,
+  //       disableOnInteraction: false,
+  //     },
+  //   });
+  // }
+
   if ($(".benifits-swiper-second").length) {
     new Swiper(".benifits-swiper-second", {
       spaceBetween: 0,
@@ -346,7 +397,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
