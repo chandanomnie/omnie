@@ -527,13 +527,51 @@
   fill: transparent;
   transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s, fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s;
 }
+.services-black-banner .left h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 15px;
+}
+.services-black-banner .left p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0;
+}
 .services-black-banner .right {
-  max-width: 407px;
+  max-width: 480px;
 }
 .services-black-banner .right .media-box {
   border-radius: 48px;
-  overflow: hidden;
-  top: -200px;
   position: relative;
+  margin-top: -200px;
+  overflow: hidden;
+}
+.mob-app-list-wrapper {
+  margin-bottom: 100px;
+}
+.mob-app-list-wrapper .content {
+  max-width: 510px;
+}
+.mob-app-list-wrapper h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.mob-app-list-wrapper p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 55px;
+}
+.mob-app-list-wrapper .mob-app-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 887px;
+}
+.mob-app-list-wrapper .mob-app-list li {
+  margin-right: 70px;
+  margin-bottom: 65px;
 }
 /*# sourceMappingURL=omnie.css.map */
