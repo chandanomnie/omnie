@@ -278,15 +278,24 @@ jQuery(function ($) {
 
   if ($(".our-work-slider-one").length) {
     new Swiper(".our-work-slider-one", {
-      // spaceBetween: 0,
-      // centeredSlides: true,
-      // speed: 1000,
-      // direction: "vertical",
-      // observer: true,
-      // observeParents: true,
-      // loop: true,
-      // slidesPerView: "auto",
-      // allowTouchMove: false,
+      spaceBetween: 0,
+      centeredSlides: true,
+      speed: 5000,
+      direction: "vertical",
+
+      autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+
+      loop: true,
+      slidesPerView: "auto",
+    });
+  }
+
+  if ($(".our-work-slider-two").length) {
+    new Swiper(".our-work-slider-two", {
       spaceBetween: 0,
       centeredSlides: true,
       speed: 4000,
@@ -303,33 +312,23 @@ jQuery(function ($) {
     });
   }
 
-  // if ($(".our-work-slider-two").length) {
-  //   new Swiper(".our-work-slider-two", {
-  //     direction: "vertical",
-  //     effect: "slide",
-  //     slidesPerView: 1,
-  //     loop: true,
-  //     autoplay: {
-  //       delay: 2000,
-  //       reverseDirection: true,
-  //       disableOnInteraction: false,
-  //     },
-  //   });
-  // }
+  if ($(".our-work-slider-three").length) {
+    new Swiper(".our-work-slider-three", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      speed: 6500,
+      direction: "vertical",
 
-  // if ($(".our-work-slider-three").length) {
-  //   new Swiper(".our-work-slider-three", {
-  //     direction: "vertical",
-  //     effect: "slide",
-  //     slidesPerView: 1,
-  //     loop: true,
-  //     autoplay: {
-  //       delay: 2000,
-  //       reverseDirection: true,
-  //       disableOnInteraction: false,
-  //     },
-  //   });
-  // }
+      autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+
+      loop: true,
+      slidesPerView: "auto",
+    });
+  }
 
   if ($(".benifits-swiper-second").length) {
     new Swiper(".benifits-swiper-second", {
