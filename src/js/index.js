@@ -1,14 +1,19 @@
 jQuery(function ($) {
-  const checkbox = document.getElementById("modeToggle");
-  $("#modeToggle").prop("checked", false);
+  
+  if(jQuery('#modeToggle').length){
+    const checkbox = document.getElementById("modeToggle");
+  
+    $("#modeToggle").prop("checked", false);
+  
+    checkbox.addEventListener("change", (event) => {
+      if (event.currentTarget.checked) {
+        $("html").addClass("invertMode");
+      } else {
+        $("html").removeClass("invertMode");
+      }
+    });
+  }
 
-  checkbox.addEventListener("change", (event) => {
-    if (event.currentTarget.checked) {
-      $("html").addClass("invertMode");
-    } else {
-      $("html").removeClass("invertMode");
-    }
-  });
 
   $(".nav-toggle").on("click", function () {
     if (!$(".nav-toggle").hasClass("active")) {
