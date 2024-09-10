@@ -2410,7 +2410,7 @@ html.invertMode .count-container-left p {
   font-weight: 300;
 }
 .about-life .about-life-slider .item {
-  width: 40%;
+  width: 45%;
   padding: 15px 0 130px 0;
   transition: all 0.3s ease-in;
 }
@@ -2445,7 +2445,7 @@ html.invertMode .count-container-left p {
   filter: grayscale(100%);
 }
 .about-life .about-life-slider .item.swiper-slide-prev {
-  transform: scale(0.9);
+  transform: scale(0.8);
 }
 @media only screen and (max-width: 767px) {
   .about-life .about-life-slider .item.swiper-slide-prev {
