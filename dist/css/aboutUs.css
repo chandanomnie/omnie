@@ -2374,7 +2374,6 @@ html.invertMode .count-container-left p {
 @media only screen and (max-width: 767px) {
   .clients-logo .client-logo-item {
     width: 40%;
-    padding-right: 0;
     max-width: 50%;
     display: flex;
     align-items: center;
