@@ -2467,6 +2467,7 @@ html.invertMode .count-container-left p {
   height: 50px;
   border: 1px solid #000;
   transition: all 0.3s ease-in;
+  right: 120px;
 }
 @media only screen and (max-width: 767px) {
   .about-life .swiper-button-next {
@@ -2478,7 +2479,7 @@ html.invertMode .count-container-left p {
 .about-life .swiper-button-prev {
   top: auto;
   bottom: 0;
-  right: 90px;
+  right: 180px;
   width: 50px;
   height: 50px;
   border: 1px solid #000;
