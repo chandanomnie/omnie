@@ -2494,7 +2494,3615 @@ html.invertMode .count-container-left p {
   }
 }
 .about-banner-image svg {
-  max-height: 90%;
+  max-height: 75%;
+}
+@keyframes animate-svg-fill-1 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-1 {
+  animation: animate-svg-fill-1 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.1s both;
+}
+@keyframes animate-svg-fill-2 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-2 {
+  animation: animate-svg-fill-2 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.15s both;
+}
+@keyframes animate-svg-fill-3 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-3 {
+  animation: animate-svg-fill-3 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.2s both;
+}
+@keyframes animate-svg-fill-4 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-4 {
+  animation: animate-svg-fill-4 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.25s both;
+}
+@keyframes animate-svg-fill-5 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-5 {
+  animation: animate-svg-fill-5 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s both;
+}
+@keyframes animate-svg-fill-6 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-6 {
+  animation: animate-svg-fill-6 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.35s both;
+}
+@keyframes animate-svg-fill-7 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-7 {
+  animation: animate-svg-fill-7 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s both;
+}
+@keyframes animate-svg-fill-8 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-8 {
+  animation: animate-svg-fill-8 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.45s both;
+}
+@keyframes animate-svg-fill-9 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-9 {
+  animation: animate-svg-fill-9 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s both;
+}
+@keyframes animate-svg-fill-10 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-10 {
+  animation: animate-svg-fill-10 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.55s both;
+}
+@keyframes animate-svg-fill-11 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-11 {
+  animation: animate-svg-fill-11 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
+}
+@keyframes animate-svg-fill-12 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-12 {
+  animation: animate-svg-fill-12 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.65s both;
+}
+@keyframes animate-svg-fill-13 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-13 {
+  animation: animate-svg-fill-13 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.7s both;
+}
+@keyframes animate-svg-fill-14 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-14 {
+  animation: animate-svg-fill-14 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.75s both;
+}
+@keyframes animate-svg-fill-15 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-15 {
+  animation: animate-svg-fill-15 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
+}
+@keyframes animate-svg-fill-16 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-16 {
+  animation: animate-svg-fill-16 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.85s both;
+}
+@keyframes animate-svg-fill-17 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-17 {
+  animation: animate-svg-fill-17 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s both;
+}
+@keyframes animate-svg-fill-18 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-18 {
+  animation: animate-svg-fill-18 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.95s both;
+}
+@keyframes animate-svg-fill-19 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-19 {
+  animation: animate-svg-fill-19 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both;
+}
+@keyframes animate-svg-fill-20 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-20 {
+  animation: animate-svg-fill-20 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.05s both;
+}
+@keyframes animate-svg-fill-21 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-21 {
+  animation: animate-svg-fill-21 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s both;
+}
+@keyframes animate-svg-fill-22 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-22 {
+  animation: animate-svg-fill-22 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.15s both;
+}
+@keyframes animate-svg-fill-23 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-23 {
+  animation: animate-svg-fill-23 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both;
+}
+@keyframes animate-svg-fill-24 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-24 {
+  animation: animate-svg-fill-24 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.25s both;
+}
+@keyframes animate-svg-fill-25 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-25 {
+  animation: animate-svg-fill-25 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s both;
+}
+@keyframes animate-svg-fill-26 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-26 {
+  animation: animate-svg-fill-26 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.35s both;
+}
+@keyframes animate-svg-fill-27 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-27 {
+  animation: animate-svg-fill-27 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.4s both;
+}
+@keyframes animate-svg-fill-28 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-28 {
+  animation: animate-svg-fill-28 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.45s both;
+}
+@keyframes animate-svg-fill-29 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-29 {
+  animation: animate-svg-fill-29 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s both;
+}
+@keyframes animate-svg-fill-30 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-30 {
+  animation: animate-svg-fill-30 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.55s both;
+}
+@keyframes animate-svg-fill-31 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-31 {
+  animation: animate-svg-fill-31 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s both;
+}
+@keyframes animate-svg-fill-32 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-32 {
+  animation: animate-svg-fill-32 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.65s both;
+}
+@keyframes animate-svg-fill-33 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-33 {
+  animation: animate-svg-fill-33 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7s both;
+}
+@keyframes animate-svg-fill-34 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-34 {
+  animation: animate-svg-fill-34 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.75s both;
+}
+@keyframes animate-svg-fill-35 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-35 {
+  animation: animate-svg-fill-35 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s both;
+}
+@keyframes animate-svg-fill-36 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-36 {
+  animation: animate-svg-fill-36 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.85s both;
+}
+@keyframes animate-svg-fill-37 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-37 {
+  animation: animate-svg-fill-37 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9s both;
+}
+@keyframes animate-svg-fill-38 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-38 {
+  animation: animate-svg-fill-38 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.95s both;
+}
+@keyframes animate-svg-fill-39 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-39 {
+  animation: animate-svg-fill-39 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
+}
+@keyframes animate-svg-fill-40 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-40 {
+  animation: animate-svg-fill-40 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.05s both;
+}
+@keyframes animate-svg-fill-41 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-41 {
+  animation: animate-svg-fill-41 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
+}
+@keyframes animate-svg-fill-42 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-42 {
+  animation: animate-svg-fill-42 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.15s both;
+}
+@keyframes animate-svg-fill-43 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-43 {
+  animation: animate-svg-fill-43 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
+}
+@keyframes animate-svg-fill-44 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-44 {
+  animation: animate-svg-fill-44 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.25s both;
+}
+@keyframes animate-svg-fill-45 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-45 {
+  animation: animate-svg-fill-45 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
+}
+@keyframes animate-svg-fill-46 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-46 {
+  animation: animate-svg-fill-46 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.35s both;
+}
+@keyframes animate-svg-fill-47 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-47 {
+  animation: animate-svg-fill-47 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both;
+}
+@keyframes animate-svg-fill-48 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-48 {
+  animation: animate-svg-fill-48 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.45s both;
+}
+@keyframes animate-svg-fill-49 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-49 {
+  animation: animate-svg-fill-49 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
+}
+@keyframes animate-svg-fill-50 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-50 {
+  animation: animate-svg-fill-50 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.55s both;
+}
+@keyframes animate-svg-fill-51 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-51 {
+  animation: animate-svg-fill-51 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6s both;
+}
+@keyframes animate-svg-fill-52 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-52 {
+  animation: animate-svg-fill-52 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.65s both;
+}
+@keyframes animate-svg-fill-53 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-53 {
+  animation: animate-svg-fill-53 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.7s both;
+}
+@keyframes animate-svg-fill-54 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-54 {
+  animation: animate-svg-fill-54 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.75s both;
+}
+@keyframes animate-svg-fill-55 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-55 {
+  animation: animate-svg-fill-55 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.8s both;
+}
+@keyframes animate-svg-fill-56 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-56 {
+  animation: animate-svg-fill-56 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.85s both;
+}
+@keyframes animate-svg-fill-57 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-57 {
+  animation: animate-svg-fill-57 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.9s both;
+}
+@keyframes animate-svg-fill-58 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-58 {
+  animation: animate-svg-fill-58 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.95s both;
+}
+@keyframes animate-svg-fill-59 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-59 {
+  animation: animate-svg-fill-59 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
+}
+@keyframes animate-svg-fill-60 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-60 {
+  animation: animate-svg-fill-60 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.05s both;
+}
+@keyframes animate-svg-fill-61 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-61 {
+  animation: animate-svg-fill-61 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.1s both;
+}
+@keyframes animate-svg-fill-62 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-62 {
+  animation: animate-svg-fill-62 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.15s both;
+}
+@keyframes animate-svg-fill-63 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-63 {
+  animation: animate-svg-fill-63 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2s both;
+}
+@keyframes animate-svg-fill-64 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-64 {
+  animation: animate-svg-fill-64 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.25s both;
+}
+@keyframes animate-svg-fill-65 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-65 {
+  animation: animate-svg-fill-65 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.3s both;
+}
+@keyframes animate-svg-fill-66 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-66 {
+  animation: animate-svg-fill-66 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.35s both;
+}
+@keyframes animate-svg-fill-67 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-67 {
+  animation: animate-svg-fill-67 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.4s both;
+}
+@keyframes animate-svg-fill-68 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-68 {
+  animation: animate-svg-fill-68 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.45s both;
+}
+@keyframes animate-svg-fill-69 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-69 {
+  animation: animate-svg-fill-69 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5s both;
+}
+@keyframes animate-svg-fill-70 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-70 {
+  animation: animate-svg-fill-70 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.55s both;
+}
+@keyframes animate-svg-fill-71 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-71 {
+  animation: animate-svg-fill-71 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.6s both;
+}
+@keyframes animate-svg-fill-72 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-72 {
+  animation: animate-svg-fill-72 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.65s both;
+}
+@keyframes animate-svg-fill-73 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-73 {
+  animation: animate-svg-fill-73 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7s both;
+}
+@keyframes animate-svg-fill-74 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-74 {
+  animation: animate-svg-fill-74 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.75s both;
+}
+@keyframes animate-svg-fill-75 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-75 {
+  animation: animate-svg-fill-75 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.8s both;
+}
+@keyframes animate-svg-fill-76 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-76 {
+  animation: animate-svg-fill-76 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.85s both;
+}
+@keyframes animate-svg-fill-77 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-77 {
+  animation: animate-svg-fill-77 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.9s both;
+}
+@keyframes animate-svg-fill-78 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-78 {
+  animation: animate-svg-fill-78 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.95s both;
+}
+@keyframes animate-svg-fill-79 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-79 {
+  animation: animate-svg-fill-79 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4s both;
+}
+@keyframes animate-svg-fill-80 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-80 {
+  animation: animate-svg-fill-80 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.05s both;
+}
+@keyframes animate-svg-fill-81 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-81 {
+  animation: animate-svg-fill-81 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.1s both;
+}
+@keyframes animate-svg-fill-82 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-82 {
+  animation: animate-svg-fill-82 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.15s both;
+}
+@keyframes animate-svg-fill-83 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-83 {
+  animation: animate-svg-fill-83 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
+}
+@keyframes animate-svg-fill-84 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-84 {
+  animation: animate-svg-fill-84 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.25s both;
+}
+@keyframes animate-svg-fill-85 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-85 {
+  animation: animate-svg-fill-85 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.3s both;
+}
+@keyframes animate-svg-fill-86 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-86 {
+  animation: animate-svg-fill-86 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.35s both;
+}
+@keyframes animate-svg-fill-87 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-87 {
+  animation: animate-svg-fill-87 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4s both;
+}
+@keyframes animate-svg-fill-88 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-88 {
+  animation: animate-svg-fill-88 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.45s both;
+}
+@keyframes animate-svg-fill-89 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-89 {
+  animation: animate-svg-fill-89 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.5s both;
+}
+@keyframes animate-svg-fill-90 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-90 {
+  animation: animate-svg-fill-90 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.55s both;
+}
+@keyframes animate-svg-fill-91 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-91 {
+  animation: animate-svg-fill-91 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.6s both;
+}
+@keyframes animate-svg-fill-92 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-92 {
+  animation: animate-svg-fill-92 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.65s both;
+}
+@keyframes animate-svg-fill-93 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-93 {
+  animation: animate-svg-fill-93 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.7s both;
+}
+@keyframes animate-svg-fill-94 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-94 {
+  animation: animate-svg-fill-94 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.75s both;
+}
+@keyframes animate-svg-fill-95 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-95 {
+  animation: animate-svg-fill-95 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.8s both;
+}
+@keyframes animate-svg-fill-96 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-96 {
+  animation: animate-svg-fill-96 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.85s both;
+}
+@keyframes animate-svg-fill-97 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-97 {
+  animation: animate-svg-fill-97 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.9s both;
+}
+@keyframes animate-svg-fill-98 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-98 {
+  animation: animate-svg-fill-98 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.95s both;
+}
+@keyframes animate-svg-fill-99 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-99 {
+  animation: animate-svg-fill-99 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5s both;
+}
+@keyframes animate-svg-fill-100 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-100 {
+  animation: animate-svg-fill-100 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.05s both;
+}
+@keyframes animate-svg-fill-101 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-101 {
+  animation: animate-svg-fill-101 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.1s both;
+}
+@keyframes animate-svg-fill-102 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-102 {
+  animation: animate-svg-fill-102 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.15s both;
+}
+@keyframes animate-svg-fill-103 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-103 {
+  animation: animate-svg-fill-103 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.2s both;
+}
+@keyframes animate-svg-fill-104 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-104 {
+  animation: animate-svg-fill-104 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.25s both;
+}
+@keyframes animate-svg-fill-105 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-105 {
+  animation: animate-svg-fill-105 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.3s both;
+}
+@keyframes animate-svg-fill-106 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-106 {
+  animation: animate-svg-fill-106 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.35s both;
+}
+@keyframes animate-svg-fill-107 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-107 {
+  animation: animate-svg-fill-107 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.4s both;
+}
+@keyframes animate-svg-fill-108 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-108 {
+  animation: animate-svg-fill-108 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.45s both;
+}
+@keyframes animate-svg-fill-109 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-109 {
+  animation: animate-svg-fill-109 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.5s both;
+}
+@keyframes animate-svg-fill-110 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-110 {
+  animation: animate-svg-fill-110 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.55s both;
+}
+@keyframes animate-svg-fill-111 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-111 {
+  animation: animate-svg-fill-111 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.6s both;
+}
+@keyframes animate-svg-fill-112 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-112 {
+  animation: animate-svg-fill-112 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.65s both;
+}
+@keyframes animate-svg-fill-113 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-113 {
+  animation: animate-svg-fill-113 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.7s both;
+}
+@keyframes animate-svg-fill-114 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-114 {
+  animation: animate-svg-fill-114 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.75s both;
+}
+@keyframes animate-svg-fill-115 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-115 {
+  animation: animate-svg-fill-115 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.8s both;
+}
+@keyframes animate-svg-fill-116 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-116 {
+  animation: animate-svg-fill-116 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.85s both;
+}
+@keyframes animate-svg-fill-117 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-117 {
+  animation: animate-svg-fill-117 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.9s both;
+}
+@keyframes animate-svg-fill-118 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-118 {
+  animation: animate-svg-fill-118 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.95s both;
+}
+@keyframes animate-svg-fill-119 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-119 {
+  animation: animate-svg-fill-119 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6s both;
+}
+@keyframes animate-svg-fill-120 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-120 {
+  animation: animate-svg-fill-120 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.05s both;
+}
+@keyframes animate-svg-fill-121 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-121 {
+  animation: animate-svg-fill-121 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.1s both;
+}
+@keyframes animate-svg-fill-122 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-122 {
+  animation: animate-svg-fill-122 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.15s both;
+}
+@keyframes animate-svg-fill-123 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-123 {
+  animation: animate-svg-fill-123 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.2s both;
+}
+@keyframes animate-svg-fill-124 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-124 {
+  animation: animate-svg-fill-124 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.25s both;
+}
+@keyframes animate-svg-fill-125 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-125 {
+  animation: animate-svg-fill-125 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.3s both;
+}
+@keyframes animate-svg-fill-126 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-126 {
+  animation: animate-svg-fill-126 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.35s both;
+}
+@keyframes animate-svg-fill-127 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-127 {
+  animation: animate-svg-fill-127 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.4s both;
+}
+@keyframes animate-svg-fill-128 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-128 {
+  animation: animate-svg-fill-128 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.45s both;
+}
+@keyframes animate-svg-fill-129 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-129 {
+  animation: animate-svg-fill-129 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.5s both;
+}
+@keyframes animate-svg-fill-130 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-130 {
+  animation: animate-svg-fill-130 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.55s both;
+}
+@keyframes animate-svg-fill-131 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-131 {
+  animation: animate-svg-fill-131 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.6s both;
+}
+@keyframes animate-svg-fill-132 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-132 {
+  animation: animate-svg-fill-132 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.65s both;
+}
+@keyframes animate-svg-fill-133 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-133 {
+  animation: animate-svg-fill-133 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.7s both;
+}
+@keyframes animate-svg-fill-134 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-134 {
+  animation: animate-svg-fill-134 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.75s both;
+}
+@keyframes animate-svg-fill-135 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-135 {
+  animation: animate-svg-fill-135 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.8s both;
+}
+@keyframes animate-svg-fill-136 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-136 {
+  animation: animate-svg-fill-136 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.85s both;
+}
+@keyframes animate-svg-fill-137 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-137 {
+  animation: animate-svg-fill-137 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.9s both;
+}
+@keyframes animate-svg-fill-138 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-138 {
+  animation: animate-svg-fill-138 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.95s both;
+}
+@keyframes animate-svg-fill-139 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-139 {
+  animation: animate-svg-fill-139 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7s both;
+}
+@keyframes animate-svg-fill-140 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-140 {
+  animation: animate-svg-fill-140 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.05s both;
+}
+@keyframes animate-svg-fill-141 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-141 {
+  animation: animate-svg-fill-141 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.1s both;
+}
+@keyframes animate-svg-fill-142 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-142 {
+  animation: animate-svg-fill-142 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.15s both;
+}
+@keyframes animate-svg-fill-143 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-143 {
+  animation: animate-svg-fill-143 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.2s both;
+}
+@keyframes animate-svg-fill-144 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-144 {
+  animation: animate-svg-fill-144 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.25s both;
+}
+@keyframes animate-svg-fill-145 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-145 {
+  animation: animate-svg-fill-145 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.3s both;
+}
+@keyframes animate-svg-fill-146 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-146 {
+  animation: animate-svg-fill-146 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.35s both;
+}
+@keyframes animate-svg-fill-147 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-147 {
+  animation: animate-svg-fill-147 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.4s both;
+}
+@keyframes animate-svg-fill-148 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-148 {
+  animation: animate-svg-fill-148 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.45s both;
+}
+@keyframes animate-svg-fill-149 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-149 {
+  animation: animate-svg-fill-149 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.5s both;
+}
+@keyframes animate-svg-fill-150 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-150 {
+  animation: animate-svg-fill-150 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.55s both;
+}
+@keyframes animate-svg-fill-151 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-151 {
+  animation: animate-svg-fill-151 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.6s both;
+}
+@keyframes animate-svg-fill-152 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-152 {
+  animation: animate-svg-fill-152 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.65s both;
+}
+@keyframes animate-svg-fill-153 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-153 {
+  animation: animate-svg-fill-153 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.7s both;
+}
+@keyframes animate-svg-fill-154 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-154 {
+  animation: animate-svg-fill-154 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.75s both;
+}
+@keyframes animate-svg-fill-155 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-155 {
+  animation: animate-svg-fill-155 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.8s both;
+}
+@keyframes animate-svg-fill-156 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-156 {
+  animation: animate-svg-fill-156 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.85s both;
+}
+@keyframes animate-svg-fill-157 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-157 {
+  animation: animate-svg-fill-157 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.9s both;
+}
+@keyframes animate-svg-fill-158 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-158 {
+  animation: animate-svg-fill-158 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.95s both;
+}
+@keyframes animate-svg-fill-159 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-159 {
+  animation: animate-svg-fill-159 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8s both;
+}
+@keyframes animate-svg-fill-160 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-160 {
+  animation: animate-svg-fill-160 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.05s both;
+}
+@keyframes animate-svg-fill-161 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-161 {
+  animation: animate-svg-fill-161 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.1s both;
+}
+@keyframes animate-svg-fill-162 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-162 {
+  animation: animate-svg-fill-162 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.15s both;
+}
+@keyframes animate-svg-fill-163 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-163 {
+  animation: animate-svg-fill-163 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.2s both;
+}
+@keyframes animate-svg-fill-164 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-164 {
+  animation: animate-svg-fill-164 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.25s both;
+}
+@keyframes animate-svg-fill-165 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-165 {
+  animation: animate-svg-fill-165 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.3s both;
+}
+@keyframes animate-svg-fill-166 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-166 {
+  animation: animate-svg-fill-166 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.35s both;
+}
+@keyframes animate-svg-fill-167 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-167 {
+  animation: animate-svg-fill-167 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.4s both;
+}
+@keyframes animate-svg-fill-168 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-168 {
+  animation: animate-svg-fill-168 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.45s both;
+}
+@keyframes animate-svg-fill-169 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-169 {
+  animation: animate-svg-fill-169 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.5s both;
+}
+@keyframes animate-svg-fill-170 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-170 {
+  animation: animate-svg-fill-170 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.55s both;
+}
+@keyframes animate-svg-fill-171 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-171 {
+  animation: animate-svg-fill-171 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.6s both;
+}
+@keyframes animate-svg-fill-172 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-172 {
+  animation: animate-svg-fill-172 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.65s both;
+}
+@keyframes animate-svg-fill-173 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-173 {
+  animation: animate-svg-fill-173 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.7s both;
+}
+@keyframes animate-svg-fill-174 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-174 {
+  animation: animate-svg-fill-174 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.75s both;
+}
+@keyframes animate-svg-fill-175 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-175 {
+  animation: animate-svg-fill-175 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.8s both;
+}
+@keyframes animate-svg-fill-176 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-176 {
+  animation: animate-svg-fill-176 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.85s both;
+}
+@keyframes animate-svg-fill-177 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-177 {
+  animation: animate-svg-fill-177 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.9s both;
+}
+@keyframes animate-svg-fill-178 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-178 {
+  animation: animate-svg-fill-178 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.95s both;
+}
+@keyframes animate-svg-fill-179 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-179 {
+  animation: animate-svg-fill-179 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9s both;
+}
+@keyframes animate-svg-fill-180 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-180 {
+  animation: animate-svg-fill-180 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.05s both;
+}
+@keyframes animate-svg-fill-181 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-181 {
+  animation: animate-svg-fill-181 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.1s both;
+}
+@keyframes animate-svg-fill-182 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-182 {
+  animation: animate-svg-fill-182 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.15s both;
+}
+@keyframes animate-svg-fill-183 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-183 {
+  animation: animate-svg-fill-183 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.2s both;
+}
+@keyframes animate-svg-fill-184 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-184 {
+  animation: animate-svg-fill-184 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.25s both;
+}
+@keyframes animate-svg-fill-185 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-185 {
+  animation: animate-svg-fill-185 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.3s both;
+}
+@keyframes animate-svg-fill-186 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-186 {
+  animation: animate-svg-fill-186 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.35s both;
+}
+@keyframes animate-svg-fill-187 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-187 {
+  animation: animate-svg-fill-187 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.4s both;
+}
+@keyframes animate-svg-fill-188 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-188 {
+  animation: animate-svg-fill-188 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.45s both;
+}
+@keyframes animate-svg-fill-189 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-189 {
+  animation: animate-svg-fill-189 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.5s both;
+}
+@keyframes animate-svg-fill-190 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-190 {
+  animation: animate-svg-fill-190 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.55s both;
+}
+@keyframes animate-svg-fill-191 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-191 {
+  animation: animate-svg-fill-191 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.6s both;
+}
+@keyframes animate-svg-fill-192 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-192 {
+  animation: animate-svg-fill-192 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.65s both;
+}
+@keyframes animate-svg-fill-193 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-193 {
+  animation: animate-svg-fill-193 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.7s both;
+}
+@keyframes animate-svg-fill-194 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-194 {
+  animation: animate-svg-fill-194 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.75s both;
+}
+@keyframes animate-svg-fill-195 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-195 {
+  animation: animate-svg-fill-195 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.8s both;
+}
+@keyframes animate-svg-fill-196 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-196 {
+  animation: animate-svg-fill-196 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.85s both;
+}
+@keyframes animate-svg-fill-197 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-197 {
+  animation: animate-svg-fill-197 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.9s both;
+}
+@keyframes animate-svg-fill-198 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-198 {
+  animation: animate-svg-fill-198 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.95s both;
+}
+@keyframes animate-svg-fill-199 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-199 {
+  animation: animate-svg-fill-199 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10s both;
+}
+@keyframes animate-svg-fill-200 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-200 {
+  animation: animate-svg-fill-200 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.05s both;
+}
+@keyframes animate-svg-fill-201 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-201 {
+  animation: animate-svg-fill-201 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.1s both;
+}
+@keyframes animate-svg-fill-202 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-202 {
+  animation: animate-svg-fill-202 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.15s both;
+}
+@keyframes animate-svg-fill-203 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-203 {
+  animation: animate-svg-fill-203 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.2s both;
+}
+@keyframes animate-svg-fill-204 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-204 {
+  animation: animate-svg-fill-204 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.25s both;
+}
+@keyframes animate-svg-fill-205 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-205 {
+  animation: animate-svg-fill-205 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.3s both;
+}
+@keyframes animate-svg-fill-206 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-206 {
+  animation: animate-svg-fill-206 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.35s both;
+}
+@keyframes animate-svg-fill-207 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-207 {
+  animation: animate-svg-fill-207 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.4s both;
+}
+@keyframes animate-svg-fill-208 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-208 {
+  animation: animate-svg-fill-208 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.45s both;
+}
+@keyframes animate-svg-fill-209 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-209 {
+  animation: animate-svg-fill-209 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.5s both;
+}
+@keyframes animate-svg-fill-210 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-210 {
+  animation: animate-svg-fill-210 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.55s both;
+}
+@keyframes animate-svg-fill-211 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-211 {
+  animation: animate-svg-fill-211 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.6s both;
+}
+@keyframes animate-svg-fill-212 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-212 {
+  animation: animate-svg-fill-212 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.65s both;
+}
+@keyframes animate-svg-fill-213 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-213 {
+  animation: animate-svg-fill-213 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.7s both;
+}
+@keyframes animate-svg-fill-214 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-214 {
+  animation: animate-svg-fill-214 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.75s both;
+}
+@keyframes animate-svg-fill-215 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-215 {
+  animation: animate-svg-fill-215 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.8s both;
+}
+@keyframes animate-svg-fill-216 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-216 {
+  animation: animate-svg-fill-216 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.85s both;
+}
+@keyframes animate-svg-fill-217 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-217 {
+  animation: animate-svg-fill-217 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.9s both;
+}
+@keyframes animate-svg-fill-218 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-218 {
+  animation: animate-svg-fill-218 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.95s both;
+}
+@keyframes animate-svg-fill-219 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-219 {
+  animation: animate-svg-fill-219 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11s both;
+}
+@keyframes animate-svg-fill-220 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-220 {
+  animation: animate-svg-fill-220 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.05s both;
+}
+@keyframes animate-svg-fill-221 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-221 {
+  animation: animate-svg-fill-221 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.1s both;
+}
+@keyframes animate-svg-fill-222 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-222 {
+  animation: animate-svg-fill-222 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.15s both;
+}
+@keyframes animate-svg-fill-223 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-223 {
+  animation: animate-svg-fill-223 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.2s both;
+}
+@keyframes animate-svg-fill-224 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-224 {
+  animation: animate-svg-fill-224 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.25s both;
+}
+@keyframes animate-svg-fill-225 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-225 {
+  animation: animate-svg-fill-225 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.3s both;
+}
+@keyframes animate-svg-fill-226 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-226 {
+  animation: animate-svg-fill-226 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.35s both;
+}
+@keyframes animate-svg-fill-227 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-227 {
+  animation: animate-svg-fill-227 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.4s both;
+}
+@keyframes animate-svg-fill-228 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-228 {
+  animation: animate-svg-fill-228 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.45s both;
+}
+@keyframes animate-svg-fill-229 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-229 {
+  animation: animate-svg-fill-229 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.5s both;
+}
+@keyframes animate-svg-fill-230 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-230 {
+  animation: animate-svg-fill-230 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.55s both;
+}
+@keyframes animate-svg-fill-231 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-231 {
+  animation: animate-svg-fill-231 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.6s both;
+}
+@keyframes animate-svg-fill-232 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-232 {
+  animation: animate-svg-fill-232 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.65s both;
+}
+@keyframes animate-svg-fill-233 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-233 {
+  animation: animate-svg-fill-233 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.7s both;
+}
+@keyframes animate-svg-fill-234 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-234 {
+  animation: animate-svg-fill-234 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.75s both;
+}
+@keyframes animate-svg-fill-235 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-235 {
+  animation: animate-svg-fill-235 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.8s both;
+}
+@keyframes animate-svg-fill-236 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-236 {
+  animation: animate-svg-fill-236 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.85s both;
+}
+@keyframes animate-svg-fill-237 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-237 {
+  animation: animate-svg-fill-237 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.9s both;
+}
+@keyframes animate-svg-fill-238 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-238 {
+  animation: animate-svg-fill-238 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.95s both;
+}
+@keyframes animate-svg-fill-239 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-239 {
+  animation: animate-svg-fill-239 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12s both;
+}
+@keyframes animate-svg-fill-240 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-240 {
+  animation: animate-svg-fill-240 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.05s both;
+}
+@keyframes animate-svg-fill-241 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-241 {
+  animation: animate-svg-fill-241 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.1s both;
+}
+@keyframes animate-svg-fill-242 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-242 {
+  animation: animate-svg-fill-242 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.15s both;
+}
+@keyframes animate-svg-fill-243 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-243 {
+  animation: animate-svg-fill-243 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.2s both;
+}
+@keyframes animate-svg-fill-244 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-244 {
+  animation: animate-svg-fill-244 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.25s both;
+}
+@keyframes animate-svg-fill-245 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-245 {
+  animation: animate-svg-fill-245 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.3s both;
+}
+@keyframes animate-svg-fill-246 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-246 {
+  animation: animate-svg-fill-246 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.35s both;
+}
+@keyframes animate-svg-fill-247 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-247 {
+  animation: animate-svg-fill-247 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.4s both;
+}
+@keyframes animate-svg-fill-248 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-248 {
+  animation: animate-svg-fill-248 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.45s both;
+}
+@keyframes animate-svg-fill-249 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-249 {
+  animation: animate-svg-fill-249 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.5s both;
+}
+@keyframes animate-svg-fill-250 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-250 {
+  animation: animate-svg-fill-250 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.55s both;
+}
+@keyframes animate-svg-fill-251 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-251 {
+  animation: animate-svg-fill-251 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.6s both;
+}
+@keyframes animate-svg-fill-252 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-252 {
+  animation: animate-svg-fill-252 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.65s both;
+}
+@keyframes animate-svg-fill-253 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-253 {
+  animation: animate-svg-fill-253 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.7s both;
+}
+@keyframes animate-svg-fill-254 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-254 {
+  animation: animate-svg-fill-254 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.75s both;
+}
+@keyframes animate-svg-fill-255 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-255 {
+  animation: animate-svg-fill-255 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.8s both;
+}
+@keyframes animate-svg-fill-256 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-256 {
+  animation: animate-svg-fill-256 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.85s both;
+}
+@keyframes animate-svg-fill-257 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-257 {
+  animation: animate-svg-fill-257 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.9s both;
+}
+@keyframes animate-svg-fill-258 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-258 {
+  animation: animate-svg-fill-258 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.95s both;
+}
+@keyframes animate-svg-fill-259 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-259 {
+  animation: animate-svg-fill-259 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13s both;
+}
+@keyframes animate-svg-fill-260 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-260 {
+  animation: animate-svg-fill-260 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.05s both;
+}
+@keyframes animate-svg-fill-261 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-261 {
+  animation: animate-svg-fill-261 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.1s both;
+}
+@keyframes animate-svg-fill-262 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-262 {
+  animation: animate-svg-fill-262 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.15s both;
+}
+@keyframes animate-svg-fill-263 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-263 {
+  animation: animate-svg-fill-263 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.2s both;
+}
+@keyframes animate-svg-fill-264 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-264 {
+  animation: animate-svg-fill-264 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.25s both;
+}
+@keyframes animate-svg-fill-265 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-265 {
+  animation: animate-svg-fill-265 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.3s both;
+}
+@keyframes animate-svg-fill-266 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-266 {
+  animation: animate-svg-fill-266 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.35s both;
+}
+@keyframes animate-svg-fill-267 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-267 {
+  animation: animate-svg-fill-267 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.4s both;
+}
+@keyframes animate-svg-fill-268 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-268 {
+  animation: animate-svg-fill-268 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.45s both;
+}
+@keyframes animate-svg-fill-269 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-269 {
+  animation: animate-svg-fill-269 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.5s both;
+}
+@keyframes animate-svg-fill-270 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-270 {
+  animation: animate-svg-fill-270 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.55s both;
+}
+@keyframes animate-svg-fill-271 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-271 {
+  animation: animate-svg-fill-271 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.6s both;
+}
+@keyframes animate-svg-fill-272 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-272 {
+  animation: animate-svg-fill-272 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.65s both;
+}
+@keyframes animate-svg-fill-273 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-273 {
+  animation: animate-svg-fill-273 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.7s both;
+}
+@keyframes animate-svg-fill-274 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-274 {
+  animation: animate-svg-fill-274 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.75s both;
+}
+@keyframes animate-svg-fill-275 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-275 {
+  animation: animate-svg-fill-275 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.8s both;
+}
+@keyframes animate-svg-fill-276 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-276 {
+  animation: animate-svg-fill-276 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.85s both;
+}
+@keyframes animate-svg-fill-277 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-277 {
+  animation: animate-svg-fill-277 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.9s both;
+}
+@keyframes animate-svg-fill-278 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-278 {
+  animation: animate-svg-fill-278 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.95s both;
+}
+@keyframes animate-svg-fill-279 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-279 {
+  animation: animate-svg-fill-279 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14s both;
+}
+@keyframes animate-svg-fill-280 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-280 {
+  animation: animate-svg-fill-280 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.05s both;
+}
+@keyframes animate-svg-fill-281 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-281 {
+  animation: animate-svg-fill-281 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.1s both;
+}
+@keyframes animate-svg-fill-282 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-282 {
+  animation: animate-svg-fill-282 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.15s both;
+}
+@keyframes animate-svg-fill-283 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-283 {
+  animation: animate-svg-fill-283 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.2s both;
+}
+@keyframes animate-svg-fill-284 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-284 {
+  animation: animate-svg-fill-284 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.25s both;
+}
+@keyframes animate-svg-fill-285 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-285 {
+  animation: animate-svg-fill-285 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.3s both;
+}
+@keyframes animate-svg-fill-286 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-286 {
+  animation: animate-svg-fill-286 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.35s both;
+}
+@keyframes animate-svg-fill-287 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-287 {
+  animation: animate-svg-fill-287 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.4s both;
+}
+@keyframes animate-svg-fill-288 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-288 {
+  animation: animate-svg-fill-288 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.45s both;
+}
+@keyframes animate-svg-fill-289 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-289 {
+  animation: animate-svg-fill-289 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.5s both;
+}
+@keyframes animate-svg-fill-290 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-290 {
+  animation: animate-svg-fill-290 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.55s both;
+}
+@keyframes animate-svg-fill-291 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-291 {
+  animation: animate-svg-fill-291 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.6s both;
+}
+@keyframes animate-svg-fill-292 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-292 {
+  animation: animate-svg-fill-292 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.65s both;
+}
+@keyframes animate-svg-fill-293 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-293 {
+  animation: animate-svg-fill-293 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.7s both;
+}
+@keyframes animate-svg-fill-294 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-294 {
+  animation: animate-svg-fill-294 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.75s both;
+}
+@keyframes animate-svg-fill-295 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-295 {
+  animation: animate-svg-fill-295 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.8s both;
+}
+@keyframes animate-svg-fill-296 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-296 {
+  animation: animate-svg-fill-296 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.85s both;
+}
+@keyframes animate-svg-fill-297 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-297 {
+  animation: animate-svg-fill-297 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.9s both;
+}
+@keyframes animate-svg-fill-298 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-298 {
+  animation: animate-svg-fill-298 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.95s both;
+}
+@keyframes animate-svg-fill-299 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-299 {
+  animation: animate-svg-fill-299 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15s both;
+}
+@keyframes animate-svg-fill-300 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-300 {
+  animation: animate-svg-fill-300 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.05s both;
+}
+@keyframes animate-svg-fill-301 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-301 {
+  animation: animate-svg-fill-301 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.1s both;
+}
+@keyframes animate-svg-fill-302 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-302 {
+  animation: animate-svg-fill-302 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.15s both;
+}
+@keyframes animate-svg-fill-303 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-303 {
+  animation: animate-svg-fill-303 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.2s both;
+}
+@keyframes animate-svg-fill-304 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-304 {
+  animation: animate-svg-fill-304 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.25s both;
+}
+@keyframes animate-svg-fill-305 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-305 {
+  animation: animate-svg-fill-305 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.3s both;
+}
+@keyframes animate-svg-fill-306 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-306 {
+  animation: animate-svg-fill-306 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.35s both;
+}
+@keyframes animate-svg-fill-307 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-307 {
+  animation: animate-svg-fill-307 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.4s both;
+}
+@keyframes animate-svg-fill-308 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-308 {
+  animation: animate-svg-fill-308 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.45s both;
+}
+@keyframes animate-svg-fill-309 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-309 {
+  animation: animate-svg-fill-309 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.5s both;
+}
+@keyframes animate-svg-fill-310 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-310 {
+  animation: animate-svg-fill-310 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.55s both;
+}
+@keyframes animate-svg-fill-311 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-311 {
+  animation: animate-svg-fill-311 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.6s both;
+}
+@keyframes animate-svg-fill-312 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-312 {
+  animation: animate-svg-fill-312 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.65s both;
+}
+@keyframes animate-svg-fill-313 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-313 {
+  animation: animate-svg-fill-313 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.7s both;
+}
+@keyframes animate-svg-fill-314 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-314 {
+  animation: animate-svg-fill-314 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.75s both;
+}
+@keyframes animate-svg-fill-315 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-315 {
+  animation: animate-svg-fill-315 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.8s both;
+}
+@keyframes animate-svg-fill-316 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-316 {
+  animation: animate-svg-fill-316 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.85s both;
+}
+@keyframes animate-svg-fill-317 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-317 {
+  animation: animate-svg-fill-317 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.9s both;
+}
+@keyframes animate-svg-fill-318 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-318 {
+  animation: animate-svg-fill-318 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.95s both;
+}
+@keyframes animate-svg-fill-319 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-319 {
+  animation: animate-svg-fill-319 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16s both;
+}
+@keyframes animate-svg-fill-320 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-320 {
+  animation: animate-svg-fill-320 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.05s both;
+}
+@keyframes animate-svg-fill-321 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-321 {
+  animation: animate-svg-fill-321 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.1s both;
+}
+@keyframes animate-svg-fill-322 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-322 {
+  animation: animate-svg-fill-322 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.15s both;
+}
+@keyframes animate-svg-fill-323 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-323 {
+  animation: animate-svg-fill-323 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.2s both;
+}
+@keyframes animate-svg-fill-324 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-324 {
+  animation: animate-svg-fill-324 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.25s both;
+}
+@keyframes animate-svg-fill-325 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-325 {
+  animation: animate-svg-fill-325 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.3s both;
+}
+@keyframes animate-svg-fill-326 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-326 {
+  animation: animate-svg-fill-326 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.35s both;
+}
+@keyframes animate-svg-fill-327 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-327 {
+  animation: animate-svg-fill-327 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.4s both;
+}
+@keyframes animate-svg-fill-328 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+  }
+}
+.about-banner-image .svg-elem-328 {
+  animation: animate-svg-fill-328 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.45s both;
 }
 .swiper-button-next svg path,
 .swiper-button-prev svg path {
@@ -2519,3640 +6127,33 @@ html.invertMode .count-container-left p {
     width: 100%;
   }
 }
-/***************************************************
- * Generated by SVG Artista on 8/23/2024, 5:39:14 PM
- * MIT license (https://opensource.org/licenses/MIT)
- * W. https://svgartista.net
- **************************************************/
-@keyframes animate-svg-fill-1 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-1 {
-  animation: animate-svg-fill-1 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.1s both;
-}
-@keyframes animate-svg-fill-2 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-2 {
-  animation: animate-svg-fill-2 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.2s both;
-}
-@keyframes animate-svg-fill-3 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-3 {
-  animation: animate-svg-fill-3 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s both;
-}
-@keyframes animate-svg-fill-4 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-4 {
-  animation: animate-svg-fill-4 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s both;
-}
-@keyframes animate-svg-fill-5 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-5 {
-  animation: animate-svg-fill-5 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s both;
-}
-@keyframes animate-svg-fill-6 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-6 {
-  animation: animate-svg-fill-6 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
-}
-@keyframes animate-svg-fill-7 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-7 {
-  animation: animate-svg-fill-7 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.7s both;
-}
-@keyframes animate-svg-fill-8 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-8 {
-  animation: animate-svg-fill-8 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
-}
-@keyframes animate-svg-fill-9 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-9 {
-  animation: animate-svg-fill-9 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s both;
-}
-@keyframes animate-svg-fill-10 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-10 {
-  animation: animate-svg-fill-10 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both;
-}
-@keyframes animate-svg-fill-11 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-11 {
-  animation: animate-svg-fill-11 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s both;
-}
-@keyframes animate-svg-fill-12 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-12 {
-  animation: animate-svg-fill-12 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both;
-}
-@keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-13 {
-  animation: animate-svg-fill-13 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s both;
-}
-@keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-14 {
-  animation: animate-svg-fill-14 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.4s both;
-}
-@keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-15 {
-  animation: animate-svg-fill-15 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s both;
-}
-@keyframes animate-svg-fill-16 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-16 {
-  animation: animate-svg-fill-16 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s both;
-}
-@keyframes animate-svg-fill-17 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-17 {
-  animation: animate-svg-fill-17 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7s both;
-}
-@keyframes animate-svg-fill-18 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-18 {
-  animation: animate-svg-fill-18 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s both;
-}
-@keyframes animate-svg-fill-19 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-19 {
-  animation: animate-svg-fill-19 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9s both;
-}
-@keyframes animate-svg-fill-20 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-20 {
-  animation: animate-svg-fill-20 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
-}
-@keyframes animate-svg-fill-21 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-21 {
-  animation: animate-svg-fill-21 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
-}
-@keyframes animate-svg-fill-22 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-22 {
-  animation: animate-svg-fill-22 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
-}
-@keyframes animate-svg-fill-23 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-23 {
-  animation: animate-svg-fill-23 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
-}
-@keyframes animate-svg-fill-24 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-24 {
-  animation: animate-svg-fill-24 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both;
-}
-@keyframes animate-svg-fill-25 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-25 {
-  animation: animate-svg-fill-25 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
-}
-@keyframes animate-svg-fill-26 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-26 {
-  animation: animate-svg-fill-26 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6s both;
-}
-@keyframes animate-svg-fill-27 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-27 {
-  animation: animate-svg-fill-27 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.7s both;
-}
-@keyframes animate-svg-fill-28 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-28 {
-  animation: animate-svg-fill-28 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.8s both;
-}
-@keyframes animate-svg-fill-29 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-29 {
-  animation: animate-svg-fill-29 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.9s both;
-}
-@keyframes animate-svg-fill-30 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-30 {
-  animation: animate-svg-fill-30 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
-}
-@keyframes animate-svg-fill-31 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-31 {
-  animation: animate-svg-fill-31 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.1s both;
-}
-@keyframes animate-svg-fill-32 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-32 {
-  animation: animate-svg-fill-32 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2s both;
-}
-@keyframes animate-svg-fill-33 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-33 {
-  animation: animate-svg-fill-33 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.3s both;
-}
-@keyframes animate-svg-fill-34 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-34 {
-  animation: animate-svg-fill-34 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.4s both;
-}
-@keyframes animate-svg-fill-35 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-35 {
-  animation: animate-svg-fill-35 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5s both;
-}
-@keyframes animate-svg-fill-36 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-36 {
-  animation: animate-svg-fill-36 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.6s both;
-}
-@keyframes animate-svg-fill-37 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-37 {
-  animation: animate-svg-fill-37 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7s both;
-}
-@keyframes animate-svg-fill-38 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-38 {
-  animation: animate-svg-fill-38 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.8s both;
-}
-@keyframes animate-svg-fill-39 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-39 {
-  animation: animate-svg-fill-39 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.9s both;
-}
-@keyframes animate-svg-fill-40 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-40 {
-  animation: animate-svg-fill-40 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4s both;
-}
-@keyframes animate-svg-fill-41 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-41 {
-  animation: animate-svg-fill-41 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.1s both;
-}
-@keyframes animate-svg-fill-42 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-42 {
-  animation: animate-svg-fill-42 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
-}
-@keyframes animate-svg-fill-43 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-43 {
-  animation: animate-svg-fill-43 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.3s both;
-}
-@keyframes animate-svg-fill-44 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-44 {
-  animation: animate-svg-fill-44 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4s both;
-}
-@keyframes animate-svg-fill-45 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-45 {
-  animation: animate-svg-fill-45 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.5s both;
-}
-@keyframes animate-svg-fill-46 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-46 {
-  animation: animate-svg-fill-46 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.6s both;
-}
-@keyframes animate-svg-fill-47 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-47 {
-  animation: animate-svg-fill-47 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.7s both;
-}
-@keyframes animate-svg-fill-48 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-48 {
-  animation: animate-svg-fill-48 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.8s both;
-}
-@keyframes animate-svg-fill-49 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-49 {
-  animation: animate-svg-fill-49 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.9s both;
-}
-@keyframes animate-svg-fill-50 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-50 {
-  animation: animate-svg-fill-50 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5s both;
-}
-@keyframes animate-svg-fill-51 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-51 {
-  animation: animate-svg-fill-51 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.1s both;
-}
-@keyframes animate-svg-fill-52 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-52 {
-  animation: animate-svg-fill-52 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.2s both;
-}
-@keyframes animate-svg-fill-53 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-53 {
-  animation: animate-svg-fill-53 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.3s both;
-}
-@keyframes animate-svg-fill-54 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-54 {
-  animation: animate-svg-fill-54 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.4s both;
-}
-@keyframes animate-svg-fill-55 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-55 {
-  animation: animate-svg-fill-55 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.5s both;
-}
-@keyframes animate-svg-fill-56 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-56 {
-  animation: animate-svg-fill-56 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.6s both;
-}
-@keyframes animate-svg-fill-57 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-57 {
-  animation: animate-svg-fill-57 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.7s both;
-}
-@keyframes animate-svg-fill-58 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-58 {
-  animation: animate-svg-fill-58 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.8s both;
-}
-@keyframes animate-svg-fill-59 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-59 {
-  animation: animate-svg-fill-59 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 5.9s both;
-}
-@keyframes animate-svg-fill-60 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-60 {
-  animation: animate-svg-fill-60 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6s both;
-}
-@keyframes animate-svg-fill-61 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-61 {
-  animation: animate-svg-fill-61 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.1s both;
-}
-@keyframes animate-svg-fill-62 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-62 {
-  animation: animate-svg-fill-62 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.2s both;
-}
-@keyframes animate-svg-fill-63 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-63 {
-  animation: animate-svg-fill-63 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.3s both;
-}
-@keyframes animate-svg-fill-64 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-64 {
-  animation: animate-svg-fill-64 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.4s both;
-}
-@keyframes animate-svg-fill-65 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-65 {
-  animation: animate-svg-fill-65 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.5s both;
-}
-@keyframes animate-svg-fill-66 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-66 {
-  animation: animate-svg-fill-66 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.6s both;
-}
-@keyframes animate-svg-fill-67 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-67 {
-  animation: animate-svg-fill-67 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.7s both;
-}
-@keyframes animate-svg-fill-68 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-68 {
-  animation: animate-svg-fill-68 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.8s both;
-}
-@keyframes animate-svg-fill-69 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-69 {
-  animation: animate-svg-fill-69 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 6.9s both;
-}
-@keyframes animate-svg-fill-70 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-70 {
-  animation: animate-svg-fill-70 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7s both;
-}
-@keyframes animate-svg-fill-71 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-71 {
-  animation: animate-svg-fill-71 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.1s both;
-}
-@keyframes animate-svg-fill-72 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-72 {
-  animation: animate-svg-fill-72 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.2s both;
-}
-@keyframes animate-svg-fill-73 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-73 {
-  animation: animate-svg-fill-73 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.3s both;
-}
-@keyframes animate-svg-fill-74 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-74 {
-  animation: animate-svg-fill-74 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.4s both;
-}
-@keyframes animate-svg-fill-75 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-75 {
-  animation: animate-svg-fill-75 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.5s both;
-}
-@keyframes animate-svg-fill-76 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-76 {
-  animation: animate-svg-fill-76 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.6s both;
-}
-@keyframes animate-svg-fill-77 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-77 {
-  animation: animate-svg-fill-77 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.7s both;
-}
-@keyframes animate-svg-fill-78 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-78 {
-  animation: animate-svg-fill-78 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.8s both;
-}
-@keyframes animate-svg-fill-79 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-79 {
-  animation: animate-svg-fill-79 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 7.9s both;
-}
-@keyframes animate-svg-fill-80 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-80 {
-  animation: animate-svg-fill-80 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8s both;
-}
-@keyframes animate-svg-fill-81 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-81 {
-  animation: animate-svg-fill-81 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.1s both;
-}
-@keyframes animate-svg-fill-82 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-82 {
-  animation: animate-svg-fill-82 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.2s both;
-}
-@keyframes animate-svg-fill-83 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-83 {
-  animation: animate-svg-fill-83 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.3s both;
-}
-@keyframes animate-svg-fill-84 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-84 {
-  animation: animate-svg-fill-84 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.4s both;
-}
-@keyframes animate-svg-fill-85 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-85 {
-  animation: animate-svg-fill-85 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.5s both;
-}
-@keyframes animate-svg-fill-86 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-86 {
-  animation: animate-svg-fill-86 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.6s both;
-}
-@keyframes animate-svg-fill-87 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-87 {
-  animation: animate-svg-fill-87 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.7s both;
-}
-@keyframes animate-svg-fill-88 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-88 {
-  animation: animate-svg-fill-88 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.8s both;
-}
-@keyframes animate-svg-fill-89 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-89 {
-  animation: animate-svg-fill-89 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 8.9s both;
-}
-@keyframes animate-svg-fill-90 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-90 {
-  animation: animate-svg-fill-90 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9s both;
-}
-@keyframes animate-svg-fill-91 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-91 {
-  animation: animate-svg-fill-91 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.1s both;
-}
-@keyframes animate-svg-fill-92 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-92 {
-  animation: animate-svg-fill-92 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.2s both;
-}
-@keyframes animate-svg-fill-93 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-93 {
-  animation: animate-svg-fill-93 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.3s both;
-}
-@keyframes animate-svg-fill-94 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-94 {
-  animation: animate-svg-fill-94 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.4s both;
-}
-@keyframes animate-svg-fill-95 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-95 {
-  animation: animate-svg-fill-95 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.5s both;
-}
-@keyframes animate-svg-fill-96 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-96 {
-  animation: animate-svg-fill-96 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.6s both;
-}
-@keyframes animate-svg-fill-97 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-97 {
-  animation: animate-svg-fill-97 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.7s both;
-}
-@keyframes animate-svg-fill-98 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-98 {
-  animation: animate-svg-fill-98 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.8s both;
-}
-@keyframes animate-svg-fill-99 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-99 {
-  animation: animate-svg-fill-99 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 9.9s both;
-}
-@keyframes animate-svg-fill-100 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-100 {
-  animation: animate-svg-fill-100 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10s both;
-}
-@keyframes animate-svg-fill-101 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-101 {
-  animation: animate-svg-fill-101 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.1s both;
-}
-@keyframes animate-svg-fill-102 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-102 {
-  animation: animate-svg-fill-102 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.2s both;
-}
-@keyframes animate-svg-fill-103 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-103 {
-  animation: animate-svg-fill-103 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.3s both;
-}
-@keyframes animate-svg-fill-104 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-104 {
-  animation: animate-svg-fill-104 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.4s both;
-}
-@keyframes animate-svg-fill-105 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-105 {
-  animation: animate-svg-fill-105 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.5s both;
-}
-@keyframes animate-svg-fill-106 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-106 {
-  animation: animate-svg-fill-106 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.6s both;
-}
-@keyframes animate-svg-fill-107 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-107 {
-  animation: animate-svg-fill-107 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.7s both;
-}
-@keyframes animate-svg-fill-108 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-108 {
-  animation: animate-svg-fill-108 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.8s both;
-}
-@keyframes animate-svg-fill-109 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-109 {
-  animation: animate-svg-fill-109 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 10.9s both;
-}
-@keyframes animate-svg-fill-110 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-110 {
-  animation: animate-svg-fill-110 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11s both;
-}
-@keyframes animate-svg-fill-111 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-111 {
-  animation: animate-svg-fill-111 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.1s both;
-}
-@keyframes animate-svg-fill-112 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-112 {
-  animation: animate-svg-fill-112 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.2s both;
-}
-@keyframes animate-svg-fill-113 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-113 {
-  animation: animate-svg-fill-113 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.3s both;
-}
-@keyframes animate-svg-fill-114 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-114 {
-  animation: animate-svg-fill-114 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.4s both;
-}
-@keyframes animate-svg-fill-115 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-115 {
-  animation: animate-svg-fill-115 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.5s both;
-}
-@keyframes animate-svg-fill-116 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-116 {
-  animation: animate-svg-fill-116 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.6s both;
-}
-@keyframes animate-svg-fill-117 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-117 {
-  animation: animate-svg-fill-117 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.7s both;
-}
-@keyframes animate-svg-fill-118 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-118 {
-  animation: animate-svg-fill-118 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.8s both;
-}
-@keyframes animate-svg-fill-119 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-119 {
-  animation: animate-svg-fill-119 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 11.9s both;
-}
-@keyframes animate-svg-fill-120 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-120 {
-  animation: animate-svg-fill-120 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12s both;
-}
-@keyframes animate-svg-fill-121 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-121 {
-  animation: animate-svg-fill-121 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.1s both;
-}
-@keyframes animate-svg-fill-122 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-122 {
-  animation: animate-svg-fill-122 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.2s both;
-}
-@keyframes animate-svg-fill-123 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-123 {
-  animation: animate-svg-fill-123 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.3s both;
-}
-@keyframes animate-svg-fill-124 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-124 {
-  animation: animate-svg-fill-124 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.4s both;
-}
-@keyframes animate-svg-fill-125 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-125 {
-  animation: animate-svg-fill-125 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.5s both;
-}
-@keyframes animate-svg-fill-126 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-126 {
-  animation: animate-svg-fill-126 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.6s both;
-}
-@keyframes animate-svg-fill-127 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-127 {
-  animation: animate-svg-fill-127 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.7s both;
-}
-@keyframes animate-svg-fill-128 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-128 {
-  animation: animate-svg-fill-128 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.8s both;
-}
-@keyframes animate-svg-fill-129 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-129 {
-  animation: animate-svg-fill-129 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 12.9s both;
-}
-@keyframes animate-svg-fill-130 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-130 {
-  animation: animate-svg-fill-130 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13s both;
-}
-@keyframes animate-svg-fill-131 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-131 {
-  animation: animate-svg-fill-131 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.1s both;
-}
-@keyframes animate-svg-fill-132 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-132 {
-  animation: animate-svg-fill-132 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.2s both;
-}
-@keyframes animate-svg-fill-133 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-133 {
-  animation: animate-svg-fill-133 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.3s both;
-}
-@keyframes animate-svg-fill-134 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-134 {
-  animation: animate-svg-fill-134 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.4s both;
-}
-@keyframes animate-svg-fill-135 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-135 {
-  animation: animate-svg-fill-135 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.5s both;
-}
-@keyframes animate-svg-fill-136 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-136 {
-  animation: animate-svg-fill-136 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.6s both;
-}
-@keyframes animate-svg-fill-137 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-137 {
-  animation: animate-svg-fill-137 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.7s both;
-}
-@keyframes animate-svg-fill-138 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-138 {
-  animation: animate-svg-fill-138 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.8s both;
-}
-@keyframes animate-svg-fill-139 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-139 {
-  animation: animate-svg-fill-139 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 13.9s both;
-}
-@keyframes animate-svg-fill-140 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-140 {
-  animation: animate-svg-fill-140 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14s both;
-}
-@keyframes animate-svg-fill-141 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-141 {
-  animation: animate-svg-fill-141 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.1s both;
-}
-@keyframes animate-svg-fill-142 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-142 {
-  animation: animate-svg-fill-142 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.2s both;
-}
-@keyframes animate-svg-fill-143 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-143 {
-  animation: animate-svg-fill-143 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.3s both;
-}
-@keyframes animate-svg-fill-144 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-144 {
-  animation: animate-svg-fill-144 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.4s both;
-}
-@keyframes animate-svg-fill-145 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-145 {
-  animation: animate-svg-fill-145 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.5s both;
-}
-@keyframes animate-svg-fill-146 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-146 {
-  animation: animate-svg-fill-146 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.6s both;
-}
-@keyframes animate-svg-fill-147 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-147 {
-  animation: animate-svg-fill-147 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.7s both;
-}
-@keyframes animate-svg-fill-148 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-148 {
-  animation: animate-svg-fill-148 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.8s both;
-}
-@keyframes animate-svg-fill-149 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-149 {
-  animation: animate-svg-fill-149 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 14.9s both;
-}
-@keyframes animate-svg-fill-150 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-150 {
-  animation: animate-svg-fill-150 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15s both;
-}
-@keyframes animate-svg-fill-151 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-151 {
-  animation: animate-svg-fill-151 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.1s both;
-}
-@keyframes animate-svg-fill-152 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-152 {
-  animation: animate-svg-fill-152 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.2s both;
-}
-@keyframes animate-svg-fill-153 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-153 {
-  animation: animate-svg-fill-153 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.3s both;
-}
-@keyframes animate-svg-fill-154 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-154 {
-  animation: animate-svg-fill-154 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.4s both;
-}
-@keyframes animate-svg-fill-155 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-155 {
-  animation: animate-svg-fill-155 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.5s both;
-}
-@keyframes animate-svg-fill-156 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-156 {
-  animation: animate-svg-fill-156 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.6s both;
-}
-@keyframes animate-svg-fill-157 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-157 {
-  animation: animate-svg-fill-157 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.7s both;
-}
-@keyframes animate-svg-fill-158 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-158 {
-  animation: animate-svg-fill-158 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.8s both;
-}
-@keyframes animate-svg-fill-159 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-159 {
-  animation: animate-svg-fill-159 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 15.9s both;
-}
-@keyframes animate-svg-fill-160 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-160 {
-  animation: animate-svg-fill-160 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16s both;
-}
-@keyframes animate-svg-fill-161 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-161 {
-  animation: animate-svg-fill-161 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.1s both;
-}
-@keyframes animate-svg-fill-162 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-162 {
-  animation: animate-svg-fill-162 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.2s both;
-}
-@keyframes animate-svg-fill-163 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-163 {
-  animation: animate-svg-fill-163 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.3s both;
-}
-@keyframes animate-svg-fill-164 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-164 {
-  animation: animate-svg-fill-164 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.4s both;
-}
-@keyframes animate-svg-fill-165 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-165 {
-  animation: animate-svg-fill-165 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.5s both;
-}
-@keyframes animate-svg-fill-166 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-166 {
-  animation: animate-svg-fill-166 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.6s both;
-}
-@keyframes animate-svg-fill-167 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-167 {
-  animation: animate-svg-fill-167 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.7s both;
-}
-@keyframes animate-svg-fill-168 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-168 {
-  animation: animate-svg-fill-168 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.8s both;
-}
-@keyframes animate-svg-fill-169 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-169 {
-  animation: animate-svg-fill-169 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 16.9s both;
-}
-@keyframes animate-svg-fill-170 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-170 {
-  animation: animate-svg-fill-170 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17s both;
-}
-@keyframes animate-svg-fill-171 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-171 {
-  animation: animate-svg-fill-171 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.1s both;
-}
-@keyframes animate-svg-fill-172 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-172 {
-  animation: animate-svg-fill-172 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.2s both;
-}
-@keyframes animate-svg-fill-173 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-173 {
-  animation: animate-svg-fill-173 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.3s both;
-}
-@keyframes animate-svg-fill-174 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-174 {
-  animation: animate-svg-fill-174 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.4s both;
-}
-@keyframes animate-svg-fill-175 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-175 {
-  animation: animate-svg-fill-175 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.5s both;
-}
-@keyframes animate-svg-fill-176 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-176 {
-  animation: animate-svg-fill-176 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.6s both;
-}
-@keyframes animate-svg-fill-177 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-177 {
-  animation: animate-svg-fill-177 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.7s both;
-}
-@keyframes animate-svg-fill-178 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-178 {
-  animation: animate-svg-fill-178 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.8s both;
-}
-@keyframes animate-svg-fill-179 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-179 {
-  animation: animate-svg-fill-179 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 17.9s both;
-}
-@keyframes animate-svg-fill-180 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-180 {
-  animation: animate-svg-fill-180 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18s both;
-}
-@keyframes animate-svg-fill-181 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-181 {
-  animation: animate-svg-fill-181 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.1s both;
-}
-@keyframes animate-svg-fill-182 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-182 {
-  animation: animate-svg-fill-182 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.2s both;
-}
-@keyframes animate-svg-fill-183 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-183 {
-  animation: animate-svg-fill-183 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.3s both;
-}
-@keyframes animate-svg-fill-184 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-184 {
-  animation: animate-svg-fill-184 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.4s both;
-}
-@keyframes animate-svg-fill-185 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-185 {
-  animation: animate-svg-fill-185 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.5s both;
-}
-@keyframes animate-svg-fill-186 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-186 {
-  animation: animate-svg-fill-186 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.6s both;
-}
-@keyframes animate-svg-fill-187 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-187 {
-  animation: animate-svg-fill-187 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.7s both;
-}
-@keyframes animate-svg-fill-188 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-188 {
-  animation: animate-svg-fill-188 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.8s both;
-}
-@keyframes animate-svg-fill-189 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-189 {
-  animation: animate-svg-fill-189 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 18.9s both;
-}
-@keyframes animate-svg-fill-190 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-190 {
-  animation: animate-svg-fill-190 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19s both;
-}
-@keyframes animate-svg-fill-191 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-191 {
-  animation: animate-svg-fill-191 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.1s both;
-}
-@keyframes animate-svg-fill-192 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-192 {
-  animation: animate-svg-fill-192 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.2s both;
-}
-@keyframes animate-svg-fill-193 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-193 {
-  animation: animate-svg-fill-193 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.3s both;
-}
-@keyframes animate-svg-fill-194 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-194 {
-  animation: animate-svg-fill-194 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.4s both;
-}
-@keyframes animate-svg-fill-195 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-195 {
-  animation: animate-svg-fill-195 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.5s both;
-}
-@keyframes animate-svg-fill-196 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-196 {
-  animation: animate-svg-fill-196 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.6s both;
-}
-@keyframes animate-svg-fill-197 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-197 {
-  animation: animate-svg-fill-197 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.7s both;
-}
-@keyframes animate-svg-fill-198 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-198 {
-  animation: animate-svg-fill-198 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.8s both;
-}
-@keyframes animate-svg-fill-199 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-199 {
-  animation: animate-svg-fill-199 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 19.9s both;
-}
-@keyframes animate-svg-fill-200 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-200 {
-  animation: animate-svg-fill-200 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20s both;
-}
-@keyframes animate-svg-fill-201 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-201 {
-  animation: animate-svg-fill-201 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.1s both;
-}
-@keyframes animate-svg-fill-202 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-202 {
-  animation: animate-svg-fill-202 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.2s both;
-}
-@keyframes animate-svg-fill-203 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-203 {
-  animation: animate-svg-fill-203 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.3s both;
-}
-@keyframes animate-svg-fill-204 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-204 {
-  animation: animate-svg-fill-204 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.4s both;
-}
-@keyframes animate-svg-fill-205 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-205 {
-  animation: animate-svg-fill-205 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.5s both;
-}
-@keyframes animate-svg-fill-206 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-206 {
-  animation: animate-svg-fill-206 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.6s both;
-}
-@keyframes animate-svg-fill-207 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-207 {
-  animation: animate-svg-fill-207 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.7s both;
-}
-@keyframes animate-svg-fill-208 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-208 {
-  animation: animate-svg-fill-208 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.8s both;
-}
-@keyframes animate-svg-fill-209 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-209 {
-  animation: animate-svg-fill-209 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 20.9s both;
-}
-@keyframes animate-svg-fill-210 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-210 {
-  animation: animate-svg-fill-210 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21s both;
-}
-@keyframes animate-svg-fill-211 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-211 {
-  animation: animate-svg-fill-211 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.1s both;
-}
-@keyframes animate-svg-fill-212 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-212 {
-  animation: animate-svg-fill-212 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.2s both;
-}
-@keyframes animate-svg-fill-213 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-213 {
-  animation: animate-svg-fill-213 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.3s both;
-}
-@keyframes animate-svg-fill-214 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-214 {
-  animation: animate-svg-fill-214 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.4s both;
-}
-@keyframes animate-svg-fill-215 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-215 {
-  animation: animate-svg-fill-215 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.5s both;
-}
-@keyframes animate-svg-fill-216 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-216 {
-  animation: animate-svg-fill-216 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.6s both;
-}
-@keyframes animate-svg-fill-217 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-217 {
-  animation: animate-svg-fill-217 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.7s both;
-}
-@keyframes animate-svg-fill-218 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-218 {
-  animation: animate-svg-fill-218 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.8s both;
-}
-@keyframes animate-svg-fill-219 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-219 {
-  animation: animate-svg-fill-219 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 21.9s both;
-}
-@keyframes animate-svg-fill-220 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-220 {
-  animation: animate-svg-fill-220 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22s both;
-}
-@keyframes animate-svg-fill-221 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-221 {
-  animation: animate-svg-fill-221 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.1s both;
-}
-@keyframes animate-svg-fill-222 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-222 {
-  animation: animate-svg-fill-222 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.2s both;
-}
-@keyframes animate-svg-fill-223 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-223 {
-  animation: animate-svg-fill-223 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.3s both;
-}
-@keyframes animate-svg-fill-224 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-224 {
-  animation: animate-svg-fill-224 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.4s both;
-}
-@keyframes animate-svg-fill-225 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-225 {
-  animation: animate-svg-fill-225 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.5s both;
-}
-@keyframes animate-svg-fill-226 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-226 {
-  animation: animate-svg-fill-226 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.6s both;
-}
-@keyframes animate-svg-fill-227 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-227 {
-  animation: animate-svg-fill-227 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.7s both;
-}
-@keyframes animate-svg-fill-228 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-228 {
-  animation: animate-svg-fill-228 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.8s both;
-}
-@keyframes animate-svg-fill-229 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-229 {
-  animation: animate-svg-fill-229 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 22.9s both;
-}
-@keyframes animate-svg-fill-230 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-230 {
-  animation: animate-svg-fill-230 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23s both;
-}
-@keyframes animate-svg-fill-231 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-231 {
-  animation: animate-svg-fill-231 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.1s both;
-}
-@keyframes animate-svg-fill-232 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-232 {
-  animation: animate-svg-fill-232 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.2s both;
-}
-@keyframes animate-svg-fill-233 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-233 {
-  animation: animate-svg-fill-233 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.3s both;
-}
-@keyframes animate-svg-fill-234 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-234 {
-  animation: animate-svg-fill-234 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.4s both;
-}
-@keyframes animate-svg-fill-235 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-235 {
-  animation: animate-svg-fill-235 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.5s both;
-}
-@keyframes animate-svg-fill-236 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-236 {
-  animation: animate-svg-fill-236 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.6s both;
-}
-@keyframes animate-svg-fill-237 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-237 {
-  animation: animate-svg-fill-237 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.7s both;
-}
-@keyframes animate-svg-fill-238 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-238 {
-  animation: animate-svg-fill-238 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.8s both;
-}
-@keyframes animate-svg-fill-239 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-239 {
-  animation: animate-svg-fill-239 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 23.9s both;
-}
-@keyframes animate-svg-fill-240 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-240 {
-  animation: animate-svg-fill-240 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24s both;
-}
-@keyframes animate-svg-fill-241 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-241 {
-  animation: animate-svg-fill-241 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.1s both;
-}
-@keyframes animate-svg-fill-242 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-242 {
-  animation: animate-svg-fill-242 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.2s both;
-}
-@keyframes animate-svg-fill-243 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-243 {
-  animation: animate-svg-fill-243 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.3s both;
-}
-@keyframes animate-svg-fill-244 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-244 {
-  animation: animate-svg-fill-244 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.4s both;
-}
-@keyframes animate-svg-fill-245 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-245 {
-  animation: animate-svg-fill-245 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.5s both;
-}
-@keyframes animate-svg-fill-246 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-246 {
-  animation: animate-svg-fill-246 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.6s both;
-}
-@keyframes animate-svg-fill-247 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-247 {
-  animation: animate-svg-fill-247 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.7s both;
-}
-@keyframes animate-svg-fill-248 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-248 {
-  animation: animate-svg-fill-248 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.8s both;
-}
-@keyframes animate-svg-fill-249 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-249 {
-  animation: animate-svg-fill-249 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 24.9s both;
-}
-@keyframes animate-svg-fill-250 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-250 {
-  animation: animate-svg-fill-250 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25s both;
-}
-@keyframes animate-svg-fill-251 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-251 {
-  animation: animate-svg-fill-251 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.1s both;
-}
-@keyframes animate-svg-fill-252 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-252 {
-  animation: animate-svg-fill-252 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.2s both;
-}
-@keyframes animate-svg-fill-253 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-253 {
-  animation: animate-svg-fill-253 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.3s both;
-}
-@keyframes animate-svg-fill-254 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-254 {
-  animation: animate-svg-fill-254 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.4s both;
-}
-@keyframes animate-svg-fill-255 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-255 {
-  animation: animate-svg-fill-255 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.5s both;
-}
-@keyframes animate-svg-fill-256 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-256 {
-  animation: animate-svg-fill-256 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.6s both;
-}
-@keyframes animate-svg-fill-257 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-257 {
-  animation: animate-svg-fill-257 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.7s both;
-}
-@keyframes animate-svg-fill-258 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-258 {
-  animation: animate-svg-fill-258 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.8s both;
-}
-@keyframes animate-svg-fill-259 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-259 {
-  animation: animate-svg-fill-259 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 25.9s both;
-}
-@keyframes animate-svg-fill-260 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-260 {
-  animation: animate-svg-fill-260 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26s both;
-}
-@keyframes animate-svg-fill-261 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-261 {
-  animation: animate-svg-fill-261 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.1s both;
-}
-@keyframes animate-svg-fill-262 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-262 {
-  animation: animate-svg-fill-262 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.2s both;
-}
-@keyframes animate-svg-fill-263 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-263 {
-  animation: animate-svg-fill-263 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.3s both;
-}
-@keyframes animate-svg-fill-264 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-264 {
-  animation: animate-svg-fill-264 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.4s both;
-}
-@keyframes animate-svg-fill-265 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-265 {
-  animation: animate-svg-fill-265 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.5s both;
-}
-@keyframes animate-svg-fill-266 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-266 {
-  animation: animate-svg-fill-266 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.6s both;
-}
-@keyframes animate-svg-fill-267 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-267 {
-  animation: animate-svg-fill-267 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.7s both;
-}
-@keyframes animate-svg-fill-268 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-268 {
-  animation: animate-svg-fill-268 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.8s both;
-}
-@keyframes animate-svg-fill-269 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-269 {
-  animation: animate-svg-fill-269 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 26.9s both;
-}
-@keyframes animate-svg-fill-270 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-270 {
-  animation: animate-svg-fill-270 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27s both;
-}
-@keyframes animate-svg-fill-271 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-271 {
-  animation: animate-svg-fill-271 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.1s both;
-}
-@keyframes animate-svg-fill-272 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-272 {
-  animation: animate-svg-fill-272 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.2s both;
-}
-@keyframes animate-svg-fill-273 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-273 {
-  animation: animate-svg-fill-273 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.3s both;
-}
-@keyframes animate-svg-fill-274 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-274 {
-  animation: animate-svg-fill-274 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.4s both;
-}
-@keyframes animate-svg-fill-275 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-275 {
-  animation: animate-svg-fill-275 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.5s both;
-}
-@keyframes animate-svg-fill-276 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-276 {
-  animation: animate-svg-fill-276 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.6s both;
-}
-@keyframes animate-svg-fill-277 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-277 {
-  animation: animate-svg-fill-277 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.7s both;
-}
-@keyframes animate-svg-fill-278 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-278 {
-  animation: animate-svg-fill-278 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.8s both;
-}
-@keyframes animate-svg-fill-279 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-279 {
-  animation: animate-svg-fill-279 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 27.9s both;
-}
-@keyframes animate-svg-fill-280 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-280 {
-  animation: animate-svg-fill-280 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28s both;
-}
-@keyframes animate-svg-fill-281 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-281 {
-  animation: animate-svg-fill-281 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.1s both;
-}
-@keyframes animate-svg-fill-282 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-282 {
-  animation: animate-svg-fill-282 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.2s both;
-}
-@keyframes animate-svg-fill-283 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-283 {
-  animation: animate-svg-fill-283 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.3s both;
-}
-@keyframes animate-svg-fill-284 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-284 {
-  animation: animate-svg-fill-284 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.4s both;
-}
-@keyframes animate-svg-fill-285 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-285 {
-  animation: animate-svg-fill-285 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.5s both;
-}
-@keyframes animate-svg-fill-286 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-286 {
-  animation: animate-svg-fill-286 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.6s both;
-}
-@keyframes animate-svg-fill-287 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-287 {
-  animation: animate-svg-fill-287 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.7s both;
-}
-@keyframes animate-svg-fill-288 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-288 {
-  animation: animate-svg-fill-288 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.8s both;
-}
-@keyframes animate-svg-fill-289 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-289 {
-  animation: animate-svg-fill-289 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 28.9s both;
-}
-@keyframes animate-svg-fill-290 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-290 {
-  animation: animate-svg-fill-290 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29s both;
-}
-@keyframes animate-svg-fill-291 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-291 {
-  animation: animate-svg-fill-291 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.1s both;
-}
-@keyframes animate-svg-fill-292 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-292 {
-  animation: animate-svg-fill-292 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.2s both;
-}
-@keyframes animate-svg-fill-293 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-293 {
-  animation: animate-svg-fill-293 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.3s both;
-}
-@keyframes animate-svg-fill-294 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-294 {
-  animation: animate-svg-fill-294 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.4s both;
-}
-@keyframes animate-svg-fill-295 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-295 {
-  animation: animate-svg-fill-295 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.5s both;
-}
-@keyframes animate-svg-fill-296 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-296 {
-  animation: animate-svg-fill-296 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.6s both;
-}
-@keyframes animate-svg-fill-297 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-297 {
-  animation: animate-svg-fill-297 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.7s both;
-}
-@keyframes animate-svg-fill-298 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-298 {
-  animation: animate-svg-fill-298 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.8s both;
-}
-@keyframes animate-svg-fill-299 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-299 {
-  animation: animate-svg-fill-299 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 29.9s both;
-}
-@keyframes animate-svg-fill-300 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-300 {
-  animation: animate-svg-fill-300 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30s both;
-}
-@keyframes animate-svg-fill-301 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-301 {
-  animation: animate-svg-fill-301 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.1s both;
-}
-@keyframes animate-svg-fill-302 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-302 {
-  animation: animate-svg-fill-302 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.2s both;
-}
-@keyframes animate-svg-fill-303 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-303 {
-  animation: animate-svg-fill-303 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.3s both;
-}
-@keyframes animate-svg-fill-304 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-304 {
-  animation: animate-svg-fill-304 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.4s both;
-}
-@keyframes animate-svg-fill-305 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-305 {
-  animation: animate-svg-fill-305 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.5s both;
-}
-@keyframes animate-svg-fill-306 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-306 {
-  animation: animate-svg-fill-306 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.6s both;
-}
-@keyframes animate-svg-fill-307 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-307 {
-  animation: animate-svg-fill-307 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.7s both;
-}
-@keyframes animate-svg-fill-308 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-308 {
-  animation: animate-svg-fill-308 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.8s both;
-}
-@keyframes animate-svg-fill-309 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-309 {
-  animation: animate-svg-fill-309 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 30.9s both;
-}
-@keyframes animate-svg-fill-310 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-310 {
-  animation: animate-svg-fill-310 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31s both;
-}
-@keyframes animate-svg-fill-311 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-311 {
-  animation: animate-svg-fill-311 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.1s both;
-}
-@keyframes animate-svg-fill-312 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-312 {
-  animation: animate-svg-fill-312 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.2s both;
-}
-@keyframes animate-svg-fill-313 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-313 {
-  animation: animate-svg-fill-313 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.3s both;
-}
-@keyframes animate-svg-fill-314 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-314 {
-  animation: animate-svg-fill-314 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.4s both;
-}
-@keyframes animate-svg-fill-315 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-315 {
-  animation: animate-svg-fill-315 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.5s both;
-}
-@keyframes animate-svg-fill-316 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-316 {
-  animation: animate-svg-fill-316 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.6s both;
-}
-@keyframes animate-svg-fill-317 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-317 {
-  animation: animate-svg-fill-317 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.7s both;
-}
-@keyframes animate-svg-fill-318 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-318 {
-  animation: animate-svg-fill-318 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.8s both;
-}
-@keyframes animate-svg-fill-319 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-319 {
-  animation: animate-svg-fill-319 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 31.9s both;
-}
-@keyframes animate-svg-fill-320 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-320 {
-  animation: animate-svg-fill-320 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32s both;
-}
-@keyframes animate-svg-fill-321 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-321 {
-  animation: animate-svg-fill-321 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32.1s both;
-}
-@keyframes animate-svg-fill-322 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-322 {
-  animation: animate-svg-fill-322 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32.2s both;
-}
-@keyframes animate-svg-fill-323 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-323 {
-  animation: animate-svg-fill-323 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32.3s both;
-}
-@keyframes animate-svg-fill-324 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-324 {
-  animation: animate-svg-fill-324 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32.4s both;
-}
-@keyframes animate-svg-fill-325 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-325 {
-  animation: animate-svg-fill-325 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32.5s both;
-}
-@keyframes animate-svg-fill-326 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-326 {
-  animation: animate-svg-fill-326 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32.6s both;
-}
-@keyframes animate-svg-fill-327 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-327 {
-  animation: animate-svg-fill-327 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32.7s both;
-}
-@keyframes animate-svg-fill-328 {
-  0% {
-    fill: transparent;
-  }
-  100% {
-    fill: #ffffff;
-  }
-}
-.svg-elem-328 {
-  animation: animate-svg-fill-328 0.1s cubic-bezier(0.47, 0, 0.745, 0.715) 32.8s both;
-}
-@media only screen and (max-width: 1024px) {
-  .word {
-    position: absolute;
-    opacity: 0;
-  }
-  .letter {
-    display: inline-block;
-    position: relative;
-    transform: translateZ(25px);
-    transform-origin: 50% 50% 25px;
-  }
-  .letter.out {
-    transform: rotateX(90deg);
-    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  }
-  .letter.behind {
-    transform: rotateX(-90deg);
-  }
-  .letter.in {
-    transform: rotateX(0deg);
-    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+.sliding-images-wrapper {
+  display: flex;
+  -webkit-mask-image: linear-gradient(var(--mask-direction, to right), transparent, #000 20%, #000 80%, transparent);
+  mask-image: linear-gradient(var(--mask-direction, to right), transparent, #000 20%, #000 80%, transparent);
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.sliding-images-wrapper .shrink {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 100%;
+  animation: scroll-x 30s linear infinite;
+}
+.sliding-images-wrapper .shrink .item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@keyframes scroll-x {
+  0% {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-100%);
   }
 }
 /*# sourceMappingURL=omnie.css.map */
