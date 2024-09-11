@@ -1364,9 +1364,6 @@ html.invertMode .down-arrow path {
 .tech-banner .banner-col .col .box figure {
   margin-bottom: 20px;
 }
-.tech-banner .banner-col .col .box figure *[stroke="white"] {
-  stroke: black;
-}
 .tech-banner .banner-col .col .box p {
   color: #7c7c7c;
 }
