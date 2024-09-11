@@ -1902,6 +1902,7 @@ html.invertMode .down-arrow path {
 .tech-banner .banner-col .col .box:hover .hybridLogistics-svg .svg-elem-16 {
   animation: animate-svg-stroke-16 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s both, animate-svg-fill-16 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
 }
+.tech-banner .banner-col .col .box:hover .hybridLogistics-svg .svg-elem-1,
 .tech-banner .banner-col .col .box:hover .hybridLogistics-svg .svg-elem-3,
 .tech-banner .banner-col .col .box:hover .hybridLogistics-svg .svg-elem-5,
 .tech-banner .banner-col .col .box:hover .hybridLogistics-svg .svg-elem-7,
