@@ -1,12 +1,12 @@
 .home-banner {
   padding: 100px 0;
+  --square-size: 69px;
+  --gutter: 20px;
 }
 .home-banner .tiles {
   max-width: 40%;
 }
 .home-banner .tiles ul {
-  --square-size: 69px;
-  --gutter: 20px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(var(--square-count), var(--square-size));
@@ -35,11 +35,30 @@
     opacity: 1;
   }
 }
+.home-banner .right {
+  padding: 16% 0 0 20px;
+}
+.home-banner .right .h1 {
+  font-size: 260px;
+  line-height: 0.62;
+  margin-bottom: 44px;
+  font-family: Public Sans;
+  letter-spacing: -0.06em;
+}
+.home-banner .right .h1 strong {
+  color: #C2C2C2;
+  font-size: 200px;
+}
+.home-banner .right p {
+  color: #4D4D4D;
+  max-width: 500px;
+}
 .home-banner .alphabet-tile {
   background: #C2C2C2;
-  width: 13.9%;
-  height: 13.9%;
-  font-size: 90px;
+  width: calc(var(--square-size)*2 + var(--gutter));
+  height: calc(var(--square-size)*2 + var(--gutter));
+  font-size: 170px;
+  line-height: 0.8;
   line-height: 1;
 }
 /*# sourceMappingURL=omnie.css.map */
