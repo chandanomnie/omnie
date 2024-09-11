@@ -411,7 +411,9 @@
 .about-banner-image {
   svg {
     max-height: 75%;
-    animation: scale 19s linear forwards, rotate 25s ease infinite alternate;
+    // animation: scale 19s linear forwards, rotate 25s ease infinite alternate;
+
+    animation: rotateScale 30s linear infinite; 
     transform-origin: center;
 
     @keyframes rotate {
@@ -435,6 +437,18 @@
 
       }
     }
+
+    @keyframes rotateScale { 
+      0% { 
+          transform: rotate(0deg) scale(0.7); 
+      } 
+      50% { 
+          transform: rotate(180deg) scale(0.85); 
+      } 
+      100% { 
+          transform: rotate(360deg) scale(0.7); 
+      } 
+  } 
   }
 
 
