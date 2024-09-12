@@ -85,8 +85,8 @@ jQuery(function ($) {
       speed: 500,
       fade: true,
       cssEase: "linear",
-      autoplay: true,
-      autoplaySpeed: 6000,
+      autoplay: false,
+      // autoplaySpeed: 6000,
       nextArrow: ".slick-custom-next",
       prevArrow: ".slick-custom-prev",
       asNavFor: ".content-slider",
@@ -99,8 +99,8 @@ jQuery(function ($) {
       fade: true,
       cssEase: "linear",
       arrows: false,
-      autoplay: true,
-      autoplaySpeed: 6000,
+      autoplay: false,
+      // autoplaySpeed: 6000,
       asNavFor: ".banner-slider",
     });
   }
@@ -429,7 +429,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
