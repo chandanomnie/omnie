@@ -1,5 +1,10 @@
 jQuery(function ($) {
+<<<<<<< HEAD
   if (jQuery("#modeToggle").length) {
+=======
+
+  if (jQuery('#modeToggle').length) {
+>>>>>>> 047e2ac707d75c99b7b0f0390c28cc636f28e3cb
     const checkbox = document.getElementById("modeToggle");
 
     $("#modeToggle").prop("checked", false);
@@ -20,12 +25,7 @@ jQuery(function ($) {
       setTimeout(function () {
         $("html").addClass("menu-open");
       }, 30);
-      if (window.innerWidth > 1199) {
-        if ($("#home-banner").length > 0) {
-          $.fn.fullpage.setMouseWheelScrolling(false);
-          $.fn.fullpage.setAllowScrolling(false);
-        }
-      }
+
     } else {
       $(".nav-toggle").removeClass("active");
       $("html").removeClass("menu-open sub-menu-mobile");
@@ -39,20 +39,10 @@ jQuery(function ($) {
       setTimeout(function () {
         $("html").removeClass("before-menu-open sub-menu-opened");
       }, 650);
-      if (window.innerWidth > 1199) {
-        if ($("#home-banner").length > 0) {
-          $.fn.fullpage.setMouseWheelScrolling(true);
-          $.fn.fullpage.setAllowScrolling(true);
-        }
-      }
+
     }
 
-    $("html, body").animate(
-      {
-        scrollTop: $(".main-header").offset().top,
-      },
-      300
-    );
+
   });
 
   $("a[href*=\\#]:not([href=\\#])").on("click", function () {
@@ -92,6 +82,42 @@ jQuery(function ($) {
       prevArrow: ".slick-custom-prev",
     });
   }
+
+  if ($(".home-banner").length) {
+    // $(".fade-slider").on("init", function (event, slick) {
+    //   $(".fade-slider .item:first-child").addClass("animate-active");
+    // });
+
+    $(".banner-slider").slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: "linear",
+      autoplay: true,
+      autoplaySpeed: 6000,
+      nextArrow: ".slick-custom-next",
+      prevArrow: ".slick-custom-prev",
+      asNavFor: '.content-slider'
+    });
+
+    $(".content-slider").slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: "linear",
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 6000,
+      asNavFor: '.banner-slider'
+
+    });
+
+
+
+  }
+
 
   if ($(".client-logo-slider").length) {
     new Swiper(".client-logo-slider", {
@@ -417,7 +443,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
