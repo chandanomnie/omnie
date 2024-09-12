@@ -36,7 +36,8 @@
   }
 }
 .home-banner .right {
-  padding: 16% 0 0 20px;
+  padding: 13% 0 0 10px;
+  width: 60%;
 }
 .home-banner .right .h1 {
   font-size: 260px;
@@ -62,7 +63,13 @@
   line-height: 1;
 }
 .home-banner .slick-dots {
-  display: none!important;
+  display: none !important;
+}
+.home-banner .slick-custom-prev {
+  left: 50px;
+}
+.home-banner .slick-custom-arrow.slick-custom-next {
+  right: 50px;
 }
 .home-content .container {
   max-width: 1366px;
@@ -78,6 +85,6 @@
   margin-top: 40px;
 }
 .home-content .slick-dots {
-  display: none!important;
+  display: none !important;
 }
 /*# sourceMappingURL=omnie.css.map */
