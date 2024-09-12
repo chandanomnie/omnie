@@ -61,6 +61,9 @@
   line-height: 0.8;
   line-height: 1;
 }
+.home-banner .slick-dots {
+  display: none!important;
+}
 .home-content .container {
   max-width: 1366px;
 }
@@ -73,5 +76,8 @@
 }
 .home-content .btn {
   margin-top: 40px;
+}
+.home-content .slick-dots {
+  display: none!important;
 }
 /*# sourceMappingURL=omnie.css.map */

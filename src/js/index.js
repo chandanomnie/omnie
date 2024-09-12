@@ -80,6 +80,42 @@ jQuery(function ($) {
     });
   }
 
+  if ($(".home-banner").length) {
+    // $(".fade-slider").on("init", function (event, slick) {
+    //   $(".fade-slider .item:first-child").addClass("animate-active");
+    // });
+
+    $(".banner-slider").slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: "linear",
+      autoplay: true,
+      autoplaySpeed: 6000,
+      nextArrow: ".slick-custom-next",
+      prevArrow: ".slick-custom-prev",
+      asNavFor: '.content-slider'
+    });
+
+    $(".content-slider").slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: "linear",
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 6000,
+      asNavFor: '.banner-slider'
+
+    });
+
+
+
+  }
+
+
   if ($(".client-logo-slider").length) {
     new Swiper(".client-logo-slider", {
       spaceBetween: 0,
