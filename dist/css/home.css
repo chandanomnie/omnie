@@ -48,6 +48,26 @@
   font-family: Public Sans;
   letter-spacing: -0.06em;
 }
+.home-banner .right .h1 .drum {
+  height: 190px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+.home-banner .right .h1 .drum .animate {
+  position: absolute;
+  top: 0;
+  transition: transform 0.5s ease;
+  transform: translateY(-33%);
+  display: flex;
+  flex-flow: column;
+  height: 300%;
+  left: 0;
+  justify-content: flex-start;
+}
+.home-banner .right .h1 .drum .animate strong {
+  flex-grow: 1;
+}
 .home-banner .right .h1 strong {
   color: #C2C2C2;
   font-size: 200px;
