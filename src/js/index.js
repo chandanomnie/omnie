@@ -1,10 +1,5 @@
 jQuery(function ($) {
-<<<<<<< HEAD
   if (jQuery("#modeToggle").length) {
-=======
-
-  if (jQuery('#modeToggle').length) {
->>>>>>> 047e2ac707d75c99b7b0f0390c28cc636f28e3cb
     const checkbox = document.getElementById("modeToggle");
 
     $("#modeToggle").prop("checked", false);
@@ -25,7 +20,6 @@ jQuery(function ($) {
       setTimeout(function () {
         $("html").addClass("menu-open");
       }, 30);
-
     } else {
       $(".nav-toggle").removeClass("active");
       $("html").removeClass("menu-open sub-menu-mobile");
@@ -39,10 +33,7 @@ jQuery(function ($) {
       setTimeout(function () {
         $("html").removeClass("before-menu-open sub-menu-opened");
       }, 650);
-
     }
-
-
   });
 
   $("a[href*=\\#]:not([href=\\#])").on("click", function () {
@@ -98,7 +89,7 @@ jQuery(function ($) {
       autoplaySpeed: 6000,
       nextArrow: ".slick-custom-next",
       prevArrow: ".slick-custom-prev",
-      asNavFor: '.content-slider'
+      asNavFor: ".content-slider",
     });
 
     $(".content-slider").slick({
@@ -110,14 +101,9 @@ jQuery(function ($) {
       arrows: false,
       autoplay: true,
       autoplaySpeed: 6000,
-      asNavFor: '.banner-slider'
-
+      asNavFor: ".banner-slider",
     });
-
-
-
   }
-
 
   if ($(".client-logo-slider").length) {
     new Swiper(".client-logo-slider", {
@@ -443,7 +429,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
