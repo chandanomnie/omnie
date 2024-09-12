@@ -11,7 +11,7 @@
 
   @media @mobile {
     min-height: auto;
-    height: calc(100vh - 70px);
+    height: calc(70vh - 70px);
   }
 
   .bottom-part {
@@ -30,6 +30,11 @@
   }
 
   .middle-part {
+    @media @mobile {
+      .sub-heading {
+        padding: 0 20px;
+      }
+    }
     .main-heading {
       font-size: 72px;
       line-height: 84px;
@@ -131,23 +136,23 @@
           }
 
           .counting {
-            font-size: 64px;
-            line-height: 75px;
+            font-size: 48px;
+            line-height: 60px;
             .fw-600;
 
             &-tag {
-              font-size: 24px;
-              line-height: 28px;
+              font-size: 18px;
+              line-height: 22px;
               .fw-300;
             }
 
             @media @max-screen-1024 {
-              font-size: 48px;
-              line-height: 56px;
+              font-size: 36px;
+              line-height: 40px;
 
               &-tag {
-                font-size: 18px;
-                line-height: 21px;
+                font-size: 16px;
+                line-height: 20px;
               }
             }
           }
@@ -166,8 +171,8 @@
         margin-bottom: 65px;
 
         p {
-          font-size: 36px;
-          line-height: 42px;
+          font-size: 32px;
+          line-height: 40px;
         }
       }
 
@@ -411,10 +416,12 @@
 .about-banner-image {
   svg {
     max-height: 75%;
-    // animation: scale 19s linear forwards, rotate 25s ease infinite alternate;
-
     animation: rotateScale 30s linear infinite;
     transform-origin: center;
+
+    @media @mobile {
+      max-height: 90%;
+    }
 
     @keyframes rotate {
       0% {
