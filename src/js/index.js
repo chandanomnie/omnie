@@ -1,10 +1,9 @@
 jQuery(function ($) {
-  
-  if(jQuery('#modeToggle').length){
+  if (jQuery("#modeToggle").length) {
     const checkbox = document.getElementById("modeToggle");
-  
+
     $("#modeToggle").prop("checked", false);
-  
+
     checkbox.addEventListener("change", (event) => {
       if (event.currentTarget.checked) {
         $("html").addClass("invertMode");
@@ -13,7 +12,6 @@ jQuery(function ($) {
       }
     });
   }
-
 
   $(".nav-toggle").on("click", function () {
     if (!$(".nav-toggle").hasClass("active")) {
@@ -332,6 +330,24 @@ jQuery(function ($) {
 
       loop: true,
       slidesPerView: "auto",
+    });
+  }
+
+  if ($(".our-work-slider-mobile").length) {
+    new Swiper(".our-work-slider-mobile", {
+      centeredSlides: false,
+      speed: 1500,
+      loop: true,
+      spaceBetween: 25,
+      allowTouchMove: true,
+      slidesPerView: "auto",
+      observeParents: true,
+      observer: true,
+      autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
     });
   }
 
