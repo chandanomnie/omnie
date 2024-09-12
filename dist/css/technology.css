@@ -1217,7 +1217,7 @@ html.invertMode .bg-light-grey {
 }
 @media only screen and (max-width: 1024px) {
   .section-gap {
-    padding: 50px 0;
+    padding: 70px 0;
   }
 }
 .order-2 {
@@ -1280,7 +1280,7 @@ html.invertMode .down-arrow path {
   font-size: 16px;
 }
 .link-btn:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;

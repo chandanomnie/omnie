@@ -466,8 +466,8 @@ h2,
   h2,
   .h2,
   .fs2 {
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 32px;
+    line-height: 40px;
   }
 }
 h3,
@@ -1726,7 +1726,7 @@ p:last-child,
 }
 @media only screen and (max-width: 1024px) {
   .section-gap {
-    padding: 50px 0;
+    padding: 70px 0;
   }
 }
 .order-2 {
@@ -1789,7 +1789,7 @@ html.invertMode .down-arrow path {
   font-size: 16px;
 }
 .link-btn:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3164,7 +3164,7 @@ html.menu-open .main-nav * {
 }
 @media only screen and (max-width: 767px) {
   .footer .footer-wrapper .left .logo {
-    margin: 0 auto 15px auto;
+    margin: 0 auto 5px auto;
   }
 }
 .footer .footer-wrapper p {
@@ -3174,7 +3174,7 @@ html.menu-open .main-nav * {
 }
 @media only screen and (max-width: 767px) {
   .footer .footer-wrapper p {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
   }
 }
 .footer .footer-wrapper ul.social-links {

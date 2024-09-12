@@ -1217,7 +1217,7 @@ html.invertMode .bg-light-grey {
 }
 @media only screen and (max-width: 1024px) {
   .section-gap {
-    padding: 50px 0;
+    padding: 70px 0;
   }
 }
 .order-2 {
@@ -1280,7 +1280,7 @@ html.invertMode .down-arrow path {
   font-size: 16px;
 }
 .link-btn:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1383,7 +1383,7 @@ html.invertMode .down-arrow path {
   user-select: none;
 }
 .ctct-form-element {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
 }
@@ -1656,11 +1656,11 @@ html.invertMode .down-arrow path {
   border-radius: 0;
   color: black;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 1;
   padding: 8px;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: -40px;
   z-index: 401;
 }
 .fancybox-close-small:hover {
@@ -2128,7 +2128,7 @@ html.invertMode .page-banner {
 @media only screen and (max-width: 767px) {
   .page-banner {
     min-height: auto;
-    height: calc(100vh - 70px);
+    height: calc(70vh - 70px);
   }
 }
 .page-banner .bottom-part {
@@ -2143,6 +2143,11 @@ html.invertMode .page-banner {
   line-height: 30px;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 100;
+}
+@media only screen and (max-width: 767px) {
+  .page-banner .middle-part .sub-heading {
+    padding: 0 20px;
+  }
 }
 .page-banner .middle-part .main-heading {
   font-size: 72px;
@@ -2244,23 +2249,23 @@ html.invertMode .count-container-left p {
   }
 }
 .count-container-right-flex-item .counting {
-  font-size: 64px;
-  line-height: 75px;
+  font-size: 48px;
+  line-height: 60px;
   font-weight: 600;
 }
 .count-container-right-flex-item .counting-tag {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 300;
 }
 @media only screen and (max-width: 1024px) {
   .count-container-right-flex-item .counting {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 36px;
+    line-height: 40px;
   }
   .count-container-right-flex-item .counting-tag {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -2275,8 +2280,8 @@ html.invertMode .count-container-left p {
     margin-bottom: 65px;
   }
   .count-container-left p {
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 32px;
+    line-height: 40px;
   }
   .count-container-right {
     width: 100%;
@@ -2497,6 +2502,11 @@ html.invertMode .count-container-left p {
   max-height: 75%;
   animation: rotateScale 30s linear infinite;
   transform-origin: center;
+}
+@media only screen and (max-width: 767px) {
+  .about-banner-image svg {
+    max-height: 90%;
+  }
 }
 @keyframes rotate {
   0% {

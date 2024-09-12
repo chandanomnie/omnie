@@ -1217,7 +1217,7 @@ html.invertMode .bg-light-grey {
 }
 @media only screen and (max-width: 1024px) {
   .section-gap {
-    padding: 50px 0;
+    padding: 70px 0;
   }
 }
 .order-2 {
@@ -1280,7 +1280,7 @@ html.invertMode .down-arrow path {
   font-size: 16px;
 }
 .link-btn:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1383,7 +1383,7 @@ html.invertMode .down-arrow path {
   user-select: none;
 }
 .ctct-form-element {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
 }
@@ -1656,11 +1656,11 @@ html.invertMode .down-arrow path {
   border-radius: 0;
   color: black;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 1;
   padding: 8px;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: -40px;
   z-index: 401;
 }
 .fancybox-close-small:hover {
