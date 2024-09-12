@@ -61,4 +61,17 @@
   line-height: 0.8;
   line-height: 1;
 }
+.home-content .container {
+  max-width: 1366px;
+}
+.home-content .left {
+  max-width: 610px;
+}
+.home-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.home-content .btn {
+  margin-top: 40px;
+}
 /*# sourceMappingURL=omnie.css.map */

@@ -1,10 +1,10 @@
 jQuery(function ($) {
-  
-  if(jQuery('#modeToggle').length){
+
+  if (jQuery('#modeToggle').length) {
     const checkbox = document.getElementById("modeToggle");
-  
+
     $("#modeToggle").prop("checked", false);
-  
+
     checkbox.addEventListener("change", (event) => {
       if (event.currentTarget.checked) {
         $("html").addClass("invertMode");
@@ -22,12 +22,7 @@ jQuery(function ($) {
       setTimeout(function () {
         $("html").addClass("menu-open");
       }, 30);
-      if (window.innerWidth > 1199) {
-        if ($("#home-banner").length > 0) {
-          $.fn.fullpage.setMouseWheelScrolling(false);
-          $.fn.fullpage.setAllowScrolling(false);
-        }
-      }
+
     } else {
       $(".nav-toggle").removeClass("active");
       $("html").removeClass("menu-open sub-menu-mobile");
@@ -41,20 +36,10 @@ jQuery(function ($) {
       setTimeout(function () {
         $("html").removeClass("before-menu-open sub-menu-opened");
       }, 650);
-      if (window.innerWidth > 1199) {
-        if ($("#home-banner").length > 0) {
-          $.fn.fullpage.setMouseWheelScrolling(true);
-          $.fn.fullpage.setAllowScrolling(true);
-        }
-      }
+
     }
 
-    $("html, body").animate(
-      {
-        scrollTop: $(".main-header").offset().top,
-      },
-      300
-    );
+
   });
 
   $("a[href*=\\#]:not([href=\\#])").on("click", function () {
@@ -401,7 +386,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
