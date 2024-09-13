@@ -1,7 +1,9 @@
 .home-banner {
-  padding: 100px 0;
   --square-size: 69px;
   --gutter: 20px;
+}
+.home-banner .item {
+  padding: 100px 0;
 }
 .home-banner .slick-active .tiles ul li {
   animation-name: animateIn;
@@ -9,6 +11,13 @@
   animation-delay: calc(var(--animation-order) * 150ms);
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
+}
+.home-banner .slick-custom-arrow,
+.home-banner .alphabet-tile,
+.home-banner .right,
+.home-banner .down-arrow {
+  opacity: 0;
+  pointer-events: none;
 }
 .home-banner .tiles {
   max-width: 40%;
@@ -26,7 +35,6 @@
   height: var(--square-size);
   width: var(--square-size);
   background-color: transparent;
-  border: 2px solid #C2C2C2;
 }
 @keyframes animateIn {
   0% {
@@ -299,5 +307,126 @@
 }
 .home-content .item:nth-child(3).slick-active .svg-elem-5 {
   animation: animate-svg-stroke-5 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s both;
+}
+.first-tiles ul li {
+  position: relative;
+}
+.first-tiles ul li::before {
+  content: '';
+  border: 1px solid #C2C2C2;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  transform: scale(2.4);
+}
+.first-tiles ul li:nth-child(1)::before {
+  transform-origin: -113% 244%;
+}
+.first-tiles ul li:nth-child(2)::before {
+  transform-origin: -234% 244%;
+}
+.first-tiles ul li:nth-child(3)::before {
+  transform-origin: -362% 244%;
+}
+.first-tiles ul li:nth-child(4)::before {
+  transform-origin: -475% 244%;
+}
+.first-tiles ul li:nth-child(5)::before {
+  transform-origin: -595% 244%;
+}
+.first-tiles ul li:nth-child(6)::before {
+  transform-origin: -723% 244%;
+}
+.first-tiles ul li:nth-child(7)::before {
+  transform-origin: 65% 122%;
+}
+.first-tiles ul li:nth-child(8)::before {
+  transform-origin: -233% 124%;
+}
+.first-tiles ul li:nth-child(9)::before {
+  transform-origin: -360% 124%;
+}
+.first-tiles ul li:nth-child(10)::before {
+  transform-origin: -474% 122%;
+}
+.first-tiles ul li:nth-child(11)::before {
+  transform-origin: -593% 122%;
+}
+.first-tiles ul li:nth-child(12)::before {
+  transform-origin: -901% 168%;
+}
+.first-tiles ul li:nth-child(13)::before {
+  transform-origin: 89% -47%;
+}
+.first-tiles ul li:nth-child(14)::before {
+  transform-origin: -71% 13%;
+}
+.first-tiles ul li:nth-child(15)::before {
+  transform-origin: -291% -5%;
+}
+.first-tiles ul li:nth-child(16)::before {
+  transform-origin: -529% -6%;
+}
+.first-tiles ul li:nth-child(17)::before {
+  transform-origin: -729% 15%;
+}
+.first-tiles ul li:nth-child(18)::before {
+  transform-origin: -954% 19%;
+}
+.first-tiles ul li:nth-child(19)::before {
+  transform-origin: -112% -118%;
+}
+.first-tiles ul li:nth-child(20)::before {
+  transform-origin: -220% -116%;
+}
+.first-tiles ul li:nth-child(21)::before {
+  transform-origin: -356% -117%;
+}
+.first-tiles ul li:nth-child(22)::before {
+  transform-origin: -557% -117%;
+}
+.first-tiles ul li:nth-child(23)::before {
+  transform-origin: -711% -97%;
+}
+.first-tiles ul li:nth-child(24)::before {
+  transform-origin: -840% -117%;
+}
+.first-tiles ul li:nth-child(25)::before {
+  transform-origin: 35% -261%;
+}
+.first-tiles ul li:nth-child(26)::before {
+  transform-origin: -144% -257%;
+}
+.first-tiles ul li:nth-child(27)::before {
+  transform-origin: -359% -240%;
+}
+.first-tiles ul li:nth-child(28)::before {
+  transform-origin: -487% -238%;
+}
+.first-tiles ul li:nth-child(29)::before {
+  transform-origin: -682% -238%;
+}
+.first-tiles ul li:nth-child(30)::before {
+  transform-origin: -902% -261%;
+}
+.first-tiles ul li:nth-child(31)::before {
+  transform-origin: -360% -469%;
+}
+.first-tiles ul li:nth-child(32)::before {
+  transform-origin: -601% -393%;
+}
+.first-tiles ul li:nth-child(33)::before {
+  transform-origin: -601% -393%;
+}
+.first-tiles ul li:nth-child(34)::before {
+  transform-origin: -701% -393%;
+}
+.first-tiles ul li:nth-child(35)::before {
+  transform-origin: -801% -393%;
+}
+.first-tiles ul li:nth-child(36)::before {
+  transform-origin: -901% -393%;
 }
 /*# sourceMappingURL=omnie.css.map */
