@@ -324,7 +324,7 @@ body.compensate-for-scrollbar {
 /* Buttons */
 .fancybox-button,
 .button-next {
-  background: #000;
+  background: #fff;
   border: 0;
   border-radius: 0;
   box-shadow: none;
@@ -338,12 +338,15 @@ body.compensate-for-scrollbar {
   vertical-align: top;
   visibility: inherit;
   width: 44px;
+  border-radius: 100%;
+  top: 20px;
+  right: 20px;
 }
 
 .fancybox-button,
 .fancybox-button:visited,
 .fancybox-button:link {
-  color: #fff;
+  color: #000;
 }
 
 .fancybox-button:hover {
@@ -457,6 +460,7 @@ body.compensate-for-scrollbar {
   position: absolute;
   top: calc(50% - 50px);
   width: 70px;
+  border-radius: 100%;
 }
 
 .fancybox-navigation .fancybox-button div {
@@ -464,13 +468,13 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-navigation .fancybox-button--arrow_left {
-  left: 0;
+  left: 20px;
   padding: 31px 26px 31px 6px;
 }
 
 .fancybox-navigation .fancybox-button--arrow_right {
   padding: 31px 6px 31px 26px;
-  right: 0;
+  right: 20px;
 }
 
 /* Caption */
