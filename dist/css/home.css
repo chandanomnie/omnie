@@ -5,7 +5,7 @@
 .home-banner .item {
   padding: 100px 0;
 }
-.home-banner .slick-active .tiles ul li {
+.home-banner .slick-active .tiles ul liss {
   animation-name: animateIn;
   animation-duration: 350ms;
   animation-delay: calc(var(--animation-order) * 150ms);
@@ -320,6 +320,7 @@
   right: -1px;
   bottom: -1px;
   transform: scale(2.4);
+  transition: all 2s ease 5s !important;
 }
 .first-tiles ul li:nth-child(1)::before {
   transform-origin: -113% 244%;

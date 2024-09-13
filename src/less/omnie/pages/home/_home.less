@@ -7,7 +7,7 @@
     padding: 100px 0;
   }
 
-  .slick-active .tiles ul li {
+  .slick-active .tiles ul liss {
     animation-name: animateIn;
     animation-duration: 350ms;
     animation-delay: calc(var(--animation-order) * 150ms);
@@ -428,6 +428,13 @@
       right: -1px;
       bottom: -1px;
       transform: scale(2.4);
+      transition: all 2.0s ease 5s !important;
+
+      html.dom-loaded & {
+        // transform: scale(1);
+        // transform-origin: 0 !important;
+      }
+
     }
 
     &:nth-child(1) {
