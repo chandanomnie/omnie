@@ -151,6 +151,11 @@ jQuery(function ($) {
           });
         }, 200);
       },
+      baseClass: "galleryPop",
+      smallBtn: false,
+      closeBtn: "true",
+      toolbar: "auto",
+      buttons: ["close"],
     });
   }
 

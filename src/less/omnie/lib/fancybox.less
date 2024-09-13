@@ -214,6 +214,14 @@ body.compensate-for-scrollbar {
   -ms-user-select: none;
   user-select: none;
   z-index: 99995;
+
+  @media (max-width: 767px) {
+    max-width: 95%;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    right: 0;
+  }
 }
 
 .fancybox-can-zoomOut .fancybox-content {

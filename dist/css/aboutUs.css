@@ -1482,6 +1482,15 @@ html.invertMode .down-arrow path {
   user-select: none;
   z-index: 99995;
 }
+@media (max-width: 767px) {
+  .fancybox-slide--image .fancybox-content {
+    max-width: 95%;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    right: 0;
+  }
+}
 .fancybox-can-zoomOut .fancybox-content {
   cursor: -webkit-zoom-out;
   cursor: zoom-out;
