@@ -151,6 +151,11 @@ jQuery(function ($) {
           });
         }, 200);
       },
+      baseClass: "galleryPop",
+      smallBtn: false,
+      closeBtn: "true",
+      toolbar: "auto",
+      buttons: ["close"],
     });
   }
 
@@ -201,6 +206,11 @@ jQuery(function ($) {
           // });
         }, 200);
       },
+      baseClass: "galleryPop",
+      smallBtn: false,
+      closeBtn: "true",
+      toolbar: "auto",
+      buttons: ["close"],
     });
   }
 
@@ -429,7 +439,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
