@@ -16,7 +16,7 @@
 html:not(.scene3) .home-banner .item:first-child {
   opacity: 1 !important;
 }
-html.scene3 .home-banner .item ~ .is-selected .tiles ul li {
+html.scene3 .home-banner .is-selected .tiles ul li {
   animation-name: animateIn;
   animation-duration: 350ms;
   animation-delay: calc(var(--animation-order) * 150ms);
@@ -91,12 +91,15 @@ html.scene3 .home-banner .flickity-button {
   transform: translateY(-33%);
   display: flex;
   flex-flow: column;
-  height: 300%;
+  height: 330%;
   left: 0;
   justify-content: flex-start;
 }
 .home-banner .right .h1 .drum .animate strong {
   flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .home-banner .right .h1 strong {
   color: #C2C2C2;

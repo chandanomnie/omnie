@@ -24,7 +24,7 @@
     }
   }
 
-  .item~.is-selected .tiles ul li {
+  .is-selected .tiles ul li {
 
     html.scene3 & {
       animation-name: animateIn;
@@ -113,12 +113,15 @@
           transform: translateY(-33%);
           display: flex;
           flex-flow: column;
-          height: 300%;
+          height: 330%;
           left: 0;
           justify-content: flex-start;
 
           strong {
             flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
           }
 
         }
