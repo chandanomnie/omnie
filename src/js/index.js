@@ -76,25 +76,13 @@ jQuery(function ($) {
 
   if ($(".home-banner").length) {
 
-    $('html').addClass('scen1');
-
-    setTimeout(function () {
-
-      setTimeout(function () {
-        $('html').addClass('scen2');
-
-
-      }, 1000)
-
-
-    }, 1000)
-
-
     $('.banner-slider').flickity({
 
       fade: true,
       pageDots: false,
-      wrapAround: true
+      wrapAround: true,
+      autoPlay: false,
+
     });
     // 2nd carousel, navigation
     $('.content-slider').flickity({
@@ -102,8 +90,32 @@ jQuery(function ($) {
       contain: true,
       pageDots: false,
       fade: true,
-      wrapAround: true
+      wrapAround: true,
+      autoPlay: false,
+
     });
+
+
+    setTimeout(function () {
+      $('html').addClass('scene1');
+      setTimeout(function () {
+        $('html').addClass('scene2');
+
+        setTimeout(function () {
+
+          $('html').addClass('scene3');
+        }, 4000)
+
+
+
+
+      }, 1000)
+
+
+
+    }, 100)
+
+
 
   }
 

@@ -57,7 +57,7 @@ https://flickity.metafizzy.co
 
 .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  /* box-shadow: 0 0 0 5px #19F; */
 }
 
 .flickity-button:active {
@@ -79,15 +79,18 @@ https://flickity.metafizzy.co
 
 .flickity-prev-next-button {
   top: 50%;
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   /* vertically center */
   transform: translateY(-50%);
+  border: 2px solid black;
+  background: white;
+
 }
 
-.flickity-prev-next-button.previous { left: 10px; }
-.flickity-prev-next-button.next { right: 10px; }
+.flickity-prev-next-button.previous { left:50px; }
+.flickity-prev-next-button.next { right:50px; }
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;
