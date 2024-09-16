@@ -4,6 +4,8 @@
 }
 .home-banner .item {
   padding: 100px 0;
+  width: 100%;
+  min-height: calc(100vh - 70px);
 }
 .home-banner .slick-active .tiles ul liss {
   animation-name: animateIn;
@@ -15,7 +17,8 @@
 .home-banner .slick-custom-arrow,
 .home-banner .alphabet-tile,
 .home-banner .right,
-.home-banner .down-arrow {
+.home-banner .down-arrow,
+.home-banner .flickity-button {
   opacity: 0;
   pointer-events: none;
 }
@@ -101,8 +104,14 @@
 .home-banner .slick-custom-arrow.slick-custom-next {
   right: 50px;
 }
+.home-content .flickity-button {
+  display: none !important;
+}
 .home-content .container {
   max-width: 1366px;
+}
+.home-content .item {
+  width: 100%;
 }
 .home-content .left {
   max-width: 610px;
@@ -322,6 +331,10 @@
   transform: scale(2.4);
   transition: all 2s ease 5s !important;
 }
+html.scene1 .first-tiles ul li::before {
+  transform: scale(1);
+  transform-origin: 0 !important;
+}
 .first-tiles ul li:nth-child(1)::before {
   transform-origin: -113% 244%;
 }
@@ -429,5 +442,9 @@
 }
 .first-tiles ul li:nth-child(36)::before {
   transform-origin: -901% -393%;
+}
+.home-banner .item:first-child {
+  display: block !important;
+  opacity: 1 !important;
 }
 /*# sourceMappingURL=omnie.css.map */

@@ -75,34 +75,36 @@ jQuery(function ($) {
   }
 
   if ($(".home-banner").length) {
-    // $(".fade-slider").on("init", function (event, slick) {
-    //   $(".fade-slider .item:first-child").addClass("animate-active");
-    // });
 
-    $(".banner-slider").slick({
-      dots: true,
-      infinite: true,
-      speed: 500,
+    $('html').addClass('scen1');
+
+    setTimeout(function () {
+
+      setTimeout(function () {
+        $('html').addClass('scen2');
+
+
+      }, 1000)
+
+
+    }, 1000)
+
+
+    $('.banner-slider').flickity({
+
       fade: true,
-      cssEase: "linear",
-      autoplay: false,
-      // autoplaySpeed: 6000,
-      nextArrow: ".slick-custom-next",
-      prevArrow: ".slick-custom-prev",
-      asNavFor: ".content-slider",
+      pageDots: false,
+      wrapAround: true
+    });
+    // 2nd carousel, navigation
+    $('.content-slider').flickity({
+      asNavFor: '.banner-slider',
+      contain: true,
+      pageDots: false,
+      fade: true,
+      wrapAround: true
     });
 
-    $(".content-slider").slick({
-      dots: true,
-      infinite: true,
-      speed: 500,
-      fade: true,
-      cssEase: "linear",
-      arrows: false,
-      autoplay: false,
-      // autoplaySpeed: 6000,
-      asNavFor: ".banner-slider",
-    });
   }
 
   if ($(".client-logo-slider").length) {
@@ -439,7 +441,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
