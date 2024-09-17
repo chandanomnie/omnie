@@ -2606,6 +2606,8 @@ html.invertMode .benfits-section svg *[fill="#000"] {
 }
 .life-section .life-slider .swiper-container .swiper-wrapper {
   position: relative;
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
 }
 @media only screen and (max-width: 767px) {
   .life-section .life-slider {
