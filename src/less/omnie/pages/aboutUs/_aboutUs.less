@@ -188,7 +188,7 @@
     margin-bottom: 124px;
 
     @media @max-screen-1024 {
-      margin-bottom: 70px;
+      margin-bottom: 50px;
     }
   }
 
@@ -219,6 +219,14 @@
 
         @media @mobile {
           width: 45%;
+          margin-bottom: 55px;
+
+          .invert-img-block-front {
+            img {
+              height: 30px;
+              width: auto;
+            }
+          }
         }
       }
     }
@@ -5447,6 +5455,20 @@
       padding-left: 20px;
       padding-right: 20px;
     }
+
+    @media @mobile {
+      animation: scroll-x 15s linear infinite;
+    }
+  }
+
+  @media @mobile {
+    mask-image: linear-gradient(
+      var(--mask-direction, to right),
+      transparent,
+      #000 8%,
+      #000 80%,
+      transparent
+    );
   }
 }
 

@@ -1293,7 +1293,8 @@ html.invertMode .down-arrow path {
   width: 100%;
 }
 .services-banner {
-  padding: 50px 0;
+  padding: 130px 0 50px 0;
+  height: calc(100vh - 70px);
 }
 .services-banner .container {
   max-width: 1370px;
@@ -1966,23 +1967,6 @@ html.invertMode .down-arrow path {
   display: flex;
   justify-content: space-between;
   position: relative;
-}
-.our-work-container .our-work-container-right .our-work-slider::before {
-  content: "";
-  position: absolute;
-  bottom: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 25%;
-  background: linear-gradient(to bottom, #fff 10%, rgba(255, 255, 255, 0) 60%);
-  z-index: 2;
-  pointer-events: none;
-}
-@media only screen and (max-width: 767px) {
-  .our-work-container .our-work-container-right .our-work-slider::before {
-    display: none;
-  }
 }
 .our-work-container .our-work-container-right .our-work-slider > div {
   width: 31%;
