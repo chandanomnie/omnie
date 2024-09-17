@@ -1293,7 +1293,8 @@ html.invertMode .down-arrow path {
   width: 100%;
 }
 .services-banner {
-  padding: 50px 0;
+  padding: 130px 0 50px 0;
+  height: calc(100vh - 70px);
 }
 .services-banner .container {
   max-width: 1370px;

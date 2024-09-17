@@ -2305,7 +2305,7 @@ html.invertMode .count-container-left p {
 }
 @media only screen and (max-width: 1024px) {
   .our-partners .section-title {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 }
 .our-partners .partners-logo {
@@ -2336,6 +2336,11 @@ html.invertMode .count-container-left p {
 @media only screen and (max-width: 767px) {
   .our-partners .partners-logo-container-item {
     width: 45%;
+    margin-bottom: 55px;
+  }
+  .our-partners .partners-logo-container-item .invert-img-block-front img {
+    height: 30px;
+    width: auto;
   }
 }
 .our-partners-action {
@@ -6199,6 +6204,16 @@ html.invertMode .count-container-left p {
 .sliding-images-wrapper .shrink .item {
   padding-left: 20px;
   padding-right: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .sliding-images-wrapper .shrink {
+    animation: scroll-x 15s linear infinite;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sliding-images-wrapper {
+    mask-image: linear-gradient(var(--mask-direction, to right), transparent, #000 8%, #000 80%, transparent);
+  }
 }
 @keyframes scroll-x {
   0% {
