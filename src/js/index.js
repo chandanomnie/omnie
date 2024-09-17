@@ -197,7 +197,7 @@ jQuery(function ($) {
         }, 4000);
         setTimeout(function () {
           $('.banner-slider .item:first-child').addClass('is-animated').siblings().removeClass('is-animated');
-        }, 5000)
+        }, 4200)
 
       }, 1000)
     }, 100)
