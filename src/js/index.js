@@ -76,23 +76,91 @@ jQuery(function ($) {
 
   if ($(".home-banner").length) {
 
-    $('.banner-slider').flickity({
+    var $carousel = $('.banner-slider').flickity({
 
       fade: true,
+      prevNextButtons: false,
       pageDots: false,
       wrapAround: true,
       autoPlay: false,
-
+      on: {
+        ready: function () {
+          console.log('Flickity is ready');
+        },
+        change: function (index) {
+          var getCur = index;
+          console.log(getCur)
+          $('.text-roll-slider .swiper-wrapper').slick('slickGoTo', getCur);
+          $('.text-flip-slider .swiper-wrapper').slick('slickGoTo', getCur);
+        }
+      }
     });
+
+    $('.slick-custom-prev').on('click', function () {
+      $carousel.flickity('previous');
+    });
+    // next
+    $('.slick-custom-next').on('click', function () {
+      $carousel.flickity('next');
+    });
+
     // 2nd carousel, navigation
     $('.content-slider').flickity({
       asNavFor: '.banner-slider',
       contain: true,
+      prevNextButtons: false,
       pageDots: false,
       fade: true,
       wrapAround: true,
       autoPlay: false,
 
+    });
+
+    // var swiperRoll = new Swiper(".text-roll-slider", {
+    //   spaceBetween: 0,
+    //   centeredSlides: true,
+    //   speed: 1000,
+    //   direction: "vertical",
+    //   allowTouchMove: false,
+    //   autoplay: false,
+    //   loop: false,
+    //   slidesPerView: 1,
+    // });
+
+    // var swiperFlip = new Swiper(".text-flip-slider", {
+    //   spaceBetween: 0,
+    //   centeredSlides: true,
+    //   speed: 1000,
+    //   direction: "vertical",
+    //   allowTouchMove: false,
+    //   autoplay: false,
+    //   cubeEffect: {
+    //     shadow: true,
+    //     slideShadows: true,
+    //     shadowOffset: 20,
+    //     shadowScale: 0.94,
+    //   },
+    //   loop: false,
+    //   slidesPerView: 1,
+    // });
+
+    var swiperRoll = $('.text-roll-slider .swiper-wrapper ').slick({
+      vertical: true,
+      verticalSwiping: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      infinite: true,
+      centerPadding: '20px',
+    });
+
+    var swiperFlip = $('.text-flip-slider  .swiper-wrapper').slick({
+      vertical: true,
+      verticalSwiping: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      infinite: true,
     });
 
 
