@@ -98,7 +98,7 @@ jQuery(function ($) {
       prevNextButtons: false,
       pageDots: false,
       wrapAround: true,
-      autoPlay: false,
+      autoPlay: 7000,
       on: {
         ready: function () {
           console.log("Flickity is ready");
@@ -108,10 +108,11 @@ jQuery(function ($) {
           console.log(getCur);
           $(".text-roll-slider .swiper-wrapper").slick("slickGoTo", getCur);
           $(".text-flip-slider .swiper-wrapper").slick("slickGoTo", getCur);
+          $('.banner-slider .item').eq(index).addClass('is-animated').siblings().removeClass('is-animated');
         },
       },
     });
-
+    $carousel.flickity('pausePlayer');
     $(".slick-custom-prev").on("click", function () {
       $carousel.flickity("previous");
     });
@@ -129,7 +130,6 @@ jQuery(function ($) {
       fade: true,
       wrapAround: true,
       autoPlay: false,
-<<<<<<< HEAD
       on: {
         ready: function () {
           console.log('Flickity is ready');
@@ -138,8 +138,6 @@ jQuery(function ($) {
           $('.content-slider .item').eq(index).addClass('animatedSlide').siblings().removeClass('animatedSlide');
         }
       }
-=======
->>>>>>> 13bfff79ac54ad493504a7586d8312866ec10fdf
     });
 
     // var swiperRoll = new Swiper(".text-roll-slider", {
@@ -193,30 +191,26 @@ jQuery(function ($) {
       $("html").addClass("scene1");
       setTimeout(function () {
         $("html").addClass("scene2");
-
         setTimeout(function () {
-
           $('html').addClass('scene3');
-        }, 4000)
-
-
-
+          $carousel.flickity('unpausePlayer');
+        }, 4000);
+        setTimeout(function () {
+          $('.banner-slider .item:first-child').addClass('is-animated').siblings().removeClass('is-animated');
+        }, 5000)
 
       }, 1000)
-
-
-
     }, 100)
 
 
-    setInterval(function () {
-      if (
-        !jQuery(".banner-slider").hasClass("hovered") &&
-        jQuery(".banner-slider").hasClass("flickity-enabled")
-      ) {
-        jQuery(".banner-slider").flickity("next", true);
-      }
-    }, 10000);
+    // setInterval(function () {
+    //   if (
+    //     !jQuery(".banner-slider").hasClass("hovered") &&
+    //     jQuery(".banner-slider").hasClass("flickity-enabled")
+    //   ) {
+    //     jQuery(".banner-slider").flickity("next", true);
+    //   }
+    // }, 10000);
 
 
   }
@@ -558,7 +552,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
