@@ -93,9 +93,7 @@ jQuery(function ($) {
   }
 
   if ($(".home-banner").length) {
-
-    var $carousel = $('.banner-slider').flickity({
-
+    var $carousel = $(".banner-slider").flickity({
       fade: true,
       prevNextButtons: false,
       pageDots: false,
@@ -103,34 +101,35 @@ jQuery(function ($) {
       autoPlay: false,
       on: {
         ready: function () {
-          console.log('Flickity is ready');
+          console.log("Flickity is ready");
         },
         change: function (index) {
           var getCur = index;
-          console.log(getCur)
-          $('.text-roll-slider .swiper-wrapper').slick('slickGoTo', getCur);
-          $('.text-flip-slider .swiper-wrapper').slick('slickGoTo', getCur);
-        }
-      }
+          console.log(getCur);
+          $(".text-roll-slider .swiper-wrapper").slick("slickGoTo", getCur);
+          $(".text-flip-slider .swiper-wrapper").slick("slickGoTo", getCur);
+        },
+      },
     });
 
-    $('.slick-custom-prev').on('click', function () {
-      $carousel.flickity('previous');
+    $(".slick-custom-prev").on("click", function () {
+      $carousel.flickity("previous");
     });
     // next
-    $('.slick-custom-next').on('click', function () {
-      $carousel.flickity('next');
+    $(".slick-custom-next").on("click", function () {
+      $carousel.flickity("next");
     });
 
     // 2nd carousel, navigation
-    $('.content-slider').flickity({
-      asNavFor: '.banner-slider',
+    $(".content-slider").flickity({
+      asNavFor: ".banner-slider",
       contain: true,
       prevNextButtons: false,
       pageDots: false,
       fade: true,
       wrapAround: true,
       autoPlay: false,
+<<<<<<< HEAD
       on: {
         ready: function () {
           console.log('Flickity is ready');
@@ -139,6 +138,8 @@ jQuery(function ($) {
           $('.content-slider .item').eq(index).addClass('animatedSlide').siblings().removeClass('animatedSlide');
         }
       }
+=======
+>>>>>>> 13bfff79ac54ad493504a7586d8312866ec10fdf
     });
 
     // var swiperRoll = new Swiper(".text-roll-slider", {
@@ -169,17 +170,17 @@ jQuery(function ($) {
     //   slidesPerView: 1,
     // });
 
-    var swiperRoll = $('.text-roll-slider .swiper-wrapper ').slick({
+    var swiperRoll = $(".text-roll-slider .swiper-wrapper ").slick({
       vertical: true,
       verticalSwiping: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
       infinite: true,
-      centerPadding: '20px',
+      centerPadding: "20px",
     });
 
-    var swiperFlip = $('.text-flip-slider  .swiper-wrapper').slick({
+    var swiperFlip = $(".text-flip-slider  .swiper-wrapper").slick({
       vertical: true,
       verticalSwiping: true,
       slidesToShow: 1,
@@ -187,12 +188,11 @@ jQuery(function ($) {
       arrows: false,
       infinite: true,
     });
-
 
     setTimeout(function () {
-      $('html').addClass('scene1');
+      $("html").addClass("scene1");
       setTimeout(function () {
-        $('html').addClass('scene2');
+        $("html").addClass("scene2");
 
         setTimeout(function () {
 
@@ -558,7 +558,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },

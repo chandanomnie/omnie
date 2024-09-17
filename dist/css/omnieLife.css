@@ -2524,6 +2524,11 @@ html.invertMode .life-banner path {
   line-height: 28.2px;
   margin-bottom: 16px;
 }
+@media only screen and (max-width: 767px) {
+  .benfits-section .col h5 {
+    margin-bottom: 7px;
+  }
+}
 .benfits-section .col p {
   font-size: 16px;
   font-weight: 300;
@@ -2535,6 +2540,11 @@ html.invertMode .life-banner path {
   height: 100px;
   display: flex;
   align-items: flex-start;
+}
+@media only screen and (max-width: 767px) {
+  .benfits-section .col figure {
+    margin-bottom: 30px;
+  }
 }
 .benfits-section .col figure img,
 .benfits-section .col figure svg {
@@ -2561,7 +2571,7 @@ html.invertMode .benfits-section svg *[fill="#000"] {
   padding-top: 50px;
 }
 .life-section .life-slider {
-  padding: 100px 0 0;
+  padding: 50px 0 100px;
 }
 .life-section .life-slider .swiper-slide {
   width: auto;
@@ -2596,6 +2606,8 @@ html.invertMode .benfits-section svg *[fill="#000"] {
 }
 .life-section .life-slider .swiper-container .swiper-wrapper {
   position: relative;
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
 }
 @media only screen and (max-width: 767px) {
   .life-section .life-slider {
@@ -2681,7 +2693,7 @@ html.invertMode .benfits-section svg *[fill="#000"] {
     height: 50px;
   }
   .benifits-swiper .swiper-button-next {
-    left: 70px;
+    left: 60px;
   }
   .benifits-swiper-second {
     position: relative;
@@ -2699,7 +2711,7 @@ html.invertMode .benfits-section svg *[fill="#000"] {
     height: 50px;
   }
   .benifits-swiper-second .swiper-button-next {
-    left: 70px;
+    left: 60px;
   }
   .benfits-section .col {
     width: 100%;
