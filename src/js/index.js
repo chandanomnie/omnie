@@ -369,20 +369,35 @@ jQuery(function ($) {
   }
 
   if ($(".our-work-slider-one").length) {
-    new Swiper(".our-work-slider-one", {
-      spaceBetween: 0,
-      centeredSlides: true,
+    // new Swiper(".our-work-slider-one", {
+    //   spaceBetween: 0,
+    //   centeredSlides: true,
+    //   speed: 5000,
+    //   direction: "vertical",
+
+    //   autoplay: {
+    //     delay: 1,
+    //     disableOnInteraction: false,
+    //     pauseOnMouseEnter: true,
+    //   },
+
+    //   loop: true,
+    //   slidesPerView: "auto",
+    // });
+    $(".our-work-slider-one .swiper-wrapper").slick({
+      vertical: true,
+      verticalSwiping: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 0,
       speed: 5000,
-      direction: "vertical",
-
-      autoplay: {
-        delay: 1,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-      },
-
-      loop: true,
-      slidesPerView: "auto",
+      cssEase: "linear",
+      infinite: true,
+      arrows: false,
+      touchMove: true,
+      swipeToSlide: true,
+      swipe: true,
     });
   }
 
