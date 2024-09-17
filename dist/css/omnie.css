@@ -6369,13 +6369,14 @@ html.menu-open .main-nav * {
     margin-bottom: 23px;
   }
   .common-page-nav .grid .left .next-tech-page span {
-    margin: 0 0 100px;
+    margin: 0 0 50px;
   }
   .common-page-nav .grid .right {
     width: 100%;
   }
   .common-page-nav .grid .right .right-sec > a {
     font-size: 0;
+    margin: 0 5px;
   }
 }
 .capcha {
