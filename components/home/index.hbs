@@ -69,24 +69,66 @@
                                     </ul>
 
                                     <div class="alphabet-tile pos-a l-0 t-0">
-                                        <strong>se</strong>
+                                        {{!--
+                                        <div class="text-flip-slider swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="inner-item swiper-slide w100 ">
+                                                    <div class="bg">
+                                                        <strong>se</strong>
+                                                    </div>
+
+                                                </div>
+                                                <div class="inner-item swiper-slide w100 ">
+                                                    <div class="bg"> </div>
+
+                                                </div>
+                                                <div class="inner-item swiper-slide w100">
+                                                    <div class="bg"> <strong>so</strong></div>
+
+                                                </div>
+                                            </div>
+                                        </div> --}}
+                                        <strong data-splitting>se</strong>
+
                                     </div>
                                 </div>
                             </div>
 
                             <div class="right">
                                 <div class="title">
-                                    <h1 class="h1">We
+                                    {{!-- <h1 class="h1">
+                                        <div class="we"> We</div>
                                         <div class="drum">
                                             <div class="animate">
-                                                <strong>chase.</strong>
-                                                <strong>assist.</strong>
-                                                <strong>connect.</strong>
+                                                <div class="text-roll-slider swiper-container">
+                                                    <div class="swiper-wrapper">
+
+                                                        <div class="inner-item swiper-slide w100">
+                                                            <strong>assist.</strong>
+                                                        </div>
+                                                        <div class="inner-item swiper-slide w100 ">
+
+                                                            <strong>connect.</strong>
+                                                        </div>
+                                                        <div class="inner-item swiper-slide w100">
+                                                            <strong>chase.</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
                                             </div>
 
                                         </div>
 
 
+                                    </h1> --}}
+                                    <h1 class="h1">We
+                                        <div class="drum">
+                                            <div class="box normal " data-splitting>assist.</div>
+                                            <div class="box hover" data-splitting>assist.</div>
+                                        </div>
                                     </h1>
                                 </div>
 
@@ -150,7 +192,7 @@
                                     </ul>
 
                                     <div class="alphabet-tile pos-a l-0 t-0">
-                                        <strong>te</strong>
+                                        <strong data-splitting>te</strong>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +200,10 @@
                             <div class="right">
                                 <div class="title">
                                     <h1 class="h1">We
-                                        <strong>connect.</strong>
+                                        <div class="drum">
+                                            <div class="box normal " data-splitting>connect.</div>
+                                            <div class="box hover" data-splitting>connect.</div>
+                                        </div>
 
                                     </h1>
                                 </div>
@@ -226,7 +271,7 @@
                                     </ul>
 
                                     <div class="alphabet-tile pos-a l-0 t-0">
-                                        <strong>so</strong>
+                                        <strong data-splitting>so</strong>
                                     </div>
                                 </div>
                             </div>
@@ -234,7 +279,10 @@
                             <div class="right">
                                 <div class="title">
                                     <h1 class="h1">We
-                                        <strong>chase.</strong>
+                                        <div class="drum">
+                                            <div class="box normal " data-splitting>chase.</div>
+                                            <div class="box hover" data-splitting>chase.</div>
+                                        </div>
 
                                     </h1>
                                 </div>
@@ -255,7 +303,7 @@
                 </div>
             </div>
             <!-- If we need navigation buttons -->
-            {{!-- <div class="slick-custom-arrow slick-custom-prev "><svg xmlns="http://www.w3.org/2000/svg" width="19.5"
+            <div class="slick-custom-arrow slick-custom-prev "><svg xmlns="http://www.w3.org/2000/svg" width="19.5"
                     height="17.27" viewBox="0 0 19.5 17.27">
                     <path id="Path_212" data-name="Path 212"
                         d="M200.814,156.508l.812-.949,6.587-7.685,2.23,1.9-4.517,5.272h14.387v2.928H205.926l4.517,5.272-2.23,1.9-6.587-7.685Z"
@@ -266,7 +314,7 @@
                     <path id="Path_211" data-name="Path 211"
                         d="M217.139,155.1l-.68-.795-5.515-6.434-1.867,1.589,3.782,4.414H200.814v2.451h12.045l-3.782,4.414,1.867,1.589,5.515-6.434Z"
                         transform="translate(-200.814 -147.873)" fill="#fff" />
-                </svg></div> --}}
+                </svg></div>
 
             <div class="down-arrow pos-a ">
 
@@ -442,7 +490,13 @@
     </div>
 
     {{> footer }}
+    <link rel="stylesheet" href="dist/css/slick.css" />
     <link rel="stylesheet" href="dist/css/flickity.css" />
+      <script src="dist/js/splitting.min.js"></script>
+    {{!--
+    <link rel="stylesheet" href="dist/css/swiper-bundle.min.css" />
+    <script src="dist/js/swiper-bundle.min.js"></script> --}}
+    <script src="dist/js/slick.min.js"></script>
     <script src="dist/js/flickity.pkgd.min.js"></script>
     <script src="dist/js/flickity-fade.js"></script>
     {{> script }}
