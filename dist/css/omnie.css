@@ -2841,6 +2841,9 @@ label {
   margin-left: 35px;
   top: 1px;
 }
+body.light-header:not(.compressed) .nav-toggle {
+  color: white;
+}
 @media only screen and (max-width: 767px) {
   .nav-toggle {
     left: 0;
@@ -2968,6 +2971,7 @@ label {
   width: 100%;
   background: white;
   height: 70px;
+  transition: background 0.5s ease-in;
 }
 .main-header .logo {
   max-width: 186px;
@@ -2979,6 +2983,24 @@ label {
     display: -ms-flexbox;
     display: flex;
   }
+}
+body.compressed .main-header {
+  background: white;
+}
+body.light-header:not(.compressed) .main-header {
+  background: black;
+}
+body.light-header:not(.compressed) .main-header .logo svg path {
+  fill: white;
+}
+body.light-header:not(.compressed) .main-header .logo svg rect + rect {
+  fill: white;
+}
+body.grey-header:not(.compressed) .main-header {
+  background-color: #f6f6f6;
+}
+html.invertMode body.grey-header:not(.compressed) .main-header {
+  background-color: #000;
 }
 .head-right {
   position: absolute;

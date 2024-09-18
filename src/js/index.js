@@ -555,6 +555,13 @@ $(window).on("load", function () {
 var browserMobile = false;
 if (jQuery("body").hasClass("layout-mobile")) browserMobile = true;
 jQuery(window).scroll(function () {
+  var scroll = $(window).scrollTop();
+  if (scroll >= 60) {
+      $('body').addClass("compressed");
+  } else {
+      $('body').removeClass("compressed");
+  }
+
   scrollContent();
   // slideCountStatus();
 });
