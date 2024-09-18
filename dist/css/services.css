@@ -2040,6 +2040,14 @@ html.invertMode .down-arrow path {
   flex-wrap: wrap;
   position: relative;
 }
+.mpa-dev-cycle .mobile-only .mpa-dev-list #progressbar {
+  position: absolute;
+  top: 14px;
+  left: 4px;
+  background: #d9d9d9;
+  width: 1px;
+  height: 90%;
+}
 .mpa-dev-cycle .mobile-only .mpa-dev-list::before {
   content: "";
   position: absolute;
@@ -2062,8 +2070,9 @@ html.invertMode .down-arrow path {
   top: 14px;
   width: 10px;
   height: 10px;
-  background: #000;
+  background: #d9d9d9;
   border-radius: 100%;
+  z-index: 4;
 }
 .mpa-dev-cycle .mobile-only .mpa-dev-list li:not(:last-child) {
   margin-bottom: 40px;

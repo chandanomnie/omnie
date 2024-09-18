@@ -2432,6 +2432,9 @@ html.invertMode .count-container-left p {
   color: #626262;
   font-weight: 300;
 }
+.about-life .about-life-slider {
+  padding-top: 17px;
+}
 .about-life .about-life-slider .item {
   width: 45%;
   padding: 15px 0 130px 0;
@@ -2476,12 +2479,15 @@ html.invertMode .count-container-left p {
   }
 }
 .about-life .about-life-slider .item.swiper-slide-next {
-  transform: scale(0.9);
+  transform: scale(0.8);
 }
 @media only screen and (max-width: 767px) {
   .about-life .about-life-slider .item.swiper-slide-next {
     transform: scale(0.85);
   }
+}
+.about-life .about-life-slider .item.swiper-slide-active {
+  transform: scale(1.1);
 }
 .about-life .swiper-button-next {
   top: auto;
