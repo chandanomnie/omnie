@@ -1530,3 +1530,36 @@
     }
   }
 }
+
+.scroller__inner {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  &01 {
+    animation: scroll var(--_animation-duration, 40s)
+      var(--_animation-direction, forwards) linear infinite normal;
+  }
+  &02 {
+    animation: scroll var(--_animation-duration, 20s)
+      var(--_animation-direction, forwards) linear infinite normal;
+  }
+  &03 {
+    animation: scroll var(--_animation-duration, 25s)
+      var(--_animation-direction, forwards) linear infinite normal;
+  }
+
+  img {
+    margin-bottom: 16px;
+  }
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateY(calc(-50% - 1px));
+  }
+}
