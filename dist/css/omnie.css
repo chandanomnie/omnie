@@ -2841,6 +2841,9 @@ label {
   margin-left: 35px;
   top: 1px;
 }
+body.light-header .nav-toggle {
+  color: white;
+}
 @media only screen and (max-width: 767px) {
   .nav-toggle {
     left: 0;
@@ -2979,6 +2982,15 @@ label {
     display: -ms-flexbox;
     display: flex;
   }
+}
+body.light-header .main-header {
+  background: black;
+}
+body.light-header .main-header .logo svg path {
+  fill: white;
+}
+body.light-header .main-header .logo svg rect + rect {
+  fill: white;
 }
 .head-right {
   position: absolute;
