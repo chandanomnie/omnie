@@ -72,7 +72,7 @@ jQuery(function ($) {
         scrollTop: $(target).offset().top,
       },
       1000,
-      function () {}
+      function () { }
     );
   });
 
@@ -204,14 +204,14 @@ jQuery(function ($) {
         setTimeout(function () {
           $("html").addClass("scene3");
           $carousel.flickity("unpausePlayer");
-        }, 4000);
+        }, 3000);
         setTimeout(function () {
           $(".banner-slider .item:first-child")
             .addClass("is-animated")
             .siblings()
             .removeClass("is-animated");
-        }, 4200);
-      }, 1000);
+        }, 3200);
+      }, 100);
     }, 100);
 
     // setInterval(function () {
@@ -557,9 +557,9 @@ if (jQuery("body").hasClass("layout-mobile")) browserMobile = true;
 jQuery(window).scroll(function () {
   var scroll = $(window).scrollTop();
   if (scroll >= 60) {
-      $('body').addClass("compressed");
+    $('body').addClass("compressed");
   } else {
-      $('body').removeClass("compressed");
+    $('body').removeClass("compressed");
   }
 
   scrollContent();
@@ -580,7 +580,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },

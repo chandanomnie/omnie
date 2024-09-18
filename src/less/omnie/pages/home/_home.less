@@ -1,5 +1,5 @@
 .home-banner {
-
+  height: 100vh;
   --square-size: 69px;
   --gutter: 8px;
 
@@ -8,9 +8,9 @@
   }
 
   .item {
-    padding: 100px 0;
+    padding: 170px 0 100px;
     width: 100%;
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 0px);
     opacity: 0 !important;
     z-index: 0;
 
@@ -604,7 +604,7 @@
     }
 
     .item {
-      padding: 30px 20px;
+      padding: 100px 20px 30px;
     }
 
     .alphabet-tile {
@@ -1427,7 +1427,7 @@
         width: calc(100% - 1px);
         height: calc(100% - 1px);
         // transform-origin: 0% 0%;
-        transition: transform 2.5s ease-in 1s, width 2.5s ease-in 1s, height 2.5s ease-in 1s, box-shadow 0.5s ease-in 0.5s;
+        transition: transform 2.0s ease-in 1s, width 2.0s ease-in 1s, height 2.0s ease-in 1s, box-shadow 0.5s ease-in 0.5s;
         // box-shadow: 0px 0px 0px 1px #C2C2C2;
       }
 
@@ -1773,4 +1773,18 @@
 .home-banner .item:first-child {
   // display: block !important;
   // opacity: 1 !important;
+}
+
+.site-wrapper {
+  padding-top: 0;
+}
+
+.main-header {
+  opacity: 0;
+
+  html.scene3 & {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 1.5s ease;
+  }
 }
