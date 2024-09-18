@@ -1901,6 +1901,7 @@ html.invertMode .down-arrow path {
 .mob-app-list-wrapper .mob-app-list li {
   margin-right: 70px;
   margin-bottom: 65px;
+  max-width: 233px;
 }
 @media only screen and (max-width: 767px) {
   .mob-app-list-wrapper .mob-app-list {
