@@ -3157,7 +3157,7 @@ html.menu-open .main-nav * {
   position: absolute;
   top: 0;
   width: 100%;
-  background: #F2F2F2;
+  background: #000;
   bottom: 0;
   left: 100%;
   padding: 50px;
