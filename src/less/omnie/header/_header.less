@@ -18,22 +18,31 @@
     padding: 23px 30px;
     .d-f;
   }
+
   transition: background 0.5s ease-in;
+
   body.compressed & {
     background: white;
   }
+
   body.light-header:not(.compressed) & {
     background: black;
+
     .logo {
-      svg{
-        path{
+      svg {
+        path {
           fill: white;
         }
+
         rect+rect {
           fill: white;
         }
       }
     }
+  }
+
+  body.grey-header:not(.compressed) & {
+    .bg-light-grey
   }
 }
 

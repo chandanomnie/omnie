@@ -2996,6 +2996,12 @@ body.light-header:not(.compressed) .main-header .logo svg path {
 body.light-header:not(.compressed) .main-header .logo svg rect + rect {
   fill: white;
 }
+body.grey-header:not(.compressed) .main-header {
+  background-color: #f6f6f6;
+}
+html.invertMode body.grey-header:not(.compressed) .main-header {
+  background-color: #000;
+}
 .head-right {
   position: absolute;
   right: 0;
