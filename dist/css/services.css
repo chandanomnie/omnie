@@ -2403,4 +2403,30 @@ html.invertMode .down-arrow path {
   stroke-dashoffset: 0;
   fill: #000000;
 }
+.scroller__inner {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.scroller__inner01 {
+  animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite normal;
+}
+.scroller__inner02 {
+  animation: scroll var(--_animation-duration, 20s) var(--_animation-direction, forwards) linear infinite normal;
+}
+.scroller__inner03 {
+  animation: scroll var(--_animation-duration, 25s) var(--_animation-direction, forwards) linear infinite normal;
+}
+.scroller__inner img {
+  margin-bottom: 16px;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+@keyframes scroll {
+  to {
+    transform: translateY(calc(-50% - 1px));
+  }
+}
 /*# sourceMappingURL=omnie.css.map */
