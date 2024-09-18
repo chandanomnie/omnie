@@ -193,7 +193,7 @@ html.scene3 .home-banner .flickity-button {
 }
 .home-banner .right p {
   color: #4D4D4D;
-  max-width: 500px;
+  max-width: 555px;
 }
 .home-banner .alphabet-tile {
   width: calc(var(--square-size)*2 + var(--gutter));
