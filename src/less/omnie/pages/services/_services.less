@@ -1039,6 +1039,15 @@
       flex-wrap: wrap;
       position: relative;
 
+      #progressbar {
+        position: absolute;
+        top: 14px;
+        left: 4px;
+        background: #d9d9d9;
+        width: 1px;
+        height: 90%;
+      }
+
       &::before {
         content: "";
         position: absolute;
@@ -1062,8 +1071,9 @@
           top: 14px;
           width: 10px;
           height: 10px;
-          background: #000;
+          background: #d9d9d9;
           border-radius: 100%;
+          z-index: 4;
         }
 
         &:not(:last-child) {

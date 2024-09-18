@@ -6283,7 +6283,7 @@ html.menu-open .main-nav * {
 @media only screen and (max-width: 767px) {
   .page-banner .grid .left {
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
   .page-banner .grid .right {
     width: 100%;

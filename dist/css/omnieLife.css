@@ -2410,10 +2410,15 @@ html.invertMode .down-arrow path {
 @media only screen and (max-width: 767px) {
   .life-banner .item {
     flex-wrap: wrap;
+    height: auto;
+    padding: 50px 0;
+    justify-content: unset;
+    align-items: flex-start;
   }
   .life-banner .item .left-content {
     padding-left: 0;
     width: 100%;
+    margin-bottom: 50px;
   }
   .life-banner .item .left-content .h2 {
     font-size: 36px;
