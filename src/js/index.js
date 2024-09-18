@@ -72,7 +72,7 @@ jQuery(function ($) {
         scrollTop: $(target).offset().top,
       },
       1000,
-      function () { }
+      function () {}
     );
   });
 
@@ -557,9 +557,9 @@ if (jQuery("body").hasClass("layout-mobile")) browserMobile = true;
 jQuery(window).scroll(function () {
   var scroll = $(window).scrollTop();
   if (scroll >= 60) {
-    $('body').addClass("compressed");
+    $("body").addClass("compressed");
   } else {
-    $('body').removeClass("compressed");
+    $("body").removeClass("compressed");
   }
 
   scrollContent();
@@ -580,7 +580,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
