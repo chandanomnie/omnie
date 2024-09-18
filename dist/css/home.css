@@ -382,6 +382,10 @@ html.scene3 .home-banner .flickity-button {
   }
 }
 @media only screen and (max-width: 980px) {
+  .home-banner {
+    height: auto;
+    min-height: calc(100svh - 70px);
+  }
   .home-banner .container > .d-f {
     flex-wrap: wrap;
   }
@@ -420,26 +424,39 @@ html.scene3 .home-banner .flickity-button {
   .home-banner .right {
     padding-left: 0;
   }
+  .home-banner .right p {
+    max-width: 315px;
+  }
   .home-banner .right .h1 {
     font-size: 25vw;
   }
   .home-banner .right .h1 .drum {
     font-size: 18vw;
+    margin-top: 6px;
   }
 }
 @media only screen and (max-width: 767px) and (max-height: 740px) {
+  .home-banner {
+    --square-size: calc(100vw/12);
+  }
+  .home-banner .item {
+    padding: 30px 0;
+  }
   .home-banner .slick-custom-arrow.slick-custom-next,
   .home-banner .slick-custom-arrow.slick-custom-prev {
-    bottom: 70px;
+    bottom: 55px;
   }
   .home-banner .down-arrow {
-    bottom: 30px;
+    bottom: 15px;
+  }
+  .home-banner .right p {
+    font-size: 14px;
   }
   .home-banner .right .h1 {
-    font-size: 21vw;
+    font-size: 20vw;
   }
   .home-banner .right .h1 .drum {
-    font-size: 15vw;
+    font-size: 13vw;
   }
 }
 .home-content .flickity-button {
