@@ -2841,7 +2841,7 @@ label {
   margin-left: 35px;
   top: 1px;
 }
-body.light-header .nav-toggle {
+body.light-header:not(.compressed) .nav-toggle {
   color: white;
 }
 @media only screen and (max-width: 767px) {
@@ -2971,6 +2971,7 @@ body.light-header .nav-toggle {
   width: 100%;
   background: white;
   height: 70px;
+  transition: background 0.5s ease-in;
 }
 .main-header .logo {
   max-width: 186px;
@@ -2983,13 +2984,16 @@ body.light-header .nav-toggle {
     display: flex;
   }
 }
-body.light-header .main-header {
+body.compressed .main-header {
+  background: white;
+}
+body.light-header:not(.compressed) .main-header {
   background: black;
 }
-body.light-header .main-header .logo svg path {
+body.light-header:not(.compressed) .main-header .logo svg path {
   fill: white;
 }
-body.light-header .main-header .logo svg rect + rect {
+body.light-header:not(.compressed) .main-header .logo svg rect + rect {
   fill: white;
 }
 .head-right {

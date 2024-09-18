@@ -13,11 +13,16 @@
     max-width: 186px;
   }
 
+
   @media @mobile {
     padding: 23px 30px;
     .d-f;
   }
-  body.light-header & {
+  transition: background 0.5s ease-in;
+  body.compressed & {
+    background: white;
+  }
+  body.light-header:not(.compressed) & {
     background: black;
     .logo {
       svg{
