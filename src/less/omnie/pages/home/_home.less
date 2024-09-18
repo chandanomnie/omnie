@@ -13,8 +13,9 @@
     min-height: calc(100vh - 70px);
     opacity: 0 !important;
     z-index: 0;
-    &:nth-child(2){
-      .alphabet-tile strong{
+
+    &:nth-child(2) {
+      .alphabet-tile strong {
         top: -11%;
       }
     }
@@ -119,7 +120,7 @@
         line-height: 0.5;
         white-space: pre;
         position: relative;
-        top: -16%;
+        top: -17%;
 
         .char {
 
@@ -337,6 +338,10 @@
 
   .item {
     width: 100%;
+    z-index: 0;
+    &.is-selected{
+      z-index: 2;
+    }
   }
 
   .left {
@@ -611,7 +616,7 @@
 }
 
 
-.first-tiles {
+.first-tiles-old {
   ul li {
     position: relative;
     border-color: transparent !important;
@@ -628,7 +633,7 @@
       // width: 100%;
       // height: 100%;
       position: absolute;
-      border: 1px solid #C2C2C2;
+      // border: 1px solid #C2C2C2;
       position: absolute;
       left: -1px;
       top: -1px;
@@ -636,13 +641,16 @@
       bottom: -1px;
       transform: translate3d(0, 0, 0) scale(2.4);
       will-change: transform;
+      // background-color: #f6f6f6;
+      // box-shadow: 0px 0px 0px 1px #C2C2C2;
+      border: 1px solid #C2C2C2;
 
 
       html.scene2 & {
         transform: translate3d(0, 0, 0) scale(1);
         transform-origin: 0% 0%;
-        transition: transform-origin 3.5s ease-in 1s, transform 1.5s ease-in 1s, border 0.5s ease-in 2s;
-        border: 1px solid #C2C2C2;
+        transition: transform-origin 3.5s ease-in 1s, transform 1.5s ease-in 1s, box-shadow 0.5s ease-in 0.5s;
+        // box-shadow: 0px 0px 0px 1px #C2C2C2;
       }
 
     }
@@ -974,6 +982,387 @@
     }
   }
 }
+
+
+
+
+.first-tiles {
+  ul li {
+    position: relative;
+    border-color: transparent !important;
+    opacity: 0;
+    transition: opacity 1.9s ease 1s;
+
+    html.scene1 & {
+      opacity: 1;
+
+    }
+
+    &::before {
+      content: '';
+      // width: 100%;
+      // height: 100%;
+      position: absolute;
+      // border: 1px solid #C2C2C2;
+      position: absolute;
+      left: -1px;
+      top: -1px;
+      width: 230%;
+      height: 230%;
+      transform: translate3d(0, 0, 0) ;
+      will-change: transform;
+      // background-color: #f6f6f6;
+      // box-shadow: 0px 0px 0px 1px #C2C2C2;
+      border: 1px solid #C2C2C2;
+
+
+      html.scene2 & {
+        transform: translate3d(0, 0, 0) ;
+        width: calc(100% - 1px);
+        height: calc(100% - 1px);
+        // transform-origin: 0% 0%;
+        transition: transform 2.5s ease-in 1s, width 2.5s ease-in 1s,height 2.5s ease-in 1s , box-shadow 0.5s ease-in 0.5s;
+        // box-shadow: 0px 0px 0px 1px #C2C2C2;
+      }
+
+    }
+
+    &:nth-child(1) {
+
+      html:not(.scene2) & {
+        transition-delay: 0.5s;
+      }
+
+      &::before {
+        transform: translate(72%,-151%);
+      }
+    }
+
+
+    &:nth-child(2) {
+      html:not(.scene2) & {
+        transition-delay: 0.2s;
+      }
+
+      &::before {
+        transform: translate(150%,-144%);
+      }
+    }
+
+    &:nth-child(3) {
+      html:not(.scene2) & {
+        transition-delay: 0.3s;
+      }
+
+      &::before {
+        // transform-origin: -362% 244%;
+        transform: translate(236%,-144%);
+      }
+    }
+
+    &:nth-child(4) {
+      html:not(.scene2) & {
+        transition-delay: 0.5s;
+      }
+
+      &::before {
+        // transform-origin: -475% 244%;
+
+        transform: translate(315%,-144%);
+      }
+    }
+
+    &:nth-child(5) {
+
+      &::before {
+        // transform-origin: -595% 244%;
+        transform: translate(394%,-144%);
+      }
+    }
+
+    &:nth-child(6) {
+      html:not(.scene2) & {
+        transition-delay: 0.4s;
+      }
+
+      &::before {
+        // transform-origin: -723% 244%;
+        transform: translate(480%,-144%);
+      }
+    }
+
+
+
+
+    &:nth-child(7) {
+      html:not(.scene2) & {
+        transition-delay: 0.1s;
+      }
+
+      &::before {
+        // transform-origin: 65% 122%;
+        transform: translate(-37%,-67%);
+      }
+    }
+
+    &:nth-child(8) {
+
+      &::before {
+        // transform-origin: -233% 124%;
+        transform: translate(150%,-67%);
+      }
+    }
+
+    &:nth-child(9) {
+      html:not(.scene2) & {
+        transition-delay: 0.3s;
+      }
+
+      &::before {
+        transform: translate(237%,-67%);
+      }
+    }
+
+    &:nth-child(10) {
+
+      &::before {
+        // transform-origin: -474% 122%;
+        transform: translate(315%,-67%);
+      }
+    }
+
+    &:nth-child(11) {
+      html:not(.scene2) & {
+        transition-delay: 0.4s;
+      }
+
+      &::before {
+        // transform-origin: -593% 122%;
+        transform: translate(393%,-67%);
+      }
+    }
+
+    &:nth-child(12) {
+      html:not(.scene2) & {
+        transition-delay: 0.1s;
+      }
+
+      &::before {
+        transform: translate(588%,-87%);
+      }
+    }
+
+
+
+    &:nth-child(13) {
+
+      &::before {
+        transform: translate(-56%,46%);
+      }
+    }
+
+    &:nth-child(14) {
+      html:not(.scene2) & {
+        transition-delay: 0.4s;
+      }
+
+      &::before {
+        transform: translate(54%, 8%);
+      }
+    }
+
+    &:nth-child(15) {
+
+      &::before {
+        transform: translate(203%, 19%);
+      }
+    }
+
+    &:nth-child(16) {
+      html:not(.scene2) & {
+        transition-delay: 0.3s;
+      }
+
+      &::before {
+        transform: translate(347%, 21%);
+      }
+    }
+
+    &:nth-child(17) {
+
+      &::before {
+        transform: translate(475%, 4%);
+      }
+    }
+
+    &:nth-child(18) {
+      html:not(.scene2) & {
+        transition-delay: 0.2s;
+      }
+
+      &::before {
+        transform: translate(620%, 4%);
+      }
+    }
+
+
+
+    &:nth-child(19) {
+      html:not(.scene2) & {
+        transition-delay: 0.1s;
+      }
+
+      &::before {
+        transform: translate(71%, 98%);
+      }
+    }
+
+    &:nth-child(20) {
+
+      &::before {
+        transform: translate(150%, 98%);
+      }
+    }
+
+    &:nth-child(21) {
+      html:not(.scene2) & {
+        transition-delay: 0.1s;
+      }
+
+      &::before {
+        transform: translate(236%, 98%);
+      }
+    }
+
+    &:nth-child(22) {
+
+      &::before {
+        transform: translate(366%, 98%);
+      }
+    }
+
+    &:nth-child(23) {
+      html:not(.scene2) & {
+        transition-delay: 0.2s;
+      }
+
+      &::before {
+        transform: translate(460%, 85%);
+      }
+    }
+
+    &:nth-child(24) {
+
+      &::before {
+        transform: translate(552%, 98%);
+      }
+    }
+
+    &:nth-child(25) {
+      html:not(.scene2) & {
+        transition-delay: 0.1s;
+      }
+
+      &::before {
+        transform: translate(-22%, 192%);
+      }
+    }
+
+    &:nth-child(26) {
+
+      &::before {
+        transform: translate(96%, 192%);
+      }
+    }
+
+    &:nth-child(27) {
+      html:not(.scene2) & {
+        transition-delay: 0.1s;
+      }
+
+      &::before {
+        transform: translate(237%, 177%);
+      }
+    }
+
+    &:nth-child(28) {
+
+      &::before {
+        transform: translate(321%, 177%);
+      }
+    }
+
+    &:nth-child(29) {
+      html:not(.scene2) & {
+        transition-delay: 0.1s;
+      }
+
+      &::before {
+        transform: translate(449%, 177%);
+      }
+    }
+
+    &:nth-child(30) {
+
+      &::before {
+        transform: translate(589%, 191%);
+      }
+    }
+
+
+    &:nth-child(31) {
+      html:not(.scene2) & {
+        transition-delay: 0.3s;
+      }
+
+      &::before {
+        transform: translate(12%, 267%);
+      }
+    }
+
+    &:nth-child(32) {
+
+      &::before {
+        transform: translate(96%, 267%);
+      }
+    }
+
+    &:nth-child(33) {
+      html:not(.scene2) & {
+        transition-delay: 0.4s;
+      }
+
+      &::before {
+        transform: translate(237%, 267%);
+      }
+    }
+
+    &:nth-child(34) {
+
+      &::before {
+        transform: translate(321%, 267%);
+      }
+    }
+
+    &:nth-child(35) {
+      html:not(.scene2) & {
+        transition-delay: 0.1s;
+      }
+
+      &::before {
+        transform: translate(448%, 267%);
+      }
+    }
+
+    &:nth-child(36) {
+
+      &::before {
+        transform: translate(588%, 267%);
+      }
+    }
+  }
+}
+
 
 .home-banner .item:first-child {
   // display: block !important;

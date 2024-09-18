@@ -2599,6 +2599,10 @@ html.dark {
   background: #000;
   color: #fff;
 }
+.btn.btn-secondry.dark:hover {
+  border-color: white;
+  color: white;
+}
 .btn.btn-tertiary {
   border: 1.5px solid #fff;
   background: #fff;
