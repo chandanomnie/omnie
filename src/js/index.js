@@ -557,9 +557,9 @@ if (jQuery("body").hasClass("layout-mobile")) browserMobile = true;
 jQuery(window).scroll(function () {
   var scroll = $(window).scrollTop();
   if (scroll >= 60) {
-      $('body').addClass("compressed");
+    $("body").addClass("compressed");
   } else {
-      $('body').removeClass("compressed");
+    $("body").removeClass("compressed");
   }
 
   scrollContent();
