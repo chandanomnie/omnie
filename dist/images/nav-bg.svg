@@ -1,28 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="936" height="518" viewBox="0 0 936 518">
-  <g id="Group_823" data-name="Group 823" transform="translate(-358.231 -241.598)" opacity="0.4">
-    <g id="Ellipse_93" data-name="Ellipse 93" transform="translate(358.231 241.598)" fill="none" stroke="#fff" stroke-width="2">
-      <ellipse cx="258.5" cy="259" rx="258.5" ry="259" stroke="none"/>
-      <ellipse cx="258.5" cy="259" rx="257.5" ry="258" fill="none"/>
-    </g>
-    <g id="Ellipse_96" data-name="Ellipse 96" transform="translate(434.231 241.598)" fill="none" stroke="#fff" stroke-width="2">
-      <ellipse cx="258.5" cy="259" rx="258.5" ry="259" stroke="none"/>
-      <ellipse cx="258.5" cy="259" rx="257.5" ry="258" fill="none"/>
-    </g>
-    <g id="Ellipse_97" data-name="Ellipse 97" transform="translate(489.231 241.598)" fill="none" stroke="#fff" stroke-width="2">
-      <circle cx="259" cy="259" r="259" stroke="none"/>
-      <circle cx="259" cy="259" r="258" fill="none"/>
-    </g>
-    <g id="Ellipse_98" data-name="Ellipse 98" transform="translate(616.231 241.598)" fill="none" stroke="#fff" stroke-width="2">
-      <circle cx="259" cy="259" r="259" stroke="none"/>
-      <circle cx="259" cy="259" r="258" fill="none"/>
-    </g>
-    <g id="Ellipse_104" data-name="Ellipse 104" transform="translate(716.231 241.598)" fill="none" stroke="#fff" stroke-width="2">
-      <ellipse cx="258.5" cy="259" rx="258.5" ry="259" stroke="none"/>
-      <ellipse cx="258.5" cy="259" rx="257.5" ry="258" fill="none"/>
-    </g>
-    <g id="Ellipse_103" data-name="Ellipse 103" transform="translate(777.231 241.598)" fill="none" stroke="#fff" stroke-width="2">
-      <ellipse cx="258.5" cy="259" rx="258.5" ry="259" stroke="none"/>
-      <ellipse cx="258.5" cy="259" rx="257.5" ry="258" fill="none"/>
-    </g>
-  </g>
+<svg width="535" height="534" viewBox="0 0 535 534" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.4" clip-path="url(#clip0_740_2030)">
+<path d="M267.366 363.917C320.892 363.917 364.283 320.526 364.283 267C364.283 213.474 320.892 170.083 267.366 170.083C213.84 170.083 170.449 213.474 170.449 267C170.449 320.526 213.84 363.917 267.366 363.917Z" stroke="white" stroke-width="2"/>
+<path d="M267.366 396.095C338.663 396.095 396.461 338.297 396.461 267C396.461 195.703 338.663 137.905 267.366 137.905C196.069 137.905 138.271 195.703 138.271 267C138.271 338.297 196.069 396.095 267.366 396.095Z" stroke="white" stroke-width="2"/>
+<path d="M267.366 427.889C356.223 427.889 428.256 355.857 428.256 267C428.256 178.143 356.223 106.11 267.366 106.11C178.509 106.11 106.477 178.143 106.477 267C106.477 355.857 178.509 427.889 267.366 427.889Z" stroke="white" stroke-width="2"/>
+<path d="M267.367 452.406C369.764 452.406 452.773 369.397 452.773 267C452.773 164.603 369.764 81.594 267.367 81.594C164.97 81.594 81.9609 164.603 81.9609 267C81.9609 369.397 164.97 452.406 267.367 452.406Z" stroke="white" stroke-width="2"/>
+<path d="M267.368 479.604C384.786 479.604 479.972 384.418 479.972 267C479.972 149.582 384.786 54.396 267.368 54.396C149.95 54.396 54.7637 149.582 54.7637 267C54.7637 384.418 149.95 479.604 267.368 479.604Z" stroke="white" stroke-width="2"/>
+<path d="M267.367 533.617C414.615 533.617 533.984 414.248 533.984 267C533.984 119.752 414.615 0.383057 267.367 0.383057C120.118 0.383057 0.75 119.752 0.75 267C0.75 414.248 120.118 533.617 267.367 533.617Z" stroke="white" stroke-width="2"/>
+<path d="M267.367 310.67C291.486 310.67 311.037 291.118 311.037 267C311.037 242.882 291.486 223.33 267.367 223.33C243.249 223.33 223.697 242.882 223.697 267C223.697 291.118 243.249 310.67 267.367 310.67Z" stroke="white" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_740_2030">
+<rect width="534" height="534" fill="white" transform="translate(0.367188)"/>
+</clipPath>
+</defs>
 </svg>

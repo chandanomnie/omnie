@@ -1,4 +1,5 @@
 .home-banner {
+  height: 100vh;
   --square-size: 69px;
   --gutter: 8px;
 }
@@ -6,9 +7,9 @@
   border: 0;
 }
 .home-banner .item {
-  padding: 100px 0;
+  padding: 170px 0 100px;
   width: 100%;
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 0px);
   opacity: 0 !important;
   z-index: 0;
 }
@@ -416,7 +417,7 @@ html.scene3 .home-banner .flickity-button {
     display: none !important;
   }
   .home-banner .item {
-    padding: 30px 20px;
+    padding: 100px 20px 30px;
   }
   .home-banner .alphabet-tile {
     font-size: 20vw;
@@ -937,7 +938,7 @@ html.scene2 .first-tiles ul li::before {
   transform: translate3d(0, 0, 0);
   width: calc(100% - 1px);
   height: calc(100% - 1px);
-  transition: transform 2.5s ease-in 1s, width 2.5s ease-in 1s, height 2.5s ease-in 1s, box-shadow 0.5s ease-in 0.5s;
+  transition: transform 2s ease-in 1s, width 2s ease-in 1s, height 2s ease-in 1s, box-shadow 0.5s ease-in 0.5s;
 }
 html:not(.scene2) .first-tiles ul li:nth-child(1) {
   transition-delay: 0.5s;
@@ -1109,5 +1110,16 @@ html:not(.scene2) .first-tiles ul li:nth-child(35) {
 }
 .first-tiles ul li:nth-child(36)::before {
   transform: translate(588%, 267%);
+}
+.site-wrapper {
+  padding-top: 0;
+}
+.main-header {
+  opacity: 0;
+}
+html.scene3 .main-header {
+  opacity: 1;
+  pointer-events: all;
+  transition: opacity 1.5s ease;
 }
 /*# sourceMappingURL=omnie.css.map */
