@@ -3249,6 +3249,16 @@ html.menu-open .main-nav .nav-bg figure .svg-elem-8 {
 .main-nav .nav-bg img {
   max-height: 80%;
 }
+.main-nav .word-block {
+  overflow: hidden;
+}
+.main-nav .word-block span {
+  transform: translateY(150%);
+  transition: transform 0.5s ease;
+  position: relative;
+  display: block;
+  transition-delay: calc(var(--animation-order) * 100ms);
+}
 .main-nav .main-links {
   position: relative;
   min-width: 360px;
@@ -3263,8 +3273,24 @@ html.menu-open .main-nav .nav-bg figure .svg-elem-8 {
   display: table;
   position: relative;
 }
+html.menu-open .main-nav .main-links > li > a .word-block span {
+  transform: translateY(0%);
+}
+.main-nav .main-links > li > a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  width: 94px;
+  height: 1px;
+  background: currentColor;
+  width: 0;
+  transition: width 0.5s ease;
+}
 .main-nav .main-links > li > a:hover {
   color: #fff;
+}
+.main-nav .main-links > li > a:hover::after {
+  width: 94px;
 }
 .main-nav .nav-bottom {
   position: absolute;
