@@ -1755,6 +1755,9 @@ p:last-child,
   bottom: 40px;
   cursor: pointer;
 }
+.down-arrow.white svg path {
+  fill: white;
+}
 .down-arrow svg {
   animation: jumpInfinite 1.5s infinite;
 }
