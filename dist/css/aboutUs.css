@@ -2355,6 +2355,9 @@ html.invertMode .count-container-left p {
     justify-content: center;
   }
 }
+.clients-logo {
+  margin-bottom: 70px;
+}
 .clients-logo .client-logo-container {
   max-width: 1170px;
   margin-left: auto;
