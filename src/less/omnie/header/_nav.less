@@ -216,6 +216,21 @@
         }
     }
 
+    .word-block {
+        overflow: hidden;
+
+        span {
+            transform: translateY(150%);
+            transition: transform 0.5s ease;
+            position: relative;
+            display: block;
+            transition-delay: calc(var(--animation-order) * 100ms);
+
+
+        }
+    }
+
+
     .main-links {
         position: relative;
         min-width: 360px;
@@ -232,11 +247,38 @@
                 display: table;
                 position: relative;
 
-                &::after {}
+                .word-block {
+
+
+                    span {
+
+
+                        html.menu-open & {
+                            transform: translateY(0%);
+                        }
+                    }
+                }
+
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -4px;
+                    width: 94px;
+                    height: 1px;
+                    background: currentColor;
+                    width: 0;
+                    transition: width 0.5s ease;
+
+                }
 
 
                 &:hover {
                     color: #fff;
+
+                    &::after {
+                        width: 94px;
+                    }
                 }
             }
         }
