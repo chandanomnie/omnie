@@ -25,7 +25,8 @@
     background: white;
   }
 
-  body.light-header:not(.compressed) & {
+  body.light-header:not(.compressed) &,
+  html.menu-open & {
     background: black;
 
     .logo {
@@ -41,10 +42,27 @@
     }
   }
 
-  body.grey-header:not(.compressed) & {
+  html.menu-open & {
+    background: black;
+
+    .logo {
+      svg {
+        path {
+          fill: white;
+        }
+
+        rect+rect {
+          fill: white;
+        }
+      }
+    }
+  }
+
+  html:not(.menu-open) body.grey-header:not(.compressed) & {
     .bg-light-grey
   }
 }
+
 
 .head-right {
   position: absolute;
