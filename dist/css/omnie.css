@@ -6887,6 +6887,20 @@ html.menu-open {
     width: 100%;
   }
 }
+.pos-sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  left: 0;
+  min-height: calc(100vh - 78px);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.pos-sticky > .container {
+  flex: 1;
+  width: 100%;
+}
 .common-page-nav .grid {
   display: flex;
   justify-content: space-between;
