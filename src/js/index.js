@@ -54,11 +54,14 @@ jQuery(function ($) {
     }
 
     $('.main-nav .main-links > li.parent>a').click(function (e) {
-      e.preventDefault();
-      $(this).parent('li').addClass('showSub').siblings().removeClass('showSub');
-      $('.main-nav').addClass('subNavVisible')
+      if (window.innerWidth < 1001) {
+        e.preventDefault();
+        $(this).parent('li').addClass('showSub').siblings().removeClass('showSub');
+        $('.main-nav').addClass('subNavVisible');
+      }
+
     });
-    
+
     $('.main-nav .sub-nav .back-btn').click(function (e) {
       e.preventDefault();
       $('.main-nav .main-links > li').removeClass('showSub');

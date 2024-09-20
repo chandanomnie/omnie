@@ -440,9 +440,6 @@ html.scene3 .home-banner .flickity-button {
   .home-banner {
     --square-size: calc(100vw/12);
   }
-  .home-banner .item {
-    padding: 30px 0;
-  }
   .home-banner .slick-custom-arrow.slick-custom-next,
   .home-banner .slick-custom-arrow.slick-custom-prev {
     bottom: 55px;
