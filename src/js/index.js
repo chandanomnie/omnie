@@ -19,7 +19,9 @@ jQuery(function ($) {
       $("html").addClass("before-menu-open");
       setTimeout(function () {
         $("html").addClass("menu-open");
+        $('.nav-bg figure:first-child').addClass('active');
       }, 30);
+
     } else {
       $(".nav-toggle").removeClass("active");
       $("html").removeClass("menu-open sub-menu-mobile");
@@ -33,6 +35,7 @@ jQuery(function ($) {
       setTimeout(function () {
         $("html").removeClass("before-menu-open sub-menu-opened");
       }, 650);
+      $('.nav-bg figure').removeClass('active');
     }
   });
 
@@ -41,6 +44,7 @@ jQuery(function ($) {
     function () {
       var thisElement = $(this);
       var curIndex = thisElement.parent().index();
+      console.log(curIndex);
       $('.nav-bg figure').eq(curIndex).addClass('active').siblings().removeClass('active');
 
       if (timeout != null) {
