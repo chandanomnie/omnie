@@ -3464,6 +3464,9 @@ html.menu-open .main-nav .nav-bottom .other-links li {
  * W. https://svgartista.net
  **************************************************/
 }
+.nav-bg figure.active.about-img *[stroke-width="2"] {
+  stroke-width: 3px;
+}
 @keyframes menuanimate-svg-stroke-1 {
   0% {
     stroke-dashoffset: 611.03253174px;
