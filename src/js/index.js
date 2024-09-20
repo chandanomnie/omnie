@@ -71,6 +71,19 @@ jQuery(function ($) {
     }
   );
 
+  $('.main-nav .main-links > li.parent>a').click(function (e) {
+    e.preventDefault();
+    $(this).parent('li').addClass('showSub').siblings().removeClass('showSub');
+    $('.main-nav').addClass('subNavVisible')
+  });
+
+  $('.main-nav .sub-nav .back-btn').click(function (e) {
+    e.preventDefault();
+    $('.main-nav .main-links > li').removeClass('showSub');
+    $('.main-nav').removeClass('subNavVisible')
+  });
+
+
 
   $(".main-links > li > a").mouseleave(
     function () {

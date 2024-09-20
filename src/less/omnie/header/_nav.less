@@ -211,6 +211,211 @@
             }
         }
     }
+
+    @media only screen and (max-width:1600px) {
+        .nav-wrap {
+            padding: 70px 80px;
+        }
+
+        .main-links>li>a {
+            font-size: 44px;
+        }
+
+        .nav-bg {
+            left: 50%;
+            width: 45%;
+        }
+    }
+
+    @media only screen and (max-width:1500px) {
+        .nav-wrap {
+            padding: 60px 70px;
+        }
+
+        .main-links>li>a {
+            font-size: 40px;
+        }
+
+        .nav-bg {
+            left: 55%;
+            width: 40%;
+        }
+
+        .sub-nav ul li a {
+            font-size: 18px;
+        }
+
+    }
+
+    @media only screen and (max-width:1400px) {
+        .nav-wrap {
+            padding: 50px;
+        }
+
+        .main-links {
+            min-width: 310px;
+
+            &>li>a {
+                font-size: 38px;
+            }
+        }
+
+        .nav-bg {
+            left: 60%;
+            width: 30%;
+        }
+
+        .sub-nav ul li a {
+            font-size: 17px;
+        }
+
+    }
+
+    @media only screen and (max-width:1300px) {
+
+
+        .main-links {
+            min-width: 280px;
+
+            &>li>a {
+                font-size: 38px;
+            }
+        }
+
+        .nav-bg {
+            left: 60%;
+            width: 25%;
+            bottom: 80px;
+        }
+
+        .sub-nav ul li a {
+            font-size: 16px;
+        }
+
+        .nav-bottom {
+            bottom: 50px;
+            right: 50px;
+
+            .other-links {
+                li {
+                    a {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media only screen and (max-width:1200px) {
+
+
+        .main-links {
+            min-width: 250px;
+
+            &>li>a {
+                font-size: 36px;
+            }
+        }
+
+
+
+        .sub-nav ul li a {
+            font-size: 15px;
+        }
+
+
+    }
+
+    @media only screen and (max-width:1000px) {
+        flex-direction: row;
+
+        .nav-bg {
+            display: none;
+
+        }
+
+        .nav-wrap {
+            align-items: center;
+            height: calc(100svh - 224px);
+            // overflow: auto;
+            overflow: hidden;
+        }
+
+        .nav-bottom {
+            left: 0;
+            right: 0;
+            background: black;
+            bottom: 0;
+            padding: 20px 50px 50px;
+
+            ul {
+                justify-content: flex-start;
+
+                &.social-links {
+                    margin-bottom: 25px;
+
+                    li {
+                        margin-left: 0;
+                        margin-right: 30px;
+                    }
+                }
+
+                &.other-links {
+                    li {
+                        margin-left: 0;
+                        margin-right: 20px;
+                    }
+
+                }
+            }
+        }
+
+        .main-links {
+            min-width: 100%;
+
+            &>li.parent {
+                &.showSub {
+                    .sub-nav {
+                        left: 0;
+
+                        .back-btn {
+                            left: 0;
+                            opacity: 1;
+                        }
+
+                        .word-block span {
+                            transform: translateY(0%);
+                            transition: transform 0.5s ease;
+                            transition-delay: calc(var(--animation-order) * 150ms);
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .sub-nav {
+            opacity: 1;
+            visibility: visible;
+            background: black;
+            left: calc(100% + 50px);
+            padding-top: 75px;
+
+
+            .back-btn {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                left:20px;
+                transition: all 0.5s ease;
+            }
+
+        }
+
+    }
 }
 
 
@@ -219,12 +424,21 @@
 .nav-bg {
     position: absolute;
     right: 0;
-    left: 30%;
+    left: 45%;
     top: 0;
-    bottom: 130px;
+    bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
+    pointer-events: none !important;
+
+    * {
+        pointer-events: none !important;
+    }
+
+    max-height: calc(100vh - 300px);
+
 
     figure {
         position: absolute;
@@ -650,4 +864,9 @@
     img {
         max-height: 80%;
     }
+
+}
+
+html.menu-open {
+    overflow: hidden;
 }
