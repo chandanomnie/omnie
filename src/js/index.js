@@ -982,16 +982,16 @@ function Timeline(selector, config) {
       }
     });
 
-    // if ($(".timeline__footer").length) {
-    //   let footer = ".timeline__footer";
-    //   let top = $(footer).offset().top;
+    if ($(".timeline__footer").length) {
+      let footer = ".timeline__footer";
+      let top = $(footer).offset().top;
 
-    //   if (viewPoint < top) {
-    //     self.updateClasses(footer, "");
-    //   } else {
-    //     self.updateClasses(footer, "is-visible");
-    //   }
-    // }
+      if (viewPoint < top) {
+        self.updateClasses(footer, "");
+      } else {
+        self.updateClasses(footer, "is-visible");
+      }
+    }
   };
 
   this.updateClasses = function (el, newClass) {
@@ -1008,9 +1008,6 @@ function Timeline(selector, config) {
 
   this.trackHeight = function () {
     let trackMax = this.el.outerHeight();
-    // if ($(".timeline__footer").length) {
-    //   trackMax -= $(".timeline__footer").outerHeight();
-    // }
     if (this.options.track.endAtLast) {
       trackMax = trackMax - $(".timeline__item").last().outerHeight() + 9;
     }
