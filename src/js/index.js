@@ -68,22 +68,25 @@ jQuery(function ($) {
       $('.main-nav').removeClass('subNavVisible')
     });
 
+    $(".main-nav .sub-nav .back-btn").click(function (e) {
+      e.preventDefault();
+      $(".main-nav .main-links > li").removeClass("showSub");
+      $(".main-nav").removeClass("subNavVisible");
+    });
 
-
-    $(".main-links > li > a").mouseleave(
-      function () {
-        if (timeout != null) {
-          clearTimeout(timeout);
-          timeout = null;
-        }
-        thisElement.parent().siblings().removeClass("hover");
-        thisElement
-          .parent()
-          .parent()
-          .siblings()
-          .find(".hover")
-          .removeClass("hover");
-      }, 30);
+    $(".main-links > li > a").mouseleave(function () {
+      if (timeout != null) {
+        clearTimeout(timeout);
+        timeout = null;
+      }
+      thisElement.parent().siblings().removeClass("hover");
+      thisElement
+        .parent()
+        .parent()
+        .siblings()
+        .find(".hover")
+        .removeClass("hover");
+    }, 30);
 
     if (timeout != null) {
       clearTimeout(timeout);
@@ -153,7 +156,7 @@ jQuery(function ($) {
         scrollTop: $(target).offset().top,
       },
       1000,
-      function () { }
+      function () {}
     );
   });
 
@@ -661,7 +664,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
@@ -906,7 +909,6 @@ if (jQuery(".word").length) {
   setInterval(changeWord, 4000);
 }
 
-
 const scrollers = document.querySelectorAll(".scroller");
 
 function addAnimation() {
@@ -1011,9 +1013,6 @@ function Timeline(selector, config) {
 
   this.trackHeight = function () {
     let trackMax = this.el.outerHeight();
-    if ($(".timeline__footer").length) {
-      trackMax -= $(".timeline__footer").outerHeight();
-    }
     if (this.options.track.endAtLast) {
       trackMax = trackMax - $(".timeline__item").last().outerHeight() + 9;
     }
@@ -1021,4 +1020,6 @@ function Timeline(selector, config) {
   };
 }
 
-new Timeline(".timeline");
+if ($(".timeline").length) {
+  new Timeline(".timeline");
+}
