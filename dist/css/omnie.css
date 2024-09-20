@@ -3398,6 +3398,28 @@ html.menu-open .main-nav .nav-bottom .other-links li {
     transition: all 0.5s ease;
   }
 }
+@media only screen and (max-width: 480px) {
+  .main-nav .nav-wrap {
+    padding: 40px;
+  }
+  .main-nav .nav-bottom {
+    padding: 20px 40px 50px;
+  }
+  .main-nav .nav-bottom ul.other-links li {
+    margin-right: 15px;
+  }
+  .main-nav .nav-bottom ul.other-links li a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main-nav .nav-bottom ul.other-links li {
+    margin-right: 10px;
+  }
+  .main-nav .nav-bottom ul.other-links li a {
+    font-size: 13px;
+  }
+}
 .nav-bg {
   position: absolute;
   right: 0;

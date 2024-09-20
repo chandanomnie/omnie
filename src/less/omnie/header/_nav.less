@@ -157,14 +157,15 @@
                     transition: transform 0.5s ease 1s;
                     // transition-delay: calc(var(--animation-order) * 150ms);
                 }
-                a{
-                 &:hover{
-                    svg{
-                        path{
-                            fill: white;
+
+                a {
+                    &:hover {
+                        svg {
+                            path {
+                                fill: white;
+                            }
                         }
                     }
-                 }   
                 }
             }
 
@@ -172,6 +173,7 @@
 
         .other-links {
             overflow: hidden;
+
             li {
 
                 margin-left: 30px;
@@ -179,10 +181,12 @@
                 a {
                     font-size: 20px;
                     color: #626262;
-                    &:hover{
+
+                    &:hover {
                         color: white;
                     }
                 }
+
                 transform: translateY(150%);
 
                 html.menu-open & {
@@ -443,6 +447,45 @@
                 transition: all 0.5s ease;
             }
 
+        }
+
+    }
+
+    @media only screen and (max-width:480px) {
+        .nav-wrap {
+            padding: 40px;
+        }
+
+        .nav-bottom {
+            padding: 20px 40px 50px;
+
+            ul.other-links {
+                li {
+                    margin-right: 15px;
+
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media only screen and (max-width:400px) {
+
+
+        .nav-bottom {
+
+            ul.other-links {
+                li {
+                    margin-right: 10px;
+
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
         }
 
     }
