@@ -58,7 +58,7 @@ jQuery(function ($) {
       $(this).parent('li').addClass('showSub').siblings().removeClass('showSub');
       $('.main-nav').addClass('subNavVisible')
     });
-
+    
     $('.main-nav .sub-nav .back-btn').click(function (e) {
       e.preventDefault();
       $('.main-nav .main-links > li').removeClass('showSub');
@@ -902,6 +902,7 @@ if (jQuery(".word").length) {
   changeWord();
   setInterval(changeWord, 4000);
 }
+
 
 const scrollers = document.querySelectorAll(".scroller");
 
