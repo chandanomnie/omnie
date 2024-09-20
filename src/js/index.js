@@ -53,34 +53,34 @@ jQuery(function ($) {
       clearTimeout(timeout);
     }
 
-  $('.main-nav .main-links > li.parent>a').click(function (e) {
-    e.preventDefault();
-    $(this).parent('li').addClass('showSub').siblings().removeClass('showSub');
-    $('.main-nav').addClass('subNavVisible')
-  });
+    $('.main-nav .main-links > li.parent>a').click(function (e) {
+      e.preventDefault();
+      $(this).parent('li').addClass('showSub').siblings().removeClass('showSub');
+      $('.main-nav').addClass('subNavVisible')
+    });
 
-  $('.main-nav .sub-nav .back-btn').click(function (e) {
-    e.preventDefault();
-    $('.main-nav .main-links > li').removeClass('showSub');
-    $('.main-nav').removeClass('subNavVisible')
-  });
+    $('.main-nav .sub-nav .back-btn').click(function (e) {
+      e.preventDefault();
+      $('.main-nav .main-links > li').removeClass('showSub');
+      $('.main-nav').removeClass('subNavVisible')
+    });
 
 
 
-  $(".main-links > li > a").mouseleave(
-    function () {
-      if (timeout != null) {
-        clearTimeout(timeout);
-        timeout = null;
-      }
-      thisElement.parent().siblings().removeClass("hover");
-      thisElement
-        .parent()
-        .parent()
-        .siblings()
-        .find(".hover")
-        .removeClass("hover");
-    }, 30);
+    $(".main-links > li > a").mouseleave(
+      function () {
+        if (timeout != null) {
+          clearTimeout(timeout);
+          timeout = null;
+        }
+        thisElement.parent().siblings().removeClass("hover");
+        thisElement
+          .parent()
+          .parent()
+          .siblings()
+          .find(".hover")
+          .removeClass("hover");
+      }, 30);
 
     if (timeout != null) {
       clearTimeout(timeout);
@@ -150,7 +150,7 @@ jQuery(function ($) {
         scrollTop: $(target).offset().top,
       },
       1000,
-      function () {}
+      function () { }
     );
   });
 
@@ -658,7 +658,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
