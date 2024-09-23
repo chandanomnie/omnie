@@ -38,6 +38,7 @@ jQuery(function ($) {
     }
   });
 
+
   var timeout;
   $(".main-links > li > a").mouseenter(function () {
     var thisElement = $(this);
@@ -52,7 +53,6 @@ jQuery(function ($) {
     if (timeout != null) {
       clearTimeout(timeout);
     }
-
 
     timeout = setTimeout(function () {
       if (thisElement.parent().hasClass("parent")) {
@@ -77,6 +77,7 @@ jQuery(function ($) {
     }
 
   });
+  
 
   $('.main-nav .sub-nav .back-btn').click(function (e) {
     e.preventDefault();
@@ -90,14 +91,8 @@ jQuery(function ($) {
       timeout = null;
     }
   });
-  
 
 
-  // $(".main-links").mouseleave(function () {
-  //   $(".main-links>li.parent").removeClass("hover");
-  //   $(".main-nav .left, .nav-list, .close-nav").removeClass("hovered");
-  //   // console.log('hovered');
-  // });
 
   $("a[href*=\\#]:not([href=\\#])").on("click", function () {
     var target = $(this.hash);
@@ -112,6 +107,7 @@ jQuery(function ($) {
       return false;
     }
   });
+
 
   $(".down-arrow").click(function () {
     if ($(".home-banner").length) {
