@@ -335,6 +335,9 @@ jQuery(function ($) {
         // $(".life-slider-desktop").each(function () {
         //   this.swiper.autoplay.pause();
         // });
+        // alert(1);
+        $('.carouselTicker').carouselTicker().stop();
+        $('.carouselTicker2').carouselTicker().stop();
       },
       afterClose: function () {
         // setTimeout(function () {
@@ -342,6 +345,9 @@ jQuery(function ($) {
         //     this.swiper.autoplay.resume();
         //   });
         // }, 200);
+        // alert(2);
+        $('.carouselTicker').carouselTicker().run();
+        $('.carouselTicker2').carouselTicker().run();
       },
       baseClass: "galleryPop",
       smallBtn: false,
