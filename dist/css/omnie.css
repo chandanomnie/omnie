@@ -3431,7 +3431,7 @@ html.menu-open .main-nav .nav-bottom .other-links li {
   justify-content: center;
   width: 50%;
   pointer-events: none !important;
-  max-height: calc(100vh - 300px);
+  max-height: calc(100vh - 200px);
 }
 .nav-bg * {
   pointer-events: none !important;
