@@ -280,17 +280,19 @@ jQuery(function ($) {
 
     setTimeout(function () {
       $("html").addClass("scene1");
+      $("html").addClass("scene2");
       setTimeout(function () {
-        $("html").addClass("scene2");
+        $("html").addClass("scene3");
+        $carousel.flickity("unpausePlayer");
+        $(".banner-slider .item:first-child")
+          .addClass("is-animated")
+          .siblings()
+          .removeClass("is-animated");
         setTimeout(function () {
-          $("html").addClass("scene3");
-          $carousel.flickity("unpausePlayer");
+
         }, 3000);
         setTimeout(function () {
-          $(".banner-slider .item:first-child")
-            .addClass("is-animated")
-            .siblings()
-            .removeClass("is-animated");
+
         }, 3200);
       }, 100);
     }, 100);

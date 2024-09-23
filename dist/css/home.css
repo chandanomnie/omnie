@@ -123,7 +123,8 @@ html.scene3 .home-banner .is-selected .tiles ul li {
 .home-banner .alphabet-tile,
 .home-banner .right,
 .home-banner .down-arrow,
-.home-banner .flickity-button {
+.home-banner .flickity-button,
+.home-banner .tiles {
   opacity: 0;
   pointer-events: none;
 }
@@ -131,7 +132,8 @@ html.scene3 .home-banner .slick-custom-arrow,
 html.scene3 .home-banner .alphabet-tile,
 html.scene3 .home-banner .right,
 html.scene3 .home-banner .down-arrow,
-html.scene3 .home-banner .flickity-button {
+html.scene3 .home-banner .flickity-button,
+html.scene3 .home-banner .tiles {
   opacity: 1;
   pointer-events: all;
   transition: opacity 1.5s ease;
@@ -912,16 +914,16 @@ html:not(.scene2) .first-tiles-old ul li:nth-child(35) {
 .first-tiles-old ul li:nth-child(36)::before {
   transform-origin: -901% -393%;
 }
-.first-tiles ul li {
+.first-tiless ul li {
   position: relative;
   border-color: transparent !important;
   opacity: 0;
   transition: opacity 1.9s ease 1s;
 }
-html.scene1 .first-tiles ul li {
+html.scene1 .first-tiless ul li {
   opacity: 1;
 }
-.first-tiles ul li::before {
+.first-tiless ul li::before {
   content: '';
   position: absolute;
   left: -1px;
@@ -932,181 +934,181 @@ html.scene1 .first-tiles ul li {
   will-change: transform;
   border: 1px solid #C2C2C2;
 }
-html.scene2 .first-tiles ul li::before {
+html.scene2 .first-tiless ul li::before {
   transform: translate3d(0, 0, 0);
   width: calc(100% - 1px);
   height: calc(100% - 1px);
   transition: transform 2s ease-in 1s, width 2s ease-in 1s, height 2s ease-in 1s, box-shadow 0.5s ease-in 0.5s;
 }
-html:not(.scene2) .first-tiles ul li:nth-child(1) {
+html:not(.scene2) .first-tiless ul li:nth-child(1) {
   transition-delay: 0.5s;
 }
-.first-tiles ul li:nth-child(1)::before {
+.first-tiless ul li:nth-child(1)::before {
   transform: translate(72%, -151%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(2) {
+html:not(.scene2) .first-tiless ul li:nth-child(2) {
   transition-delay: 0.2s;
 }
-.first-tiles ul li:nth-child(2)::before {
+.first-tiless ul li:nth-child(2)::before {
   transform: translate(150%, -144%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(3) {
+html:not(.scene2) .first-tiless ul li:nth-child(3) {
   transition-delay: 0.3s;
 }
-.first-tiles ul li:nth-child(3)::before {
+.first-tiless ul li:nth-child(3)::before {
   transform: translate(236%, -144%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(4) {
+html:not(.scene2) .first-tiless ul li:nth-child(4) {
   transition-delay: 0.5s;
 }
-.first-tiles ul li:nth-child(4)::before {
+.first-tiless ul li:nth-child(4)::before {
   transform: translate(315%, -144%);
 }
-.first-tiles ul li:nth-child(5)::before {
+.first-tiless ul li:nth-child(5)::before {
   transform: translate(394%, -144%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(6) {
+html:not(.scene2) .first-tiless ul li:nth-child(6) {
   transition-delay: 0.4s;
 }
-.first-tiles ul li:nth-child(6)::before {
+.first-tiless ul li:nth-child(6)::before {
   transform: translate(480%, -144%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(7) {
+html:not(.scene2) .first-tiless ul li:nth-child(7) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(7)::before {
+.first-tiless ul li:nth-child(7)::before {
   transform: translate(-37%, -67%);
 }
-.first-tiles ul li:nth-child(8)::before {
+.first-tiless ul li:nth-child(8)::before {
   transform: translate(150%, -67%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(9) {
+html:not(.scene2) .first-tiless ul li:nth-child(9) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(9)::before {
+.first-tiless ul li:nth-child(9)::before {
   transform: translate(237%, -67%);
 }
-.first-tiles ul li:nth-child(10)::before {
+.first-tiless ul li:nth-child(10)::before {
   transform: translate(315%, -67%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(11) {
+html:not(.scene2) .first-tiless ul li:nth-child(11) {
   transition-delay: 0.4s;
 }
-.first-tiles ul li:nth-child(11)::before {
+.first-tiless ul li:nth-child(11)::before {
   transform: translate(393%, -67%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(12) {
+html:not(.scene2) .first-tiless ul li:nth-child(12) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(12)::before {
+.first-tiless ul li:nth-child(12)::before {
   transform: translate(588%, -87%);
 }
-.first-tiles ul li:nth-child(13)::before {
+.first-tiless ul li:nth-child(13)::before {
   transform: translate(-56%, 46%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(14) {
+html:not(.scene2) .first-tiless ul li:nth-child(14) {
   transition-delay: 0.4s;
 }
-.first-tiles ul li:nth-child(14)::before {
+.first-tiless ul li:nth-child(14)::before {
   transform: translate(54%, 8%);
 }
-.first-tiles ul li:nth-child(15)::before {
+.first-tiless ul li:nth-child(15)::before {
   transform: translate(203%, 19%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(16) {
+html:not(.scene2) .first-tiless ul li:nth-child(16) {
   transition-delay: 0.3s;
 }
-.first-tiles ul li:nth-child(16)::before {
+.first-tiless ul li:nth-child(16)::before {
   transform: translate(347%, 21%);
 }
-.first-tiles ul li:nth-child(17)::before {
+.first-tiless ul li:nth-child(17)::before {
   transform: translate(475%, 4%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(18) {
+html:not(.scene2) .first-tiless ul li:nth-child(18) {
   transition-delay: 0.2s;
 }
-.first-tiles ul li:nth-child(18)::before {
+.first-tiless ul li:nth-child(18)::before {
   transform: translate(620%, 4%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(19) {
+html:not(.scene2) .first-tiless ul li:nth-child(19) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(19)::before {
+.first-tiless ul li:nth-child(19)::before {
   transform: translate(71%, 98%);
 }
-.first-tiles ul li:nth-child(20)::before {
+.first-tiless ul li:nth-child(20)::before {
   transform: translate(150%, 98%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(21) {
+html:not(.scene2) .first-tiless ul li:nth-child(21) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(21)::before {
+.first-tiless ul li:nth-child(21)::before {
   transform: translate(236%, 98%);
 }
-.first-tiles ul li:nth-child(22)::before {
+.first-tiless ul li:nth-child(22)::before {
   transform: translate(366%, 98%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(23) {
+html:not(.scene2) .first-tiless ul li:nth-child(23) {
   transition-delay: 0.2s;
 }
-.first-tiles ul li:nth-child(23)::before {
+.first-tiless ul li:nth-child(23)::before {
   transform: translate(460%, 85%);
 }
-.first-tiles ul li:nth-child(24)::before {
+.first-tiless ul li:nth-child(24)::before {
   transform: translate(552%, 98%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(25) {
+html:not(.scene2) .first-tiless ul li:nth-child(25) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(25)::before {
+.first-tiless ul li:nth-child(25)::before {
   transform: translate(-22%, 192%);
 }
-.first-tiles ul li:nth-child(26)::before {
+.first-tiless ul li:nth-child(26)::before {
   transform: translate(96%, 192%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(27) {
+html:not(.scene2) .first-tiless ul li:nth-child(27) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(27)::before {
+.first-tiless ul li:nth-child(27)::before {
   transform: translate(237%, 177%);
 }
-.first-tiles ul li:nth-child(28)::before {
+.first-tiless ul li:nth-child(28)::before {
   transform: translate(321%, 177%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(29) {
+html:not(.scene2) .first-tiless ul li:nth-child(29) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(29)::before {
+.first-tiless ul li:nth-child(29)::before {
   transform: translate(449%, 177%);
 }
-.first-tiles ul li:nth-child(30)::before {
+.first-tiless ul li:nth-child(30)::before {
   transform: translate(589%, 191%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(31) {
+html:not(.scene2) .first-tiless ul li:nth-child(31) {
   transition-delay: 0.3s;
 }
-.first-tiles ul li:nth-child(31)::before {
+.first-tiless ul li:nth-child(31)::before {
   transform: translate(12%, 267%);
 }
-.first-tiles ul li:nth-child(32)::before {
+.first-tiless ul li:nth-child(32)::before {
   transform: translate(96%, 267%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(33) {
+html:not(.scene2) .first-tiless ul li:nth-child(33) {
   transition-delay: 0.4s;
 }
-.first-tiles ul li:nth-child(33)::before {
+.first-tiless ul li:nth-child(33)::before {
   transform: translate(237%, 267%);
 }
-.first-tiles ul li:nth-child(34)::before {
+.first-tiless ul li:nth-child(34)::before {
   transform: translate(321%, 267%);
 }
-html:not(.scene2) .first-tiles ul li:nth-child(35) {
+html:not(.scene2) .first-tiless ul li:nth-child(35) {
   transition-delay: 0.1s;
 }
-.first-tiles ul li:nth-child(35)::before {
+.first-tiless ul li:nth-child(35)::before {
   transform: translate(448%, 267%);
 }
-.first-tiles ul li:nth-child(36)::before {
+.first-tiless ul li:nth-child(36)::before {
   transform: translate(588%, 267%);
 }
 .site-wrapper {
