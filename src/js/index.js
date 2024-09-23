@@ -54,26 +54,6 @@ jQuery(function ($) {
     }
 
 
-
-
-    $(".main-links > li > a").mouseleave(function () {
-      if (timeout != null) {
-        clearTimeout(timeout);
-        timeout = null;
-      }
-      thisElement.parent().siblings().removeClass("hover");
-      thisElement
-        .parent()
-        .parent()
-        .siblings()
-        .find(".hover")
-        .removeClass("hover");
-    }, 30);
-
-    if (timeout != null) {
-      clearTimeout(timeout);
-    }
-
     timeout = setTimeout(function () {
       if (thisElement.parent().hasClass("parent")) {
         thisElement.parent().addClass("hover");
@@ -110,6 +90,8 @@ jQuery(function ($) {
       timeout = null;
     }
   });
+  
+
 
   // $(".main-links").mouseleave(function () {
   //   $(".main-links>li.parent").removeClass("hover");
