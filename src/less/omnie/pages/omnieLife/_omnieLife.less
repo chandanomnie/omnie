@@ -583,10 +583,50 @@
   overflow: hidden;
   padding-bottom: 100px;
   padding-top: 50px;
+  .carouselTicker__list{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  .carouselTicker2{
+    .carouselTicker__list{
+      align-items: flex-start;
+    }
+  }
+  .carouselTicker__item {
+    a {
+      display: block;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: attr(data-caption);
+        position: absolute;
+        bottom: 60px;
+        left: -100%;
+        padding: 10px 10px 10px 20px;
+        color: @white;
+        background: rgba(0, 0, 0, 0.6);
+        font-size: 16px;
+        transition: left 0.5s ease 0s;
+      }
+
+      &:hover {
+        &::after {
+          left: 0;
+        }
+      }
+    }
+
+    img {
+      filter: grayscale(100%);
+      transform: translate3d(0, 0, 0);
+    }
+  }
 
   .life-slider {
-    padding: 50px 0 100px;
-
+    padding:10px 0 50px;
+ 
     .swiper-slide {
       width: auto;
       padding: 25px 30px;

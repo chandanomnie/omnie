@@ -77,7 +77,7 @@ jQuery(function ($) {
     }
 
   });
-  
+
 
   $('.main-nav .sub-nav .back-btn').click(function (e) {
     e.preventDefault();
@@ -299,37 +299,49 @@ jQuery(function ($) {
     });
   }
 
-  if ($(".life-slider-desktop").length) {
-    let SwiperDesktop = new Swiper(".life-slider-desktop", {
-      spaceBetween: 0,
-      centeredSlides: true,
-      speed: 3000,
-      // direction: "vertical",
+  if ($(".life-slider").length) {
+    // let SwiperDesktop = new Swiper(".life-slider-desktop", {
+    //   spaceBetween: 0,
+    //   centeredSlides: true,
+    //   speed: 3000,
+    //   // direction: "vertical",
 
-      autoplay: {
-        delay: 1,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: false,
-      },
+    //   autoplay: {
+    //     delay: 1,
+    //     disableOnInteraction: false,
+    //     pauseOnMouseEnter: false,
+    //   },
 
-      loop: true,
-      slidesPerView: "auto",
-      allowTouchMove: false,
+    //   loop: true,
+    //   slidesPerView: "auto",
+    //   allowTouchMove: false,
+    // });
+    // alert();
+    $('.carouselTicker').carouselTicker({
+      speed: 1,
+      delay: 7,
+      reverse: false
+    });
+
+    $('.carouselTicker2').carouselTicker({
+      speed: 1,
+      delay: 7,
+      reverse: false
     });
 
     $(".life-slider a[data-fancybox]").fancybox({
       animationEffect: false,
       beforeShow: function () {
-        $(".life-slider-desktop").each(function () {
-          this.swiper.autoplay.pause();
-        });
+        // $(".life-slider-desktop").each(function () {
+        //   this.swiper.autoplay.pause();
+        // });
       },
       afterClose: function () {
-        setTimeout(function () {
-          $(".life-slider-desktop").each(function () {
-            this.swiper.autoplay.resume();
-          });
-        }, 200);
+        // setTimeout(function () {
+        //   $(".life-slider-desktop").each(function () {
+        //     this.swiper.autoplay.resume();
+        //   });
+        // }, 200);
       },
       baseClass: "galleryPop",
       smallBtn: false,
