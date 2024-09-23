@@ -2499,6 +2499,13 @@ html.invertMode .life-banner path {
   font-weight: 500;
   line-height: 28px;
 }
+.benfits-section .benfits-row {
+  background: #fff;
+  position: sticky;
+  top: 100px;
+  left: 0;
+  width: 100%;
+}
 .benfits-section .benfits-row .w30 {
   max-width: 319px;
 }
