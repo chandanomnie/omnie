@@ -451,6 +451,41 @@
 
     }
 
+    @media only screen and (max-width:767px) {
+        .nav-wrap {
+            align-items: flex-start;
+            overflow: auto;
+
+            overflow-x: hidden;
+        }
+
+        .sub-nav {
+            position: fixed;
+            top: 70px;
+            padding: 40px 40px 40px;
+
+            ul {
+                overflow: auto;
+                overflow-x: hidden;
+                max-height: calc(100svh - 330px);
+            }
+
+            .sub-nav-wrap {
+                position: relative;
+                padding-top: 75px;
+            }
+        }
+
+        &.subNavVisible {
+
+            .nav-wrap {
+                overflow: hidden;
+
+            }
+        }
+
+    }
+
     @media only screen and (max-width:480px) {
         .nav-wrap {
             padding: 40px;
