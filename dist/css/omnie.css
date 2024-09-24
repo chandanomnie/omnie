@@ -3398,6 +3398,30 @@ html.menu-open .main-nav .nav-bottom .other-links li {
     transition: all 0.5s ease;
   }
 }
+@media only screen and (max-width: 767px) {
+  .main-nav .nav-wrap {
+    align-items: flex-start;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .main-nav .sub-nav {
+    position: fixed;
+    top: 70px;
+    padding: 40px 40px 40px;
+  }
+  .main-nav .sub-nav ul {
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: calc(100svh - 330px);
+  }
+  .main-nav .sub-nav .sub-nav-wrap {
+    position: relative;
+    padding-top: 75px;
+  }
+  .main-nav.subNavVisible .nav-wrap {
+    overflow: hidden;
+  }
+}
 @media only screen and (max-width: 480px) {
   .main-nav .nav-wrap {
     padding: 40px;
