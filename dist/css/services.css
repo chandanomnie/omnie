@@ -1872,7 +1872,8 @@ html.invertMode .down-arrow path {
   position: relative;
   padding-left: 40px;
 }
-.mpa-dev-cycle .mobile-only .mpa-dev-list li::before {
+.mpa-dev-cycle .mobile-only .mpa-dev-list li::before,
+.mpa-dev-cycle .mobile-only .mpa-dev-list li:after {
   content: "";
   position: absolute;
   left: 0;
@@ -1882,6 +1883,16 @@ html.invertMode .down-arrow path {
   background: #d9d9d9;
   border-radius: 100%;
   z-index: 4;
+}
+.mpa-dev-cycle .mobile-only .mpa-dev-list li::after {
+  z-index: 5;
+  background: black;
+  transform: scale(0);
+  transition: all 0.5s ease 2s;
+}
+.mpa-dev-cycle .mobile-only .mpa-dev-list li.loaded::after {
+  transform: scale(1);
+  background: #000;
 }
 .mpa-dev-cycle .mobile-only .mpa-dev-list li:not(:last-child) {
   margin-bottom: 40px;

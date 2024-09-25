@@ -359,9 +359,10 @@
       .services-slider {
         padding-right: 30%;
         padding-top: 100px;
-        .item{
-          figure{
-            svg{
+
+        .item {
+          figure {
+            svg {
               max-height: calc(100vmax - 380px);
             }
           }
@@ -760,7 +761,8 @@
         position: relative;
         padding-left: 40px;
 
-        &::before {
+        &::before,
+        &:after {
           content: "";
           position: absolute;
           left: 0;
@@ -770,6 +772,20 @@
           background: #d9d9d9;
           border-radius: 100%;
           z-index: 4;
+        }
+
+        &::after {
+          z-index: 5;
+          background: black;
+          transform: scale(0);
+          transition: all 0.5s ease 2s;
+        }
+
+        &.loaded {
+          &::after {
+            transform: scale(1);
+            background: #000;
+          }
         }
 
         &:not(:last-child) {

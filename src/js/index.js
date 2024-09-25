@@ -542,7 +542,7 @@ jQuery(function ($) {
     });
   }
 
-  if ($(".our-work-slider-two").length) {
+  if ($(".our-work-slider-twos").length) {
     new Swiper(".our-work-slider-two", {
       spaceBetween: 0,
       centeredSlides: true,
@@ -560,7 +560,7 @@ jQuery(function ($) {
     });
   }
 
-  if ($(".our-work-slider-three").length) {
+  if ($(".our-work-slider-threes").length) {
     new Swiper(".our-work-slider-three", {
       spaceBetween: 0,
       centeredSlides: true,
