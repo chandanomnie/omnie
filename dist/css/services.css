@@ -1297,7 +1297,7 @@ html.invertMode .down-arrow path {
 }
 .services-banner {
   padding: 130px 0 50px 0;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
 }
 .services-banner .container {
   max-width: 1370px;
@@ -1772,6 +1772,7 @@ html.invertMode .down-arrow path {
   .services-banner .right .services-slider {
     padding-right: 0;
     padding-top: 50px;
+    padding-bottom: 50px;
   }
   .services-banner .right .services-slider .item:nth-child(2) .box {
     display: block;
@@ -1779,8 +1780,16 @@ html.invertMode .down-arrow path {
   .services-banner .right .services-slider .item:nth-child(2) .box figure svg {
     max-height: calc(100vh - 550px);
   }
-  .services-banner .right .services-slider .slick-custom-arrow {
-    display: none !important;
+  .services-banner .right .services-slider .slick-custom-arrow.slick-custom-next,
+  .services-banner .right .services-slider .slick-custom-arrow.slick-custom-prev {
+    left: 50%;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    transform: translateX(calc(-50% - 35px));
+  }
+  .services-banner .right .services-slider .slick-custom-arrow.slick-custom-next {
+    transform: translateX(calc(-50% + 35px));
   }
 }
 @media only screen and (max-width: 767px) {
