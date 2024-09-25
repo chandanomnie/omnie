@@ -1548,6 +1548,9 @@ html.invertMode .down-arrow path {
     padding-right: 30%;
     padding-top: 100px;
   }
+  .services-banner .right .services-slider .item figure svg {
+    max-height: calc(100vmax - 380px);
+  }
 }
 @media only screen and (max-width: 767px) {
   .services-banner {
