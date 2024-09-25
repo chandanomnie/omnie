@@ -361,7 +361,8 @@ jQuery(function ($) {
       closeBtn: "true",
       toolbar: "auto",
       buttons: ["close"],
-      loop : true
+      loop: true
+
     });
   }
 
@@ -417,6 +418,7 @@ jQuery(function ($) {
       closeBtn: "true",
       toolbar: "auto",
       buttons: ["close"],
+      loop: true
     });
   }
 
