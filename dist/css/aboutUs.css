@@ -2411,6 +2411,7 @@ html.invertMode .count-container-left p {
 }
 .clients-logo .client-logo-item img {
   max-height: 90px;
+  transform: translate3d(0, 0, 0);
 }
 @media only screen and (max-width: 767px) {
   .clients-logo .client-logo-item img {
