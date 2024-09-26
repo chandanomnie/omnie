@@ -2707,6 +2707,7 @@ html.invertMode .benfits-section svg *[fill="#000"] {
   .life-btm figure {
     padding-bottom: 135%;
     background-position: center center;
+    background-attachment: scroll;
   }
 }
 .life-btm .content {
