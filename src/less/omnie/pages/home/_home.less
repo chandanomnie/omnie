@@ -122,6 +122,8 @@
         white-space: pre;
         position: relative;
         top: -17%;
+        font-weight: 500;
+        letter-spacing: -0.3rem;
 
         .char {
 
@@ -204,7 +206,8 @@
   .alphabet-tile,
   .right,
   .down-arrow,
-  .flickity-button ,.tiles{
+  .flickity-button,
+  .tiles {
     opacity: 0;
     pointer-events: none;
 
@@ -259,8 +262,10 @@
   }
 
   .right {
-    padding: 8% 0 0 10px;
+    padding: 7.7% 0 0 30px;
     width: 67%;
+    position: relative;
+
 
     .content {
       margin-top: -30px;
@@ -270,7 +275,7 @@
 
     .h1 {
       font-size: 260px;
-      line-height: 0.8;
+      line-height: 0.7;
       margin-bottom: 44px;
       font-family: Public Sans;
       letter-spacing: -0.06em;
@@ -343,6 +348,7 @@
 
     .right {
       width: 66%;
+      padding-top: 11%;
 
       p {
         max-width: 555px;
@@ -377,7 +383,7 @@
 
     .right {
       width: 65%;
-      padding: 6% 0 0 10px;
+      padding: 13.5% 0 0 10px;
 
       p {
         max-width: 555px;
@@ -453,6 +459,7 @@
 
     .right {
       width: 60%;
+      padding: 17.1% 0 0 10px;
 
       p {
         max-width: 80%;
@@ -487,6 +494,7 @@
 
     .right {
       width: 60%;
+      padding: 20.1% 0 0 10px;
 
       p {
         font-size: 17px;
@@ -514,6 +522,7 @@
 
     .right {
       padding-left: 20px;
+      padding: 18.5% 0 0 10px;
     }
 
   }
@@ -564,9 +573,14 @@
 
         .right {
           width: 100%;
+          padding-top:40px;
         }
 
       }
+    }
+
+    .item {
+      padding-bottom: 200px;
     }
 
     .down-arrow {
@@ -696,6 +710,8 @@
   p {
     font-size: 16px;
     line-height: 1.5;
+    opacity: 0.8;
+    font-weight: 300;
   }
 
   .btn {
@@ -1789,4 +1805,3 @@
     transition: opacity 1.5s ease;
   }
 }
-

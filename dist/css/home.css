@@ -83,6 +83,8 @@ html:not(.scene3) .home-banner .item:first-child {
   white-space: pre;
   position: relative;
   top: -17%;
+  font-weight: 500;
+  letter-spacing: -0.3rem;
 }
 .home-banner .item .alphabet-tile strong .char:nth-child(1) {
   position: relative;
@@ -169,8 +171,9 @@ html.scene3 .home-banner .tiles {
   width: 33%;
 }
 .home-banner .right {
-  padding: 8% 0 0 10px;
+  padding: 7.7% 0 0 30px;
   width: 67%;
+  position: relative;
 }
 .home-banner .right .content {
   margin-top: -30px;
@@ -178,7 +181,7 @@ html.scene3 .home-banner .tiles {
 }
 .home-banner .right .h1 {
   font-size: 260px;
-  line-height: 0.8;
+  line-height: 0.7;
   margin-bottom: 44px;
   font-family: Public Sans;
   letter-spacing: -0.06em;
@@ -228,6 +231,7 @@ html.scene3 .home-banner .tiles {
   }
   .home-banner .right {
     width: 66%;
+    padding-top: 11%;
   }
   .home-banner .right p {
     max-width: 555px;
@@ -255,7 +259,7 @@ html.scene3 .home-banner .tiles {
   }
   .home-banner .right {
     width: 65%;
-    padding: 6% 0 0 10px;
+    padding: 13.5% 0 0 10px;
   }
   .home-banner .right p {
     max-width: 555px;
@@ -309,6 +313,7 @@ html.scene3 .home-banner .tiles {
   }
   .home-banner .right {
     width: 60%;
+    padding: 17.1% 0 0 10px;
   }
   .home-banner .right p {
     max-width: 80%;
@@ -334,6 +339,7 @@ html.scene3 .home-banner .tiles {
   }
   .home-banner .right {
     width: 60%;
+    padding: 20.1% 0 0 10px;
   }
   .home-banner .right p {
     font-size: 17px;
@@ -356,6 +362,7 @@ html.scene3 .home-banner .tiles {
   }
   .home-banner .right {
     padding-left: 20px;
+    padding: 18.5% 0 0 10px;
   }
 }
 @media only screen and (max-width: 1100px) {
@@ -395,6 +402,10 @@ html.scene3 .home-banner .tiles {
   }
   .home-banner .container > .d-f .right {
     width: 100%;
+    padding-top: 40px;
+  }
+  .home-banner .item {
+    padding-bottom: 200px;
   }
   .home-banner .down-arrow {
     right: 50%;
@@ -479,6 +490,8 @@ html.scene3 .home-banner .tiles {
 .home-content p {
   font-size: 16px;
   line-height: 1.5;
+  opacity: 0.8;
+  font-weight: 300;
 }
 .home-content .btn {
   margin-top: 40px;
