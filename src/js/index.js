@@ -167,8 +167,8 @@ jQuery(function ($) {
         change: function (index) {
           var getCur = index;
           console.log(getCur);
-          $(".text-roll-slider .swiper-wrapper").slick("slickGoTo", getCur);
-          $(".text-flip-slider .swiper-wrapper").slick("slickGoTo", getCur);
+          // $(".text-roll-slider .swiper-wrapper").slick("slickGoTo", getCur);
+          // $(".text-flip-slider .swiper-wrapper").slick("slickGoTo", getCur);
           $(".banner-slider .item")
             .eq(index)
             .addClass("is-animated")
@@ -237,24 +237,24 @@ jQuery(function ($) {
     //   slidesPerView: 1,
     // });
 
-    var swiperRoll = $(".text-roll-slider .swiper-wrapper ").slick({
-      vertical: true,
-      verticalSwiping: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      infinite: true,
-      centerPadding: "20px",
-    });
+    // var swiperRoll = $(".text-roll-slider .swiper-wrapper ").slick({
+    //   vertical: true,
+    //   verticalSwiping: true,
+    //   slidesToShow: 1,
+    //   slidesToScroll: 1,
+    //   arrows: false,
+    //   infinite: true,
+    //   centerPadding: "20px",
+    // });
 
-    var swiperFlip = $(".text-flip-slider  .swiper-wrapper").slick({
-      vertical: true,
-      verticalSwiping: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      infinite: true,
-    });
+    // var swiperFlip = $(".text-flip-slider  .swiper-wrapper").slick({
+    //   vertical: true,
+    //   verticalSwiping: true,
+    //   slidesToShow: 1,
+    //   slidesToScroll: 1,
+    //   arrows: false,
+    //   infinite: true,
+    // });
 
     setTimeout(function () {
       $("html").addClass("scene1");
