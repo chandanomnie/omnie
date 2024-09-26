@@ -1247,6 +1247,11 @@ html.invertMode .bg-light-grey {
   cursor: pointer;
   z-index: 10;
 }
+@media only screen and (max-width: 767px) {
+  .down-arrow {
+    bottom: 25px;
+  }
+}
 .down-arrow.white svg path {
   fill: white;
 }
@@ -2132,7 +2137,7 @@ html.invertMode .down-arrow path {
 .page-banner {
   background-color: #000;
   color: #fff;
-  min-height: 800px;
+  min-height: calc(85vh);
   display: flex;
   align-items: center;
 }
@@ -6221,7 +6226,7 @@ html.invertMode .count-container-left p {
 }
 @media only screen and (max-width: 767px) {
   .sliding-images-wrapper .shrink {
-    animation: scroll-x 15s linear infinite;
+    animation: scroll-x 12s linear infinite;
   }
 }
 @media only screen and (max-width: 767px) {

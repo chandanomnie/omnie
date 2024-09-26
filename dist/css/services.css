@@ -1247,6 +1247,11 @@ html.invertMode .bg-light-grey {
   cursor: pointer;
   z-index: 10;
 }
+@media only screen and (max-width: 767px) {
+  .down-arrow {
+    bottom: 25px;
+  }
+}
 .down-arrow.white svg path {
   fill: white;
 }

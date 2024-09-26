@@ -13,7 +13,7 @@ jQuery(function ($) {
     });
   }
 
-  $(".nav-toggle").on("click", function () {
+  $(".nav-btn").on("click", function () {
     if (!$(".nav-toggle").hasClass("active")) {
       $(".nav-toggle").addClass("active");
       $("html").addClass("before-menu-open");

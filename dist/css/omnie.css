@@ -1756,6 +1756,11 @@ p:last-child,
   cursor: pointer;
   z-index: 10;
 }
+@media only screen and (max-width: 767px) {
+  .down-arrow {
+    bottom: 25px;
+  }
+}
 .down-arrow.white svg path {
   fill: white;
 }
@@ -2842,7 +2847,6 @@ label {
   background: transparent;
   pointer-events: auto;
   color: black;
-  margin-left: 35px;
   top: 1px;
 }
 body.light-header:not(.compressed) .nav-toggle {
@@ -2964,6 +2968,11 @@ html:not(.compressed) .h-white .nav-toggle {
   -ms-transform: rotate3d(0, 0, 1, -45deg);
   transform: rotate3d(0, 0, 1, -45deg);
   width: 100%;
+}
+.nav-btn {
+  position: relative;
+  padding: 20px;
+  margin-right: -20px;
 }
 /*Header*/
 .main-header {
@@ -7035,6 +7044,7 @@ html.menu-open {
 @media only screen and (max-width: 767px) {
   .common-page-nav .grid .left {
     width: 100%;
+    padding: 0 50px;
   }
   .common-page-nav .grid .left .next-tech-page {
     flex-wrap: wrap;
@@ -7055,7 +7065,7 @@ html.menu-open {
   }
 }
 .capcha {
-  background: url(/dist/images/capcha.png) no-repeat right 10px center;
+  background: url("../images/capcha.png") no-repeat right 10px center;
   padding: 13px 85px 13px 23px;
 }
 :root {
