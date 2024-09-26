@@ -1754,6 +1754,7 @@ p:last-child,
   right: 40px;
   bottom: 40px;
   cursor: pointer;
+  z-index: 10;
 }
 .down-arrow.white svg path {
   fill: white;

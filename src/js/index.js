@@ -109,9 +109,10 @@ jQuery(function ($) {
   });
 
 
-  $(".down-arrow").click(function () {
+  $(".down-arrow").click(function (e) {
+    e.preventDefault();
     if ($(".home-banner").length) {
-      var headerHeight = $('.main-header').outerHeight(true);
+
       $(".content-slider .item").removeClass("animatedSlide");
       setTimeout(function () {
         // if ($('.home-banner').length) {
@@ -126,14 +127,13 @@ jQuery(function ($) {
       }, 300);
     }
     var target = $(this).parents(".banner").next();
-
+    console.log($(target).offset().top);
+    var headerHeight = $('.main-header').outerHeight(true);
     $("html, body").animate(
       {
         scrollTop: $(target).offset().top - headerHeight,
       },
-      1000,
-      function () { }
-    );
+      1000);
   });
 
   if ($(".fade-slider").length) {

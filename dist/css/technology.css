@@ -1245,6 +1245,7 @@ html.invertMode .bg-light-grey {
   right: 40px;
   bottom: 40px;
   cursor: pointer;
+  z-index: 10;
 }
 .down-arrow.white svg path {
   fill: white;
