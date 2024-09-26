@@ -432,6 +432,7 @@ html.scene3 .home-banner .tiles {
   }
   .home-banner .item {
     padding: 100px 20px 30px;
+    min-height: calc(100svh);
   }
   .home-banner .alphabet-tile {
     font-size: 20vw;

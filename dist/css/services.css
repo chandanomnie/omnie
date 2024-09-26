@@ -1574,7 +1574,7 @@ html.invertMode .down-arrow path {
     display: block;
   }
   .services-banner .right .services-slider .item:nth-child(2) .box figure svg {
-    max-height: calc(100vh - 650px);
+    max-height: calc(100vh - 550px);
   }
   .services-banner .right .services-slider .slick-custom-arrow.slick-custom-next,
   .services-banner .right .services-slider .slick-custom-arrow.slick-custom-prev {
