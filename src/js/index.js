@@ -111,6 +111,7 @@ jQuery(function ($) {
 
   $(".down-arrow").click(function () {
     if ($(".home-banner").length) {
+      var headerHeight = $('.main-header').outerHeight(true);
       $(".content-slider .item").removeClass("animatedSlide");
       setTimeout(function () {
         // if ($('.home-banner').length) {
@@ -128,7 +129,7 @@ jQuery(function ($) {
 
     $("html, body").animate(
       {
-        scrollTop: $(target).offset().top,
+        scrollTop: $(target).offset().top - headerHeight,
       },
       1000,
       function () { }
