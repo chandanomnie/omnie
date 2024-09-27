@@ -3261,6 +3261,9 @@ html.menu-open .main-nav .nav-bottom .other-links li {
 .main-nav .sub-nav ul li a:hover {
   color: #fff;
 }
+.main-nav .sub-nav ul li.seeAllLink {
+  display: none;
+}
 .main-nav .sub-nav2 ul li a {
   font-size: 18px;
 }
@@ -3397,6 +3400,13 @@ html.menu-open .main-nav .nav-bottom .other-links li {
     background: black;
     left: calc(100% + 50px);
     padding-top: 75px;
+  }
+  .main-nav .sub-nav ul li.seeAllLink {
+    margin-top: 40px;
+    display: block;
+  }
+  .main-nav .sub-nav ul li.seeAllLink a {
+    text-decoration: underline;
   }
   .main-nav .sub-nav .back-btn {
     display: block;

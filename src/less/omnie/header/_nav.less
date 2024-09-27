@@ -232,7 +232,13 @@
                         color: #fff;
                     }
                 }
+
+                &.seeAllLink {
+                    display: none;
+                }
             }
+
+
         }
     }
 
@@ -436,6 +442,15 @@
             left: calc(100% + 50px);
             padding-top: 75px;
 
+            ul li {
+                &.seeAllLink {
+                    margin-top:40px;
+                    display: block;
+                    a{
+                        text-decoration: underline;
+                    }
+                }
+            }
 
             .back-btn {
                 display: block;
