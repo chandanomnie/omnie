@@ -1691,6 +1691,7 @@ html.invertMode .down-arrow path {
 @media only screen and (max-width: 767px) {
   .mob-app-list-wrapper {
     margin-bottom: 0;
+    padding-bottom: 25px;
   }
 }
 .mob-app-list-wrapper .content {
