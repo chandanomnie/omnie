@@ -1467,6 +1467,12 @@ html.invertMode .down-arrow path {
   margin-left: auto;
   padding-right: 50px;
 }
+.services-banner .right .services-slider .item + .item {
+  opacity: 0;
+}
+.services-banner .right .services-slider .slick-initialized .item + .item {
+  opacity: 1;
+}
 .services-banner .right .services-slider .slick-custom-arrow {
   left: 110%;
   right: auto;
@@ -1895,7 +1901,7 @@ html.invertMode .down-arrow path {
   z-index: 5;
   background: black;
   transform: scale(0);
-  transition: all 0.5s ease 2s;
+  transition: all 0.5s ease 0.5s;
 }
 .mpa-dev-cycle .mobile-only .mpa-dev-list li.loaded::after {
   transform: scale(1);
