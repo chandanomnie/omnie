@@ -312,13 +312,19 @@ jQuery(function ($) {
     //   allowTouchMove: false,
     // });
     // alert();
-    var carouselTicker1 = $(".carouselTicker").carouselTicker({
+    // $(".carouselTickerInsights").carouselTicker({
+    //   speed: 1,
+    //   delay: 7,
+    //   reverse: false,
+    // });
+
+    var carouselTicker2 = $(".carouselTicker2").carouselTicker({
       speed: 1,
       delay: 7,
       reverse: false,
     });
 
-    var carouselTicker2 = $(".carouselTicker2").carouselTicker({
+    var carouselTicker1 = $(".carouselTicker").carouselTicker({
       speed: 1,
       delay: 7,
       reverse: false,
@@ -1046,3 +1052,9 @@ if ($(".timeline").length) {
 //     },
 //   ],
 // });
+
+var carouselTickerInsights = $(".carouselTickerInsights").carouselTicker({
+  speed: 1,
+  delay: 10,
+  reverse: false,
+});
