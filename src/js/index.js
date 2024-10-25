@@ -6,9 +6,9 @@ jQuery(function ($) {
 
     checkbox.addEventListener("change", (event) => {
       if (event.currentTarget.checked) {
-        $("html").addClass("invertMode");
+        $("html").addClass("aiModeOff");
       } else {
-        $("html").removeClass("invertMode");
+        $("html").removeClass("aiModeOff");
       }
     });
   }

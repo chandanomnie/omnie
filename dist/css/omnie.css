@@ -3042,7 +3042,27 @@ html.invertMode html:not(.menu-open) body.grey-header:not(.compressed) .main-hea
   }
 }
 .mode-toggle {
+  position: relative;
   /* Rounded sliders */
+}
+.mode-toggle .switch-text {
+  position: absolute;
+  right: 100%;
+  white-space: pre;
+  line-height: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 10px;
+  font-size: 13px;
+}
+.mode-toggle .switch-text .ai {
+  display: none;
+}
+html.aiModeOff .mode-toggle .switch-text .ai {
+  display: inline;
+}
+html.aiModeOff .mode-toggle .switch-text .normal {
+  display: none;
 }
 .mode-toggle .switch {
   position: relative;
