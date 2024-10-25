@@ -38,7 +38,6 @@ jQuery(function ($) {
     }
   });
 
-
   var timeout;
   $(".main-links > li > a").mouseenter(function () {
     var thisElement = $(this);
@@ -69,20 +68,22 @@ jQuery(function ($) {
     }, 30);
   });
 
-  $('.main-nav .main-links > li.parent>a').click(function (e) {
+  $(".main-nav .main-links > li.parent>a").click(function (e) {
     if (window.innerWidth < 1001) {
       e.preventDefault();
-      $(this).parent('li').addClass('showSub').siblings().removeClass('showSub');
-      $('.main-nav').addClass('subNavVisible');
+      $(this)
+        .parent("li")
+        .addClass("showSub")
+        .siblings()
+        .removeClass("showSub");
+      $(".main-nav").addClass("subNavVisible");
     }
-
   });
 
-
-  $('.main-nav .sub-nav .back-btn').click(function (e) {
+  $(".main-nav .sub-nav .back-btn").click(function (e) {
     e.preventDefault();
-    $('.main-nav .main-links > li').removeClass('showSub');
-    $('.main-nav').removeClass('subNavVisible')
+    $(".main-nav .main-links > li").removeClass("showSub");
+    $(".main-nav").removeClass("subNavVisible");
   });
 
   $(".main-links > li > a").mouseleave(function () {
@@ -91,8 +92,6 @@ jQuery(function ($) {
       timeout = null;
     }
   });
-
-
 
   $("a[href*=\\#]:not([href=\\#])").on("click", function () {
     var target = $(this.hash);
@@ -108,11 +107,9 @@ jQuery(function ($) {
     }
   });
 
-
   $(".down-arrow").click(function (e) {
     e.preventDefault();
     if ($(".home-banner").length) {
-
       $(".content-slider .item").removeClass("animatedSlide");
       setTimeout(function () {
         // if ($('.home-banner').length) {
@@ -128,12 +125,13 @@ jQuery(function ($) {
     }
     var target = $(this).parents(".banner").next();
     console.log($(target).offset().top);
-    var headerHeight = $('.main-header').outerHeight(true);
+    var headerHeight = $(".main-header").outerHeight(true);
     $("html, body").animate(
       {
         scrollTop: $(target).offset().top - headerHeight,
       },
-      1000);
+      1000
+    );
   });
 
   if ($(".fade-slider").length) {
@@ -267,12 +265,8 @@ jQuery(function ($) {
           .addClass("is-animated")
           .siblings()
           .removeClass("is-animated");
-        setTimeout(function () {
-
-        }, 3000);
-        setTimeout(function () {
-
-        }, 3200);
+        setTimeout(function () {}, 3000);
+        setTimeout(function () {}, 3200);
       }, 100);
     }, 100);
 
@@ -318,16 +312,16 @@ jQuery(function ($) {
     //   allowTouchMove: false,
     // });
     // alert();
-    var carouselTicker1 = $('.carouselTicker').carouselTicker({
+    var carouselTicker1 = $(".carouselTicker").carouselTicker({
       speed: 1,
       delay: 7,
-      reverse: false
+      reverse: false,
     });
 
-    var carouselTicker2 = $('.carouselTicker2').carouselTicker({
+    var carouselTicker2 = $(".carouselTicker2").carouselTicker({
       speed: 1,
       delay: 7,
-      reverse: false
+      reverse: false,
     });
 
     $(".life-slider a[data-fancybox]").fancybox({
@@ -352,18 +346,14 @@ jQuery(function ($) {
         setTimeout(function () {
           carouselTicker1.carouselTicker().resizeTicker();
           carouselTicker2.carouselTicker().resizeTicker();
-
-
-        }, 1000)
-
+        }, 1000);
       },
       baseClass: "galleryPop",
       smallBtn: false,
       closeBtn: "true",
       toolbar: "auto",
       buttons: ["close"],
-      loop: true
-
+      loop: true,
     });
   }
 
@@ -419,7 +409,7 @@ jQuery(function ($) {
       closeBtn: "true",
       toolbar: "auto",
       buttons: ["close"],
-      loop: true
+      loop: true,
     });
   }
 
@@ -670,7 +660,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
@@ -1029,3 +1019,30 @@ function Timeline(selector, config) {
 if ($(".timeline").length) {
   new Timeline(".timeline");
 }
+
+$(".home-insights-slider").slick({
+  slidesToShow: 4,
+  infinite: true,
+  centerMode: true,
+  centerPadding: "100px",
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 1400,
+      settings: {
+        centerPadding: "50px",
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        centerPadding: "50px",
+        slidesToShow: 1,
+      },
+    },
+  ],
+});
