@@ -81,6 +81,32 @@
 }
 
 .mode-toggle {
+  position: relative;
+
+  .switch-text {
+    position: absolute;
+    right: 100%;
+    white-space: pre;
+    line-height: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 10px;
+    font-size: 13px;
+    .ai{
+      display: none;
+    }
+
+    html.aiModeOff  & {
+       .ai{
+        display: inline;
+       }
+       .normal{
+        display: none;
+       }
+    }
+
+  }
+
   .switch {
     position: relative;
     display: inline-block;
