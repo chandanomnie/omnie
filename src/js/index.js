@@ -1020,29 +1020,29 @@ if ($(".timeline").length) {
   new Timeline(".timeline");
 }
 
-$(".home-insights-slider").slick({
-  slidesToShow: 4,
-  infinite: true,
-  centerMode: true,
-  centerPadding: "100px",
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  arrows: false,
-  responsive: [
-    {
-      breakpoint: 1400,
-      settings: {
-        centerPadding: "50px",
-        slidesToShow: 3,
-      },
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        centerPadding: "50px",
-        slidesToShow: 1,
-      },
-    },
-  ],
-});
+// $(".home-insights-slider").slick({
+//   slidesToShow: 4,
+//   infinite: true,
+//   centerMode: true,
+//   centerPadding: "100px",
+//   slidesToScroll: 1,
+//   autoplay: true,
+//   autoplaySpeed: 2000,
+//   arrows: false,
+//   responsive: [
+//     {
+//       breakpoint: 1400,
+//       settings: {
+//         centerPadding: "50px",
+//         slidesToShow: 3,
+//       },
+//     },
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         centerPadding: "50px",
+//         slidesToShow: 1,
+//       },
+//     },
+//   ],
+// });
