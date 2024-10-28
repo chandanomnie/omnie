@@ -267,20 +267,23 @@ jQuery(function ($) {
           .addClass("is-animated")
           .siblings()
           .removeClass("is-animated");
-        setTimeout(function () {}, 3000);
-        setTimeout(function () {}, 3200);
+        setTimeout(function () { }, 3000);
+        setTimeout(function () { }, 3200);
       }, 100);
     }, 100);
 
+    // $('.home-banner .tiles').addClass('animateTiles');
     // setInterval(function () {
-    //   if (
-    //     !jQuery(".banner-slider").hasClass("hovered") &&
-    //     jQuery(".banner-slider").hasClass("flickity-enabled")
-    //   ) {
-    //     jQuery(".banner-slider").flickity("next", true);
-    //   }
-    // }, 10000);
+
+    //   $('.home-banner .tiles').addClass('animateTiles');
+    //   setTimeout(function () {
+    //     $('.home-banner .tiles').removeClass('animateTiles');
+    //   },6000);
+    // },3000);
+
   }
+
+
 
   if ($(".client-logo-slider").length) {
     new Swiper(".client-logo-slider", {
@@ -668,7 +671,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
