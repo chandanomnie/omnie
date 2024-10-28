@@ -1810,6 +1810,10 @@ html.invertMode .down-arrow path {
 .link-btn:hover::after {
   width: 100%;
 }
+@font-face {
+  font-family: "Aeonik";
+  src: local("Aeonik"), url("../fonts/Aeonik.otf") format("opentype"), url("../fonts/Aeonik.woff") format("woff"), url("../fonts/Aeonik.woff2") format("woff2");
+}
 html,
 body {
   -webkit-font-smoothing: antialiased;

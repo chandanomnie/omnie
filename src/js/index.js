@@ -1,14 +1,16 @@
 jQuery(function ($) {
   if (jQuery("#modeToggle").length) {
     const checkbox = document.getElementById("modeToggle");
-
+    $("html").addClass("aiModeOn");
     $("#modeToggle").prop("checked", false);
 
     checkbox.addEventListener("change", (event) => {
       if (event.currentTarget.checked) {
+        $("html").removeClass("aiModeOn");
         $("html").addClass("aiModeOff");
       } else {
         $("html").removeClass("aiModeOff");
+        $("html").addClass("aiModeOn");
       }
     });
   }
@@ -1026,35 +1028,58 @@ if ($(".timeline").length) {
   new Timeline(".timeline");
 }
 
-// $(".home-insights-slider").slick({
-//   slidesToShow: 4,
-//   infinite: true,
-//   centerMode: true,
-//   centerPadding: "100px",
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 2000,
-//   arrows: false,
-//   responsive: [
-//     {
-//       breakpoint: 1400,
-//       settings: {
-//         centerPadding: "50px",
-//         slidesToShow: 3,
-//       },
-//     },
-//     {
-//       breakpoint: 768,
-//       settings: {
-//         centerPadding: "50px",
-//         slidesToShow: 1,
-//       },
-//     },
-//   ],
-// });
-
 var carouselTickerInsights = $(".carouselTickerInsights").carouselTicker({
   speed: 1,
   delay: 10,
   reverse: false,
 });
+
+const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["AI-Driven Insights"];
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 100; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if (!cursorSpan.classList.contains("typing"))
+      cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } else {
+    cursorSpan.classList.remove("typing");
+    setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+  if (charIndex > 0) {
+    if (!cursorSpan.classList.contains("typing"))
+      cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(
+      0,
+      charIndex - 1
+    );
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (textArray.length) setTimeout(type, newTextDelay + 250);
+});
+
+setTimeout(function () {
+  $(".IntroPanel").removeClass("active").addClass("hidden");
+  $(".searchPanel").removeClass("hidden").addClass("active");
+}, 10000);

@@ -1,3 +1,5 @@
+@import url(./_homeAiMode.less);
+
 .home-banner {
   height: 100vh;
   --square-size: 69px;
@@ -31,9 +33,7 @@
         opacity: 1 !important;
 
       }
-
     }
-
 
     .drum {
       // height: 190px;
@@ -84,25 +84,9 @@
         }
       }
 
-
-
-
       .inner-item {
         height: 200px;
         padding: 0px 0;
-      }
-
-      .swiper-wrapper {
-        // height: 190px;
-      }
-
-
-
-      .animate {
-
-
-        strong {}
-
       }
     }
 
@@ -152,10 +136,8 @@
         strong {
 
           .char {
-            &:nth-child(1) {}
 
             &:nth-child(2) {
-
               transform: translateX(0);
               opacity: 1;
 
@@ -192,7 +174,6 @@
   }
 
   .is-selected .tiles ul li {
-
     html.scene3 & {
       animation-name: animateIn;
       animation-duration: 350ms;
@@ -218,9 +199,6 @@
     }
   }
 
-
-
-
   .tiles {
     max-width: 40%;
 
@@ -239,9 +217,6 @@
         width: var(--square-size);
         background-color: transparent;
         border: 1px solid #C2C2C2;
-
-
-        // border: 2px solid #C2C2C2
       }
     }
 
@@ -287,16 +262,12 @@
         background-color: #f6f6f6;
       }
 
-
-
       strong,
       .drum {
         color: #C2C2C2;
         font-size: 200px;
         line-height: 0.8;
       }
-
-
     }
 
     p {
@@ -307,21 +278,15 @@
   }
 
   .alphabet-tile {
-
     width: calc(var(--square-size)* 2 + var(--gutter));
     height: calc(var(--square-size)* 2 + var(--gutter));
     font-size: 170px;
     line-height: 0.8;
     line-height: 1;
-    // overflow: hidden;
     background: #C2C2C2;
 
     .swiper-wrapper {
       height: calc(var(--square-size)* 2 + var(--gutter));
-    }
-
-    .bg {
-      // background: #C2C2C2;
     }
   }
 
@@ -475,8 +440,6 @@
         }
       }
     }
-
-
   }
 
   @media only screen and (max-width:1300px) {
@@ -632,7 +595,6 @@
 
       p {
         max-width: 315px;
-        // line-height: 22px;
       }
 
       .h1 {
@@ -650,18 +612,11 @@
   @media only screen and (max-width:767px) and (max-height:740px) {
     --square-size: calc(100vw/12);
 
-
-    .item {
-      // padding: 30px 0 30px;
-    }
-
     .slick-custom-arrow {
 
       &.slick-custom-next,
       &.slick-custom-prev {
-
         bottom: 55px;
-
       }
     }
 
@@ -726,8 +681,6 @@
   .item {
     &:nth-child(1) {
       &.animatedSlide {
-
-
         @keyframes animate-svg-stroke-1 {
           0% {
             stroke-dashoffset: 864.531494140625px;
@@ -807,8 +760,6 @@
         .svg-elem-5 {
           animation: animate-svg-stroke-5 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s both;
         }
-
-
       }
     }
 
@@ -1779,95 +1730,6 @@
   @media (max-width: 767px) {
     margin-top: 30px;
   }
-
-  // .carouselTicker__list {
-  //   .item {
-  //     margin: 0 15px;
-  //     border: 1px solid #D9D9D9;
-  //     padding: 40px 30px 35px 30px;
-  //     border-radius: 36px;
-  //     display: block;
-  //     transition: all 0.3s ease-in;
-
-  //     @media (max-width: 767px) {
-  //       padding: 30px 25px 30px 25px;
-  //       margin: 0 10px;
-  //     }
-
-  //     .date {
-  //       color: #909090;
-  //       font-size: 16px;
-  //       line-height: 16px;
-  //       font-weight: 300;
-  //       margin-bottom: 10px;
-  //     }
-
-  //     h5 {
-  //       font-size: 24px;
-  //       line-height: 30px;
-  //       font-weight: 400;
-  //       display: -webkit-box;
-  //       display: box;
-  //       -webkit-line-clamp: 4;
-  //       line-clamp: 4;
-  //       -webkit-box-orient: vertical;
-  //       overflow: hidden;
-  //       text-overflow: ellipsis;
-
-  //       @media (max-width: 1400px) {
-  //         -webkit-line-clamp: 3;
-  //         line-clamp: 3;
-
-  //         br {
-  //           display: none;
-  //         }
-  //       }
-
-  //       @media (max-width: 767px) {
-  //         font-size: 20px;
-  //         line-height: 25px;
-  //         -webkit-line-clamp: 3;
-  //         line-clamp: 3;
-
-  //         br {
-  //           display: none;
-  //         }
-  //       }
-  //     }
-
-  //     .img {
-  //       margin-top: 50px;
-  //       border-radius: 36px;
-  //       overflow: hidden;
-
-  //       @media (max-width: 767px) {
-  //         margin-top: 30px;
-  //       }
-
-  //       img {
-  //         height: 286px;
-  //         object-fit: cover;
-  //         object-position: center center;
-  //         transform: scale(1);
-  //         transition: all 0.3s ease-in;
-
-  //         @media (max-width: 767px) {
-  //           height: 200px;
-  //         }
-  //       }
-  //     }
-
-  //     &:hover {
-  //       border: 1px solid #000;
-
-  //       .img {
-  //         img {
-  //           transform: scale(1.1);
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 }
 
 .carouselTickerInsights {
@@ -1974,11 +1836,3 @@
     }
   }
 }
-
-// #carouselTickerInsights .carouselTicker__item,
-// #carouselTickerInsights-destructor-example .carouselTicker__item,
-// #carouselTickerInsights-buttons-controls-example .carouselTicker__item {
-//   width: auto;
-//   height: auto;
-//   line-height: normal;
-// }
