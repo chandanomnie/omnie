@@ -8,6 +8,11 @@ jQuery(function ($) {
       if (event.currentTarget.checked) {
         $("html").removeClass("aiModeOn");
         $("html").addClass("aiModeOff");
+        $(".banner-slider").flickity("resize");
+        setTimeout(function () {
+          $(".content-slider").flickity("resize");
+          $(".carouselTickerInsights").carouselTicker().resizeTicker();
+        }, 200);
       } else {
         $("html").removeClass("aiModeOff");
         $("html").addClass("aiModeOn");
@@ -267,8 +272,8 @@ jQuery(function ($) {
           .addClass("is-animated")
           .siblings()
           .removeClass("is-animated");
-        setTimeout(function () { }, 3000);
-        setTimeout(function () { }, 3200);
+        setTimeout(function () {}, 3000);
+        setTimeout(function () {}, 3200);
       }, 100);
     }, 100);
 
@@ -280,10 +285,7 @@ jQuery(function ($) {
     //     $('.home-banner .tiles').removeClass('animateTiles');
     //   },6000);
     // },3000);
-
   }
-
-
 
   if ($(".client-logo-slider").length) {
     new Swiper(".client-logo-slider", {
@@ -671,7 +673,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () { },
+        onStart: function () {},
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },
@@ -1037,52 +1039,72 @@ var carouselTickerInsights = $(".carouselTickerInsights").carouselTicker({
   reverse: false,
 });
 
-const typedTextSpan = document.querySelector(".typed-text");
-const cursorSpan = document.querySelector(".cursor");
+// const typedTextSpan = document.querySelector(".typed-text");
+// const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["AI-Driven Insights"];
-const typingDelay = 200;
-const erasingDelay = 100;
-const newTextDelay = 100; // Delay between current and next text
-let textArrayIndex = 0;
-let charIndex = 0;
+// const textArray = ["AI-Driven Insights"];
+// const typingDelay = 100;
+// const erasingDelay = 100;
+// const newTextDelay = 0; // Delay between current and next text
+// let textArrayIndex = 0;
+// let charIndex = 0;
 
-function type() {
-  if (charIndex < textArray[textArrayIndex].length) {
-    if (!cursorSpan.classList.contains("typing"))
-      cursorSpan.classList.add("typing");
-    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-    charIndex++;
-    setTimeout(type, typingDelay);
-  } else {
-    cursorSpan.classList.remove("typing");
-    setTimeout(erase, newTextDelay);
-  }
-}
+// function type() {
+//   if (charIndex < textArray[textArrayIndex].length) {
+//     if (!cursorSpan.classList.contains("typing"))
+//       cursorSpan.classList.add("typing");
+//     typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+//     charIndex++;
+//     setTimeout(type, typingDelay);
+//   } else {
+//     cursorSpan.classList.remove("typing");
+//     // setTimeout(erase, newTextDelay);
+//   }
+// }
 
-function erase() {
-  if (charIndex > 0) {
-    if (!cursorSpan.classList.contains("typing"))
-      cursorSpan.classList.add("typing");
-    typedTextSpan.textContent = textArray[textArrayIndex].substring(
-      0,
-      charIndex - 1
-    );
-    charIndex--;
-    setTimeout(erase, erasingDelay);
-  } else {
-    cursorSpan.classList.remove("typing");
-    textArrayIndex++;
-    if (textArrayIndex >= textArray.length) textArrayIndex = 0;
-    setTimeout(type, typingDelay + 1100);
-  }
-}
+// function erase() {
+//   if (charIndex > 0) {
+//     if (!cursorSpan.classList.contains("typing"))
+//       cursorSpan.classList.add("typing");
+//     typedTextSpan.textContent = textArray[textArrayIndex].substring(
+//       0,
+//       charIndex - 1
+//     );
+//     charIndex--;
+//     setTimeout(erase, erasingDelay);
+//   } else {
+//     cursorSpan.classList.remove("typing");
+//     textArrayIndex++;
+//     if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+//     setTimeout(type, typingDelay + 1100);
+//   }
+// }
 
-document.addEventListener("DOMContentLoaded", function () {
-  if (textArray.length) setTimeout(type, newTextDelay + 250);
+// document.addEventListener("DOMContentLoaded", function () {
+//   if (textArray.length) setTimeout(type, newTextDelay + 100);
+// });
+
+$("#typed").typed({
+  strings: ["AI-Driven Insights"],
+  typeSpeed: 100,
+  startDelay: 0,
+  loop: false,
+  cursorChar: "|",
+  contentType: "html",
 });
 
 setTimeout(function () {
   $(".IntroPanel").removeClass("active").addClass("hidden");
   $(".searchPanel").removeClass("hidden").addClass("active");
-}, 10000);
+}, 3000);
+
+$(".askAnything").on("click", function () {
+  $(".searchPanel").removeClass("active").addClass("hidden");
+  $(".resultPanel").removeClass("hidden").addClass("active");
+});
+
+$(".upload").on("click", function () {
+  $(".IntroPanel").removeClass("active").addClass("hidden");
+  $(".resultPanel").removeClass("active").addClass("hidden");
+  $(".searchPanel").removeClass("hidden").addClass("active");
+});

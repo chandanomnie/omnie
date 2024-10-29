@@ -30,8 +30,8 @@
 
         .mode-toggle {
             display: flex;
-            position: absolute;
-            bottom: 30px;
+            position: fixed;
+            bottom: 0;
             left: 0;
             right: 0;
             margin: 0 auto;
@@ -39,6 +39,8 @@
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: center;
+            background: #fff;
+            padding: 20px 0;
 
             .switch-text {
                 position: static;
@@ -62,6 +64,7 @@
         width: 100%;
         left: 0;
         transition: all 0.3s ease-in;
+        background: #fff;
 
         @media (max-width: 980px) {
             height: calc(100vh - 75px);
@@ -98,7 +101,7 @@
             padding: 50px 0 100px 0;
 
             @media (max-width: 980px) {
-                padding: 160px 0 100px 0;
+                padding: 140px 0 150px 0;
             }
 
             h1 {
@@ -153,16 +156,17 @@
     }
 
     .searchPanel {
-        height: calc(100vh - 120px);
+        height: 100vh;
         padding: 0 20px;
         display: flex;
         justify-content: center;
         align-items: center;
         position: fixed;
-        top: 120px;
+        top: 0;
         width: 100%;
         left: 0;
         transition: all 0.3s ease-in;
+        background: #fff;
 
         @media (max-width: 980px) {
             height: calc(100vh - 75px);
@@ -184,6 +188,12 @@
         &-inside {
             width: 721px;
             max-width: 100%;
+            margin-top: -40px;
+
+            @media (max-width: 980px) {
+                margin-top: -80px;
+            }
+
 
             h2 {
                 font-family: Aeonik;
@@ -222,6 +232,8 @@
                     min-width: 65px;
                     background: #fff;
                     transition: all 0.3s ease-in;
+                    margin-right: 8px;
+                    margin-bottom: 8px;
 
                     &:hover {
                         text-decoration: none;
@@ -230,17 +242,36 @@
                         color: #fff;
                     }
 
-                    &:not(:last-child) {
-                        margin-right: 8px;
-                        margin-bottom: 8px;
-                    }
+                    // &:not(:last-child) {
+                    //     margin-right: 8px;
+                    //     margin-bottom: 8px;
+                    // }
                 }
             }
         }
     }
 
     .resultPanel {
+        background: #fff;
+        height: calc(100vh - 120px);
+
+        &.active {
+            opacity: 1;
+            visibility: visible;
+            z-index: 1;
+        }
+
+        &.hidden {
+            opacity: 0;
+            visibility: hidden;
+            z-index: -1;
+        }
+
         .container {
+            max-width: 780px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
 
             @media (max-width: 980px) {
                 padding: 0 40px;
@@ -303,9 +334,20 @@
         }
 
         .result-form {
-            margin-top: 50px;
+            margin-top: auto;
+            margin-bottom: 0;
+
+            @media (max-width: 980px) {
+                input {
+                    margin-bottom: 70px;
+                }
+            }
         }
     }
+}
+
+.typed-cursor {
+    color: #090909;
 }
 
 .inputWrap {
@@ -359,7 +401,8 @@
             transition: all 0.3s ease-in;
         }
 
-        &:hover {
+        &:hover,
+        &.active {
             svg path.filled {
                 fill: #090909;
             }

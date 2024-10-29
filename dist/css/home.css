@@ -23,8 +23,8 @@
   }
   .ai-section .mode-toggle {
     display: flex;
-    position: absolute;
-    bottom: 30px;
+    position: fixed;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -32,6 +32,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    background: #fff;
+    padding: 20px 0;
   }
   .ai-section .mode-toggle .switch-text {
     position: static;
@@ -52,6 +54,7 @@
   width: 100%;
   left: 0;
   transition: all 0.3s ease-in;
+  background: #fff;
 }
 @media (max-width: 980px) {
   .ai-section .IntroPanel {
@@ -88,7 +91,7 @@
 }
 @media (max-width: 980px) {
   .ai-section .IntroPanel .ai-title {
-    padding: 160px 0 100px 0;
+    padding: 140px 0 150px 0;
   }
 }
 .ai-section .IntroPanel .ai-title h1 {
@@ -132,16 +135,17 @@
   }
 }
 .ai-section .searchPanel {
-  height: calc(100vh - 120px);
+  height: 100vh;
   padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 120px;
+  top: 0;
   width: 100%;
   left: 0;
   transition: all 0.3s ease-in;
+  background: #fff;
 }
 @media (max-width: 980px) {
   .ai-section .searchPanel {
@@ -162,6 +166,12 @@
 .ai-section .searchPanel-inside {
   width: 721px;
   max-width: 100%;
+  margin-top: -40px;
+}
+@media (max-width: 980px) {
+  .ai-section .searchPanel-inside {
+    margin-top: -80px;
+  }
 }
 .ai-section .searchPanel-inside h2 {
   font-family: Aeonik;
@@ -199,6 +209,8 @@
   min-width: 65px;
   background: #fff;
   transition: all 0.3s ease-in;
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 .ai-section .searchPanel-inside .tags-container .tags:hover {
   text-decoration: none;
@@ -206,9 +218,25 @@
   border-color: #000;
   color: #fff;
 }
-.ai-section .searchPanel-inside .tags-container .tags:not(:last-child) {
-  margin-right: 8px;
-  margin-bottom: 8px;
+.ai-section .resultPanel {
+  background: #fff;
+  height: calc(100vh - 120px);
+}
+.ai-section .resultPanel.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+.ai-section .resultPanel.hidden {
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+.ai-section .resultPanel .container {
+  max-width: 780px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 980px) {
   .ai-section .resultPanel .container {
@@ -263,7 +291,16 @@
   color: #090909;
 }
 .ai-section .resultPanel .result-form {
-  margin-top: 50px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+@media (max-width: 980px) {
+  .ai-section .resultPanel .result-form input {
+    margin-bottom: 70px;
+  }
+}
+.typed-cursor {
+  color: #090909;
 }
 .inputWrap {
   position: relative;
@@ -307,7 +344,8 @@
 .inputWrap .upload svg path {
   transition: all 0.3s ease-in;
 }
-.inputWrap .upload:hover svg path.filled {
+.inputWrap .upload:hover svg path.filled,
+.inputWrap .upload.active svg path.filled {
   fill: #090909;
 }
 @keyframes blink {
@@ -446,10 +484,9 @@ html:not(.scene3) .home-banner .item:first-child {
 html.scene3 .home-banner .is-selected .tiles ul li {
   animation-name: animateIn;
   animation-duration: 350ms;
-  animation-delay: calc(var(--animation-order) * 7150ms);
+  animation-delay: calc(var(--animation-order) * 150ms);
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
 }
 .home-banner .slick-custom-arrow,
 .home-banner .alphabet-tile,
