@@ -277,14 +277,12 @@ jQuery(function ($) {
       }, 100);
     }, 100);
 
-    // $('.home-banner .tiles').addClass('animateTiles');
-    // setInterval(function () {
+    $('.home-banner .tiles').addClass('animateTiles');
+    setInterval(function () {
 
-    //   $('.home-banner .tiles').addClass('animateTiles');
-    //   setTimeout(function () {
-    //     $('.home-banner .tiles').removeClass('animateTiles');
-    //   },6000);
-    // },3000);
+      $('.home-banner .tiles').toggleClass('animateTiles');
+
+    },1800);
   }
 
   if ($(".client-logo-slider").length) {
