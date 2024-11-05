@@ -2415,4 +2415,39 @@ html.invertMode .down-arrow path {
 .tech-image-box.loaded .svg-elem-6 {
   animation: animate-svg-stroke-6 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
 }
+.dl {
+  align-items: center;
+  justify-content: space-between;
+}
+.dl-left {
+  width: 33%;
+}
+.dl-right {
+  width: 64%;
+}
+.dl-right .box-wrapper {
+  flex-flow: wrap;
+  height: 100%;
+  display: flex;
+}
+.dl-right .box-wrapper .box {
+  flex-flow: row;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  min-height: 365px;
+  display: flex;
+  position: relative;
+  border: 1px solid #D9D9D9;
+}
+.dl-right .box-wrapper .box-one {
+  border-right: none;
+  border-bottom: none;
+}
+.dl-right .box-wrapper .box-four {
+  border-top: none;
+  border-left: none;
+}
 /*# sourceMappingURL=omnie.css.map */

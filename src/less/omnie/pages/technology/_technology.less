@@ -1402,3 +1402,45 @@
 
   }
 }
+
+.dl {
+  align-items: center;
+  justify-content: space-between;
+
+  &-left {
+    width: 33%;
+  }
+
+  &-right {
+    width: 64%;
+
+    .box-wrapper {
+      flex-flow: wrap;
+      height: 100%;
+      display: flex;
+
+      .box {
+        flex-flow: row;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        min-height: 365px;
+        display: flex;
+        position: relative;
+        border: 1px solid #D9D9D9;
+
+        &-one {
+          border-right: none;
+          border-bottom: none;
+        }
+
+        &-four {
+          border-top: none;
+          border-left: none;
+        }
+      }
+    }
+  }
+}
