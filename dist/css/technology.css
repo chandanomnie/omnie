@@ -2441,9 +2441,6 @@ html.invertMode .down-arrow path {
   display: flex;
   flex-wrap: wrap;
 }
-.dl-right .box-wrapper .box-holder:hover .box::before {
-  opacity: 1;
-}
 .dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(1),
 .dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(2) {
   height: 66%;
@@ -2523,8 +2520,7 @@ html.invertMode .down-arrow path {
   transition-delay: 550ms;
   position: absolute;
 }
-.dl-right .box-wrapper .box::before {
-  content: '';
+.dl-right .box-wrapper .box .squares span {
   position: absolute;
   width: 10px;
   height: 10px;
@@ -2534,6 +2530,20 @@ html.invertMode .down-arrow path {
   background: #000;
   opacity: 0;
   transition: opacity 0.5s ease;
+}
+.dl-right .box-wrapper .box .squares span:nth-child(2) {
+  left: auto;
+  right: -5px;
+}
+.dl-right .box-wrapper .box .squares span:nth-child(3) {
+  top: auto;
+  bottom: -5px;
+}
+.dl-right .box-wrapper .box .squares span:nth-child(4) {
+  left: auto;
+  right: -5px;
+  top: auto;
+  bottom: -5px;
 }
 .dl-right .box-wrapper .box .arrow {
   position: absolute;
@@ -2595,6 +2605,9 @@ html.invertMode .down-arrow path {
 }
 .dl-right .box-wrapper .box:hover {
   width: 66%;
+}
+.dl-right .box-wrapper .box:hover .squares span {
+  opacity: 1;
 }
 .dl-right .box-wrapper .box:hover .arrow {
   opacity: 1;
