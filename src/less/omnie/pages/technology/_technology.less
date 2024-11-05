@@ -1555,6 +1555,7 @@
         cursor: pointer;
         position: relative;
         transition: all 0.5s ease;
+        // transition: calc(0.735s * 1) cubic-bezier(0.62, 0.05, 0.01, 0.99);
         flex-flow: row;
         transition-delay: 550ms;
         position: absolute;
@@ -1605,6 +1606,7 @@
           top: 50%;
           transform: translate(-50%, -50%);
           transition: all 0.4s ease;
+
           transition-delay: 550ms;
 
           svg {
@@ -1665,9 +1667,11 @@
 
         &:hover {
           width: 66%;
-          .squares span{
+
+          .squares span {
             opacity: 1;
           }
+
           .arrow {
             opacity: 1;
           }
