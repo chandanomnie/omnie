@@ -2423,31 +2423,191 @@ html.invertMode .down-arrow path {
   width: 33%;
 }
 .dl-right {
-  width: 64%;
+  width: 66.2%;
 }
 .dl-right .box-wrapper {
   flex-flow: wrap;
+  width: 100%;
+  padding-bottom: 79.4%;
+  position: relative;
+}
+.dl-right .box-wrapper .box-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
+  z-index: 2;
   display: flex;
+  flex-wrap: wrap;
+}
+.dl-right .box-wrapper .box-holder:hover .box::before {
+  opacity: 1;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(1),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(2) {
+  height: 66%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(3),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(4) {
+  height: 34%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(1),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(3) {
+  width: 66%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(2),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(1):hover) .box:nth-child(4) {
+  width: 34%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(2):hover) .box:nth-child(1),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(2):hover) .box:nth-child(2) {
+  height: 66%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(2):hover) .box:nth-child(3),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(2):hover) .box:nth-child(4) {
+  height: 34%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(2):hover) .box:nth-child(2),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(2):hover) .box:nth-child(4) {
+  width: 66%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(2):hover) .box:nth-child(1),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(2):hover) .box:nth-child(3) {
+  width: 34%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(3):hover) .box:nth-child(3),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(3):hover) .box:nth-child(4) {
+  height: 66%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(3):hover) .box:nth-child(1),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(3):hover) .box:nth-child(2) {
+  height: 34%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(3):hover) .box:nth-child(1),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(3):hover) .box:nth-child(3) {
+  width: 66%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(3):hover) .box:nth-child(2),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(3):hover) .box:nth-child(4) {
+  width: 34%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(4):hover) .box:nth-child(3),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(4):hover) .box:nth-child(4) {
+  height: 66%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(4):hover) .box:nth-child(1),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(4):hover) .box:nth-child(2) {
+  height: 34%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(4):hover) .box:nth-child(2),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(4):hover) .box:nth-child(4) {
+  width: 66%;
+}
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(4):hover) .box:nth-child(1),
+.dl-right .box-wrapper .box-holder:has(.box:nth-child(4):hover) .box:nth-child(3) {
+  width: 34%;
 }
 .dl-right .box-wrapper .box {
-  flex-flow: row;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
   width: 50%;
   height: 50%;
-  min-height: 365px;
   display: flex;
-  position: relative;
   border: 1px solid #D9D9D9;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease;
+  flex-flow: row;
+  transition-delay: 550ms;
+  position: absolute;
+}
+.dl-right .box-wrapper .box::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -5px;
+  top: -5px;
+  z-index: 2;
+  background: #000;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.dl-right .box-wrapper .box .arrow {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.dl-right .box-wrapper .box .tech-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+  transition-delay: 550ms;
+}
+.dl-right .box-wrapper .box .tech-logo svg {
+  max-width: 140px;
+}
+.dl-right .box-wrapper .box .tech-detail {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  padding-top: 120px;
+  position: relative;
+  transform: translateY(30px);
+}
+.dl-right .box-wrapper .box .tech-detail h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.dl-right .box-wrapper .box .tech-detail ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #626262;
+}
+.dl-right .box-wrapper .box .tech-detail ul li {
+  margin-bottom: 10px;
 }
 .dl-right .box-wrapper .box-one {
   border-right: none;
-  border-bottom: none;
+  top: 0;
+  left: 0;
+}
+.dl-right .box-wrapper .box-two {
+  right: 0;
+  top: 0;
+}
+.dl-right .box-wrapper .box-three {
+  bottom: 0;
+  left: 0;
+  border-top: none;
+  border-right: none;
 }
 .dl-right .box-wrapper .box-four {
+  right: 0;
+  bottom: 0;
   border-top: none;
-  border-left: none;
+}
+.dl-right .box-wrapper .box:hover {
+  width: 66%;
+}
+.dl-right .box-wrapper .box:hover .arrow {
+  opacity: 1;
+}
+.dl-right .box-wrapper .box:hover .tech-logo {
+  left: 100px;
+  top: 100px;
+}
+.dl-right .box-wrapper .box:hover .tech-detail {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition-delay: 750ms;
 }
 /*# sourceMappingURL=omnie.css.map */
