@@ -2563,6 +2563,16 @@ html.invertMode .down-arrow path {
 .dl-right .box-wrapper .box .tech-logo svg {
   max-width: 140px;
 }
+@media only screen and (max-width: 1400px) {
+  .dl-right .box-wrapper .box .tech-logo svg {
+    max-width: 80px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .dl-right .box-wrapper .box .tech-logo svg {
+    max-width: 70px;
+  }
+}
 .dl-right .box-wrapper .box .tech-detail {
   opacity: 0;
   visibility: hidden;
@@ -2571,6 +2581,18 @@ html.invertMode .down-arrow path {
   position: relative;
   transform: translateY(30px);
   padding-left: 48px;
+}
+@media only screen and (max-width: 1400px) {
+  .dl-right .box-wrapper .box .tech-detail {
+    padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .dl-right .box-wrapper .box .tech-detail {
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
 }
 .dl-right .box-wrapper .box .tech-detail h3 {
   font-size: 32px;
@@ -2616,6 +2638,12 @@ html.invertMode .down-arrow path {
 .dl-right .box-wrapper .box:hover .tech-logo {
   left: 100px;
   top: 100px;
+}
+@media only screen and (max-width: 1240px) {
+  .dl-right .box-wrapper .box:hover .tech-logo {
+    left: 70px;
+    top: 60px;
+  }
 }
 .dl-right .box-wrapper .box:hover .tech-detail {
   opacity: 1;
