@@ -2507,7 +2507,7 @@ html.invertMode .down-arrow path {
 }
 .dl-right .box-wrapper .box {
   flex-grow: 1;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 50%;
   height: 50%;
@@ -2570,6 +2570,7 @@ html.invertMode .down-arrow path {
   padding-top: 120px;
   position: relative;
   transform: translateY(30px);
+  padding-left: 48px;
 }
 .dl-right .box-wrapper .box .tech-detail h3 {
   font-size: 32px;
