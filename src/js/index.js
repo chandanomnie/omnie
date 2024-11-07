@@ -277,12 +277,10 @@ jQuery(function ($) {
       }, 100);
     }, 100);
 
-    $('.home-banner .tiles').addClass('animateTiles');
+    $(".home-banner .tiles").addClass("animateTiles");
     setInterval(function () {
-
-      $('.home-banner .tiles').toggleClass('animateTiles');
-
-    },1800);
+      $(".home-banner .tiles").toggleClass("animateTiles");
+    }, 1800);
   }
 
   if ($(".client-logo-slider").length) {
@@ -1031,11 +1029,13 @@ if ($(".timeline").length) {
   new Timeline(".timeline");
 }
 
-var carouselTickerInsights = $(".carouselTickerInsights").carouselTicker({
-  speed: 1,
-  delay: 10,
-  reverse: false,
-});
+if ($(".carouselTickerInsights").length) {
+  var carouselTickerInsights = $(".carouselTickerInsights").carouselTicker({
+    speed: 1,
+    delay: 10,
+    reverse: false,
+  });
+}
 
 // const typedTextSpan = document.querySelector(".typed-text");
 // const cursorSpan = document.querySelector(".cursor");
@@ -1082,15 +1082,16 @@ var carouselTickerInsights = $(".carouselTickerInsights").carouselTicker({
 //   if (textArray.length) setTimeout(type, newTextDelay + 100);
 // });
 
-$("#typed").typed({
-  strings: ["AI-Driven Insights"],
-  typeSpeed: 100,
-  startDelay: 0,
-  loop: false,
-  cursorChar: "|",
-  contentType: "html",
-});
-
+if ($("#typed").length) {
+  $("#typed").typed({
+    strings: ["AI-Driven Insights"],
+    typeSpeed: 100,
+    startDelay: 0,
+    loop: false,
+    cursorChar: "|",
+    contentType: "html",
+  });
+}
 setTimeout(function () {
   $(".IntroPanel").removeClass("active").addClass("hidden");
   $(".searchPanel").removeClass("hidden").addClass("active");
@@ -1106,3 +1107,14 @@ $(".upload").on("click", function () {
   $(".resultPanel").removeClass("active").addClass("hidden");
   $(".searchPanel").removeClass("hidden").addClass("active");
 });
+
+const lenis = new Lenis({
+  lerp: 0.05,
+  wheelMultiplier: 1,
+});
+
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);

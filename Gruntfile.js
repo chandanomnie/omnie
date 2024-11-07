@@ -24,7 +24,10 @@ module.exports = function (grunt) {
       my_target: {
         files: {
           "dist/js/jquery.min.js": ["src/js/jquery.js"],
-          "dist/js/plugins.min.js": ["src/js/lib/custom-select.js"],
+          "dist/js/plugins.min.js": [
+            "src/js/lib/custom-select.js",
+            "src/js/lib/lenis.min.js",
+          ],
           "dist/js/index.min.js": ["src/js/index.js"],
         },
       },

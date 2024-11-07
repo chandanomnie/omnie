@@ -103,16 +103,36 @@
           font-weight: 600;
           line-height: 28.2px;
           margin: 0 10px;
+          position: relative;
+          width: 50px;
+          height: 50px;
+          border-radius: 100%;
+          transition: all 0.3s ease-in;
+          border: 1.5px solid #000;
+
+          .text {
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease-in;
+          }
 
           .svg-arrow {
-            width: 50px;
-            height: 50px;
-            border-radius: 100%;
-            border: 1.5px solid #000;
             display: flex;
             align-items: center;
             justify-content: center;
             transition: all 0.3s ease-in;
+          }
+
+          &:hover {
+            background: @black;
+
+            .text {
+              opacity: 1;
+              visibility: visible;
+              left: 60px;
+            }
           }
         }
 
@@ -128,8 +148,6 @@
 
           &:hover {
             .svg-arrow {
-              background: @black;
-
               svg {
                 fill: @white;
               }
@@ -139,8 +157,6 @@
 
         .next-tech-next {
           .svg-arrow {
-            margin-right: 15px;
-
             svg {
               transform: rotate(180deg);
               width: 14px;
@@ -150,8 +166,6 @@
 
           &:hover {
             .svg-arrow {
-              background: @black;
-
               svg {
                 fill: @white;
               }

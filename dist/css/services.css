@@ -1662,7 +1662,7 @@ html.invertMode .down-arrow path {
   margin: 0;
 }
 .services-black-banner .right {
-  max-width: 480px;
+  max-width: 410px;
 }
 .services-black-banner .right .media-box {
   border-radius: 48px;
@@ -1692,7 +1692,7 @@ html.invertMode .down-arrow path {
   }
 }
 .mob-app-list-wrapper {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 @media only screen and (max-width: 767px) {
   .mob-app-list-wrapper {
@@ -1700,8 +1700,17 @@ html.invertMode .down-arrow path {
     padding-bottom: 25px;
   }
 }
-.mob-app-list-wrapper .content {
-  max-width: 510px;
+.mob-app-list-wrapper .mob-app-list-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.mob-app-list-wrapper .mob-app-list-inner .content {
+  width: 30%;
+}
+.mob-app-list-wrapper .mob-app-list-inner .mob-app-list {
+  width: 60%;
 }
 .mob-app-list-wrapper h2 {
   font-size: 36px;
@@ -1717,10 +1726,9 @@ html.invertMode .down-arrow path {
 .mob-app-list-wrapper .mob-app-list {
   display: flex;
   flex-wrap: wrap;
-  max-width: 887px;
 }
 .mob-app-list-wrapper .mob-app-list li {
-  margin-right: 70px;
+  margin-right: 50px;
   margin-bottom: 65px;
   max-width: 200px;
 }
@@ -1748,7 +1756,7 @@ html.invertMode .down-arrow path {
 .our-work-container .our-work-container-left {
   padding: 100px 0;
   width: 40%;
-  padding-right: 3%;
+  padding-right: 15%;
 }
 .our-work-container .our-work-container-left h2 {
   font-size: 36px;
@@ -1760,7 +1768,7 @@ html.invertMode .down-arrow path {
   font-size: 24px;
   font-weight: 300;
   line-height: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .our-work-container .our-work-container-left p {
   font-size: 16px;
