@@ -131,19 +131,25 @@
             .text {
               opacity: 1;
               visibility: visible;
-              left: 60px;
+
             }
           }
         }
 
         .next-tech-prev {
           .svg-arrow {
-            margin-left: 15px;
+            // margin-left: 15px;
 
             svg {
               width: 14px;
               transition: all 0.3s ease-in;
             }
+          }
+
+          .text {
+            left: auto;
+            right: 0;
+
           }
 
           &:hover {
@@ -152,7 +158,14 @@
                 fill: @white;
               }
             }
+
+            .text {
+
+              right: 60px;
+
+            }
           }
+
         }
 
         .next-tech-next {
@@ -170,6 +183,13 @@
                 fill: @white;
               }
             }
+
+            .text {
+              left: 60px;
+
+            }
+
+
           }
         }
       }

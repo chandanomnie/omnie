@@ -7087,17 +7087,20 @@ html.menu-open {
 .common-page-nav .grid .right .right-sec > a:hover .text {
   opacity: 1;
   visibility: visible;
-  left: 60px;
-}
-.common-page-nav .grid .right .right-sec .next-tech-prev .svg-arrow {
-  margin-left: 15px;
 }
 .common-page-nav .grid .right .right-sec .next-tech-prev .svg-arrow svg {
   width: 14px;
   transition: all 0.3s ease-in;
 }
+.common-page-nav .grid .right .right-sec .next-tech-prev .text {
+  left: auto;
+  right: 0;
+}
 .common-page-nav .grid .right .right-sec .next-tech-prev:hover .svg-arrow svg {
   fill: #fff;
+}
+.common-page-nav .grid .right .right-sec .next-tech-prev:hover .text {
+  right: 60px;
 }
 .common-page-nav .grid .right .right-sec .next-tech-next .svg-arrow svg {
   transform: rotate(180deg);
@@ -7106,6 +7109,9 @@ html.menu-open {
 }
 .common-page-nav .grid .right .right-sec .next-tech-next:hover .svg-arrow svg {
   fill: #fff;
+}
+.common-page-nav .grid .right .right-sec .next-tech-next:hover .text {
+  left: 60px;
 }
 @media only screen and (max-width: 767px) {
   .common-page-nav .grid .left {
