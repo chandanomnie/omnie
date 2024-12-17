@@ -83,6 +83,17 @@
 .mode-toggle {
   position: relative;
 
+  html:not(.menu-open) body.light-header:not(.compressed) & {
+    .switch-text {
+      color: white;
+    }
+
+  }
+
+  html.menu-open & {
+    opacity: 0;
+  }
+
   .switch-text {
     position: absolute;
     right: 100%;
@@ -177,5 +188,12 @@
       width: 164px;
       height: auto;
     }
+  }
+}
+
+body:not(:has(.ai-view)) {
+
+  .mode-toggle {
+    display: none;
   }
 }

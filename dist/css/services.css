@@ -2222,7 +2222,7 @@ html.invertMode .down-arrow path {
 }
 .mpa-dev-cycle .image-box.loaded svg .svg-elem-31 {
   stroke-dashoffset: 0;
-  fill: #ffffff;
+  fill: transparent;
 }
 .mpa-dev-cycle .image-box svg .svg-elem-32 {
   stroke-dashoffset: 872.74938965px;

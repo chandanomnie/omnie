@@ -1,11 +1,14 @@
 jQuery(function ($) {
   if (jQuery("#modeToggle").length) {
     const checkbox = document.getElementById("modeToggle");
+
     $("html").addClass("aiModeOn");
     $("#modeToggle").prop("checked", false);
 
+
     checkbox.addEventListener("change", (event) => {
       if (event.currentTarget.checked) {
+        $("#modeToggle2").prop("checked", true);
         $("html").removeClass("aiModeOn");
         $("html").addClass("aiModeOff");
         $(".banner-slider").flickity("resize");
@@ -18,6 +21,27 @@ jQuery(function ($) {
         $("html").addClass("aiModeOn");
       }
     });
+
+    if ($('#modeToggle2').length) {
+      const checkbox2 = document.getElementById("modeToggle2");
+      $("#modeToggle2").prop("checked", false);
+      checkbox2.addEventListener("change", (event) => {
+        if (event.currentTarget.checked) {
+          $("#modeToggle").prop("checked", true);
+          $("html").removeClass("aiModeOn");
+          $("html").addClass("aiModeOff");
+          $(".banner-slider").flickity("resize");
+          setTimeout(function () {
+            $(".content-slider").flickity("resize");
+            $(".carouselTickerInsights").carouselTicker().resizeTicker();
+          }, 200);
+        } else {
+          $("html").removeClass("aiModeOff");
+          $("html").addClass("aiModeOn");
+        }
+      });
+    }
+
   }
 
   $(".nav-btn").on("click", function () {
@@ -272,8 +296,8 @@ jQuery(function ($) {
           .addClass("is-animated")
           .siblings()
           .removeClass("is-animated");
-        setTimeout(function () {}, 3000);
-        setTimeout(function () {}, 3200);
+        setTimeout(function () { }, 3000);
+        setTimeout(function () { }, 3200);
       }, 100);
     }, 100);
 
@@ -669,7 +693,7 @@ function scrollContent() {
         countTo: getTargetVal,
         placeholder: 0,
         easing: "swing",
-        onStart: function () {},
+        onStart: function () { },
         onComplete: function () {
           jQuery(".count-container .animCounter").addClass("completed");
         },

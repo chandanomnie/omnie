@@ -3073,6 +3073,12 @@ html.invertMode html:not(.menu-open) body.grey-header:not(.compressed) .main-hea
   position: relative;
   /* Rounded sliders */
 }
+html:not(.menu-open) body.light-header:not(.compressed) .mode-toggle .switch-text {
+  color: white;
+}
+html.menu-open .mode-toggle {
+  opacity: 0;
+}
 .mode-toggle .switch-text {
   position: absolute;
   right: 100%;
@@ -3150,6 +3156,9 @@ html.aiModeOff .mode-toggle .switch-text .normal {
     width: 164px;
     height: auto;
   }
+}
+body:not(:has(.ai-view)) .mode-toggle {
+  display: none;
 }
 .main-nav {
   position: fixed;
