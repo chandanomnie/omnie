@@ -2614,14 +2614,14 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .btn {
-  padding: 13px 40px;
+  padding: 10px 30px;
   border: 1.5px solid #000;
   background: #000;
   color: #fff;
   transition: all 0.3s ease-in;
   border-radius: 25px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
 }
 .btn:hover {
   background: #fff;
