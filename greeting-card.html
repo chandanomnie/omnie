@@ -132,14 +132,11 @@
                 startDelay: 0,
                 loop: true,
                 contentType: "html",
-                cursorChar: "",
-                callback: function () {
-                    // $('.greeting-card .star').addClass('active')
-                }
+                cursorChar: ""
             });
-            setTimeout(function () {
-                $('.greeting-card .star').addClass('active')
-            }, 1000);
+            setInterval(function () {
+                $('.greeting-card .star').toggleClass('active')
+            }, 2000);
         }
     </script>
     <!-- Scripts End-->
