@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!-- Site Title -->
+    <title>Enterprise Web Application Development | Mobile App Development Company - Omnie Solutions</title>
+    <meta name="description"
+        content="Omnie Solutions is an enterprise application development company which provides enterprise web application and mobile apps solutions to its clients across the world. Send us your QUERY to get the best enterprise web solution." />
+    <!-- Meta -->
+    <!-- Global Head -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="icon" type="image/png" href="dist/images/favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="dist/images/favicon.png" sizes="16x16">
+    <meta name="application-name" content="&nbsp;">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <!-- Styles -->
+    <link rel="stylesheet" href="dist/css/omnie.css">
+    <!-- Scripts -->
+    <script src="dist/js/jquery.min.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Global Head End -->
+    <!-- Styles -->
+    <link rel="stylesheet" href="dist/css/home.css">
+    <style>
+        .greet-wrap {
+            display: inline-flex;
+
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 49px;
+            /* width: 100%;
+            height: 100vh; */
+        }
+
+        .greeting-card {
+            position: relative;
+            text-align: center;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            width: 853px;
+            height: 502px;
+        }
+
+        .greeting-card .ai-title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -188px;
+            font-size: 13px;
+            margin-top: 12px;
+        }
+
+        .greeting-card .star {
+            position: absolute;
+            right: 50%;
+            top: 50%;
+            margin-right: -162px;
+            margin-top: -100px;
+            display: none;
+        }
+
+        .greeting-card .cracker {
+            position: absolute;
+            right: 0;
+            top: 0;
+            max-width: 250px;
+        }
+
+        .greeting-card .cracker.left {
+            left: 0;
+        }
+
+        .greeting-card .star svg {
+            width: 24px;
+        }
+
+        .greeting-card .star .svg-elem-1 {
+            fill: transparent;
+            transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s;
+        }
+
+        .greeting-card .star.active .svg-elem-1 {
+            fill: rgb(248, 198, 47);
+        }
+
+        .greeting-card .star .svg-elem-2 {
+            fill: transparent;
+            transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+        }
+
+        .greeting-card .star.active .svg-elem-2 {
+            fill: rgb(242, 99, 34);
+        }
+
+        .greeting-card .star .svg-elem-3 {
+            fill: transparent;
+            transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0.25s;
+        }
+
+        .greeting-card .star.active .svg-elem-3 {
+            fill: rgb(0, 165, 165);
+        }
+    </style>
+</head>
+
+<!-- Body -->
+
+<body class=" ">
+    <div class="greet-wrap">
+        <div class="greeting-card">
+            <img src="dist/images/greeting-omnie.jpg" height="500" width="851" alt="card">
+            <div class="ai-title"> <span class="typed-text" id="greeting" style="font-weight: 600;"></span>
+            </div>
+            <div class="star">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
+                    <path
+                        d="M8.601 4.58115C6.18433 5.37957 5.37959 6.18447 4.58115 8.601C4.51546 8.79967 4.23453 8.79967 4.16885 8.601C3.37043 6.18433 2.56553 5.37959 0.149001 4.58115C-0.0496671 4.51546 -0.0496671 4.23453 0.149001 4.16885C2.56567 3.37043 3.37041 2.56553 4.16885 0.149001C4.23454 -0.0496671 4.51547 -0.0496671 4.58115 0.149001C5.37957 2.56567 6.18447 3.37041 8.601 4.16885C8.79967 4.23454 8.79967 4.51547 8.601 4.58115Z"
+                        fill="#F8C62F" class="svg-elem-1"></path>
+                    <path
+                        d="M11.7686 12.0222C10.0424 12.5925 9.46757 13.1675 8.89725 14.8936C8.85033 15.0355 8.64967 15.0355 8.60275 14.8936C8.03245 13.1674 7.45752 12.5926 5.73143 12.0222C5.58952 11.9753 5.58952 11.7747 5.73143 11.7278C7.45762 11.1575 8.03243 10.5825 8.60275 8.85643C8.64967 8.71452 8.85033 8.71452 8.89725 8.85643C9.46755 10.5826 10.0425 11.1574 11.7686 11.7278C11.9105 11.7747 11.9105 11.9753 11.7686 12.0222Z"
+                        fill="#F26322" class="svg-elem-2"></path>
+                    <path
+                        d="M14.9255 6.04056C13.7176 6.43946 13.315 6.84209 12.9156 8.05051C12.883 8.14983 12.7425 8.14983 12.7094 8.05051C12.3105 6.84261 11.9079 6.44001 10.6995 6.04056C10.6002 6.00799 10.6002 5.86755 10.6995 5.83444C11.9074 5.43554 12.31 5.03291 12.7094 3.82449C12.742 3.72517 12.8825 3.72517 12.9156 3.82449C13.3145 5.03239 13.7171 5.43499 14.9255 5.83444C15.0248 5.86701 15.0248 6.00745 14.9255 6.04056Z"
+                        fill="#00A5A5" class="svg-elem-3"></path>
+                </svg>
+            </div>
+            <div class="cracker">
+                <img src="dist/images/greet-cracker.gif" alt="cracker">
+            </div>
+            <div class="cracker left">
+                <img src="dist/images/greet-cracker-left-side.gif" alt="cracker">
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="dist/css/slick.css" />
+    <link rel="stylesheet" href="dist/css/flickity.css" />
+    <script src="dist/js/splitting.min.js"></script>
+
+    <script src="dist/js/slick.min.js"></script>
+    <script src="dist/js/flickity.pkgd.min.js"></script>
+    <script src="dist/js/flickity-fade.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/css/carouselTicker.css" media="screen">
+    <script type="text/javascript" src="dist/js/jquery.carouselTicker.min-new.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <!-- Scripts Start-->
+    <script src="dist/js/plugins.min.js"></script>
+    <script src="dist/js/index.min.js"></script>
+    <script>
+        if ($("#greeting").length) {
+            $("#greeting").typed({
+                strings: ["Dear Steven, Wishing you A Very Happy New Year", "In the new year, Fusing Human with Artificial Intelligence", "Creating an era of endless possibilities"],
+                typeSpeed: 0,
+                startDelay: 100,
+                backDelay: 500,
+                loop: true,
+                contentType: "html",
+                cursorChar: ""
+            });
+            setInterval(function () {
+                $('.greeting-card .star').toggleClass('active')
+            }, 2000);
+        }
+    </script>
+    <!-- Scripts End-->
+</body>
+<!-- Body End-->
+
+</html>
+<!-- HTML End-->
