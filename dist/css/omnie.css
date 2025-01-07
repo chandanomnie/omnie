@@ -7149,6 +7149,77 @@ html.menu-open {
   background: url("../images/capcha.png") no-repeat right 10px center;
   padding: 13px 85px 13px 23px;
 }
+.interest-form .container {
+  max-width: 1020px;
+}
+.interest-form .interest-form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.interest-form .interest-form-container .form-row {
+  width: 32%;
+}
+.interest-form .interest-form-container .form-row.full {
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .interest-form .interest-form-container .form-row {
+    width: 100%;
+  }
+}
+.interest-form.new-form .interest-form-wrapper {
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.interest-form.new-form .form-row {
+  margin-bottom: 10px;
+  width: calc(50% - 10px);
+}
+@media only screen and (max-width: 767px) {
+  .interest-form.new-form .form-row {
+    width: 100%;
+  }
+}
+.interest-form.new-form .form-row.full {
+  margin-bottom: 25px;
+}
+.interest-form.new-form textarea {
+  height: 127px;
+}
+.wobble-vertical-on-hover:hover {
+  animation-name: wobble-vertical-on-hover;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes wobble-vertical-on-hover {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
 :root {
   --app-height: 100vh;
 }

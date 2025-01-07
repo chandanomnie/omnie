@@ -6185,25 +6185,6 @@ html.invertMode .count-container-left p {
 .swiper-button-prev svg path {
   transition: all 0.3s ease-in;
 }
-.interest-form .container {
-  max-width: 1020px;
-}
-.interest-form .interest-form-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.interest-form .interest-form-container .form-row {
-  width: 32%;
-}
-.interest-form .interest-form-container .form-row.full {
-  width: 100%;
-}
-@media only screen and (max-width: 767px) {
-  .interest-form .interest-form-container .form-row {
-    width: 100%;
-  }
-}
 .sliding-images-wrapper {
   display: flex;
   -webkit-mask-image: linear-gradient(var(--mask-direction, to right), transparent, #000 20%, #000 80%, transparent);

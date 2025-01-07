@@ -45,6 +45,8 @@ module.exports = function (grunt) {
             "src/less/omnie/pages/technology/_technology.less",
           "dist/css/services.css":
             "src/less/omnie/pages/services/_services.less",
+            "dist/css/contact.css":
+            "src/less/omnie/pages/contact/_contact.less",
         },
         options: {
           compress: false,
@@ -109,6 +111,11 @@ module.exports = function (grunt) {
       servicesDetail: {
         files: {
           "services-detail.html": ["components/services/servicesDetail.hbs"],
+        },
+      },
+      contact: {
+        files: {
+          "contact-us.html": ["components/contact/contact-us.hbs"],
         },
       },
       webInterface: {
