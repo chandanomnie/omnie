@@ -3912,6 +3912,10 @@ html.menu-open {
 @media only screen and (max-width: 767px) {
   .footer .footer-wrapper p {
     margin-bottom: 35px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
   }
 }
 .footer .footer-wrapper ul.social-links {
@@ -7187,6 +7191,15 @@ html.menu-open {
 }
 .interest-form.new-form textarea {
   height: 127px;
+}
+@media only screen and (max-width: 767px) {
+  .interest-form.new-form h2 {
+    font-size: 36px;
+    line-height: 43px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .wobble-vertical-on-hover:hover {
   animation-name: wobble-vertical-on-hover;
