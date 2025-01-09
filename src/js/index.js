@@ -1061,6 +1061,27 @@ if ($(".carouselTickerInsights").length) {
   });
 }
 
+if ($('.carouselTickerInsightsPage').length) {
+  var carouselTickerInsightsPage = $(".carouselTickerInsightsPage").carouselTicker({
+    mode: "vertical",
+    speed: 1,
+    delay: 15,
+    reverse: false,
+  });
+}
+
+
+if ($('.carouselTickerInsightsPageReverse').length) {
+  var carouselTickerInsightsPage = $(".carouselTickerInsightsPageReverse").carouselTicker({
+    mode: "vertical",
+    speed: 1,
+    delay: 15,
+    reverse: false,
+    direction: "next",
+  });
+}
+
+
 // const typedTextSpan = document.querySelector(".typed-text");
 // const cursorSpan = document.querySelector(".cursor");
 
