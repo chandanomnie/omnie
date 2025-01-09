@@ -1081,6 +1081,16 @@ if ($('.carouselTickerInsightsPageReverse').length) {
   });
 }
 
+if($('.insights-sldier').length){
+
+  let insightSFlkty = new Flickity( '.insights-sldier', {
+    fade: true,
+    prevNextButtons: false,
+    pageDots: true,
+    wrapAround: true,
+    autoPlay: 7000,
+  });
+}
 
 // const typedTextSpan = document.querySelector(".typed-text");
 // const cursorSpan = document.querySelector(".cursor");
