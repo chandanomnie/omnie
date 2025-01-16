@@ -1978,7 +1978,6 @@ html.invertMode .down-arrow path {
   }
 }
 .insights-container {
-  padding: 40px 0 0;
   min-height: calc(100vh);
   display: flex;
   justify-content: space-between;
@@ -1989,7 +1988,7 @@ html.invertMode .down-arrow path {
   }
 }
 .insights-left {
-  padding: 0 0 0 75px;
+  padding: 40px 0 0 75px;
   max-width: 675px;
 }
 .insights-left .title {
