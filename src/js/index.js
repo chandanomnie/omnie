@@ -1187,19 +1187,20 @@ if ($("#typed").length) {
 }
 setTimeout(function () {
   $(".IntroPanel").removeClass("active").addClass("hidden");
-  $(".searchPanel").removeClass("hidden").addClass("active");
+  // $(".searchPanel").removeClass("hidden").addClass("active");
+  $(".iframePanel").removeClass("hidden").addClass("active");
 }, 3000);
 
-$(".askAnything").on("click", function () {
-  $(".searchPanel").removeClass("active").addClass("hidden");
-  $(".resultPanel").removeClass("hidden").addClass("active");
-});
+// $(".askAnything").on("click", function () {
+//   $(".searchPanel").removeClass("active").addClass("hidden");
+//   $(".resultPanel").removeClass("hidden").addClass("active");
+// });
 
-$(".upload").on("click", function () {
-  $(".IntroPanel").removeClass("active").addClass("hidden");
-  $(".resultPanel").removeClass("active").addClass("hidden");
-  $(".searchPanel").removeClass("hidden").addClass("active");
-});
+// $(".upload").on("click", function () {
+//   $(".IntroPanel").removeClass("active").addClass("hidden");
+//   $(".resultPanel").removeClass("active").addClass("hidden");
+//   $(".searchPanel").removeClass("hidden").addClass("active");
+// });
 
 const lenis = new Lenis({
   lerp: 0.05,
